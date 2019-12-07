@@ -81,10 +81,7 @@ html {
   margin-top: 0;
   font-family: "Comic Sans MS";
   font-size: 1.5rem;
-  letter-spacing: .1rem;
-}
-
-.sidebar-about h1 a {
+  letter-spacing: .1rem;  
   font-variant: small-caps;
 }
 
