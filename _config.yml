@@ -7,19 +7,19 @@ permalink:        pretty
 
 # Setup
 title:            Functional Funsies
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://lfr.github.io
+tagline:          'Mostly for profit'
+description:      'Sometimes I write <a href="http://fsharp.org" target="_blank">idiomatic F#</a>, mostly by accident. Made by <a href="https://twitter.com/fishyrock" target="_blank">@fishyrock</a>.'
+url:              http://functionalfunsies.com
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Luis Ferrao'
+  url:            https://twitter.com/fishyrock
 
 paginate:         5
 
 # Custom vars
-version:          2.1.0
+version:          1.0
 
 github:
   repo:           https://github.com/lfr
