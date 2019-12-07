@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            Functional Funsies
 tagline:          'Mostly for profit'
-description:      'Sometimes I write idiomatic <a href="http://fsharp.org" target="_blank">F#</a>, but I quickly snap out of it. Made by <a href="https://twitter.com/fishyrock" target="_blank">@fishyrock</a>.'
+description:      'Sometimes I write idiomatic <a href="http://fsharp.org" target="_blank">F#</a>, but I quickly snap out of it'
 url:              http://functionalfunsies.com
 baseurl:          /
 
