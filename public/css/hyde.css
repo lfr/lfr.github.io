@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 @media (min-width: 48em) {
   html {
