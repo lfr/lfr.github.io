@@ -84,7 +84,7 @@ html {
 }
 
 .sidebar-about h1 a {
-  text-transform: capitalize;
+  font-variant: small-caps;
 }
 
 /* Sidebar nav */
