@@ -72,12 +72,12 @@ html {
 
 /* Sidebar links */
 .sidebar a {
-  color: #fff;
+  color: #30b9db;
 }
 
 /* About section */
 .sidebar-about h1 {
-  color: #30b9db;
+  color: #fff;
   margin-top: 0;
   font-family: "Comic Sans MS";
   font-size: 3.25rem;
