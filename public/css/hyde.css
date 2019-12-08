@@ -84,9 +84,6 @@ html {
   letter-spacing: .1rem;  
   font-variant: small-caps;
 }
-.sidebar p.lead {
-  font-size: .5rem;
-}
 
 /* Sidebar nav */
 .sidebar-nav {
