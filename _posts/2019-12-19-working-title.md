@@ -3,5 +3,13 @@ published: false
 ---
 ## Working Title
 
+```
+    F#        F#    
+    /\        /\    
+   /*/\      /°/\   
+  /°/\*\    /*/\°\  
+    ||        ||    
+~~~~~~~~~~~~~~~~~~
+```
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+This post is part of the [F# Advent Calendar](https://sergeytihon.com/2019/11/05/f-advent-calendar-in-english-2019/).
