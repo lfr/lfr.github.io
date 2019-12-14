@@ -2,7 +2,6 @@
 published: false
 ---
 ## Working Title
-
 ```
     F#        F#    
     /\        /\    
