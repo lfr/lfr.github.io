@@ -8,7 +8,7 @@ title:            Functional Funsies
 tagline:          'Mostly for profit'
 description:      'Sometimes I catch myself writing high quality, beautiful, idiomatic <a href="http://fsharp.org" target="_blank">F#</a>, but I quickly snap out of it'
 url:              http://functionalfunsies.com
-baseurl:          '/test/'
+baseurl:          '//'
 
 author:
   name:           'Luis Ferrao'
