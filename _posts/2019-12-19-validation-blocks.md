@@ -34,4 +34,5 @@ module String50 =
     // function used to extract data since type is private
     let value (String50 str) = str
 ```
-If you answered yes to all of the above, 
+To the surprise of no one, my answer to both of these questions is yes, yet, I still decided on using the method above because the comfort of writing code against 100% validated values outweights the hassle of defining type/module combinations such as the one above.
+
