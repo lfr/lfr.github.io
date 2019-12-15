@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: This Year To Save You From Tears I Bring You ValidationBlocks!
+title: 'This Year, To Save You From Tears, I Bring You ValidationBlocks'
 ---
 ```
                  F#
