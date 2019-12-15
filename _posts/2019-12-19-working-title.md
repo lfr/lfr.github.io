@@ -1,7 +1,8 @@
 ---
 published: true
+layout: post
+title: Working Title
 ---
-## Working Title
 ```
                  F#
                  /\
