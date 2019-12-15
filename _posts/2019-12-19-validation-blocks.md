@@ -36,3 +36,7 @@ module String50 =
 ```
 To the surprise of no one, my answer to both of these questions is yes, yet, I still decided on using the method above because the comfort of writing code against 100% validated values outweights the hassle of defining type/module combinations such as the one above.
 
+| Package | Description | NuGet
+|---|---|---|
+| Everstream.PostgreSQL | PostgreSQL-backed event store | [![NuGet](https://img.shields.io/nuget/v/Everstream.PostgreSQL.svg?style=flat)](https://www.nuget.org/packages/Everstream.PostgreSQL/) |
+| Everstream | API definition (you don't need this) | [![NuGet](https://img.shields.io/nuget/v/Everstream.svg?style=flat)](https://www.nuget.org/packages/Everstream/) |
