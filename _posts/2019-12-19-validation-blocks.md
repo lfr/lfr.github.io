@@ -9,7 +9,9 @@ title: 'This Year, To Save You From Tears, I Bring You ValidationBlocks'
   </i>
 </div>
 
-Have you ever found yourself perusing fsharpforfunandprofit's excelent [Designing with Types](https://fsharpforfunandprofit.com/series/designing-with-types.html) series, and said to yourself: _man, those single case unions are sweet_? Have you ever then found yourself digging a little deeper only to realize you'd need a type declaration like this, for every... single... type?
+Have you ever found yourself perusing fsharpforfunandprofit's excelent [Designing With Types](https://fsharpforfunandprofit.com/series/designing-with-types.html) series, and said to yourself: _man, those single case unions are sweet_?
+
+Have you ever then found yourself digging a little deeper only to realize you'd need a type declaration like this, for every... single... type?
 
 ```fsharp
 type String50 = private String50 of string
@@ -32,3 +34,4 @@ module String50 =
     // function used to extract data since type is private
     let value (String50 str) = str
 ```
+If you answered yes to all of the above, 
