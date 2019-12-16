@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: "\U0001F384 Validation Blocks \U0001F384"
 ---
