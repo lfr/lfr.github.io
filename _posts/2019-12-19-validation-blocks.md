@@ -38,7 +38,7 @@ module String50 =
     // function used to extract data since type is private
     let value (String50 str) = str
 ```
-If this sounds familiar, perhaps like me you've decided to still use the method above because the advantages of coding against types guaranteed to be valid outweights the inconvenince of creating the type/module combinations above.
+If this sounds familiar, perhaps like me you've decided to still a method similar to the above, because the advantages of coding against types guaranteed to be valid outweights the inconvenince of creating these type/module combinations.
 
 And maybe, just maybe, perhaps like me you've 
 
