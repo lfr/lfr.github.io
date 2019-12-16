@@ -131,11 +131,36 @@ Your types may happily live within the boundaries of your domain as awesome `Val
 
 I've mostly covered the type declaration because for me that was the biggest disadvantage of the traditional way of designing with types. You want to declare types for anything that has specific validation needs so keeping these declaratinos compact is crutial, and when you think about it, almost any content that enters your domain can and probably should be validated.
 
-But beyond type declaration, there's a few other things that I should mention before I end this article, the most important of which is the fact that there's a `Block.validate` function in the library that is **not** meant to be used directly from your code. You should only call this function once per primitive type in your code. In my solution I will have a `Text` module defined somewhere, it's the only place where I open `FSharp.ValidationBlocks`, and this module defines all the functions (usually a handful) that I use throught my domain. Here's an example of two functions that enable creation of `Text` blocks:
+But beyond type declaration, there's a few other things that I should mention before I end this article, the most important of which is the fact that there's a `Block.validate` function in the library that is **not** meant to be used directly from your code. You should only call this function once per primitive type in your code. In my solution I will have a `Text` module defined somewhere, it's the only place where I open `FSharp.ValidationBlocks`, and this module defines the functions that I use throught my domain. Here's an example of two functions that enable creation of `Text` blocks:
 
 ```fsharp
+module Text
+
+/// Gets the string contained in a text block
+let value (text:IText) = Block.unwrap text :?> string
+
+/// Wraps a string s into a (Some 'text block) result if not null or blank,
+/// otherwise None
+let ofString<'text when 'text :> IText> s =
+    if System.String.IsNullOrWhiteSpace s then None |> Ok
+    else Block.validate<'text, TextError> (s.Trim()) |> Result.map Some
+        
+/// Non-ROP version of Text.ofString, may throw an exception
+let ofUnchecked<'text when 'text :> IText> s =
+   match check s with
+   | Ok x -> x
+   | Error e -> sprintf "Attempt to access error Result: %A." e |> failwith
 ```
 
+Note that these functions are all generic, so you'll only have to create a handful of them per primitive type, and as you can see their code is extremely succint. Of course you could use `Block.validate` and `Block.unwrap` directly in your code, but I find it much nicer to use your own, especially for `string` where you may want to trim and check for blanks before attempting to create a block. Similarly, the example types above all refer to an `IText` interface, but the actual interface in the library is `IBlock<'primitive, 'error>`. Again, you could use it directly, but your type declarations are much cleaner if you declare the following interface:
+
+```fsharp
+type IText = inherit IBlock<string, TextError>
+```
+
+### Disclaimer
+
+I barely managed to publish this article and create the NuGet package on time for Xmas, I'll have the GitHub ready early January. If you want to wait for that, whever it's ready I'll post it on twitter so follow me if you'd like a notification. You can already play with it using the NuGet package below, but note that I mainly focused on the API, there's probably a ton of room for performance optimizations, especially with serialization performance, but that just hasn't been a priority for my project.
 
 | Package | NuGet |
 |---|:-:|
