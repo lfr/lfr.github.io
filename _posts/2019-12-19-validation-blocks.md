@@ -15,6 +15,9 @@ Have you ever then found yourself digging a little deeper only to realize you'd 
 
 ```fsharp
 // Code by Scott Wlaschin — fsharpforfunandprofit.com
+
+/// Type with constraint that value must be non-null
+/// and <= 50 chars.
 type String50 = private String50 of string
 
 /// Module containing functions related to String50 type
@@ -41,4 +44,4 @@ And maybe, just maybe, perhaps like me you've
 
 | Package | NuGet
 |---|:-:|
-| ValidationBlocks | [![NuGet](https://img.shields.io/nuget/v/ValidationBlocks.svg?style=for-the-badge&logo=appveyor)](https://www.nuget.org/packages/ValidationBlocks/) |
+| ValidationBlocks | [![NuGet](https://img.shields.io/nuget/v/ValidationBlocks.svg?style=for-the-badge&logo=appveyor&?logoWidth=100)](https://www.nuget.org/packages/ValidationBlocks/) |
