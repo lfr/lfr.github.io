@@ -40,7 +40,7 @@ module String50 =
 ```
 If this sounds familiar, perhaps like me you've still decided for using a method similar to the above, because the advantages of coding against types guaranteed-to-be-valid far outweights the inconvenince of creating these type/module combinations.
 
-Perhaps like me you've also been thinking that there must be a way to streamline this. If so, feel free to ignore the ridiculous backstory below and [jump straight to the topic of the post](#vb).
+Perhaps like me you've also been thinking that there must be a way to streamline this. If so, feel free to ignore the ridiculous backstory below and [jump straight to the actual topic of the post](#vbs).
 
 ### Enter RealText
 
@@ -50,13 +50,14 @@ Six months ago I set to do just that, and I created a library to declare such ty
 
 With the infinite wisdom that comes with hindsight, I realized my library was mostly pointless. While reducing the boilerplate, it still required some, which I kind of had to re-learn every time I had to create new types. The fact that it only supported text types meant I now had two paradigms, one for text, and one for non-text types. It also was a pain in the (‿ꜟ‿) to maintain, something that's a huge no-no for me. So without a second thought, I stashed the whole idea in the increasingly crowded metaphorical closet of deadend projects.
 
-### When a first you don't succeed, go make babies
+### When at first you don't succeed, go make babies
 
 A few months later, after we had our second baby and during my paternity leave, I decided to re-tackle the problem with a fresh set of neurons. Learning from my mistakes, this time I decided to not limit any eventual solution to text types, and I also decided that the code necessary to define such types would be so small, that there would be no need to re-learn anything whenever it was necessary to define a new type.
 
 <a name="vb" />
 ### Enter FSharp.ValidationBlocks
 
+You know you've done something right when creating a library if the API requires no additional code other than the absolute minimum required to declare whatever is being declared. With `FSharp.ValidationBlocks`, I can declare a type
 
 
 | Package | NuGet
