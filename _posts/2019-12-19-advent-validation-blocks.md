@@ -77,7 +77,13 @@ type FreeText = private FreeText of string with
                 [if System.String.IsNullOrWhitespace s
                 	then IsBlank])
 ```
+No doubt this declaration raises a couple of questions, but I think one think we can all agree is that there's hardly any boilerplate code to be seen. 
 
+There's a type declaration with private constructor, nothing of interest here.
+
+There's an interface which serves two purposes: it identifies this type as a `ValidationBlock`, and it ensures that you implement the `Validate` function.
+
+There's a validation function declaration which is enforced by the aforementionned interface (so the compiler will _remind_ you to implement it) that is as simple as it can possibly be. It's a function of the primitive type (`string` in this case) that returns a list of `Error` under specific conditions.
 
 | Package | NuGet |
 |---|:-:|
