@@ -73,9 +73,9 @@ Let's start with `FreeText`, the least restrictive type.
 type FreeText = private FreeText of string with
     interface IText with
         member _.Validate =
-        	(fun s ->
-            	[
-                	if System.String.IsNullOrWhitespace s then IsBlank
+            (fun s ->
+                [
+                    if System.String.IsNullOrWhitespace s then IsBlank
                 [)
 ```
 
