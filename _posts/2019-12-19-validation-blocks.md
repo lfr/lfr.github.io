@@ -44,4 +44,4 @@ And maybe, just maybe, perhaps like me you've
 
 | Package | NuGet
 |---|:-:|
-| ValidationBlocks | [![NuGet](https://img.shields.io/nuget/v/ValidationBlocks.svg?style=for-the-badge&logo=appveyor&?logoWidth=100)](https://www.nuget.org/packages/ValidationBlocks/) |
+| FSharp.ValidationBlocks | [![NuGet](https://img.shields.io/nuget/v/ValidationBlocks.svg?style=for-the-badge&logo=appveyor&?logoWidth=200)](https://www.nuget.org/packages/ValidationBlocks/) |
