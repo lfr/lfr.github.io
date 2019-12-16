@@ -123,7 +123,7 @@ type Tweet = private Tweet of Text with
 
 The only new think of interest here is the use of parameters in the error case which allows you to present more meaningful errors to the user. Usually I simply generate english errors from the `TextError` case names, if there's no localization requirement the path from validation to presenting the user with meaningful errors can be extremely short.
 
-### Seriously, let's talk Serialization for a second
+### Seriously, let's talk Serialization
 
 Your types may happily live within the boundaries of your domain as awesome `ValidationBlocks`, but one day they have to leave your domain. I like to store my own blocks as their underlying primitive type, and most of the time your serialization needs are going to impose that. In other words, your `Tweet` will have to be serialized as a `string`, not as a `Tweet { Text { FreeText "Validate all the things!" } }`. For this reason, the library includes a `System.Text.Json.Serialization.JsonConverter` that does just that. Add it to your serialization options to ensure your blocks serialize to their primitive type and deserialize back to blocks.
 
