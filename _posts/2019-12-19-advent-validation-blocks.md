@@ -54,7 +54,7 @@ With the infinite wisdom that comes with hindsight, I realized my library was mo
 
 A few months later, after we had our second baby and during my paternity leave, I decided to re-tackle the problem with a fresh set of neurons. Learning from my mistakes, this time I decided to not limit any eventual solution to text types, and I also decided that the code necessary to define such types would be so small, that there would be no need to re-learn anything whenever it was necessary to define a new type.
 
-<a name="vb" />
+<a name="vbs" />
 ### Enter FSharp.ValidationBlocks
 
 You know you've done something right when you can't possibly imagine writing any less code to declare or implement whatever you have in mind, and that is exactly what I felt about the second implementation of `RealText`, now called `FSharp.ValidationBlocks`, a more fitting name considering it supports all primitive types, not just `string`.
