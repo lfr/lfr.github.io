@@ -79,11 +79,11 @@ type FreeText = private FreeText of string with
 ```
 No doubt this declaration raises a couple of questions, but I think one think we can all agree is that there's hardly any boilerplate code to be seen. 
 
-There's a type declaration with private constructor, nothing of interest here.
+* There's a type declaration with private constructor, nothing of interest here.
+* There's an interface which serves two purposes: it identifies this type as a `ValidationBlock`, and it ensures that you implement the `Validate` function.
+* There's a validation function declaration which is enforced by the aforementionned interface (so the compiler will _remind_ you to implement it) that is as simple as it can possibly be. It's a function of the primitive type (`string` in this case) that returns a list of `Error` under specific conditions.
 
-There's an interface which serves two purposes: it identifies this type as a `ValidationBlock`, and it ensures that you implement the `Validate` function.
-
-There's a validation function declaration which is enforced by the aforementionned interface (so the compiler will _remind_ you to implement it) that is as simple as it can possibly be. It's a function of the primitive type (`string` in this case) that returns a list of `Error` under specific conditions.
+Hopefully now you agree with me that declaring types with `FSharp.ValidatinBlocks` is reduced to the absolute minimum it could possibly be.
 
 | Package | NuGet |
 |---|:-:|
