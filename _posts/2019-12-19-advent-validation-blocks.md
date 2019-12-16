@@ -147,7 +147,7 @@ let ofString<'text when 'text :> IText> s =
         
 /// Non-ROP version of Text.ofString, may throw an exception
 let ofUnchecked<'text when 'text :> IText> s =
-   match check s with
+   match ofString s with
    | Ok x -> x
    | Error e -> sprintf "Attempt to access error Result: %A." e |> failwith
 ```
