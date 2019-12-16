@@ -40,7 +40,7 @@ module String50 =
 ```
 If this sounds familiar, perhaps like me you've still decided for using a method similar to the above, because the advantages of coding against types guaranteed-to-be-valid far outweights the inconvenince of creating these type/module combinations.
 
-Perhaps like me you've also been thinking that there must be a way to streamline this. If so, feel free to ignore the ridiculous backstory below and [jump straight to the topic of the post](#enter-fsharp-validationblocks).
+Perhaps like me you've also been thinking that there must be a way to streamline this. If so, feel free to ignore the ridiculous backstory below and [jump straight to the topic of the post](#vb).
 
 ### Enter RealText
 
@@ -54,6 +54,7 @@ With the infinite wisdom that comes with hindsight, I realized my library was mo
 
 A few months later, after we had our second baby and during my paternity leave, I decided to re-tackle the problem with a fresh set of neurons. Learning from my mistakes, this time I decided to not limit any eventual solution to text types, and I also decided that the code necessary to define such types would be so small, that there would be no need to re-learn anything whenever it was necessary to define a new type.
 
+<a name="vb" />
 ### Enter FSharp.ValidationBlocks
 
 
