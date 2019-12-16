@@ -97,7 +97,7 @@ Hopefully now you agree with me that declaring types with `FSharp.ValidatinBlock
 
 ### They are actually really **blocks**
 
-These validating types are meant to be built on top of each other, which where the _blocks_ part of the name comes in. To see this in action, let's continue implementing the remaining two types `Text` and `Tweet` from above.
+These validating types are meant to be built on top of each other, which is where the _blocks_ part of the name comes in. To see this in action, let's continue implementing the remaining two types `Text` and `Tweet` from above.
 
 ```fsharp
 /// Single line (no control chars) of non-blank text
