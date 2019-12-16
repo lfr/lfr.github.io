@@ -82,9 +82,9 @@ Let's start with `FreeText`, the least restrictive type.
 type FreeText = private FreeText of string with
     interface IText with
         member _.Validate =
-            (fun s ->
+            fun s ->
                 [if System.String.IsNullOrWhitespace s
-                	then IsBlank])
+                	then IsBlank]
 ```
 
 No doubt this declaration raises a couple of questions, but I think one thing that's immediately obvious is that there's hardly any boilerplate code. 
@@ -95,7 +95,7 @@ No doubt this declaration raises a couple of questions, but I think one thing th
 
 Hopefully now you agree with me that declaring types with `FSharp.ValidatinBlocks` is reduced to the absolute minimum it could possibly be. It's not just the type declaration that's concise, creating a block is as simple as calling `Text.ofSring s`, giving you a `Result<'text,'error>`.
 
-### They are actually really **blocks**
+### They are actually really blocks
 
 These validating types are meant to be built on top of each other, which is where the _blocks_ part of the name comes in. To see this in action, let's continue implementing the remaining two types `Text` and `Tweet` from above.
 
@@ -131,7 +131,7 @@ Your types may happily live within the boundaries of your domain as awesome `Val
 
 I've mostly covered the type declaration because for me that was the biggest disadvantage of the traditional way of designing with types. You want to declare types for anything that has specific validation needs so keeping these declaratinos compact is crutial, and when you think about it, almost any content that enters your domain can and probably should be validated.
 
-But beyond type declaration, there's a few other things that I should mention before I end this article, the most important of which is the fact that there's a `Block.validate` function in the library that is **not** meant to be used directly from your code. You should only call this function once per primitive type in your code. In my solution I will have a `Text` module defined somewhere, it's the only place where I open `FSharp.ValidationBlocks`, and this module defines the functions that I use throught my domain. Here's an example of two functions that enable creation of `Text` blocks:
+But beyond type declaration, there's a few other things that I should mention before I end this article, the most important of which is the fact that there's a `Block.validate` function in the library that is **not** meant to be used directly from your code. You should only call this function once per primitive type in your code. In my solution I will have a `Text` module defined somewhere, it's the only place where I open `FSharp.ValidationBlocks`, and this module defines the functions that I use throught my domain. Here's an example of two functions to create `Text` blocks and one to get a value out of them:
 
 ```fsharp
 module Text
@@ -152,7 +152,7 @@ let ofUnchecked<'text when 'text :> IText> s =
    | Error e -> sprintf "Attempt to access error Result: %A." e |> failwith
 ```
 
-Note that these functions are all generic, so you'll only have to create a handful of them per primitive type, and as you can see their code is extremely succint. Of course you could use `Block.validate` and `Block.unwrap` directly in your code, but I find it much nicer to use your own, especially for `string` where you may want to trim and check for blanks before attempting to create a block. Similarly, the example types above all refer to an `IText` interface, but the actual interface in the library is `IBlock<'primitive, 'error>`. Again, you could use it directly, but your type declarations are much cleaner if you declare the following interface:
+Note that these functions generic, so you'll only have to create a handful of them per primitive type, and as you can see their code is very succint. Usually, you'll be omitting the `'text` type parameter, meaning you'll be mostly calling `Text.ofstring s` instead of `Text.ofString<Tweet> s`. Of course you could use `Block.validate` and `Block.unwrap` directly in your code, but I find it much nicer to use your own, especially for `string` where you may want to trim and check for blanks before attempting to create a block. Similarly, the example types above all refer to an `IText` interface, but the actual interface in the library is `IBlock<'primitive, 'error>`. Again, you could use it directly, but your type declarations are much cleaner if you declare the following interface:
 
 ```fsharp
 type IText = inherit IBlock<string, TextError>
@@ -160,7 +160,7 @@ type IText = inherit IBlock<string, TextError>
 
 ### Disclaimer
 
-I barely managed to publish this article and create the NuGet package on time for Xmas, I'll have the GitHub ready early January. If you want to wait for that, whever it's ready I'll post it on twitter so follow me if you'd like a notification. You can already play with it using the NuGet package below, but note that I mainly focused on the API, there's probably a ton of room for performance optimizations, especially with serialization performance, but that just hasn't been a priority for my project.
+Having an actual day job I barely managed to publish this article and create the NuGet package on time for Santa, but I'll have the GitHub ready early January. If you want to wait for that, whever it's ready I'll post it on twitter so follow me if you'd like a notification. You can already play with it using the NuGet package below, but note that I mainly focused on the API, there's probably a ton of room for performance optimizations, especially with serialization performance, but that just hasn't been a priority for my project.
 
 
 | Package | NuGet |
