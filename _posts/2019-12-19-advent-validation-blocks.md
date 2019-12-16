@@ -5,7 +5,7 @@ title: "\U0001F384 Validation Blocks \U0001F384"
 ---
 <div class="message">
   <i>
-    This post is part of the <a href="https://sergeytihon.com/2019/11/05/f-advent-calendar-in-english-2019/" target="_blank">F# Advent Calendar</a>, check out the other posts there, and special thanks to Sergey Tihon for organizing it.
+    This post is part of the english <a href="https://sergeytihon.com/2019/11/05/f-advent-calendar-in-english-2019/" target="_blank">F# Advent Calendar</a>, check out the other posts there, and special thanks to Sergey Tihon for organizing it.
   </i>
 </div>
 
@@ -57,9 +57,16 @@ A few months later, after we had our second baby and during my paternity leave, 
 <a name="vb" />
 ### Enter FSharp.ValidationBlocks
 
-You know you've done something right when creating a library if the API requires no additional code other than the absolute minimum required to declare whatever is being declared. With `FSharp.ValidationBlocks`, I can declare a type
+You know you've done something right when you can't possibly imagine writing any less code to declare or implement whatever you have in mind, and that is exactly what I felt about the second implementation of `RealText`, now called `FSharp.ValidationBlocks`, a more fitting name considering it supports all primitive types, not just `string`.
 
+### How it works
 
-| Package | NuGet
+A quick word before delving in the details. Unlike Scott's implementation above that relies on `Option` to differentiate between valid and invalid content, `FSharp.ValidationBlock`'s idea is natevely [ROP](https://fsharpforfunandprofit.com/rop/)-oriented, and failed validations should and in fact must return `Error`. One great advantage compared to my now defunct `RealText` version, is that here there type of `Error` returned is whatever you want, defined in your own code with whatever additional parameters you need to properly display meaningful error messages. So without further ado, here's an example defining three types:
+
+1.`FreeText`: Any non-blank text
+2.`Text`: Any non-blank text without control characters (single line)
+3.`Tweet`: Any non-blank text without control characters with maximum 280 characters
+
+| Package | NuGet |
 |---|:-:|
 | FSharp.ValidationBlocks | [![NuGet](https://img.shields.io/nuget/v/FSharp.ValidationBlocks.svg?style=for-the-badge&logo=appveyor&)](https://www.nuget.org/packages/FSharp.ValidationBlocks/) |
