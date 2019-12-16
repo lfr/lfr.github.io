@@ -67,6 +67,15 @@ A quick word before delving in the details. Unlike Scott's implementation above 
 2. `Text`<br>&nbsp;Any non-blank text without control characters (single line)
 3. `Tweet`<br>&nbsp;Any non-blank text without control characters with maximum 280 characters
 
+Before we begin, we should also define some appropriate errors in our domain, here I've used a validation-specific DU, but you don't have to, there's no constraints on `Error` type whatsoever.
+
+```fsharp
+type TextError =
+	| IsBlank
+    | ContainsControlCharacters
+    | ExceedsMaximumLength of int
+```
+
 Let's start with `FreeText`, the least restrictive type.
 
 ```fsharp
@@ -77,13 +86,43 @@ type FreeText = private FreeText of string with
                 [if System.String.IsNullOrWhitespace s
                 	then IsBlank])
 ```
-No doubt this declaration raises a couple of questions, but I think one think we can all agree is that there's hardly any boilerplate code to be seen. 
+
+No doubt this declaration raises a couple of questions, but I think one thing that's immediately obvious is that there's hardly any boilerplate code. 
 
 * There's a type declaration with private constructor, nothing of interest here.
 * There's an interface which serves two purposes: it identifies this type as a `ValidationBlock`, and it ensures that you implement the `Validate` function.
 * There's a validation function declaration which is enforced by the aforementionned interface (so the compiler will _remind_ you to implement it) that is as simple as it can possibly be. It's a function of the primitive type (`string` in this case) that returns a list of `Error` under specific conditions.
 
-Hopefully now you agree with me that declaring types with `FSharp.ValidatinBlocks` is reduced to the absolute minimum it could possibly be.
+Hopefully now you agree with me that declaring types with `FSharp.ValidatinBlocks` is reduced to the absolute minimum it could possibly be. It's not just the type declaration that's concise, creating a block is as simple as calling `Text.ofSring s`, giving you a `Result<'text,'error>`.
+
+### They are actually really **blocks**
+
+These validating types are meant to be built on top of each other, which where the _blocks_ part of the name comes in. To see this in action, let's continue implementing the remaining two types `Text` and `Tweet` from above.
+
+```fsharp
+/// Single line (no control chars) of non-blank text
+type Text = private Text of FreeText with
+    interface IText with
+        member _.Validate =
+            fun s ->
+                [if s |> Regex("\p{C}").IsMatch
+                    then ContainsControlCharacters]
+```
+
+Even though `Text` is defined as non-blank, we don't explicitely write this validation, instead, we _build on top_ of `FreeText` by declaring that `Text` is (private) `Text`of `FreeText` in the first line. The rest of the type declaration is straightforward, so now we're ready to declare the last type.
+
+```fsharp
+/// Maximum 280 characters, non-blank, no control chars
+type Tweet = private Tweet of Text with
+    interface IText with
+    	static member MaxChars = 280
+        member _.Validate =
+            fun s ->
+                [if s.Length > Tweet.MaxChars then
+                	ExceedsMaximumLength Tweet.MaxChars]
+```
+
+The only new think of interest here is the use of parameters
 
 | Package | NuGet |
 |---|:-:|
