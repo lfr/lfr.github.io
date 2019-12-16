@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: "\U0001F384 Validation Blocks \U0001F384"
+title: "\U0001F384&nbsp;Validation Blocks&nbsp;\U0001F384"
 ---
 <div class="message">
   <i>
