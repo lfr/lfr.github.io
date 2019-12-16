@@ -14,6 +14,7 @@ Have you ever found yourself perusing fsharpforfunandprofit's excelent [Designin
 Have you ever then found yourself digging a little deeper only to realize you'd need a type declaration like this, for every... single... type?
 
 ```fsharp
+// Code by Scott Wlaschin — fsharpforfunandprofit.com
 type String50 = private String50 of string
 
 /// Module containing functions related to String50 type
@@ -34,8 +35,10 @@ module String50 =
     // function used to extract data since type is private
     let value (String50 str) = str
 ```
-To the surprise of no one, my answer to both of these questions is yes, yet, I still decided on using the method above because the comfort of writing code against 100% validated values outweights the hassle of defining type/module combinations such as the one above.
+If this sounds familiar, perhaps like me you've decided to still use the method above because the advantages of coding against types guaranteed to be valid outweights the inconvenince of creating the type/module combinations above.
+
+And maybe, just maybe, perhaps like me you've 
 
 | Package | NuGet
 |---|:-:|
-| ValidationBlocks | [![NuGet](https://img.shields.io/nuget/v/ValidationBlocks.svg?style=flat)](https://www.nuget.org/packages/ValidationBlocks/) |
+| ValidationBlocks | [![NuGet](https://img.shields.io/nuget/v/ValidationBlocks.svg?style=for-the-badge&logo=appveyor)](https://www.nuget.org/packages/ValidationBlocks/) |
