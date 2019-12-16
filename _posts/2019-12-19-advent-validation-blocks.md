@@ -115,14 +115,27 @@ Even though `Text` is defined as non-blank, we don't explicitely write this vali
 /// Maximum 280 characters, non-blank, no control chars
 type Tweet = private Tweet of Text with
     interface IText with
-    	static member MaxChars = 280
         member _.Validate =
             fun s ->
-                [if s.Length > Tweet.MaxChars then
-                	ExceedsMaximumLength Tweet.MaxChars]
+                [if s.Length > 280 then
+                	ExceedsMaximumLength 280]
 ```
 
-The only new think of interest here is the use of parameters
+The only new think of interest here is the use of parameters in the error case which allows you to present more meaningful errors to the user. Usually I simply generate english errors from the `TextError` case names, if there's no localization requirement the path from validation to presenting the user with meaningful errors can be extremely short.
+
+### Seriously, let's talk Serialization for a second
+
+Your types may happily live within the boundaries of your domain as awesome `ValidationBlocks`, but one day they have to leave your domain. I like to store my own blocks as their underlying primitive type, and most of the time your serialization needs are going to impose that. In other words, your `Tweet` will have to be serialized as a `string`, not as a `Tweet { Text { FreeText "Validate all the things!" } }`. For this reason, the library includes a `System.Text.Json.Serialization.JsonConverter` that does just that. Add it to your serialization options to ensure your blocks serialize to their primitive type and deserialize back to blocks.
+
+### Final words
+
+I've mostly covered the type declaration because for me that was the biggest disadvantage of the traditional way of designing with types. You want to declare types for anything that has specific validation needs so keeping these declaratinos compact is crutial, and when you think about it, almost any content that enters your domain can and probably should be validated.
+
+But beyond type declaration, there's a few other things that I should mention before I end this article, the most important of which is the fact that there's a `Block.validate` function in the library that is **not** meant to be used directly from your code. You should only call this function once per primitive type in your code. In my solution I will have a `Text` module defined somewhere, it's the only place where I open `FSharp.ValidationBlocks`, and this module defines all the functions (usually a handful) that I use throught my domain. Here's an example of two functions that enable creation of `Text` blocks:
+
+```fsharp
+```
+
 
 | Package | NuGet |
 |---|:-:|
