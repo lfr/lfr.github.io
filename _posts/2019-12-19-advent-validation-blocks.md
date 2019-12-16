@@ -64,8 +64,7 @@ You know you've done something right when you can't possibly imagine writing any
 A quick word before delving in the details. Unlike Scott's implementation above that <abbr title="I don't mean to cast shade on his implementation, ROP is beyond the scope of his article and I'm not even sure the Result type existed when he wrote it!">relies on</abbr> `Option` to differentiate between valid and invalid content, `FSharp.ValidationBlock`'s is natevely [ROP](https://fsharpforfunandprofit.com/rop/)-oriented, and failed validations should and in fact must return `Error`. One great advantage compared to the now-defunct `RealText` is that the type of `Error` returned is generic, meaning you can create your own validation errors in your domain with whatever parameters you need to properly display meaningful error messages. So without further ado, here's an example defining three types:
 
 1. `FreeText`
-
-Any non-blank text
+   Any non-blank text
 2. `Text`
 Any non-blank text without control characters (single line)
 3. `Tweet`
