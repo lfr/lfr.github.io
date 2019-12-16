@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: "\U0001F384 Validation Blocks \U0001F384"
 ---
@@ -61,7 +61,7 @@ You know you've done something right when you can't possibly imagine writing any
 
 ### How it works
 
-A quick word before delving in the details. Unlike Scott's implementation above that relies on `Option` to differentiate between valid and invalid content, `FSharp.ValidationBlock`'s idea is natevely [ROP](https://fsharpforfunandprofit.com/rop/)-oriented, and failed validations should and in fact must return `Error`. One great advantage compared to my now defunct `RealText` version, is that here there type of `Error` returned is whatever you want, defined in your own code with whatever additional parameters you need to properly display meaningful error messages. So without further ado, here's an example defining three types:
+A quick word before delving in the details. Unlike Scott's implementation above that <abbr title="I don't mean to cast shade on that implementation, I'm not even sure the Result type existed when he wrote the article!">relies on `Option`</abbr> to differentiate between valid and invalid content, `FSharp.ValidationBlock`'s is natevely [ROP](https://fsharpforfunandprofit.com/rop/)-oriented, and failed validations should and in fact must return `Error`. One great advantage compared to my now defunct `RealText` version, is that here there type of `Error` returned is whatever you want, defined in your own code with whatever additional parameters you need to properly display meaningful error messages. So without further ado, here's an example defining three types:
 
 1.`FreeText`: Any non-blank text
 2.`Text`: Any non-blank text without control characters (single line)
