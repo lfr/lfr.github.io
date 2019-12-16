@@ -38,10 +38,12 @@ module String50 =
     // function used to extract data since type is private
     let value (String50 str) = str
 ```
-If this sounds familiar, perhaps like me you've decided to still a method similar to the above, because the advantages of coding against types guaranteed to be valid outweights the inconvenince of creating these type/module combinations.
+If this sounds familiar, perhaps like me you've still decided for using a method similar to the above, because the advantages of coding against types guaranteed-to-be-valid far outweights the inconvenince of creating these type/module combinations.
 
-And maybe, just maybe, perhaps like me you've 
+Perhaps like me you've also been thinking that there must be a way to streamline this.
+
+Six months ago I set to do just that, and I created a library to declare such types in as little lines of code as possible. I narrowed the scope of it to text (string) types because I figured that narrowing the scope would increase my chances of reducing boilerplate code. I created it, I've used it, I thought it was great, I thought one day I'd share it with the world, and I even gave it a name: **RealText**. The excitement was palpable... and also short lived. With the infinite wisdom that comes with hindsight, I realized my library was mostly pointless. While reducing the boilerplate, it still required some, which I kind of had to re-learn every time I had to create new types. The fact that it only supported text types meant I now had two paradigms, one for text, and one for non-text types. It also was a pain in the (‿ꜟ‿) to maintain, something that's a huge no-no for me. So without a second thought, I stashed the whole idea in the increasingly crowded metaphorical closet of deadend projects.
 
 | Package | NuGet
 |---|:-:|
-| FSharp.ValidationBlocks | [![NuGet](https://img.shields.io/nuget/v/ValidationBlocks.svg?style=for-the-badge&logo=appveyor&?logoWidth=200)](https://www.nuget.org/packages/ValidationBlocks/) |
+| FSharp.ValidationBlocks | [![NuGet](https://img.shields.io/nuget/v/FSharp.ValidationBlocks.svg?style=for-the-badge&logo=appveyor&)](https://www.nuget.org/packages/FSharp.ValidationBlocks/) |
