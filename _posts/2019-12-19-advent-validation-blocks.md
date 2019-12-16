@@ -40,7 +40,7 @@ module String50 =
 ```
 If this sounds familiar, perhaps like me you've still decided for using a method similar to the above, because the advantages of coding against types guaranteed-to-be-valid far outweights the inconvenince of creating these type/module combinations.
 
-Perhaps like me you've also been thinking that there must be a way to streamline this. If so, feel free to ignore the ridiculous backstory below and [jump straight to the actual topic of the post](#vbs).
+Perhaps like me you've also been thinking that there must be a way to streamline this. If so, feel free to ignore the somewhat pointless backstory below and [jump straight to the actual topic of the post](#vbs).
 
 ### Enter RealText
 
@@ -61,7 +61,7 @@ You know you've done something right when you can't possibly imagine writing any
 
 ### How it works
 
-A quick word before delving in the details. Unlike Scott's implementation above that <abbr title="I don't mean to cast shade on that implementation, I'm not even sure the Result type existed when he wrote the article!">relies on `Option`</abbr> to differentiate between valid and invalid content, `FSharp.ValidationBlock`'s is natevely [ROP](https://fsharpforfunandprofit.com/rop/)-oriented, and failed validations should and in fact must return `Error`. One great advantage compared to my now defunct `RealText` version, is that here there type of `Error` returned is whatever you want, defined in your own code with whatever additional parameters you need to properly display meaningful error messages. So without further ado, here's an example defining three types:
+A quick word before delving in the details. Unlike Scott's implementation above that <abbr title="I don't mean to cast shade on his implementation, ROP is beyond the scope of his article and I'm not even sure the Result type existed when he wrote it!">relies on</abbr> `Option` to differentiate between valid and invalid content, `FSharp.ValidationBlock`'s is natevely [ROP](https://fsharpforfunandprofit.com/rop/)-oriented, and failed validations should and in fact must return `Error`. One great advantage compared to my now defunct `RealText` version, is that here there type of `Error` returned is whatever you want, defined in your own code with whatever additional parameters you need to properly display meaningful error messages. So without further ado, here's an example defining three types:
 
 1.`FreeText`: Any non-blank text
 2.`Text`: Any non-blank text without control characters (single line)
