@@ -71,7 +71,7 @@ Before we begin, we should also define some appropriate errors in our domain, he
 
 ```fsharp
 type TextError =
-	| IsBlank
+    | IsBlank
     | ContainsControlCharacters
     | ExceedsMaximumLength of int
 ```
