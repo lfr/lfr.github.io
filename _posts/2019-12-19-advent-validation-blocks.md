@@ -63,8 +63,8 @@ You know you've done something right when you can't possibly imagine writing any
 
 A quick word before delving in the details. Unlike Scott's implementation above that relies on <abbr title="I don't mean to cast shade on his implementation, ROP is beyond the scope of his article and I believe Result didn't even exist when he wrote it">Option</abbr> to differentiate between valid and invalid content, Validation blocks are natevely [ROP](https://fsharpforfunandprofit.com/rop/)-oriented, and failed validations return `Error`. One great advantage compared to the now-defunct **RealText** is that the type of error is generic, meaning you create your own validation errors as an existing or new <abbr title="Discriminated Union, F#'s sum type">DU</abbr> in your domain, as you would for any other error, with whatever parameters you need to properly display meaningful error messages. Here's an example defining three types:
 
-1. `FreeText`<br>&nbsp;<small>Any <u>non-blank</u> text</small>
-2. `Text`<br>&nbsp;<small>Any <u>non-blank</u> text with <u>no control characters</u> (single line)</small>
+1. `FreeText`<br>&nbsp;<small>Any <u>non-blank</u> text</small> (possibly multiline)
+2. `Text`<br>&nbsp;<small>Any <u>non-blank</u> text with <u>no control characters</u></small>
 3. `Tweet`<br>&nbsp;<small>Any <u>non-blank</u> text with <u>no control characters</u> and a <u>maximum length of 280</u></small>
 
 Before we begin, we should also define some appropriate errors in our domain, here I've used a validation-specific DU, but you don't have to, there's no constraints on `Error` type whatsoever.
