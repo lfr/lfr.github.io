@@ -3,8 +3,7 @@ published: true
 layout: post
 title: "\U0001F384&nbsp;Validation Blocks&nbsp;\U0001F384"
 summary: the quick brown fox
-image: >-
-  https://raw.githubusercontent.com/lfr/lfr.github.io/master/_posts/FSharp.ValidationBlocks.png
+image: 'https://api.nuget.org/v3-flatcontainer/validationblocks/0.9.0/icon'
 ---
 <div class="message">
   <i>
