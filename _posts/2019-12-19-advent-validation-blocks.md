@@ -42,7 +42,7 @@ module String50 =
     // function used to extract data since type is private
     let value (String50 str) = str
 ```
-If this sounds familiar, you probably still decided to use a method like the above, because the advantages of coding against types guaranteed-to-be-valid far outweigh the inconvenience of creating these type/module combinations.
+If this sounds familiar, you probably still decided to use a method like the one above, because the advantages of coding against types guaranteed-to-be-valid far outweigh the inconvenience of creating these type/module combinations.
 
 But perhaps like me you've also been thinking that there must be a way to streamline this. If so, feel free to ignore the somewhat pointless backstory below and [jump straight to the actual topic of the post](#vbs).
 
