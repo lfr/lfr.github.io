@@ -107,9 +107,9 @@ fun x ->
     ]
 ```
 
-Hopefully now you agree with me that declaring types with `FSharp.ValidatinBlocks` is reduced to the absolute minimum it could possibly be. It's not just the type declaration that's concise, creating a block is as simple as calling `Text.ofSring s`, giving you a `Result<'text,'error>`.
+In other words, declaring types with validation blocks is reduced to saying "this is a validation block" (using the interface) and "under these conditions, you get these errors" (implementing the interface), which I believe we can all agree is the absolut minimum amount of code one can expect to write to define this behaviour. It's not just the type declaration that's concise, creating a block can be as simple as calling `Text.ofSring s`, which returns a `Result<'text,'error>`.
 
-### They are actually really blocks
+### They are actually — really — blocks
 
 These validating types are meant to be built on top of each other, which is where the _blocks_ part of the name comes in. To see this in action, let's continue implementing the remaining two types `Text` and `Tweet` from above.
 
