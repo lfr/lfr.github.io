@@ -3,8 +3,8 @@ published: true
 layout: post
 title: "\U0001F384&nbsp;Validation Blocks&nbsp;\U0001F384"
 summary: >-
-  Designing with types is awesome, and verbose. With FSharp.ValidationBlocks now
-  it can rightfully be just awesome.
+  Designing with types is awesome — and verbose. With FSharp.ValidationBlocks
+  now it can rightfully be just awesome.
 image: /public/ValidationBlocks.png
 ---
 <div class="message">
