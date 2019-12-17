@@ -111,7 +111,9 @@ In other words, declaring types with validation blocks is reduced to saying "thi
 
 ### They are actually — really — blocks
 
-![ValidationBlocks logo](https://api.nuget.org/v3-flatcontainer/validationblocks/0.9.0/icon)
+<center>
+  ![ValidationBlocks logo](https://api.nuget.org/v3-flatcontainer/validationblocks/0.9.0/icon)
+</center>
 
 These validating types are meant to be built on top of each other, which explains the _blocks_ part of the name. To see this in action, let's continue implementing the remaining two types `Text` and `Tweet` from above.
 
