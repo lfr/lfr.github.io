@@ -89,9 +89,23 @@ type FreeText = private FreeText of string with
 
 No doubt this declaration raises a couple of questions, but I think one thing that's immediately obvious is that there's hardly any boilerplate code. 
 
-* There's a type declaration with private constructor, nothing of interest here.
-* There's an interface which serves two purposes: it identifies this type as a `ValidationBlock`, and it ensures that you implement the `Validate` function.
-* There's a validation function declaration which is enforced by the aforementionned interface (so the compiler will _remind_ you to implement it) that is as simple as it can possibly be. It's a function of the primitive type (`string` in this case) that returns a list of `Error` under specific conditions.
+* There's a type declaration with private constructor, nothing of interest here
+
+* There's an interface which serves two purposes: it identifies this type as a `ValidationBlock`, and it ensures that you implement the `Validate` function
+
+* There's a validation function declaration which is enforced by the aforementionned interface (so the compiler will _remind_ you to implement it) that is as simple as it can possibly be
+
+Validation is always a function of the primitive type (`string` in this case) that returns a list of errors under specific conditions. It always looks like this:
+
+```fsharp
+fun x ->
+	[
+    	if x |> test1 then Error1
+        if x |> test2 then Error2
+        if x |> test3 then Error3
+        ...
+    ]
+```
 
 Hopefully now you agree with me that declaring types with `FSharp.ValidatinBlocks` is reduced to the absolute minimum it could possibly be. It's not just the type declaration that's concise, creating a block is as simple as calling `Text.ofSring s`, giving you a `Result<'text,'error>`.
 
