@@ -93,9 +93,9 @@ No doubt this declaration raises a couple of questions, but I think one thing th
 
 * There's an interface which serves two purposes: it identifies this type as a validation block, and it ensures that you implement the `Validate` function
 
-* There's a validation function declaration which is enforced by the aforementionned interface (so the compiler will _remind_ you to implement it) that is as simple as it can possibly be
+* There's a validation function declaration (the compiler will _remind_ you to implement it) that is as simple as it can possibly be
 
-Validation is always a function of the primitive type (`string` in this case) that returns a list of errors under specific conditions. It always looks like this:
+Validation is always a function of the primitive type, `string` in this case, that returns a list of errors under specific conditions. It always looks like this:
 
 ```fsharp
 fun x ->
