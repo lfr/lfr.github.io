@@ -127,7 +127,7 @@ type Text = private Text of FreeText with
                     then ContainsControlCharacters]
 ```
 
-Even though `Text` is defined as non-blank, we don't explicitely write this validation, instead, we _build on top_ of `FreeText` by declaring that `Text` is (private) `Text`of `FreeText` in the first line. The rest of the type declaration is straightforward, so now we're ready to declare the last type.
+Even though `Text` is defined as non-blank, we don't explicitely write this validation, instead, we _build on top_ of `FreeText` by declaring that `Text` is a `Text`of `FreeText` in the first line, **the string will be automatically validated using the validation of `FreeText` before attempting the validation of `Text`**. The rest of the type declaration is straightforward, so now we're ready to declare the last type.
 
 ```fsharp
 /// Maximum 280 characters, non-blank, no control chars
