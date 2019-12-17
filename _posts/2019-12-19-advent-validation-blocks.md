@@ -139,7 +139,7 @@ type Tweet = private Tweet of Text with
                 	ExceedsMaximumLength 280]
 ```
 
-The only new think of interest here is the use of parameters in the error case which allows you to present more meaningful errors to the user. Usually I simply generate english errors from the `TextError` case names, if there's no localization requirement the path from validation to presenting the user with meaningful errors can be extremely short.
+The only new think of interest here is the use of parameters in the error case which allows you to present more meaningful errors to the user. I personally like to simply generate english errors from the `TextError` case names and parameters, so if there's no localization requirement in your project, the path from attempting to create a block to presenting the user with meaningful errors can be extremely short code-wise.
 
 ### Seriously, let's talk Serialization
 
