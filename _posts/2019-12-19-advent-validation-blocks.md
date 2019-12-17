@@ -139,7 +139,7 @@ type Tweet = private Tweet of Text with
                     ExceedsMaximumLength 280]
 ```
 
-Again, we only declare the validation that's specific to `Tweet`, all other validation rules are implied by writing `Tweet of Text`. The only new think of interest here is the use of parameters in the error case which illustrates the ability to present more meaningful errors to the user for more complex valiation types. I follow a strict discipline of having error union cases that together with their parameters (if any) allow me to generate an error message that spell out *exactly* what went wrong, so in this case I can very easily display a message "The given tweet exceeds the maximum length of 280 characters", but I can also re-use the same error to display another message elsewhere that says "The given email exceeds the maximum length of 320 characters".
+Again, we only declare the validation that's specific to `Tweet`, all other validation rules are implied by writing `Tweet of Text`. The only new thing of interest here is the use of parameters in the error case which illustrates the ability to present more meaningful errors to the user for more complex valiation types. I follow a strict discipline of having error union cases that together with their parameters (if any) allow me to generate an error message that spell out *exactly* what went wrong, so in this case I can very easily display a message "The given tweet exceeds the maximum length of 280 characters", but I can also re-use the same error to display another message elsewhere that says "The given email exceeds the maximum length of 320 characters".
 
 ### Seriously, let's talk Serialization
 
