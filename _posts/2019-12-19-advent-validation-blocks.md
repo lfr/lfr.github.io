@@ -114,8 +114,6 @@ In other words, declaring types with validation blocks is reduced to saying "thi
 ![ValidationBlocks logo](https://api.nuget.org/v3-flatcontainer/validationblocks/0.9.0/icon){: style="float: right; margin-left: 1rem;"}
 These validating types are meant to be built on top of each other, which explains the _blocks_ part of the name. To see this in action, let's continue implementing the remaining two types `Text` and `Tweet` from above.
 
-`{: style="border: none; background: transparent;"}`
-
 ```fsharp
 /// Single line (no control chars) of non-blank text
 type Text = private Text of FreeText with
