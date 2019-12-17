@@ -99,11 +99,11 @@ Validation is always a function of the primitive type, `string` in this case, th
 
 ```fsharp
 fun x ->
-	[
-    	if x |> test1 then Error1
+    [
+        if x |> test1 then Error1
         if x |> test2 then Error2
         if x |> test3 then Error3
-        ...
+        // ...
     ]
 ```
 
