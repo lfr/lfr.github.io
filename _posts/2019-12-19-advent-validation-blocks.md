@@ -57,11 +57,11 @@ A few months later, after we had our second baby and during my paternity leave, 
 <a name="vbs" />
 ### Enter FSharp.ValidationBlocks
 
-You know you've done something right when you can't possibly imagine writing any less code to declare or implement whatever you have in mind, and that is exactly what I felt about the second implementation of `RealText`, now called `FSharp.ValidationBlocks` as it supports all primitive types, not just `string`.
+You know you've done something right when you can't possibly imagine writing any less code to declare or implement whatever you have in mind, and that is exactly what I felt about the second implementation of **RealText**, now called **FSharp.ValidationBlocks** for it supports all primitive types, not just strings.
 
 ### How it works
 
-A quick word before delving in the details. Unlike Scott's implementation above that relies on <abbr title="I don't mean to cast shade on his implementation, ROP is beyond the scope of his article and I believe Result didn't even exist when he wrote it in!">Option</abbr> to differentiate between valid and invalid content, `FSharp.ValidationBlocks` is natevely [ROP](https://fsharpforfunandprofit.com/rop/)-oriented, and failed validations should and in fact must return `Error`. One great advantage compared to the now-defunct `RealText` is that the type of `Error` returned is generic, meaning you can create your own validation errors in your domain with whatever parameters you need to properly display meaningful error messages. So without further ado, here's an example defining three types:
+A quick word before delving in the details. Unlike Scott's implementation above that relies on <abbr title="I don't mean to cast shade on his implementation, ROP is beyond the scope of his article and I believe Result didn't even exist when he wrote it in!">Option</abbr> to differentiate between valid and invalid content, `FSharp.ValidationBlocks` is natevely [ROP](https://fsharpforfunandprofit.com/rop/)-oriented, and failed validations return `Error`. One great advantage compared to the now-defunct `RealText` is that the type of `Error` returned is generic, meaning you can create your own validation errors in your domain with whatever parameters you need to properly display meaningful error messages. So without further ado, here's an example defining three types:
 
 1. `FreeText`<br>&nbsp;Any non-blank text
 2. `Text`<br>&nbsp;Any non-blank text without control characters (single line)
