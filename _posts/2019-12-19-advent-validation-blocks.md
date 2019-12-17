@@ -184,6 +184,7 @@ type IText = inherit IBlock<string, TextError>
 Having an actual day job I barely managed to publish this article and create the NuGet package in time for Santa. The GitHub should be up early January. If you want to wait for that, whenever it's ready I'll post it on twitter so follow me if you'd like a notification. You can already play with it using the NuGet package below, but note that I mainly focused on the API, there's probably a ton of room for performance optimizations, especially with serialization performance, but that just hasn't been a priority for my project.
 
 
+
 | Package | NuGet |
 |---|:-:|
 | FSharp.ValidationBlocks | [![NuGet](https://img.shields.io/nuget/v/FSharp.ValidationBlocks.svg?style=for-the-badge&logo=appveyor&)](https://www.nuget.org/packages/FSharp.ValidationBlocks/) |
