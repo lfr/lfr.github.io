@@ -110,8 +110,8 @@ fun x ->
 In other words, declaring types with validation blocks is reduced to saying "this is a validation block" (using the interface) and "under these conditions, you get these errors" (implementing the interface), which I believe we can all agree is the absolut minimum amount of code one can expect to write to define this behaviour. It's not just the type declaration that's concise, creating a block can be as simple as calling `Text.ofSring s`, which returns a `Result<'text, 'error>`.
 
 ### They are actually — really — blocks
-
 ![ValidationBlocks logo](https://api.nuget.org/v3-flatcontainer/validationblocks/0.9.0/icon){: style="float: right; margin-left: 1rem;"}
+
 These validating types are meant to be built on top of each other, which explains the _blocks_ part of the name. To see this in action, let's continue implementing the remaining two types `Text` and `Tweet` from above.
 
 `{: style="border: none; background: transparent;"}`
