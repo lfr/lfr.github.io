@@ -5,11 +5,11 @@ title: "\U0001F384&nbsp;Validation Blocks&nbsp;\U0001F384"
 ---
 <div class="message">
   <i>
-    This post is part of the english <a href="https://sergeytihon.com/2019/11/05/f-advent-calendar-in-english-2019/" target="_blank">F# Advent Calendar</a>, check out the other posts there, and special thanks to Sergey Tihon for organizing it.
+    This post is part of the English <a href="https://sergeytihon.com/2019/11/05/f-advent-calendar-in-english-2019/" target="_blank">F# Advent Calendar</a>, check out the other posts there, and special thanks to Sergey Tihon for organizing it.
   </i>
 </div>
 
-Have you ever found yourself perusing Scott's excelent [Designing With Types](https://fsharpforfunandprofit.com/series/designing-with-types.html) series, and said to yourself "_man, those single case unions are sweet_"?
+Have you ever found yourself perusing Scott's excellent [Designing With Types](https://fsharpforfunandprofit.com/series/designing-with-types.html) series, and said to yourself "_man, those single case unions are sweet_"?
 
 Have you ever then found yourself digging a little deeper only to realize you'd need a type declaration like the one below, for every... single... type?
 
@@ -38,17 +38,17 @@ module String50 =
     // function used to extract data since type is private
     let value (String50 str) = str
 ```
-If this sounds familiar, you probably still decided to use a method similar to the above, because the advantages of coding against types guaranteed-to-be-valid far outweight the inconvenince of creating these type/module combinations.
+If this sounds familiar, you probably still decided to use a method like the above, because the advantages of coding against types guaranteed-to-be-valid far outweigh the inconvenience of creating these type/module combinations.
 
 But perhaps like me you've also been thinking that there must be a way to streamline this. If so, feel free to ignore the somewhat pointless backstory below and [jump straight to the actual topic of the post](#vbs).
 
 ### Enter RealText
 
-Six months ago I set out to do just that, and I created a library to declare such types in as little lines of code as possible. I narrowed the scope of it to text (string) types because I figured that narrowing the scope would increase my chances of reducing boilerplate code. I created it, I've used it, I thought it was great, I thought one day I'd share it with the world, and I even gave it a name: **RealText**. The excitement was palpable... and also short lived.
+Six months ago, I set out to do just that, and I created a library to declare such types in as little lines of code as possible. I narrowed the scope of it to text (string) types because I figured that narrowing the scope would increase my chances of reducing boilerplate code. I created it, I've used it, I thought it was great, I thought one day I'd share it with the world, and I even gave it a name: **RealText**. The excitement was palpable... and short lived.
 
 ### Exit RealText
 
-With the infinite wisdom that comes with hindsight, I realized my library was mostly pointless. For one it still required some boilerplate code, which I kind of had to re-learn every time I had to create new types. Another problem was the fact that it only supported text types because it meant I now had two paradigms, one for text, and one for non-text types. So without a second thought, I stashed away the whole idea in my increasingly crowded metaphorical closet of deadend projects.
+With the infinite wisdom that comes with hindsight, I realized my library was mostly pointless. For one it still required some boilerplate code, which I kind of had to re-learn every time I had to create new types. Another problem was the fact that it only supported text types because it meant I now had two paradigms, one for text, and one for non-text types. So, without a second thought, I stashed away the whole idea in my increasingly crowded metaphorical closet of dead-end projects.
 
 ### When at first you don't succeed, go make babies
 
@@ -61,13 +61,13 @@ You know you've done something right when you can't possibly imagine writing any
 
 ### How it works
 
-A quick word before delving in the details. Unlike Scott's implementation above that relies on <abbr title="I don't mean to cast shade on his implementation, ROP is beyond the scope of his article and I believe Result didn't even exist when he wrote it">Option</abbr> to differentiate between valid and invalid content, Validation blocks are natevely [ROP](https://fsharpforfunandprofit.com/rop/)-oriented, and failed validations return `Error`. One great advantage compared to the now-defunct **RealText** is that the type of error is generic, meaning you create your own validation errors as an existing or new <abbr title="Discriminated Union, F#'s sum type">DU</abbr> in your domain, as you would for any other error, with whatever parameters you need to properly display meaningful error messages. Here's an example defining three types:
+A quick word before delving in the details. Unlike Scott's implementation above that relies on <abbr title="I don't mean to cast shade on his implementation, ROP is beyond the scope of his article and I believe Result didn't even exist when he wrote it">Option</abbr> to differentiate between valid and invalid content, Validation blocks are natively [ROP](https://fsharpforfunandprofit.com/rop/)-oriented, and failed validations return `Error`. One great advantage compared to the now-defunct **RealText** is that the type of error is generic, meaning you create your own validation errors as an existing or new <abbr title="Discriminated Union, F#'s sum type">DU</abbr> in your domain, as you would for any other error, with whatever parameters you need to properly display meaningful error messages. Here's an example defining three types:
 
 1. `FreeText`<br>&nbsp;<small>Any <u>non-blank</u> text</small> (possibly multiline)
 2. `Text`<br>&nbsp;<small>Any <u>non-blank</u> text with <u>no control characters</u></small>
 3. `Tweet`<br>&nbsp;<small>Any <u>non-blank</u> text with <u>no control characters</u> and a <u>maximum length of 280</u></small>
 
-Before we begin, we should also define some appropriate errors in our domain, here I've used a validation-specific DU, but you don't have to, there's no constraints on `Error` type whatsoever.
+Before we begin, we should also define some appropriate errors in our domain, here I've used a validation specific DU, but you don't have to, there's no constraints on `Error` type whatsoever.
 
 ```fsharp
 type TextError =
@@ -107,7 +107,7 @@ fun x ->
     ]
 ```
 
-In other words, declaring types with validation blocks is reduced to saying "this is a validation block" (using the interface) and "under these conditions, you get these errors" (implementing the interface), which I believe we can all agree is the absolut minimum amount of code one can expect to write to define this behaviour. It's not just the type declaration that's concise, creating a block can be as simple as calling `Text.ofSring s`, which returns a `Result<'text, 'error>`.
+In other words, declaring types with validation blocks is reduced to saying "this is a validation block" (using the interface) and "under these conditions, you get these errors" (implementing the interface), which I believe we can all agree is the absolute minimum amount of code one can expect to write to define this behavior. It's not just the type declaration that's concise, creating a block can be as simple as calling `Text.ofSring s`, which returns a `Result<'text, 'error>`.
 
 ### They are actually blocks
 
@@ -124,7 +124,7 @@ type Text = private Text of FreeText with
                     then ContainsControlCharacters]
 ```
 
-Even though `Text` is defined as non-blank, we don't explicitely write this validation, instead, we _build on top_ of `FreeText` by declaring that `Text` is a `Text`of `FreeText` in the first line, **the string will be automatically validated using the validation of `FreeText` before attempting the validation of `Text`**. The rest of the type declaration is just a validation that yields an error if the string contains control characters, so now we're ready to declare the last type.
+Even though `Text` is defined as non-blank, we don't explicitly write this validation, instead, we _build on top_ of `FreeText` by declaring that `Text` is a `Text`of `FreeText` in the first line, **the string will be automatically validated using the validation of `FreeText` before attempting the validation of `Text`**. The rest of the type declaration is just a validation that yields an error if the string contains control characters, so now we're ready to declare the last type.
 
 ```fsharp
 /// Maximum 280 characters, non-blank, no control chars
@@ -136,15 +136,15 @@ type Tweet = private Tweet of Text with
                     ExceedsMaximumLength 280]
 ```
 
-Again, we only declare the validation that's specific to `Tweet`, all other validation rules are implied by writing `Tweet of Text`. The only new thing of interest here is the use of parameters in the error case which illustrates the ability to present more meaningful errors to the user for more complex valiation types. I follow a strict discipline of having error union cases that together with their parameters (if any) allow me to generate an error message that spell out *exactly* what went wrong, so in this case I can very easily display a message "The given tweet exceeds the maximum length of 280 characters", but I can also re-use the same error to display another message elsewhere that says "The given email exceeds the maximum length of 320 characters".
+Again, we only declare the validation that's specific to `Tweet`, all other validation rules are implied by writing `Tweet of Text`. The only new thing of interest here is the use of parameters in the error case which illustrates the ability to present more meaningful errors to the user for more complex validation types. I follow a strict discipline of having error union cases that together with their parameters (if any) allow me to generate an error message that spell out *exactly* what went wrong, so in this case I can very easily display a message "The given tweet exceeds the maximum length of 280 characters", but I can also re-use the same error to display another message elsewhere that says "The given email exceeds the maximum length of 320 characters".
 
 ### Seriously, let's talk Serialization
 
-Your types may happily live within the boundaries of your domain as awesome validation blocks, but one day they probably have to leave your domain. I like to store my own blocks as their underlying primitive type, allowing me to refactor my code without breking anything, and most of the time your serialization needs are going to impose that anyway. In other words, your `Tweet` will have to be serialized as a `string`, not as a `Tweet { Text { FreeText "Validate all the things!" } }`. For this reason, the library includes a `System.Text.Json.Serialization.JsonConverter` that does just that. Add it to your serialization options to ensure your blocks serialize to their primitive type and deserialize back to blocks.
+Your types may happily live within the boundaries of your domain as awesome validation blocks, but one day they probably have to leave your domain. I like to store my own blocks as their underlying primitive type, allowing me to refactor my code without breking anything, and most of the time your serialization needs are going to impose that anyway. In other words, your `Tweet` will have to be serialized as a string, not as a `Tweet { Text { FreeText "covfefe" } }`. For this reason, the library includes a `System.Text.Json` JsonConverter that does just that. Add it to your serialization options to ensure all your blocks serialize to their primitive type and deserialize back to the correct block type.
 
 ### Final words
 
-I've mostly covered the type declaration because for me that was the biggest disadvantage of the traditional way of designing with types. You want to declare types for anything that has specific validation needs so keeping these declaratinos compact is key, and when you think about it, almost any content that enters your domain can and probably should be validated.
+I've mostly covered the type declaration because for me that was the biggest disadvantage of the traditional way of designing with types. You want to declare types for anything that has specific validation needs so keeping these declarations compact is key, and when you think about it, almost any content that enters your domain can and probably should be validated.
 
 But beyond type declaration, there's a few other things that I should mention before I end this article, the most important of which is the fact that there's a `Block.validate` function in the library that is **not** meant to be used everywhere in your code. You should only call this function **once per primitive** type. In my solution I will have a `Text` module defined somewhere, it's the only place where I open `FSharp.ValidationBlocks`, and this module defines the functions that I use throughout my domain. Here's an example of a few functions to create `Text` blocks and one to get a value out of them:
 
@@ -178,7 +178,7 @@ type IText = inherit IBlock<string, TextError>
 
 ### Disclaimer
 
-Having an actual day job I barely managed to publish this article and create the NuGet package in time for Santa. The GitHub should be up early January. If you want to wait for that, whenever it's ready I'll post it on twitter so follow me if you'd like a notification. You can already play with it using the NuGet package below, but note that I mainly focused on the API, there's probably a ton of room for performance optimizations, especially with serialization performance, but that just hasn't been a priority for my project.
+Having an actual day job, I barely managed to publish this article and create the NuGet package in time for Santa. The GitHub should be up early January. If you want to wait for that, whenever it's ready I'll post it on twitter so follow me if you'd like a notification. You can already play with it using the NuGet package below, but note that I mainly focused on the API, there's a ton of room for simple performance optimizations, especially with serialization performance, but that just hasn't been a priority for my project.
 
 
 
