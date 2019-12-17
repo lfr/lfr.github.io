@@ -2,8 +2,10 @@
 published: true
 layout: post
 title: "\U0001F384&nbsp;Validation Blocks&nbsp;\U0001F384"
-summary: the quick brown fox
-image: 'https://api.nuget.org/v3-flatcontainer/validationblocks/0.9.0/icon'
+summary: >-
+  Designing with types is awesome, and verbose. With FSharp.ValidationBlocks now
+  it can rightfully be just awesome.
+image: /public/FSharp.ValidationBlocks.png
 ---
 <div class="message">
   <i>
