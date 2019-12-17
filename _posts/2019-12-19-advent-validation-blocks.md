@@ -9,7 +9,7 @@ title: "\U0001F384&nbsp;Validation Blocks&nbsp;\U0001F384"
   </i>
 </div>
 
-Have you ever found yourself perusing fsharpforfunandprofit's excelent [Designing With Types](https://fsharpforfunandprofit.com/series/designing-with-types.html) series, and said to yourself: _man, those single case unions are sweet_?
+Have you ever found yourself perusing fsharpforfunandprofit's excelent [Designing With Types](https://fsharpforfunandprofit.com/series/designing-with-types.html) series, and said to yourself "_man, those single case unions are sweet_"?
 
 Have you ever then found yourself digging a little deeper only to realize you'd need a type declaration like this, for every... single... type?
 
