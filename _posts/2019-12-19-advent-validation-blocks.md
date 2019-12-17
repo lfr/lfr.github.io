@@ -154,9 +154,6 @@ But beyond type declaration, there's a few other things that I should mention be
 ```fsharp
 module Text
 
-/// Gets the string contained in a text block
-let value (text:IText) = Block.unwrap text :?> string
-
 /// Wraps a string s into a (Some 'text block) result if not null or blank,
 /// otherwise None
 let ofString<'text when 'text :> IText> s =
@@ -168,6 +165,9 @@ let ofUnchecked<'text when 'text :> IText> s =
    match ofString s with
    | Ok x -> x
    | Error e -> sprintf "Attempt to access error Result: %A." e |> failwith
+
+/// Gets the string contained in a text block
+let value (text:IText) = Block.unwrap text :?> string
 ```
 
 Note that these functions generic, so you'll only have to create a handful of them per primitive type, and as you can see their code is very succint. Usually, you'll be omitting the `'text` type parameter, meaning you'll be mostly calling `Text.ofstring s` instead of `Text.ofString<Tweet> s`. Of course you could use `Block.validate` and `Block.unwrap` directly in your code, but I find it much nicer to use your own, especially for `string` where you may want to trim and check for blanks before attempting to create a block. Similarly, the example types above all refer to an `IText` interface, but the actual interface in the library is `IBlock<'primitive, 'error>`. Again, you could use it directly, but your type declarations are much cleaner if you declare the following interface:
