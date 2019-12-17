@@ -87,11 +87,11 @@ type FreeText = private FreeText of string with
                 	then IsBlank]
 ```
 
-No doubt this declaration raises a couple of questions, but I think one thing that's immediately obvious is that there's hardly any boilerplate code. 
+No doubt this declaration raises a couple of questions, but I think one thing that's immediately obvious is that there's hardly any superfluous code. 
 
-* There's a type declaration with private constructor, nothing of interest here
+* There's a type declaration with private constructor, as expected
 
-* There's an interface which serves two purposes: it identifies this type as a `ValidationBlock`, and it ensures that you implement the `Validate` function
+* There's an interface which serves two purposes: it identifies this type as a validation block, and it ensures that you implement the `Validate` function
 
 * There's a validation function declaration which is enforced by the aforementionned interface (so the compiler will _remind_ you to implement it) that is as simple as it can possibly be
 
