@@ -61,11 +61,11 @@ You know you've done something right when you can't possibly imagine writing any
 
 ### How it works
 
-A quick word before delving in the details. Unlike Scott's implementation above that relies on <abbr title="I don't mean to cast shade on his implementation, ROP is beyond the scope of his article and I believe Result didn't even exist when he wrote it!">Option</abbr> to differentiate between valid and invalid content, Validation blocks are natevely [ROP](https://fsharpforfunandprofit.com/rop/)-oriented, and failed validations return `Error`. One great advantage compared to the now-defunct **RealText** is that the type of `Error` returned is generic, meaning you create your own validation errors in your domain, as you would for any other error, with whatever parameters you need to properly display meaningful error messages. So without further ado, here's an example defining three types:
+A quick word before delving in the details. Unlike Scott's implementation above that relies on <abbr title="I don't mean to cast shade on his implementation, ROP is beyond the scope of his article and I believe Result didn't even exist when he wrote it!">Option</abbr> to differentiate between valid and invalid content, Validation blocks are natevely [ROP](https://fsharpforfunandprofit.com/rop/)-oriented, and failed validations return `Error`. One great advantage compared to the now-defunct **RealText** is that the type of `Error` returned is generic, meaning you create your own validation errors in your domain, as you would for any other error, with whatever parameters you need to properly display meaningful error messages. Here's an example defining three types:
 
-1. `FreeText`<br>&nbsp;Any non-blank text
-2. `Text`<br>&nbsp;Any non-blank text without control characters (single line)
-3. `Tweet`<br>&nbsp;Any non-blank text without control characters with maximum 280 characters
+1. `FreeText`<br>&nbsp;<small>Any non-blank text</small>
+2. `Text`<br>&nbsp;<small>Any non-blank text without control characters (single line)</small>
+3. `Tweet`<br>&nbsp;<small>Any non-blank text without control characters with maximum 280 characters</small>
 
 Before we begin, we should also define some appropriate errors in our domain, here I've used a validation-specific DU, but you don't have to, there's no constraints on `Error` type whatsoever.
 
