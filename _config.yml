@@ -6,7 +6,8 @@ permalink:        pretty
 # Setup
 title:            Functional Funsies
 tagline:          'Mostly for profit'
-description:      'Sometimes I catch myself writing high quality, beautiful, idiomatic <a href="http://fsharp.org" target="_blank">F#</a>, but I quickly snap out of it'
+description:      'Sometimes I catch myself writing high quality, beautiful, idiomatic F#, but I quickly snap out of it'
+intro:            'Sometimes I catch myself writing high quality, beautiful, idiomatic <a href="http://fsharp.org" target="_blank">F#</a>, but I quickly snap out of it'
 url:              http://functionalfunsies.com
 baseurl:          ""
 
