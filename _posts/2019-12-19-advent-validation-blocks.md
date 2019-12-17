@@ -5,7 +5,7 @@ title: "\U0001F384&nbsp;Validation Blocks&nbsp;\U0001F384"
 ---
 <div class="message">
   <i>
-    This post is part of the English <a href="https://sergeytihon.com/2019/11/05/f-advent-calendar-in-english-2019/" target="_blank">F# Advent Calendar</a>, check out the other posts there, and special thanks to Sergey Tihon for organizing it.
+    This post is part of the English <a href="https://sergeytihon.com/2019/11/05/f-advent-calendar-in-english-2019/" target="_blank">2019 F# Advent Calendar</a>, check out the other posts there, and special thanks to Sergey Tihon for organizing it.
   </i>
 </div>
 
