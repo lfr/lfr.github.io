@@ -149,15 +149,19 @@ Your types may happily live within the boundaries of your domain as awesome vali
 
 I've mostly covered the type declaration because for me that was the biggest disadvantage of the traditional way of designing with types. You want to declare types for anything that has specific validation needs so keeping these declaratinos compact is key, and when you think about it, almost any content that enters your domain can and probably should be validated.
 
-But beyond type declaration, there's a few other things that I should mention before I end this article, the most important of which is the fact that there's a `Block.validate` function in the library that is **not** meant to be used everywhere in your code. You should only call this function **once per primitive** type. In my solution I will have a `Text` module defined somewhere, it's the only place where I open `FSharp.ValidationBlocks`, and this module defines the functions that I use throughout my domain. Here's an example of two functions to create `Text` blocks and one to get a value out of them:
+But beyond type declaration, there's a few other things that I should mention before I end this article, the most important of which is the fact that there's a `Block.validate` function in the library that is **not** meant to be used everywhere in your code. You should only call this function **once per primitive** type. In my solution I will have a `Text` module defined somewhere, it's the only place where I open `FSharp.ValidationBlocks`, and this module defines the functions that I use throughout my domain. Here's an example of a few functions to create `Text` blocks and one to get a value out of them:
 
 ```fsharp
 module Text
 
-/// Wraps a string s into a (Some 'text block) result if not null or blank
+/// Wraps a string into a block of the expected type
 let ofString<'text when 'text :> IText> s =
+   (s.Trim()) |> Block.validate<'text, TextError>
+
+/// Wraps a string into Some 'text, if not null/blank, otherwise None
+let ofOptionalString<'text when 'text :> IText> s =
     if System.String.IsNullOrWhiteSpace s then None |> Ok
-    else Block.validate<'text, TextError> (s.Trim()) |> Result.map Some
+    else ofString (s.Trim()) |> Result.map Some
         
 /// Non-ROP version of Text.ofString, may throw an exception
 let ofUnchecked<'text when 'text :> IText> s =
@@ -169,7 +173,7 @@ let ofUnchecked<'text when 'text :> IText> s =
 let value (text:IText) = Block.unwrap text :?> string
 ```
 
-Note that these functions generic, so you'll only have to create a handful of them per primitive type, and as you can see their code is very succint. Usually, you'll be omitting the `'text` type parameter, meaning you'll be mostly calling `Text.ofstring s` instead of `Text.ofString<Tweet> s`. Of course you could use `Block.validate` and `Block.unwrap` directly in your code, but I find it much nicer to use your own, especially for `string` where you may want to trim and check for blanks before attempting to create a block. Similarly, the example types above all refer to an `IText` interface, but the actual interface in the library is `IBlock<'primitive, 'error>`. Again, you could use it directly, but your type declarations are much cleaner if you declare the following interface:
+Note that usually you'll be omitting the `'text` type parameter, meaning you'll be mostly calling `Text.ofstring s` instead of `Text.ofString<Tweet> s`. Of course you could use `Block.validate` and `Block.unwrap` directly in your code, but you shouldn't as you'd have to specify the error type every time. By writing my own `Text` module here I not only confine the references to `FSharp.ValidationBlocks` to a single module in my solution, but it also allows me to build in some string-specific generic behavior for all text blocks like trimming and checking for blanks before attempting to create a block. Similarly, you may have noticed the example types above all refer to an `IText` interface, but this interface doesn't exist in `FSharp.ValidationBlocks`, the actual interface in the library is `IBlock<'primitive, 'error>`. Again, you could use it directly, but your type declarations will be much cleaner if you declare the following interface, this single line of code will make all your type declarations much more readable, trust me.
 
 ```fsharp
 type IText = inherit IBlock<string, TextError>
@@ -177,7 +181,7 @@ type IText = inherit IBlock<string, TextError>
 
 ### Disclaimer
 
-Having an actual day job I barely managed to publish this article and create the NuGet package on time for Santa, but I'll have the GitHub ready early January. If you want to wait for that, whever it's ready I'll post it on twitter so follow me if you'd like a notification. You can already play with it using the NuGet package below, but note that I mainly focused on the API, there's probably a ton of room for performance optimizations, especially with serialization performance, but that just hasn't been a priority for my project.
+Having an actual day job I barely managed to publish this article and create the NuGet package in time for Santa. The GitHub should be up early January. If you want to wait for that, whenever it's ready I'll post it on twitter so follow me if you'd like a notification. You can already play with it using the NuGet package below, but note that I mainly focused on the API, there's probably a ton of room for performance optimizations, especially with serialization performance, but that just hasn't been a priority for my project.
 
 
 | Package | NuGet |
