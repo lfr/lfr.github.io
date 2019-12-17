@@ -143,7 +143,7 @@ Again, we only declare the validation that's specific to `Tweet`, all other vali
 
 ### Seriously, let's talk Serialization
 
-Your types may happily live within the boundaries of your domain as awesome `ValidationBlocks`, but one day they have to leave your domain. I like to store my own blocks as their underlying primitive type, and most of the time your serialization needs are going to impose that. In other words, your `Tweet` will have to be serialized as a `string`, not as a `Tweet { Text { FreeText "Validate all the things!" } }`. For this reason, the library includes a `System.Text.Json.Serialization.JsonConverter` that does just that. Add it to your serialization options to ensure your blocks serialize to their primitive type and deserialize back to blocks.
+Your types may happily live within the boundaries of your domain as awesome validation blocks, but one day they probably have to leave your domain. I like to store my own blocks as their underlying primitive type, allowing me to refactor my code without breking anything, and most of the time your serialization needs are going to impose that anyway. In other words, your `Tweet` will have to be serialized as a `string`, not as a `Tweet { Text { FreeText "Validate all the things!" } }`. For this reason, the library includes a `System.Text.Json.Serialization.JsonConverter` that does just that. Add it to your serialization options to ensure your blocks serialize to their primitive type and deserialize back to blocks.
 
 ### Final words
 
