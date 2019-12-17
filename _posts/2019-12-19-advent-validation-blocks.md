@@ -127,7 +127,7 @@ type Text = private Text of FreeText with
                     then ContainsControlCharacters]
 ```
 
-Even though `Text` is defined as non-blank, we don't explicitely write this validation, instead, we _build on top_ of `FreeText` by declaring that `Text` is a `Text`of `FreeText` in the first line, **the string will be automatically validated using the validation of `FreeText` before attempting the validation of `Text`**. The rest of the type declaration is straightforward, so now we're ready to declare the last type.
+Even though `Text` is defined as non-blank, we don't explicitely write this validation, instead, we _build on top_ of `FreeText` by declaring that `Text` is a `Text`of `FreeText` in the first line, **the string will be automatically validated using the validation of `FreeText` before attempting the validation of `Text`**. The rest of the type declaration is just a validation that yields an error if the string contains control characters, so now we're ready to declare the last type.
 
 ```fsharp
 /// Maximum 280 characters, non-blank, no control chars
@@ -136,7 +136,7 @@ type Tweet = private Tweet of Text with
         member _.Validate =
             fun s ->
                 [if s.Length > 280 then
-                	ExceedsMaximumLength 280]
+                    ExceedsMaximumLength 280]
 ```
 
 The only new think of interest here is the use of parameters in the error case which allows you to present more meaningful errors to the user. I personally like to simply generate english errors from the `TextError` case names and parameters, so if there's no localization requirement in your project, the path from attempting to create a block to presenting the user with meaningful errors can be extremely short code-wise.
