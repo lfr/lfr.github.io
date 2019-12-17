@@ -154,8 +154,7 @@ But beyond type declaration, there's a few other things that I should mention be
 ```fsharp
 module Text
 
-/// Wraps a string s into a (Some 'text block) result if not null or blank,
-/// otherwise None
+/// Wraps a string s into a (Some 'text block) result if not null or blank
 let ofString<'text when 'text :> IText> s =
     if System.String.IsNullOrWhiteSpace s then None |> Ok
     else Block.validate<'text, TextError> (s.Trim()) |> Result.map Some
