@@ -2,6 +2,9 @@
 published: true
 layout: post
 title: "\U0001F384&nbsp;Validation Blocks&nbsp;\U0001F384"
+summary: the quick brown fox
+image: >-
+  https://raw.githubusercontent.com/lfr/lfr.github.io/master/_posts/FSharp.ValidationBlocks.png
 ---
 <div class="message">
   <i>
