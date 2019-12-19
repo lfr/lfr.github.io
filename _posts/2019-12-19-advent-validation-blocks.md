@@ -182,7 +182,7 @@ type IText = inherit IBlock<string, TextError>
 
 ### Disclaimer
 
-Having an actual day job, I barely managed to publish this article and create the NuGet package in time for Santa. The GitHub should be up early January. Follow me on twitter if you want a notification, otherwise feel free to take it for a spin using the link below!
+Having an actual day job, I barely managed to publish this article and create the NuGet package in time for Santa. The GitHub should be up early January. Follow me [on twitter](https://twitter.com/fishyrock/) if you want a notification, otherwise feel free to take it for a spin using the link below!
 
 | Package | NuGet |
 |---|:-:|
