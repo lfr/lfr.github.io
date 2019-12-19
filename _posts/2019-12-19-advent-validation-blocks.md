@@ -61,7 +61,7 @@ A few months later, after we had our second baby and during my paternity leave, 
 <a name="vbs" />
 ### Enter FSharp.ValidationBlocks
 
-You know you've done something right when you can't possibly imagine writing any less code to declare or implement whatever you have in mind, and that is exactly what I felt about the second implementation of **RealText**, now called **FSharp.ValidationBlocks** for it supports all primitive types, not just strings.
+You know you've done something right when you can't possibly imagine writing any less code to declare or implement whatever you have in mind, and that is exactly what I felt about the second implementation of **RealText**, now called **FSharp.ValidationBlocks** as it supports all primitive types, not just strings.
 
 ### How it works
 
