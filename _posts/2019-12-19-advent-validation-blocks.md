@@ -174,7 +174,7 @@ let ofUnchecked<'text when 'text :> IText> s =
 let value (text:IText) = Block.unwrap text :?> string
 ```
 
-Note that this module is named Text, but it's generic (not specific to the `Text` type), and usually you'll be omitting the `'text` type parameter, meaning you'll be mostly calling `Text.validate s` instead of `Text.validate<Tweet> s`. Of course you could use `Block.validate` and `Block.unwrap` directly in your code, but you shouldn't as you'd have to specify the error type every time. By writing my own `Text` module here I not only confine the references to `FSharp.ValidationBlocks` to a single module in my solution, but it also allows me to build in some string-specific generic behavior for all text blocks like trimming and checking for blanks before attempting to create a block. Similarly, you may have noticed the example types above all refer to an `IText` interface, but this interface doesn't exist in `FSharp.ValidationBlocks`, the actual interface in the library is `IBlock<'primitive, 'error>`. Again, you could use it directly, but your type declarations will be much cleaner if you declare the following interface, this single line of code will make all your type declarations much more readable, trust me.
+Note that this module is named Text, but it's generic (not specific to the `Text` type), and usually you'll be omitting the `'text` type parameter, meaning you'll be mostly calling `Text.validate s` instead of `Text.validate<Tweet> s`. Of course you could use `Block.validate` and `Block.unwrap` directly in your code, but you shouldn't as you'd have to specify the error type every time. By writing my own `Text` module here I not only confine the references to `FSharp.ValidationBlocks` to a single module in my solution, but it also allows me to build in some string-specific generic behavior for all text blocks like trimming and checking for blanks before attempting to create a block. Similarly, you may have noticed the example types above all refer to an `IText` interface, but this interface doesn't exist in `FSharp.ValidationBlocks`, the actual interface in the library is `IBlock<'primitive, 'error>`. Again, you could use it directly, but your type declarations will be much cleaner if you declare the following interface.
 
 ```fsharp
 type IText = inherit IBlock<string, TextError>
@@ -182,7 +182,7 @@ type IText = inherit IBlock<string, TextError>
 
 ### Disclaimer
 
-Having an actual day job, I barely managed to publish this article and create the NuGet package in time for Santa. The GitHub should be up early January. Follow me [on twitter](https://twitter.com/fishyrock/) if you want a notification, otherwise feel free to take it for a spin using the link below!
+I barely managed to publish this article and create the NuGet package in time for Santa. The GitHub should be up early January. Follow me [on twitter](https://twitter.com/fishyrock/) if you want a notification, otherwise feel free to take it for a spin using the link below!
 
 | Package | NuGet |
 |---|:-:|
