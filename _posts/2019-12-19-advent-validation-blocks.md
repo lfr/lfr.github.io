@@ -189,3 +189,5 @@ Having an actual day job, I barely managed to publish this article and create th
 | Package | NuGet |
 |---|:-:|
 | FSharp.ValidationBlocks | [![NuGet](https://img.shields.io/nuget/v/FSharp.ValidationBlocks.svg?style=for-the-badge&logo=appveyor&)](https://www.nuget.org/packages/FSharp.ValidationBlocks/) |
+
+Feel free to share any comments or feedback by replying to [this twitter post](https://twitter.com/fishyrock/status/1207695734713270272)!
