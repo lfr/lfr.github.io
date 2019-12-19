@@ -111,7 +111,7 @@ fun x ->
     ]
 ```
 
-In other words, declaring types with validation blocks is reduced to saying "this is a validation block" (using the interface) and "under these conditions, you get these errors" (implementing the interface), which I believe we can all agree is the absolute minimum amount of code one can expect to write to define this behavior. It's not just the type declaration that's concise, creating a block can be as simple as calling `Text.ofSring s`, which returns a `Result<'text, 'error>`.
+In other words, declaring types with validation blocks is reduced to saying "this is a validation block" (using the interface) and "under these conditions, you get these errors" (implementing the interface), which I believe we can all agree is the absolute minimum amount of code one can expect to write to define this behavior. It's not just the type declaration that's concise, creating a block can be as simple as calling `Text.validate s`, which returns a `Result<'text, 'error>`.
 
 ### They are actually blocks
 
