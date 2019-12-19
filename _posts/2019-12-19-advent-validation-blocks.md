@@ -13,7 +13,7 @@ image: /public/ValidationBlocks.png
   </i>
 </div>
 
-Have you ever found yourself perusing Scott's excellent [Designing With Types](https://fsharpforfunandprofit.com/series/designing-with-types.html) series, and said to yourself "_man, those single case unions are sweet_"?
+Have you ever found yourself perusing Scott Wlaschin's excellent [Designing With Types](https://fsharpforfunandprofit.com/series/designing-with-types.html) series, and said to yourself "_man, those single case unions are sweet_"?
 
 Have you ever then found yourself digging a little deeper only to realize you'd need a type declaration like the one below, for every... single... type?
 
@@ -65,7 +65,7 @@ You know you've done something right when you can't possibly imagine writing any
 
 ### How it works
 
-A quick word before delving in the details. Unlike Scott's implementation above that relies on <abbr title="I don't mean to cast shade on his implementation, ROP is beyond the scope of his article and I believe Result didn't even exist when he wrote it">Option</abbr> to differentiate between valid and invalid content, Validation blocks are natively [ROP](https://fsharpforfunandprofit.com/rop/)-oriented, and failed validations return `Error`. One great advantage compared to the now-defunct **RealText** is that the type of error is generic, meaning you create your own validation errors as an existing or new <abbr title="Discriminated Union, F#'s sum type">DU</abbr> in your domain, as you would for any other error, with whatever parameters you need to properly display meaningful error messages. Here's an example defining three types:
+A quick word before delving in the details. Unlike Scott Wlaschin's implementation above that relies on <abbr title="I don't mean to cast shade on his implementation, ROP is beyond the scope of his article and it's possible Result didn't even exist when he wrote it">Option</abbr> to differentiate between valid and invalid content, Validation blocks are natively [ROP](https://fsharpforfunandprofit.com/rop/)-oriented, and failed validations return `Error`. One great advantage compared to the now-defunct **RealText** is that the type of error is generic, meaning you create your own validation errors as an existing or new <abbr title="Discriminated Union, F#'s sum type">DU</abbr> in your domain, as you would for any other error, with whatever parameters you need to properly display meaningful error messages. Here's an example defining three types:
 
 1. `FreeText`<br>&nbsp;<small>Any <u>non-blank</u> text</small> (possibly multiline)
 2. `Text`<br>&nbsp;<small>Any <u>non-blank</u> text with <u>no control characters</u></small>
