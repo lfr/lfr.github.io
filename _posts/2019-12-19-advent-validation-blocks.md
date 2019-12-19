@@ -182,9 +182,7 @@ type IText = inherit IBlock<string, TextError>
 
 ### Disclaimer
 
-Having an actual day job, I barely managed to publish this article and create the NuGet package in time for Santa. The GitHub should be up early January. If you want to wait for that, whenever it's ready I'll post it on twitter so follow me if you'd like a notification. You can already play with it using the NuGet package below, but note that I mainly focused on the API, there's a ton of room for simple performance optimizations, especially with serialization performance, but that just hasn't been a priority for my project.
-
-
+Having an actual day job, I barely managed to publish this article and create the NuGet package in time for Santa. The GitHub should be up early January. Follow me if you want a notification, otherwise feel free to take it for a spin using the link below!
 
 | Package | NuGet |
 |---|:-:|
