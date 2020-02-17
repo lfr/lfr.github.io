@@ -7,11 +7,12 @@ Last Xmas I introduced `FSharp.ValidationBlocks`, a tiny new F# library with hug
 
 ### The **type**, that unsung hero
 
-I also assumed that designing with types would be a given, but this assumption is based on nothing. I think in the near future I'll probably write a post specifically about the topic using my own lib for the examples. I won't do as good a job as [this guy](https://fsharpforfunandprofit.com/series/designing-with-types.html), but at least I'll add my voice to his message.
+I also assumed that designing with types would be a given, but this assumption is based on exactly _
+*nothing*. I think that in the near future I'll probably write a post specifically about the topic using my own lib for the examples. I won't do as good a job as [this guy](https://fsharpforfunandprofit.com/series/designing-with-types.html), but at least I'll add my voice to his message.
 
 ### That sweet F# Advent treat...
 
-It's December 2019 and I've got to publish something. My library exists, I've been using it for months and it's awesome. But the public API sucks, I know it's not ready. There's no GitHub project. I don't even have a blog. What do I do? I consider cancelling my Advent entry. NO. The point of the entry was precisely for me to kick myself in the backside and make me share it with the world. It's not ready, but it's brilliant, and because I have no platform whatsoever the 2019 F# Advent Calendar is virtually the only way for the world to hear about it.
+It's December 2019 and I've got to publish something. My library exists, I've been using it for months and it's awesome. But the public API sucks, I know it's not ready. There's no GitHub project. I don't even have a blog. What do I do? I consider cancelling my Advent entry. NO. The point of the entry was precisely for me to kick myself in the backside and make me share it with the world. It's not ready, but it's brilliant, and because I have no platform whatsoever the F# Advent Calendar is virtually the only way for the world to hear about it.
 
 ### ...with a bitter aftertaste
 
