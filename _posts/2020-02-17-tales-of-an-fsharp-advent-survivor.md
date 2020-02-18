@@ -12,7 +12,7 @@ image: /assets/2020/advent-survivor.jpg
 
 ## Tales of an F# Advent survivor
 
-Last Xmas I introduced `FSharp.ValidationBlocks`, a tiny F# library with huge aspirations. Looking back at [that post](/2019/12/19/advent-validation-blocks/) (please don't), I feel like I did a very poor job at conveying how exciting this library should be to anyone creating a model in F#.
+Last Xmas I introduced **FSharp.ValidationBlocks**, a tiny F# library with huge aspirations. Looking back at [that post](/2019/12/19/advent-validation-blocks/) (please don't), I feel like I did a very poor job at conveying how exciting this library should be to anyone creating a model in F#.
 
 ### The *type*, that unsung hero
 
@@ -34,7 +34,7 @@ The main appeal of my library has always been how it makes declaring new types s
 
 ### Where there's a will, there's a GitHub project
 
-I believe I made a much better case for the existence of ValidationBlocks in the GitHub README, where you'll also find a complete description of the brand new public API made of a grand total of 2 functions `Block.value` and `Block.validate` that are so beautiful and simple that I get teary eyed whenever I think of them. If everyone deserves a second chance, [this is me asking for mine](https://github.com/lfr/FSharp.ValidationBlocks).
+I believe I made a much better case for the existence of **FSharp.ValidationBlocks** in the GitHub README, where you'll also find a complete description of the brand new public API made of a grand total of 2 functions `Block.value` and `Block.validate` that are so beautiful and simple that I get teary eyed whenever I think of them. If everyone deserves a second chance, [this is me asking for mine](https://github.com/lfr/FSharp.ValidationBlocks).
 
 ### Comments & Feedback
 
