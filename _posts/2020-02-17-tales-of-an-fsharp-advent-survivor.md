@@ -3,7 +3,7 @@ published: true
 layout: post
 title: 'Tales Of An F# Advent Survivor'
 summary: >-
-  &#x1F3B5;&nbsp;Last Christmas, I gave you my Blocks, but the very next day, validation did fail&hellip;&nbsp;&#x1F3B5;
+  &#x1F3B5;&nbsp;Last Christmas, I gave you my blocks, but the very next day, validation did fail&hellip;&nbsp;&#x1F3B5;
 image: /assets/2020/advent-survivor.jpg
 ---
 <p align="center">
