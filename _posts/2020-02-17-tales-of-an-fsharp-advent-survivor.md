@@ -3,7 +3,7 @@ published: true
 layout: post
 title: 'Tales Of An F# Advent Survivor'
 summary: >-
-  &#x1F3B5;&nbsp;Last Christmas, I gave you my blocks, but the very next day, validation did fail&hellip;&nbsp;&#x1F3B5;
+  &#x1F3B5;&nbsp;Last Christmas, I gave you my blocks, but the very next day, validation did fail&nbsp;&#x1F3B5;
 image: /assets/2020/advent-survivor.jpg
 ---
 <p align="center">
@@ -35,3 +35,7 @@ The main appeal of my library has always been how it makes declaring new types s
 ### Where there's a will, there's a GitHub project
 
 I believe I made a much better case for the existence of ValidationBlocks in the GitHub README, where you'll also find a complete description of the brand new public API made of a grand total of 2 functions `Block.value` and `Block.validate` that are so beautiful and simple that I get teary eyed whenever I think of them. If everyone deserves a second chance, [this is me asking for mine](https://github.com/lfr/FSharp.ValidationBlocks).
+
+Comments & Feedback
+
+Please use my very sophisticated **Comment Engine For Feedback** by replying to this tweet.
