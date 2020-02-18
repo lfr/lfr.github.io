@@ -16,7 +16,7 @@ Last Xmas I introduced `FSharp.ValidationBlocks`, a tiny F# library with huge as
 
 ### The *type*, that unsung hero
 
-I also assumed that designing with types would be a given, but that assumption was based on nothing. I think that in the near future I'll probably write a post specifically about the topic using my own lib for the examples. I won't do as good a job as [this guy](https://fsharpforfunandprofit.com/series/designing-with-types.html), but at least I'll add my voice to his message.
+I also assumed that designing with types would be a given, but that assumption was based on nothing. I'll have to write something about it in the near future, it won't be as good as [this](https://fsharpforfunandprofit.com/series/designing-with-types.html), but at least I'll be adding my voice to his message, and I'll use my own library for the examples.
 
 ### That sweet F# Advent treat...
 
@@ -36,6 +36,6 @@ The main appeal of my library has always been how it makes declaring new types s
 
 I believe I made a much better case for the existence of ValidationBlocks in the GitHub README, where you'll also find a complete description of the brand new public API made of a grand total of 2 functions `Block.value` and `Block.validate` that are so beautiful and simple that I get teary eyed whenever I think of them. If everyone deserves a second chance, [this is me asking for mine](https://github.com/lfr/FSharp.ValidationBlocks).
 
-Comments & Feedback
+### Comments & Feedback
 
-Please use my very sophisticated **Comment Engine For Feedback** by replying to this tweet.
+To give feedback please use my very sophisticated "Comment Engine" by replying to this tweet.
