@@ -22,3 +22,5 @@ version:          1.0
 
 github:
   repo:           https://github.com/lfr
+
+theme: jekyll-theme-hacker
