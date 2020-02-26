@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: 'Tales Of An F# Advent Survivor'
+title: 'Tales of an F# Advent Survivor'
 summary: >-
   &#x1F3B5;&nbsp;Last Xmas, I gave you my blocks, but the very next day, validation did fail&nbsp;&#x1F3B5;
 image: /assets/2020/advent-survivor.jpg
