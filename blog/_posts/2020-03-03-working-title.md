@@ -1,14 +1,13 @@
 ---
 published: false
 layout: post
-title: 'Tales of an F# Advent Survivor'
+title: 'Working Title'
 summary: >-
-  &#x1F3B5;&nbsp;Last Xmas, I gave you my blocks, but the very next day, validation did fail&nbsp;&#x1F3B5;
+  &#x1F3B5;&nbsp;Working description
 image: /assets/2020/advent-survivor.jpg
 ---
-<p align="center">
-    <img src="/assets/2020/advent-survivor.jpg" width="500">
-</p>
+
+![splash](/assets/2020/advent-survivor.jpg)
 
 Last Xmas I introduced **FSharp.ValidationBlocks**, a tiny F# library with huge aspirations. Looking back at [that post](/2019/12/19/advent-validation-blocks/) (please don't), I feel like I did a very poor job at conveying how exciting this library should be to anyone creating a model in F#.
 
