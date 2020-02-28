@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 layout: post
 title: 'Tales of an F# Advent Survivor'
 summary: >-
