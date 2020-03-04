@@ -4,9 +4,9 @@
 
 /* disable badge styles */
 img[alt="badge"] {
-    display: default;
-    margin: default;
-    border-radius: default;
+    display: unset;
+    margin: unset;
+    border-radius: unset;
   }
 
 /* enable pre-block scrolling */
