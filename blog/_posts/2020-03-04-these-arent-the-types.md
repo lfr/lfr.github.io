@@ -23,7 +23,7 @@ If you agree with the above, you're already halfway through this journey, and I'
 
 1. `string` is too general and accepts things that are not valid for this property
 2. `string` does a poor job at documenting what's valid for this property
-3. `string` being too general means validation and error handling code is going to be necessary through the solution
+3. `string` being too general means validation and error handling code is going to be necessary throughout the solution
 
 Wait, what? They're all still true!
 
