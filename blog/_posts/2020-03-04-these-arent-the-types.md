@@ -9,7 +9,7 @@ image: /assets/2020/not-the-string.png
 
 ![splash](/assets/2020/not-the-string.png)
 
-When adding a property meant to contain text to an object in your code, you usually just declare it as `string` without giving it a second thought. Here though, I'm asking you to give it a second thought, [as others did before me](https://fsharpforfunandprofit.com/posts/designing-with-types-intro/) and all came to the same conclusion: there's a better way.
+When adding a property meant to contain text to an object in your code, you usually just declare it as `string` without giving it a second thought. Here though, I'm asking you to give it a second thought, [as others did before me](https://fsharpforfunandprofit.com/posts/designing-with-types-intro/), and all came to the same conclusion: there's a better way.
 
 ## If not string, then what?
 
