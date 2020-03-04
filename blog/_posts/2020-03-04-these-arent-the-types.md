@@ -27,7 +27,7 @@ If you agree with the above, you're already halfway through this journey, and I'
 
 Wait, what? They're all still true!
 
-1. `string` is too general because there's a myriad of things that are strings and aren't a valid emails, in fact most strings aren't emails
+1. `string` is too general because there's a myriad of things that are strings and aren't valid emails, in fact most strings aren't emails
 2. `string` does little to document the property, a `string` author could just as well be a first name / last name combination
 3. `string` is never guaranteed to be an email until you actively validate its content, in fact, it's not even guaranteed to have any characters in it
 
