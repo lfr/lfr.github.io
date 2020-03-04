@@ -1,0 +1,42 @@
+---
+published: false
+layout: post
+title: These aren't the types you're looking for
+summary: >-
+  Imagine you need a prop that will contain text values. You declare it as string, right? Not so fast!
+image: /assets/2020/not-the-string.png
+---
+
+![splash](/assets/2020/not-the-string.png)
+
+When adding a new property/member/field to some class/record that's meant to contain text, you usually just declare it as `string` without giving it a second thought. Here though, I'm asking you to challenge that preconception, as many did before me and all came to the same conclusion: there's a better way.
+
+## If not string, then what?
+
+Let's say instead of `string` you declare all your properties containing text as `object`. This absurd example is very useful because in your mind you're probably thinking about all the reasons why `string` is a way more appropriate type than `object`:
+
+* `object` is too general and accepts things that are not valid for this property
+* `object` does a very poor job at documenting what's valid for this property
+* `object` being too general means validation and error handling code is going to be necessary throughout the solution
+
+If you agree with the above, you're already halfway through this journey, and I'm going to prove that to you with a concrete example. Let's say the property we're adding is `author` containing an email. Email is text, and as we just saw `object` is not a good choice, so let's consider using `string` instead and just to be thorough let's let's replace `object` with `string` in the above 3 reasons and see what they look like:
+
+* `string` is too general and accepts things that are not valid for this property
+* `string` does a very poor job at documenting what's valid for this property
+* `string` being too general means validation and error handling code is going to be necessary through the solution
+
+Wait, what? ***They're all still true!***
+
+* `string` is too general because there's a myriad of things that are strings and aren't a valid emails, in fact most strings aren't emails
+* `string` does very little to document the property, a `string` `author` could very well be a first name / last name combination
+* `string` is never guaranteed to be an email until you actively validate its content, in fact, it's not even guaranteed to have any characters in it
+
+So it turns out that `string` is only marginally better than `object`, and that's why...
+
+## These aren't the types you're looking for
+
+So what are the types that I'm looking for?... you may or may not ask depending on whether you made it this far in the article. The answer is simple, but its implementation may vary from straightforward to downright unwieldy depending on your choice of programming language and libraries. This article is only meant to open your mind about something we as programmers have been doing for ages without ever realizing that there's a better way. In the next post I'll be exploring this better way so do follow me on twitter to be notified when it's up.
+
+## Comments & Feedback
+
+I still don't have a comment section but you may give feedback by replying to [this article's tweet](https://twitter.com/fishyrock/).

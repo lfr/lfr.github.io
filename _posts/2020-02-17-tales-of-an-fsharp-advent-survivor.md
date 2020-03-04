@@ -20,9 +20,9 @@ It's December 2019, and I've got to publish something. My library exists, I've b
 
 ## ...with a bitter aftertaste
 
-It's done. I've created a lengthy post about my library, and an actual blog to host it (you're looking at it). There's no GitHub, but I did what I could and at least there's a Nuget package. Except that it doesn't work! 😱
+It's done. I've created a lengthy post about my library, and an actual blog to host it (you're looking at it). There's no GitHub, but I did what I could and at least there's a NuGet package. Except that it doesn't work! 😱
 
-After the break I realized the version I uploaded to Nuget didn't perform recursive validation (for blocks built on top of other blocks). A minuscule bug with huge consequences, due to a last minute change to make my public API better that failed to achieve even that. But the worst part is that I definitely wouldn't have time to publish the full project "early jan" as promised, and I would have to wait till "mid feb" for an opportunity to make things right.
+After the break I realized the version I uploaded to NuGet didn't perform recursive validation (for blocks built on top of other blocks). A minuscule bug with huge consequences, due to a last minute change to make my public API better that failed to achieve even that. But the worst part is that I definitely wouldn't have time to publish the full project "early jan" as promised, and I would have to wait till "mid feb" for an opportunity to make things right.
 
 ## Not all was lost
 
