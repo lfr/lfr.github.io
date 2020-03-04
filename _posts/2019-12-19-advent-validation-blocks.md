@@ -83,7 +83,7 @@ type TextError =
 Let's start with `FreeText`, the least restrictive type.
 
 ```fsharp
-/// WARNING: Obsolete, refer to the GitHub project for current examples
+/// WARNING: Obsolete, refer to the GitHub project for current API
 type FreeText = private FreeText of string with
     interface IText with
         member _.Validate =
@@ -120,7 +120,7 @@ In other words, declaring types with validation blocks is reduced to saying "thi
 These validating types are meant to be built on top of each other, which explains the _blocks_ part of the name. To see this in action, let's continue implementing the remaining two types `Text` and `Tweet` from above.
 
 ```fsharp
-/// WARNING: Obsolete, refer to the GitHub project for current examples
+/// WARNING: Obsolete, refer to the GitHub project for current API
 
 /// Single line (no control chars) of non-blank text
 type Text = private Text of FreeText with
@@ -134,7 +134,7 @@ type Text = private Text of FreeText with
 Even though `Text` is defined as non-blank, we don't explicitly write this validation, instead, we _build on top_ of `FreeText` by declaring that `Text` is a `Text`of `FreeText` in the first line, **the string will be automatically validated using the validation of `FreeText` before attempting the validation of `Text`**. The rest of the type declaration is just a validation that yields an error if the string contains control characters, so now we're ready to declare the last type.
 
 ```fsharp
-/// WARNING: Obsolete, refer to the GitHub project for current examples
+/// WARNING: Obsolete, refer to the GitHub project for current API
 
 /// Maximum 280 characters, non-blank, no control chars
 type Tweet = private Tweet of Text with
@@ -158,7 +158,7 @@ I've mostly covered the type declaration because for me that was the biggest dis
 But beyond type declaration, there's a few other things that I should mention before I end this article, the most important of which is the fact that there's a `Block.validate` function in the library that is **not** meant to be used everywhere in your code. You should only call this function **once per primitive** type. In my solution I will have a `Text` module defined somewhere, it's the only place where I open `FSharp.ValidationBlocks`, and this module defines the functions that I use throughout my domain. Here's an example of a few functions to create `Text` blocks and one to get a value out of them:
 
 ```fsharp
-/// WARNING: Obsolete, refer to the GitHub project for current examples
+/// WARNING: Obsolete, refer to the GitHub project for current API
 module Text
 
 /// Wraps a string into a block of the expected type
