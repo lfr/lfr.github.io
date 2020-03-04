@@ -13,13 +13,13 @@ When adding a property meant to contain text to an object in your code, you usua
 
 ## If not string, then what?
 
-Let's say instead of `string` you declare all your properties containing text as `object`. This absurd example is useful because in your mind you're probably thinking about all the reasons why `string` is a way more appropriate type than `object`:
+Let's say instead of `string` you declare all your properties containing text as `object`. At this point you're probably thinking about all the reasons why `string` is a way more appropriate type than `object`:
 
 1. `object` is too general and accepts things that are not valid for this property
 2. `object` does a poor job at documenting what's valid for this property
 3. `object` being too general means validation and error handling code is going to be necessary throughout the solution
 
-If you agree with the above, you're already halfway through this journey, and I'm going to prove that to you with a concrete example. Let's say the property we're adding is 'author' containing an email. Email is text, and as we just saw `object` is not a good choice, so let's consider using `string` instead and just to be thorough let's let's replace `object` with `string` in the above 3 reasons and see what they look like:
+If you agree with the above, you're already halfway through this journey, and I'm going to prove it to you with a concrete example. Let's say the property we're adding is 'author' containing an email. Email is text, and as we just saw `object` is not a good choice, so let's consider using `string` instead, and just to be thorough let's let's replace `object` with `string` in the above 3 reasons and see what they look like:
 
 1. `string` is too general and accepts things that are not valid for this property
 2. `string` does a poor job at documenting what's valid for this property
