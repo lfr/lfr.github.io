@@ -19,7 +19,7 @@ Let's say instead of `string` you declare all your properties containing text as
 * `object` does a very poor job at documenting what's valid for this property
 * `object` being too general means validation and error handling code is going to be necessary throughout the solution
 
-If you agree with the above, you're already halfway through this journey, and I'm going to prove that to you with a concrete example. Let's say the property we're adding is `author` containing an email. Email is text, and as we just saw `object` is not a good choice, so let's consider using `string` instead and just to be thorough let's let's replace `object` with `string` in the above 3 reasons and see what they look like:
+If you agree with the above, you're already halfway through this journey, and I'm going to prove that to you with a concrete example. Let's say the property we're adding is 'author' containing an email. Email is text, and as we just saw `object` is not a good choice, so let's consider using `string` instead and just to be thorough let's let's replace `object` with `string` in the above 3 reasons and see what they look like:
 
 * `string` is too general and accepts things that are not valid for this property
 * `string` does a very poor job at documenting what's valid for this property
@@ -28,7 +28,7 @@ If you agree with the above, you're already halfway through this journey, and I'
 Wait, what? ***They're all still true!***
 
 * `string` is too general because there's a myriad of things that are strings and aren't a valid emails, in fact most strings aren't emails
-* `string` does very little to document the property, a `string` `author` could very well be a first name / last name combination
+* `string` does very little to document the property, a `string` author could very well be a first name / last name combination
 * `string` is never guaranteed to be an email until you actively validate its content, in fact, it's not even guaranteed to have any characters in it
 
 So it turns out that `string` is only marginally better than `object`, and that's why...
