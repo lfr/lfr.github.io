@@ -3,7 +3,7 @@ published: true
 layout: post
 title: These aren't the types you're looking for
 summary: >-
-  Imagine you need a property for text values. You declare it as string, right? Wrong!&nbsp;&#x1F631;
+  Imagine your object needs a property for text values. You declare it as string, right? Wrong!&nbsp;&#x1F631;
 image: /assets/2020/not-the-string.png
 ---
 
