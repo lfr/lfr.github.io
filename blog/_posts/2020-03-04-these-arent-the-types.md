@@ -39,4 +39,4 @@ So what are the types that I'm looking for?... you may or may not ask depending 
 
 ## Comments & Feedback
 
-I still don't have a comment section but you may give feedback by replying to [this article's tweet](https://twitter.com/fishyrock/).
+I still don't have a comment section but you may give feedback by replying to [this article's tweet](https://twitter.com/fishyrock/status/1235169846083694592).
