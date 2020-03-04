@@ -1,11 +1,29 @@
-/* BLOG-specific overwrites */
+/***********************/
+/**** BLOG-specific ****/
+/***********************/
 
-p>img:only-child {
+/* disable badge styles */
+img[alt="badge"] {
+    display: default;
+    margin: default;
+    border-radius: default;
+  }
+
+/* enable pre-block scrolling */
+pre.highlight {
+    overflow-x: auto;
+    white-space: pre;
+}
+
+/* markdown default image style */
+img[alt="splash"] {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
 }
+
+
 
 /***********************/
 /* Overwrite POOLE.CSS */

@@ -186,7 +186,7 @@ I barely managed to publish this article and create the NuGet package in time fo
 
 | Package | NuGet |
 |---|:-:|
-| FSharp.ValidationBlocks | [![NuGet](https://img.shields.io/nuget/v/FSharp.ValidationBlocks.svg?style=for-the-badge&logo=appveyor&)](https://www.nuget.org/packages/FSharp.ValidationBlocks/) |
+| FSharp.ValidationBlocks | [![badge](https://img.shields.io/nuget/v/FSharp.ValidationBlocks.svg?style=for-the-badge&logo=appveyor&)](https://www.nuget.org/packages/FSharp.ValidationBlocks/) |
 
 ### Comments & Feedback
 Feel free to share any comments or feedback by replying to [this twitter post](https://twitter.com/fishyrock/status/1207695734713270272).
