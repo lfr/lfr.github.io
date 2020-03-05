@@ -154,14 +154,14 @@ I've mostly covered the type declaration because for me that was the biggest dis
 But beyond type declaration, creating and using blocks of the declared types is easy, here's how:
 
 ```fsharp
-let tweet = Block.validate<Tweet> "hello!" // → Result<Tweet, TextError>
+let tweet = Block.validate<Tweet> "hello!" // → Result<Tweet, TextError list>
 Block.value tweet // → "hello!"
 ```
 
 Note that while in a `let` binding you'd have to specify the generic parameter `Tweet`, in most cases it can be inferred and should be omitted:
 
 ```fsharp
-Block.validate "hello!" // → Result<Tweet (inferred), TextError>`
+Block.validate "hello!" // → Result<Tweet (inferred), TextError list>`
 ```
 
 In the example file `Text.fs` you'll find a `Text` module, it's a good place to define both the `TextError` union as well as string-specific functionality. Here's an example of a function to create `Text` blocks that converts empty strings into optional blocks, which is more convenient than handling missing text errors when using a block to populate an optional field:
