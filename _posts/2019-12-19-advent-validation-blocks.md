@@ -120,8 +120,6 @@ In other words, declaring types with validation blocks is reduced to saying "thi
 These validating types are meant to be built on top of each other, which explains the _blocks_ part of the name. To see this in action, let's continue implementing the remaining two types `Text` and `Tweet` from above.
 
 ```fsharp
-/// WARNING: Obsolete, refer to the GitHub project for current API
-
 /// Single line (no control chars) of non-blank text
 type Text = private Text of FreeText with
     interface IText with
@@ -134,8 +132,6 @@ type Text = private Text of FreeText with
 Even though `Text` is defined as non-blank, we don't explicitly write this validation, instead, we _build on top_ of `FreeText` by declaring that `Text` is a `Text`of `FreeText` in the first line, **the string will be automatically validated using the validation of `FreeText` before attempting the validation of `Text`**. The rest of the type declaration is just a validation that yields an error if the string contains control characters, so now we're ready to declare the last type.
 
 ```fsharp
-/// WARNING: Obsolete, refer to the GitHub project for current API
-
 /// Maximum 280 characters, non-blank, no control chars
 type Tweet = private Tweet of Text with
     interface IText with
@@ -155,40 +151,37 @@ Your types may happily live within the boundaries of your domain as awesome vali
 
 I've mostly covered the type declaration because for me that was the biggest disadvantage of the traditional way of designing with types. You want to declare types for anything that has specific validation needs so keeping these declarations compact is key, and when you think about it, almost any content that enters your domain can and probably should be validated.
 
-But beyond type declaration, there's a few other things that I should mention before I end this article, the most important of which is the fact that there's a `Block.validate` function in the library that is **not** meant to be used everywhere in your code. You should only call this function **once per primitive** type. In my solution I will have a `Text` module defined somewhere, it's the only place where I open `FSharp.ValidationBlocks`, and this module defines the functions that I use throughout my domain. Here's an example of a few functions to create `Text` blocks and one to get a value out of them:
+But beyond type declaration, creating and using blocks of the declared types is easy, here's how:
 
 ```fsharp
-/// WARNING: Obsolete, refer to the GitHub project for current API
+let tweet = Block.validate<Tweet> "hello!" // → Result<Tweet, TextError>
+Block.value tweet // → "hello!"
+```
+
+Note that while in a `let` binding you'd have to specify the generic parameter `Tweet`, in most cases it can be inferred and should be omitted:
+
+```fsharp
+Block.validate "hello!" // → Result<Tweet (inferred), TextError>`
+```
+
+In the example file `Text.fs` you'll find a `Text` module, it's a good place to define both the `TextError` union as well as string-specific functionality. Here's an example of a function to create `Text` blocks that converts empty strings into optional blocks, which is more convenient than handling missing text errors when using a block to populate an optional field:
+
+```fsharp
+/// This is a good place to define IText-specific functions
 module Text
 
-/// Wraps a string into a block of the expected type
-let validate<'text when 'text :> IText> s =
-   (s.Trim()) |> Block.validate<'text, TextError>
-
-/// Wraps a string into Some 'text, if not null/blank, otherwise None
-let validateOpt<'text when 'text :> IText> s =
-    if System.String.IsNullOrWhiteSpace s then None |> Ok
-    else validate (s.Trim()) |> Result.map Some
-        
-/// Non-ROP version of Text.validate, may throw an exception
-let ofUnchecked<'text when 'text :> IText> s =
-   match validate s with
-   | Ok x -> x
-   | Error e -> sprintf "Attempt to access error Result: %A." e |> failwith
-
-/// Gets the string contained in a text block
-let value (text:IText) = Block.unwrap text :?> string
+/// Validates the given string treating null/blank as a valid result of None
+/// Use: Block.optional<Tweet> "hello!" or Block.optional "hello!"
+let optional<'block when 'block :> IText> s : Result<'block option, TextError list> =
+    if System.String.IsNullOrWhiteSpace s then Ok None
+    else Block.validate<'block> s |> Result.map Some
 ```
 
-Note that this module is named Text, but it's generic (not specific to the `Text` type), and usually you'll be omitting the `'text` type parameter, meaning you'll be mostly calling `Text.validate s` instead of `Text.validate<Tweet> s`. Of course you could use `Block.validate` and `Block.unwrap` directly in your code, but you shouldn't as you'd have to specify the error type every time. By writing my own `Text` module here I not only confine the references to `FSharp.ValidationBlocks` to a single module in my solution, but it also allows me to build in some string-specific generic behavior for all text blocks like trimming and checking for blanks before attempting to create a block. Similarly, you may have noticed the example types above all refer to an `IText` interface, but this interface doesn't exist in `FSharp.ValidationBlocks`, the actual interface in the library is `IBlock<'primitive, 'error>`. Again, you could use it directly, but your type declarations will be much cleaner if you declare the following interface.
+Note that this module is named Text, but it's generic (not specific to the `Text` type). I name my block that validates a single line of text `Text` because that's the block I use the most and the brevity of the name "Text" keeps my declarations tidy, but if you don't like that ambiguity you can always call it `SingleTextLine` for instance.
 
-```fsharp
-type IText = inherit IBlock<string, TextError>
-```
+### GitHub project & NuGet package
 
-### Disclaimer
-
-I barely managed to publish this article and create the NuGet package in time for Santa. The GitHub should be up early January. Follow me [on twitter](https://twitter.com/fishyrock/) if you want a notification, otherwise feel free to take it for a spin using the link below!
+When I first published this article there was no GitHub project, but [there's one now](https://github.com/lfr/FSharp.ValidationBlocks), and that's where you'll find the most up-to-date information.
 
 | Package | NuGet |
 |---|:-:|
