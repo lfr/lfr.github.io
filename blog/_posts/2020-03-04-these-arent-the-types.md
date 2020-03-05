@@ -9,7 +9,7 @@ image: /assets/2020/not-the-string.png
 
 ![splash](/assets/2020/not-the-string.png)
 
-When adding a property meant to contain text to an object in your code, you usually just declare it as `string` without giving it a second thought. Here though, I'm asking you to give it a second thought, [as others did before me](https://fsharpforfunandprofit.com/posts/designing-with-types-intro/) and came to the same conclusion: there's a better way.
+When adding a property for text values to an object in your code, you usually just declare it as `string` without giving it a second thought. Here though, I'm asking you to give it a second thought, [as others did before me](https://fsharpforfunandprofit.com/posts/designing-with-types-intro/) and came to the same conclusion: there's a better way.
 
 ## If not string, then what?
 
@@ -28,14 +28,14 @@ If you agree with the above, you're already halfway through this journey, and I'
 Wait, what? They're all still true!
 
 1. `string` is too general because there's a myriad of things that are strings and aren't valid emails, in fact most strings aren't emails
-2. `string` does little to document the property, a `string` author could just as well be a first name / last name combination
+2. `string` does little to document the property, a `string` author could just as well be a first and last name combination
 3. `string` is never guaranteed to be an email until you actively validate its content, in fact, it's not even guaranteed to have any characters in it
 
 So it turns out that `string` is only marginally better than `object`, and that's why...
 
-## These aren't the types you're looking for
+## ...these aren't the types you're looking for
 
-So what are the types that I'm looking for?... you may or may not ask depending on whether you made it this far in the article. The answer is simple, but its implementation may vary from straightforward to downright unwieldy depending on your choice of programming language and libraries. This article is only meant to open your mind about something we as programmers have been doing for ages without ever realizing that there's a better way. In the next post I'll be exploring this better way so do follow me on twitter to be notified when it's up.
+So what are the types that I'm looking for? — you may or may not ask depending on whether you made it this far in the article. The answer is simple, but its implementation may vary from straightforward to downright unwieldy depending on your choice of programming language and libraries. This article is only meant to open your mind about something we as programmers have been doing for ages without ever realizing that there's a better way. In the next post I'll explore this better way so do follow me on twitter to be notified when it's up.
 
 ## Comments & Feedback
 
