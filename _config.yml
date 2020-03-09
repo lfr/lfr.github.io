@@ -15,7 +15,7 @@ author:
   name:           'Luis Ferrao'
   url:            https://twitter.com/fishyrock
 
-paginate:         5
+paginate:         1
 
 # Custom vars
 version:          1.0
