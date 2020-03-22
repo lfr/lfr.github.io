@@ -11,7 +11,7 @@ layout: default
 <div id="commento"></div>
 <script src="https://cdn.commento.io/js/commento.js"
   data-no-fonts="true"
-  data-page-id="{{ page.url | split:'/' | where_exp:'forloop', forloop.first == true }}">
+  data-page-id="{{ page.url | split:'/' | slice:'1:' }}">
 </script>
 
 <div class="related">
