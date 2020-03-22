@@ -9,7 +9,10 @@ layout: default
 </div>
 
 <div id="commento"></div>
-<script src="https://cdn.commento.io/js/commento.js" data-no-fonts="true"></script>
+<script src="https://cdn.commento.io/js/commento.js"
+  data-no-fonts="true"
+  data-page-id="{{ post.url | split:'/' | last }}">
+</script>
 
 <div class="related">
   <h2>Related Posts</h2>
