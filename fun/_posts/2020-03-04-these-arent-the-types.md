@@ -9,7 +9,7 @@ image: /assets/2020/not-the-string.png
 
 ![splash](/assets/2020/not-the-string.png)
 
-When adding a property for text values to an object in your code, you usually just declare it as `string` without giving it a second thought. Here though, I'm asking you to give it a second thought, [as others did before me](https://fsharpforfunandprofit.com/posts/designing-with-types-intro/) and came to the same conclusion: there's a better way.
+When adding a property to an object meant to contain text, you usually just declare it as `string` without giving it a second thought. Here though, I'm asking you to give it a second thought, [as others did before me](https://fsharpforfunandprofit.com/posts/designing-with-types-intro/) and came to the same conclusion: there's a better way.
 
 ## If not string, then what?
 
@@ -35,4 +35,4 @@ So it turns out that `string` is only marginally better than `object`, and that'
 
 ## ...these aren't the types you're looking for
 
-So what are the types that I'm looking for? — you may or may not ask depending on whether you made it this far in the article. The answer is simple, but its implementation may vary from straightforward to downright unwieldy depending on your choice of programming language and libraries. This article is only meant to open your mind about something we as programmers have been doing for ages without ever realizing that there's a better way. In the next post I'll explore this better way so do follow me on twitter to be notified when it's up.
+So what are the types that I'm looking for? — you may or may not ask depending on whether you made it this far into the article. The answer is simple, but its implementation may vary from straightforward to downright unwieldy depending on your choice of programming language and libraries. This article is only meant to open your mind about something we as programmers have been doing for ages without ever realizing that there's a better way. In the next post I'll explore this better way so do follow me on twitter to be notified when it's up.
