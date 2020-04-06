@@ -21,7 +21,7 @@ In my [previous article](/fun/_posts/2020-03-04-these-arent-the-types.md) I expl
 
 Jack-in-the-box is a 14th-century children's toy that looks like a box with a crank that can be turned to play music. If one keeps turning the crank eventually something pops out to startle them. The good ones pop out randomly, as opposed to at the end of the song.
 
-## Jack-in-the-box code
+## Jack-in-the-box, the code
 
 I like to think of loosely typed variables — such as an email field typed as `string` — as little jack-in-the-boxes in your code. Most of the time the box plays a beautiful song, but turn that crank for long enough and you hit an edge case, and a nasty exception springs out of the box. After all that's why you take your laptop when going on vacation.
 
@@ -53,7 +53,7 @@ type ActualText = private ActualText of string with
 
 While this is more verbose than not declaring anything and using strings everywhere, think of all the exceptions these 5 lines of code prevent, and all the content-checking and validation code they render useless. It's usually cheaper (both in lines of code and in potential errors) to fix the problem at the source, and the source is your domain — where you define what a thing is.
 
-# Tell it like it isn't
+## Tell it like it isn't
 
 So it all boils down to making domains more explicit about what things **are** (an email *is* a string) and **aren't** (an email is not a multiline string), and this is done using types with all the necessary validation embedded into them. The concept is simple, and so is the code. Let's take a look at one way (of many possible ways) to define an `Email` type using object oriented style:
 
