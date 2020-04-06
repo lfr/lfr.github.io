@@ -11,7 +11,7 @@ image: /assets/2020/jack-in-the-box.png
 
 <div class="message">
   <i>
-    This post was published much later than expected due to the COVID-19 pandemic. I hope that you and yours are safe, and while there's nothing here to bring you comfort, I hope you'll find some of it mildly entertaining.
+    This post was published much later than expected due to the COVID-19 pandemic. While there's nothing here to bring you comfort, I hope you'll find some of it mildly entertaining.
   </i>
 </div>
 
@@ -61,9 +61,12 @@ So it all boils down to making domains more explicit about what things **are** (
 // embedding validation in the type itself (object oriented style)
 type Email private (s:string) = class end with
     static member Validate = function
-    | s when String.IsNullOrWhiteSpace s -> Error "input is empty"
-    | s when Regex.IsMatch(s, "[^\w-+_.@]") -> Error "input contains control characters"
-    | s when Regex.IsMatch(s, "^[^@]+@\w+.\w+$") -> Ok (Email(s))
+    | s when String.IsNullOrWhiteSpace s ->
+      Error "input is empty"
+    | s when Regex.IsMatch(s, "[^\w-+_.@]") ->
+      Error "input contains control characters"
+    | s when Regex.IsMatch(s, "^[^@]+@\w+.\w+$") ->
+      Ok (Email(s))
     | _ -> Error "invalid email"
     member x.Value = s
 ```
@@ -92,4 +95,4 @@ match result with
 
 ## There will be blocks
 
-There's not a lot of code in this article, and it's not particularly good code either. The next one will have more and better code, but hopefully it's enough to illustrate the concept of designing with types. If you enjoyed it please consider retweeting [this article's tweet](http://twitter.com/fishyrock) to support the blog!
+There's not a lot of code in this article, and it's not particularly good code either. The next one will have more and better code, but hopefully it's enough to illustrate the concept of designing with types. If you enjoyed it please consider retweeting [this article's tweet](https://twitter.com/fishyrock/status/1247101237935423488) to support the blog!
