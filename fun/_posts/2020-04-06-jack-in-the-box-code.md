@@ -15,7 +15,7 @@ image: /assets/2020/jack-in-the-box.png
   </i>
 </div>
 
-In my [previous article](/fun/_posts/2020-03-04-these-arent-the-types.md) I explained why it's time to move away from using `string` to define things in your code just because they're meant to contain text. That article was more of an appetizer, most of what matters is repeated here so feel free to continue reading even if you haven't read the previous one.
+In my [previous article](/fun/_posts/2020-03-04-these-arent-the-types.md) I explained why it's time to move away from using `string` as the type of things in your code just because they're meant to contain text. That article was more of an appetizer, most of what matters is repeated here so feel free to continue reading even if you haven't read the previous one.
 
 ## Jack-in-the-box, the toy
 
@@ -23,7 +23,7 @@ Jack-in-the-box is a 14th-century children's toy that looks like a box with a cr
 
 ## Jack-in-the-box, the code
 
-I like to think of loosely typed variables — such as an email field typed as `string` — as little jacks-in-the-box in your code. Most of the time the box plays a beautiful song, but turn that crank for long enough and you hit an edge case, and a nasty exception springs out of the box. After all that's why you take your laptop when going on vacation.
+I like to think of loosely typed variables — such as an email field typed as `string` — as little jacks-in-the-box in your code. Most of the time the box plays a beautiful song, but turn that crank for long enough and you hit an edge case, and a nasty exception springs out of the box that email string turned out to be an empty string. After all that's why you take your laptop when going on vacation.
 
 ## Your vacation deserves better
 
