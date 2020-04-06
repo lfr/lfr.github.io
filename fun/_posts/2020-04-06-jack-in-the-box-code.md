@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: Stop writing jack-in-the-box code
 summary: >-
