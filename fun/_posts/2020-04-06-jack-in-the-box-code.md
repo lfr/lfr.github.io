@@ -23,7 +23,7 @@ Jack-in-the-box is a 14th-century children's toy that looks like a box with a cr
 
 ## Jack-in-the-box, the code
 
-I like to think of loosely typed variables — such as an email field typed as `string` — as little jacks-in-the-box in your code. Most of the time the box plays a beautiful song, but turn that crank for long enough and you hit an edge case, and a nasty exception springs out of the box that email string turned out to be an empty string. After all that's why you take your laptop when going on vacation.
+I like to think of loosely typed variables — such as an email field typed as `string` — as little jacks-in-the-box in your code. Most of the time the box plays a beautiful song, but turn that crank for long enough and you hit an edge case, and a nasty exception springs out of the box because that email string turned out to be an empty string. After all that's why you take your laptop when going on vacation.
 
 ## Your vacation deserves better
 
