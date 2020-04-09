@@ -27,13 +27,17 @@ I like to think of loosely typed variables — such as an email field typed as `
 
 ## Your vacation deserves better
 
-Just like the better quality versions of jack-in-the-box, invalid content in your domain usually breaks at unexpected places. This is not a problem with your architecture. Most (if not all) your code assumes that an email field is not an empty string, is not multiline, does not contain spaces, etc, because assuming the opposite means validating everywhere which is just not realistic. Of course you can just validate the known entry points such as user input, but start adding shady APIs and morally flexible document DBs into the mix, and soon enough you'll have more "validation" code than "code" code in your solution.
+Just like the better quality versions of jack-in-the-box, invalid content in your domain usually breaks at unexpected places. This is not a problem with your architecture. Most (if not all) your code assumes that an email field is not an empty string, is not multiline, does not contain spaces, etc, because assuming the opposite means validating everywhere which is just not realistic.
+
+Of course you can just validate the known entry points such as user input, but start adding shady APIs and morally flexible document DBs into the mix, and soon enough you'll have more "validation" code than "code" code in your solution.
 
 ## Goodbye Jack, you won't be missed
 
 Saying goodbye to Jack is easy, and it even has a name, it's called **making illegal states unpresentable**. It's a mouthful, but as far as mouthfuls go, it's one of the most important ones I've come across. It means that if a thing is not supposed to be a different thing, design your domain so it can't possibly be that different thing.
 
-Think about it, you type integer fields as `int` and text fields as `string` precisely so that integer doesn't turn out to be a string when you need to use it. But why settle for this rudimentary safety. If an email is always different than a country code field, why give them the same type. They are different types in real life, it's time for them to be different types in your code. Don't just do it in the one place where you expect errors, do it everywhere. A string is never a string. Look closely and that endpoint that expects a string probably actually expects a string no longer than 32,768 characters with no tabs, so why use `string` when there's a readily available `32KnoTabString` type for you to use, or at least there will be after you create it.
+Think about it, you type integer fields as `int` and text fields as `string` precisely so that integer doesn't turn out to be a string when you need to use it. But why settle for this rudimentary safety. If an email is always different than a country code field, why give them the same type. They are different types in real life, it's time for them to be different types in your code.
+
+Don't just do it in the one place where you expect errors, do it everywhere. A string is never a string. Look closely and that endpoint that expects a string probably actually expects a string no longer than 32,768 characters with no tabs, so why use `string` when there's a readily available `32KnoTabString` type for you to use, or at least there will be after you create it.
 
 ## Ok, it requires *some* code
 
