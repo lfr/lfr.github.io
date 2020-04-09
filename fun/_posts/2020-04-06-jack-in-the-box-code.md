@@ -41,7 +41,9 @@ Don't just do it in the one place where you expect errors, do it everywhere. A s
 
 ## Ok, it requires *some* code
 
-So the idea is to create types. **Lots** of types. Creating lots of types might not sound appealing depending on your programming language of choice, but this is absolutely a language limitation, not a technical one. This is how little code is necessary to declare a new type that represents non empty strings in [F#](http://fsharp.org), ready to replace all your strings that were probably never meant to be empty anyway. Good riddance.
+So the idea is to create types. **Lots** of types. Creating lots of types might not sound appealing depending on your programming language of choice, but this is absolutely a language limitation, not a technical one.
+
+This is how little code is necessary to declare a new type that represents non empty strings in [F#](http://fsharp.org), ready to replace all your strings that were probably never meant to be empty anyway. Good riddance.
 
 ```fsharp
 // Non-empty string, single-case union style
