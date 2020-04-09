@@ -86,7 +86,7 @@ Note that here a conscious choice was made to have more validation cases than ne
 These types require some care. Remember, we got rid of jack-in-the-box, but we still have a box, and we still don't know what's in it until we open it. Call it an *appropriately labeled container*. Or call it `Result`. You may still find `Result` less convenient to use than `string` bindings, but consider the following two things:
 
 1. `Result` will never blow up in your face (this is a good thing)
-2. Functional languages have things that start with 'M...' but shall not be named that allow you to write almost exactly the same code that you would when using strings, but with none of the blowing up in your face inconvenience (also a good thing)
+2. Functional languages have things that start with 'M...' but shall not be named that allow you to write almost exactly the same code that you would using strings (also a good thing)
    
 I'm not going to go deeper into the topic of `Result`, it's a huge topic and beyond the scope of this article. For now we'll just use a plain old match expression (POME) to unpack that box. Turns out this particular one would've blown up in our face. Bloody linebreakers...
 
