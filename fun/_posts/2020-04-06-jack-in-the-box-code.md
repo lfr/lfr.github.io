@@ -57,7 +57,9 @@ type ActualText = private ActualText of string with
 // Meant to illustrate the point above, it's not particularly good code
 ```
 
-While this is more verbose than not declaring anything and using strings everywhere, think of all the exceptions these 5 lines of code prevent, and all the content-checking and validation code they render useless. It's usually cheaper (both in lines of code and in potential errors) to fix the problem at the source, and the source is your domain — where you define what a thing is.
+While this is more verbose than not declaring anything and using strings everywhere, think of all the exceptions these 5 lines of code prevent, and all the content-checking and validation code they render useless.
+
+It's usually cheaper (both in lines of code and in potential errors) to fix the problem at the source, and the source is your domain — where you define what a thing is.
 
 ## Tell it like it isn't
 
