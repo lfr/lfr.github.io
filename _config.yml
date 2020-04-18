@@ -13,9 +13,9 @@ baseurl:          ""
 
 author:
   name:           'Luis Ferrao'
-  url:            https://twitter.com/fishyrock
+  url:            https://twitter.com/lastIuis
 
-paginate:         1
+paginate:         3
 
 # Custom vars
 version:          1.0
