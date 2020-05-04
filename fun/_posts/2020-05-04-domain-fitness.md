@@ -81,7 +81,7 @@ While I won't deep dive into `FSharp.ValidationBlocks` in this article, I believ
 ```
 
 1. `Email` is a single-case single-field union with a private constructor, so it cannot exist by directly calling the constructor, this ensures that if you have an email anywhere in your code it **has been validated**.
-2. This interface identifies the `Email` union type as a ValidationBlock of string having an error type of `TextError`, which is just an enumeration of all possible text validation errors somewhere in your project. This interface has little to do with OO interfaces, it's just here for declarative purposes. In real world examples, I abbreviate this interface to just `TextBlock` because you'll refer to it whenever you declare new blocks but never elsewhere.
+2. This interface identifies the `Email` union type as a ValidationBlock of string having an error type of `TextError`, which is just an enumeration of all possible text validation errors somewhere in your project. This interface has little to do with OO interfaces, it's just here for declarative purposes. In real world examples, I abbreviate this interface to just `TextBlock` because it's mentioned whenever new string type blocks are declared but never elsewhere.
 3. In addition to identifying the `Email` union type as a validation block, the interface above also enforces the declaration of the validating function that has the following signature: `'primitive -> 'error list`, or in our concrete example: `string -> TextError list`.
 4. The actual validation rule is a trivial function that enumerates a list of simple predicates and the errors that each yields. There's operators to somewhat simplify this syntax but they're completely optional.
 
