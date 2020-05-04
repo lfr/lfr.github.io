@@ -120,4 +120,4 @@ In the next article I'll go through a complete example but in the meantime remem
 
 ## Feedback & more
 
-If you enjoyed this article or have any comments please consider retweeting or replying to [this article's tweet](https://twitter.com/luislikeIewis/status/1247580130328940544), it's very appreciated.
+If you enjoyed this article or have any comments please consider retweeting or replying to [this article's tweet](https://twitter.com/luislikeIewis/status/1257298328066445312), it's very appreciated.
