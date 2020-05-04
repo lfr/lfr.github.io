@@ -31,7 +31,7 @@ Declaring such a type carries some verbosity cost of course, so you'll probably 
 
 There's a cost, but it's not a net cost, it's more like a trade. Think about it this way: for your app to function correctly when declaring text fields as strings, you'll be doing that validation somewhere else, likely requiring similar amount of code.
 
-What's more, when debugging illegal states you may be tempted to add extra error handling code to swipe the problem under the rug. No judgement, we've all done it, for some reason errors don't always happen at a convenient time for you to perform a complete differential diagnosis.
+What's more, when debugging illegal states you may be tempted to add extra error handling code to swipe the problem under the rug. No judgement, we've all done it, errors don't always happen at a convenient time for you to perform a complete differential diagnosis.
 
 ![Dr House](/assets/2020/house.gif)
 
