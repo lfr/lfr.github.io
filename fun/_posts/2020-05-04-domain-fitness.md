@@ -37,7 +37,9 @@ What's more, when debugging illegal states you may be tempted to add extra error
 
 ## Time for domain fitness
 
-So this domain bloat is worth it, but that doesn't mean we should stand idle while our once-elegant domains get fatter and fatter, especially when it can be avoided. While designing with types will never *ever* enjoy the brevity of designing with strings, [there's ways](https://github.com/lfr/FSharp.ValidationBlocks) to dramatically reduce the amount of code that it requires. Judge for yourself, here's a type from my previous article:
+So this domain bloat is worth it, but that doesn't mean we should stand idle while our once-elegant domains get fatter and fatter, especially when it can be avoided.
+
+While designing with types will never *ever* enjoy the brevity of designing with strings, [there's ways](https://github.com/lfr/FSharp.ValidationBlocks) to dramatically reduce the amount of code that it requires. Judge for yourself, here's a type from my previous article:
 
 ```fsharp
 // Object oriented style Email type with embedded validation
