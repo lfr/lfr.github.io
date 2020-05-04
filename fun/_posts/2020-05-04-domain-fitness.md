@@ -62,7 +62,7 @@ type Email = private Email of Text
       fun s -> Regex.IsMatch(s, "^[^@]+@\w+.\w+$") => InvalidEmail
 ```
 
-There's a lot to unpack here, but I the point is clear, the code required to create types with embedded validation can be reduced.
+There's a lot to unpack here, but the point is clear, the code required to create types with embedded validation can be significantly reduced.
 
 ## Let's dissect that Email type 🧐
 
