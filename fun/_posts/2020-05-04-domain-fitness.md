@@ -15,7 +15,7 @@ image: /assets/2020/domain-fitness.jpg
   </i>
 </div>
 
-In my [previous article](/fun/2020/04/06/jack-in-the-box-code) I wrote some uninspired but effective code that illustrates how custom types can be easily added to your domain to replace strings, requiring some additional type declaration code but resulting in a more robust solution with less validation and error handling code.
+In my [previous article](/fun/2020/04/06/jack-in-the-box-code/) I wrote some uninspired but effective code that illustrates how custom types can be easily added to your domain to replace strings, requiring some additional type declaration code but resulting in a more robust solution with less validation and error handling code.
 
 ## Trust me, it's a thing
 

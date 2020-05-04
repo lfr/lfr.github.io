@@ -24,15 +24,15 @@ title: Home
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Previous post</a>
   {% else %}
-    <span class="pagination-item older">Previous post</span>
+    <span class="pagination-item older">Previous posts</span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Next post</a>
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Next posts</a>
     {% else %}
       <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Next post</a>
     {% endif %}
   {% else %}
-    <span class="pagination-item newer">Next post</span>
+    <span class="pagination-item newer">Next posts</span>
   {% endif %}
 </div>

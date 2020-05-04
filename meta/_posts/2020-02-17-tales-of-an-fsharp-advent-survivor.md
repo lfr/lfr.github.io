@@ -8,7 +8,7 @@ image: /assets/2020/advent-survivor.jpg
 ---
 ![splash](/assets/2020/advent-survivor.jpg)
 
-Last Xmas I introduced **FSharp.ValidationBlocks**, a tiny F# library with huge aspirations. Looking back at [that post](/2019/12/19/advent-validation-blocks/) (please don't), I feel like I did a very poor job at conveying how exciting this library should be to anyone creating a model in F#.
+Last Xmas I introduced **FSharp.ValidationBlocks**, a tiny F# library with huge aspirations. Looking back at [that post](/meta/2020/02/17/tales-of-an-fsharp-advent-survivor/) (please don't), I feel like I did a very poor job at conveying how exciting this library should be to anyone creating a model in F#.
 
 ## The *type*, that unsung hero
 
