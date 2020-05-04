@@ -15,7 +15,7 @@ image: /assets/2020/jack-in-the-box.png
   </i>
 </div>
 
-In my [previous article](/fun/_posts/2020-03-04-these-arent-the-types.md) I explained why it's time to move away from using `string` as the type of things in your code just because they're meant to contain text. That article was more of an appetizer, most of what matters is repeated here so feel free to continue reading even if you haven't read the previous one.
+In my [previous article](/fun/2020/03/04/these-arent-the-types) I explained why it's time to move away from using `string` as the type of things in your code just because they're meant to contain text. That article was more of an appetizer, most of what matters is repeated here so feel free to continue reading even if you haven't read the previous one.
 
 ## Jack-in-the-box, the toy
 
