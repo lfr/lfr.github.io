@@ -19,7 +19,7 @@ In my [previous article](/fun/2020/04/06/jack-in-the-box-code/) I wrote some uni
 
 ## Trust me, it's a thing
 
-Creating such types and defining your domain with them instead of strings is sometimes referred to **designing your domain with types**. *Type* here implies it's a type that you create for that specific thing in your domain, complete with the validation that prevents it from ever existing with invalid content.
+Creating such types and defining your domain with them instead of strings is sometimes referred to as **designing your domain with types**. *Type* here implies a type that you create for that specific thing in your domain, complete with the validation that prevents it from ever existing with invalid content.
 
 ## Your last name is not any string
 
