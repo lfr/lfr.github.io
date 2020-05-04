@@ -15,12 +15,16 @@ pre.highlight {
     white-space: pre;
 }
 
-/* markdown default image style */
+/* splash image style */
 img[alt="splash"] {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+}
+
+li {
+    margin-bottom: 1rem;
 }
 
 
