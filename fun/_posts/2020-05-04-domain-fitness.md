@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Put your F# domain on a diet
 summary: >-
-  Do this one thing for instant domain weight loss!!!! 🤩🤫🤭
+  Do this one thing for instant domain weight loss!!! 🤩🤫🤭
 image: /assets/2020/domain-fitness.jpg
 ---
 
@@ -11,7 +11,7 @@ image: /assets/2020/domain-fitness.jpg
 
 <div class="message">
   <i>
-    In this post often mention strings, but everything's applicable to any scalar type, not just strings.
+    In this post I often mention strings, but everything's applicable to any scalar type, not just strings.
   </i>
 </div>
 
