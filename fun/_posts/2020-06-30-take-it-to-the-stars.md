@@ -9,11 +9,11 @@ image: /assets/2020/take-it-to-the-stars.png
 
 ![splash](/assets/2020/take-it-to-the-stars.png)
 
-Some developers carefully design domains that perfectly reflect current business constraints, while others prefer to hammer away code that just works, letting whatever domain arise from their uninterrupted stream of consciousness. Regardless of your style, if you're going to take your F# spaceship to the stars, you'll need an airtight domain.
+Some developers carefully design domains that perfectly reflect current business constraints, while others prefer to hammer away code that just works, letting whatever domain arise from their uninterrupted but hopefully functional stream of consciousness. Regardless of your style, you'll need an airtight domain if you're going to take your F# starship to the stars.
 
-If you've followed this series you may be expecting this article to target the first type of developer above, but read on and you'll soon notice that we get to coding without much analysis, only delving into deeper considerations after a decent warm-up, and even then never straying too far off the beaten path.
+If you've followed this series you may be expecting this article to target the first type of developer above, but read on and you'll soon notice that we get to coding fast without much analysis, only delving into deeper considerations after a decent warm-up, and even then never straying too far off the beaten path.
 
-Some devs like to contemplate a whiteboard and think real hard before they drop the first line of code, and that's perfectly fine, this article however is for devs who just want to code.
+No whiteboards, no conceptual models, this article is for devs who just want to code.
 
 ## The right tool for the job
 
@@ -145,7 +145,7 @@ Declaring a block is straightforward but let's break it down. The first line giv
 1. type FreeText = private FreeText of string (* with *)
 ```
 
-Since this is a base or foundation block, its underlying type is the non-block primitive type `string`. All our other blocks will be built on another block as opposed to `string`.
+Since this is our first block, its underlying type is the primitive type `string`. All our additional blocks will be built on other blocks as opposed to `string`. This will be our only primordial block so to speak.
 
 At the moment this type is just a regular F# single-case union, so next we specify that it's a validation block of `string` by using the interface defined above:
 
