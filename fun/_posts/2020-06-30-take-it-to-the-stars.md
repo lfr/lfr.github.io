@@ -19,7 +19,7 @@ Some devs like to contemplate a whiteboard and think real hard before they drop 
 
 [FSharp.ValidationBlocks](https://github.com/lfr/FSharp.ValidationBlocks) is a library maintained by yours truly that dramatically reduces the amount of code necessary to create safe domains, the importance of which I've already extensively covered in the previous posts. In this one we'll use validation blocks to create the ubiquitous user profile object.
 
-Additionally, I'll be using two other libraries: `Humanizer` to de-pascalize strings, and `FsToolkit.ErrorHandling` to handle results with computation expressions which are easier to read. Both libraries are completely optional and only used to simplify the demo code, so that we can focus on the domain-specific concepts.
+Additionally, I'll be using two other libraries: [Humanizer](https://github.com/Humanizr/Humanizer) to de-pascalize strings, and [FsToolkit.ErrorHandling](https://github.com/demystifyfp/FsToolkit.ErrorHandling) to handle results with computation expressions which are easier to read. Both libraries are completely optional and only used to simplify the code, so that we can focus on domain-specific concepts.
 
 ```fsharp
 // not much to see here
@@ -30,7 +30,7 @@ open FsToolkit.ErrorHandling.ResultCE
 open Humanizer
 ```
 
-Finally, I'll also create a `todo` type, this is great to create types that *simply exist* without figuring out what they should be or do. Using the `Obsolete` attribute ensures that all my yet-to-be-defined types are properly tracked as warnings:
+Finally, I'll also create a `todo` type, this is very useful to create types that *simply exist* without figuring out what they should be or do. Using the `Obsolete` attribute ensures that all my yet-to-be-defined types are properly tracked as warnings:
 
 ```fsharp
 [<Obsolete("This type is not implemented yet.")>]
@@ -39,10 +39,13 @@ type todo = unit
 
 ## Let's get started
 
-Imagine you need a user profile entity capable of storing a username along with the user's full name, email, twitter handle, phone number and a multi-line bio. Many domains need a similar object, which is why I've chosen to use it for this example, but you can apply these ideas to any object that you need to create. This particular one could easily be defined like this:
+Imagine you need a user profile entity capable of storing a username along with the user's full name, email, twitter handle, phone number and a multi-line bio.
+
+Many domains need a similar object, which is why I've chosen to use it for this example, but you can apply these ideas to any object that you need to create. This particular one could easily be defined like this:
 
 ```fsharp
-// this user profile is unsafe, don't take it to space
+// this user profile is unsafe
+// don't take it to space!
 type UserProfile =
     {
         Username: string
@@ -55,11 +58,11 @@ type UserProfile =
     }
 ```
 
-This could do the job, but if you've been following the series, defining all of these fields as `string` is [far from ideal](https://functionalfunsies.com/fun/2020/03/04/these-arent-the-types/). For starters only the `bio` field accepts line returns - a rule that isn't anywhere in this definition - so we're going to start over with the goal of creating a domain that both states **and** enforces any of such constraints.
+This could do the job, but if you've been following the series, defining all of these fields as `string` is [far from ideal](https://functionalfunsies.com/fun/2020/03/04/these-arent-the-types/). For starters only the `Bio` field accepts line returns — a rule that isn't anywhere in this definition — so we're going to start over with the goal of creating a domain that both states **and** enforces any of such constraints.
 
 ## Say no to analysis paralysis
 
-Declaring everything as string is easy but wrong, on the other hand defining a full domain stating all possible constraints seems like a painstakingly sluggish endeavor. My advice is to just start coding your heart out and craft your domain structure first and constraints later.
+Declaring everything as string is easy but wrong, on the other hand defining a full domain stating all possible constraints seems like a painstakingly sluggish endeavor. My advice is to just start coding your heart out and build your domain structure first and constraints later.
 
 In the user profile example, instead of trying to figure out exactly what each member's definitive type will be, we'll just create a whole bunch of placeholder types that we'll refine later:
 
@@ -102,7 +105,7 @@ It's true that the refining part takes more time, but having the skeleton of the
 
 ## Final preparations
 
-Being [ROP](https://fsharpforfunandprofit.com/rop/) based, validation blocks rely on the `Result` object, which expects an error type. Since we haven't created any validation yet, we don't know any of our error types, but we already know we don't want empty strings anywhere so creating an error for these is a usually a great place to start:
+Being [ROP](https://fsharpforfunandprofit.com/rop/) based, validation blocks make use of the `Result` union, which expects an error type. Since we haven't created any validation yet, we don't know any of our errors, but we already know we don't want empty strings anywhere so creating an error for these is a usually a great place to start:
 
 ```fsharp
 // don't strain a neuron over this one either
@@ -121,18 +124,22 @@ With the basic shape of our user profile, an error type, and this interface, we'
 
 ## Let the fun begin
 
-Blocks are built on top of blocks, so we we should always start with more general purpose ones. **We don't want any blocks to contain empty strings**, if a field is optional we'll explicitly use F#'s `option` type. Since this rule is universal, it's a great candidate for our most basic block, the block that accepts anything (as long as it's *something*). We'll call it `FreeText`:
+Blocks are built on top of blocks, so we we should always start with more general purpose ones. **We don't want any blocks to contain empty strings**, if a field is optional we'll explicitly use F#'s `option` type.
+
+Since this rule is universal, it's a great candidate for our most basic block, the block that accepts anything — as long as it's *something*. We'll call it `FreeText`:
 
 ```fsharp
 type FreeText = private FreeText of string with
   interface TextBlock with
     member _.Validate =
-      fun s -> [if String.IsNullOrWhiteSpace s then IsMissingOrBlank]
+      fun s -> [
+     	if String.IsNullOrWhiteSpace s then
+      	  IsMissingOrBlank]
 ```
 
 #### The 3 easy steps of block definition
 
-Declaring a block is straightforward but let's break it down. The first line gives it a name, makes its constructor private - blocks are **never** meant to be created directly - and finally defines the underlying type:
+Declaring a block is straightforward but let's break it down. The first line gives it a name, makes its constructor private — blocks are **never** meant to be created directly — and finally defines the underlying type:
 
 ```fsharp
 1. type FreeText = private FreeText of string (* with *)
@@ -150,7 +157,9 @@ Finally the interface forces us to implement the `Validate` member, which is sim
 
 ```fsharp
 3. member _.Validate =
-      fun s -> [if String.IsNullOrWhiteSpace s then IsMissingOrBlank]
+      fun s -> [
+        if String.IsNullOrWhiteSpace s then
+          IsMissingOrBlank]
 ```
 
 As you can see, creating blocks couldn't be easier which is exactly the point of this library. As you'll see later, using these blocks is just as straightforward, but for now let's get back to our code.
@@ -180,7 +189,8 @@ Note that all our blocks reject empty strings, but instead of adding this extra 
 type Text = private Text of FreeText with
   interface TextBlock with
     member _.Validate =
-      fun s -> [if Regex.IsMatch(s, "[\t\n]") then
+      fun s -> [
+        if Regex.IsMatch(s, "[\t\n]") then
           ContainsControlCharacters]
 ```
 
