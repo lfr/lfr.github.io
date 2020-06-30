@@ -364,9 +364,9 @@ Block.value profile.Email // returns the email string
 
 Validation blocks truly shine when they're actively keeping invalid data from your domain, so in order to see it in action, we'll attempt to create one with all sorts of errors.
 
-Since attempting to create blocks with invalid content generates meaningful errors, in a user interface you can imagine displaying a prettified version of the error next to a text box for instance.
+Since attempting to create blocks with invalid content generates meaningful errors, in a user interface you can imagine displaying a prettified version of the error next to a text box.
 
-In this article however we don't have that luxury, so in order to see the outcome of attempting to create a user profile with both invalid and then valid content we'll create a function called `check`that takes the name of the thing being checked and returns exactly the same result as the `Block.validate` introduced above, but also prints out any errors that may occur during validation. Since `check` is the same as `Block.validate` I'll skip the details of its implementation for now.
+In this article however we don't have that luxury, so in order to see the outcome of attempting to create a user profile with both invalid and then valid content we'll create a function called `check`that takes the name of the thing being checked and returns exactly the same result as the `Block.validate` introduced above, but also prints out any errors that may occur during validation. Since `check` is the same as `Block.validate` I'll skip the details for now.
 
 We'll also create a function `print` that dumps a result if `Ok`:
 
@@ -531,4 +531,4 @@ Having an airtight domain brings a refreshing amount of extra confidence in the 
 
 ## Feedback & more
 
-If you enjoyed this article or have any comments please consider retweeting or replying to [this article's tweet](https://twitter.com/luislikeIewis/status/1257298328066445312), it's very appreciated.
+If you enjoyed this article or have any comments please consider retweeting or replying to [this article's tweet](https://twitter.com/luislikeIewis/status/1278060914797957122), it's very appreciated.
