@@ -4,10 +4,10 @@ layout: post
 title: Take F# to the stars
 summary: >-
   Trust that your airtight domain will keep you safe
-image: 2020-06-30-take-it-to-the-stars.assets/splash.png
+image: /assets/2020/take-it-to-the-stars.png
 ---
 
-![splash](2020-06-30-take-it-to-the-stars.assets/splash.png)
+![splash](/assets/2020/take-it-to-the-stars.png)
 
 Some developers carefully design domains that perfectly reflect current business constraints, while others prefer to hammer away code that just works, letting whatever domain arise from their uninterrupted stream of consciousness. Regardless of your style, if you're going to take your F# spaceship to the stars, you'll need an airtight domain.
 
@@ -96,7 +96,7 @@ Just like before, we're not aiming for a 100% of the final definition here.
 
 You may have noticed a pattern: contrary to popular belief, designing with types doesn't have to be a slow meticulous effort from beginning to end. It's more like stone carving - we start with the rough outline of the shape of our object and subsequently carve out the details.
 
-![Designing with types is like stone carving](2020-06-30-take-it-to-the-stars.assets/carving.png)
+![Designing with types is like stone carving](/assets/2020/stone-carving.png)
 
 It's true that the refining part takes more time, but having the skeleton of the final object in place allows us to work on small chunks of well defined scope by the time we get to the more analysis-intensive part.
 
