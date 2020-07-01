@@ -105,7 +105,7 @@ It's true that the refining part takes more time, but having the skeleton of the
 
 ## Final preparations
 
-Being [ROP](https://fsharpforfunandprofit.com/rop/) based, validation blocks make use of the `Result` union, which expects an error type. Since we haven't created any validation yet, we don't know any of our errors, but we already know we don't want empty strings anywhere so creating an error for these is a usually a great place to start:
+Being [ROP](https://fsharpforfunandprofit.com/rop/), validation blocks make use of the `Result` union, which expects an error type. Since we haven't created any validation yet, we don't know any of our errors, but we already know we don't want empty strings anywhere so creating an error for these is usually a good place to start:
 
 ```fsharp
 // don't strain a neuron over this one either
