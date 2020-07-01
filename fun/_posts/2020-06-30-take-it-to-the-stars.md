@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Take F# to the stars
 summary: >-
-  Trust that your airtight domain will keep you safe
+  Your airtight domain will keep you safe
 image: /assets/2020/take-it-to-the-stars.png
 ---
 
