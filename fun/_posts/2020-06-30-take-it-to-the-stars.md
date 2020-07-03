@@ -537,4 +537,4 @@ Having an airtight domain brings a refreshing amount of extra confidence in the 
 
 ## Feedback & more
 
-If you enjoyed this article or have any comments please consider [following me](https://twitter.com/intent/user?screen_name=LuisLikeIewis), retweeting or replying to [this article's tweet](https://twitter.com/luislikeIewis), it's very appreciated.
+If you enjoyed this article or have any comments please consider [following me](https://twitter.com/intent/user?screen_name=LuisLikeIewis), or retweeting or replying to [this article's tweet](https://twitter.com/luislikeIewis/status/1278060914797957122), it's very appreciated.
