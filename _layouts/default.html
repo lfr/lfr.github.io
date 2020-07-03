@@ -27,9 +27,6 @@
   <script>
     $('div.post a')
       .not('[rel="footnote"], [rev="footnote"]')
-      .html(function(i, str) {
-        return str.replace(/ /g,'&nbsp;');
-      })
       .attr('target','_blank');
   </script>
 
