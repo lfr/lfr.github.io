@@ -11,7 +11,7 @@ image: /assets/2020/take-it-to-the-stars.png
 
 <div class="message">
   <i>
-    Since this article took off like the rocket above I'll be posting a commemorative article to celebrate an upcoming milestone, it'll be very different from my previous articles but you can look for it <a href="http://twitter.com/intent/user?screen_name=LuisLikeIewis" target="_blank">in the usual place</a>. Enjoy the read!
+    Since this article took off like the rocket above I'll be posting a commemorative article to celebrate an upcoming milestone. It'll be very different from my previous articles but you can look for it <a href="http://twitter.com/intent/user?screen_name=LuisLikeIewis" target="_blank">in the usual place</a>. Enjoy the read!
   </i>
 </div>
 
