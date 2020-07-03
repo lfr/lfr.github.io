@@ -93,7 +93,7 @@ I'm aware the above code even with line by line explanations may raise more ques
 2. How do you access its value?
 3. What's the `Text` type in `Email of Text`?
 4. Where did the empty string check go?
-  
+
 All valid questions so let's go through them one by one:
 
 1. **How do you create an Email block?**
@@ -111,7 +111,7 @@ All valid questions so let's go through them one by one:
 4. **Where did the empty string check go?**
 
    There's no need to explicitly check for empty strings because `Text` can never be empty
-  
+
 ## Enough explanations, let me see more code
 
 Patience grasshopper, there's a lot here to digest. Introducing a completely different but ultimately leaner way to designing with types in F# is a domain fitness journey that takes time but will inevitably make your domain both more enjoyable to create and to maintain.
