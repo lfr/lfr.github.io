@@ -21,3 +21,7 @@ paginate:         3
 version:          1.0
 
 theme: jekyll-theme-hacker
+
+#plugins
+plugins:
+  - jekyll-target-blank
