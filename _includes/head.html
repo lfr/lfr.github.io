@@ -68,4 +68,15 @@
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+  <script>
+    // prevent line-breaks in links and make open in new tab
+    $('div.article_body a')
+      .not('[rel="footnote"], [rev="footnote"]')
+      .html(function(i, str) {
+        return str.replace(/ /g,'&nbsp;');
+      })
+      .attr('target','_blank');
+  </script>
+
 </head>
