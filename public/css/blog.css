@@ -72,12 +72,11 @@ html {
 
 /* About section */
 .sidebar-about h1 {
-    /* color: #fff;*/
     /* margin-top: 0;*/
     font-weight: normal;
     font-family: arial, helvetica, sans-serif;
-    font-size: 1.5rem; /* 3.25rem */
-    /* letter-spacing: .1rem;  
-    font-variant: small-caps; */
+    font-size: 1.5rem;
+    word-spacing: -.25rem;
+    white-space: nowrap;
 }
 
