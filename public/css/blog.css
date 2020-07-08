@@ -74,7 +74,7 @@ html {
 .sidebar-about h1 {
     /* color: #fff;*/
     /* margin-top: 0;*/
-    font-family: "Inconsolata", Roboto, Menlo;
+    font-family: arial, helvetica, sans-serif;
     font-size: 1.5rem; /* 3.25rem */
     letter-spacing: .1rem;  
     font-variant: small-caps;
