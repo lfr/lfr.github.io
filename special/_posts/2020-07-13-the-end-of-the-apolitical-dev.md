@@ -42,7 +42,7 @@ If both sides abide by this, statistically a small fraction of these engagements
 
 Hate isn't just racism and discrimination, any kind of behavior that pushes people apart, such as mocking different opinions, heavy-handed use of sarcasm, bringing the attention of a hostile audience to someone's tweet, replying with funny or clever tweets that can only ever make one side laugh, all of these are their own form of hate.
 
-We need to be able to recognize hate whenever we see it because hate is a fire that can only be extinguished on all fronts simultaneously. If you only recognize and condemn one type of hate, you're just fanning the flames, if you condemn both, you're actually fighting the fire.
+We need to recognize hate whenever we see it because hate is a fire that can only be extinguished on all fronts simultaneously. If you only recognize and condemn one type of hate, you're just fanning the flames, if you condemn both, you're actually fighting the fire.
 
 ## But I'm apolitical!
 
