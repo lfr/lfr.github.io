@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The end of the apolitical developer
 summary: >-
-  This is my first commemorative post celebrating 128 twitter followers
+  This is my first commemorative post celebrating 128 followers
 image: /assets/2020/apolitical-dev.jpg
 ---
 
