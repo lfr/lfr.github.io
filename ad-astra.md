@@ -1,7 +1,9 @@
 ---
 layout: page
-title: F# ΛD ΛSTRΛ
+title: Ad Astra series
 ---
+
+For your convenience all 4 articles in the "Take F# to the stars" series can be found below:
 
 <div class="posts">
   
@@ -26,9 +28,7 @@ title: F# ΛD ΛSTRΛ
     
     <a href="/fun/2020/04/06/jack-in-the-box-code/"><img src="/assets/2020/jack-in-the-box.png" alt="splash"></a>
 
-    <div>
-        Most of the time your code works. Some of the time it blows up in your face. It's time to stick to the first scenario.
-    </div>
+    Most of the time your code works. Some of the time it blows up in your face. It's time to stick to the first scenario.
     
   </div>
 
@@ -39,7 +39,7 @@ title: F# ΛD ΛSTRΛ
       </a>
     </h1>
     
-    <a href=/fun/2020/05/04/domain-fitness/"><img src="/assets/2020/domain-fitness.jpg" alt="splash"></a>
+    <a href="/fun/2020/05/04/domain-fitness/"><img src="/assets/2020/domain-fitness.jpg" alt="splash"></a>
     Do this one thing for instant domain weight loss!!! 🤩🤫🤭
 
     
