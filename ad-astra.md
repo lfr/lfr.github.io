@@ -3,7 +3,8 @@ layout: page
 title: Ad Astra series
 ---
 
-For your convenience all 4 articles in the "Take F# to the stars" series can be found below:
+For your convenience all 4 articles in the "Take F# to the stars" series can be found below.
+<p><br></p>
 
 <div class="posts">
   
