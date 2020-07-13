@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Ad Astra series
+title: F# ad astra series
 ---
 
 For your convenience all articles leading to "Take F# to the stars" can be found below.
