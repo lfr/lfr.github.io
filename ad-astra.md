@@ -29,7 +29,7 @@ For your convenience all 4 articles in the "Take F# to the stars" series can be 
     
     <a href="/fun/2020/04/06/jack-in-the-box-code/"><img src="/assets/2020/jack-in-the-box.png" alt="splash"></a>
 
-    Most of the time your code works. Some of the time it blows up in your face. It's time to stick to the first scenario.
+    Most of the time the box plays a beautiful song, but turn that crank for long enough and you will hit an edge case.
     
   </div>
 
