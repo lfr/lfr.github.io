@@ -9,7 +9,7 @@ image: /assets/2020/apolitical-dev.jpg
 
 ![splash](/assets/2020/apolitical-dev.jpg)
 
-I've been witnessing a recent scary trend from developers that I consider pretty close to me on the political spectrum calling for people to  unfollow certain individuals for simply expressing their different opinions, and calling them out for their bigotry. The irony of this cannot be overstated, as *bigotry* literally means intolerance towards those who hold different opinions.
+I've been witnessing a recent scary trend from developers that I consider pretty close to me on the political spectrum calling for people to unfollow certain individuals for simply expressing their different opinions, and calling them out for their bigotry. The irony of this cannot be overstated, as *bigotry* literally means intolerance towards those who hold different opinions.
 
 ## Fight the urge to categorize people
 
