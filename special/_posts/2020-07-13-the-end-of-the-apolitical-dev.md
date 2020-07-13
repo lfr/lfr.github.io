@@ -16,7 +16,7 @@ background: linear-gradient(45deg, rgba(255,204,235,1) 0%, rgba(255,253,204,1) 1
 <br>
 <div class="message">
     <i>
-        I'd like to thank <a href="http://twitter.com/chrsteinert" target="_blank">@chrsteinert</a>, <a href="http://twitter.com/pim_brouwers" target="_blank">@pim_brouwers</a>, and especially <a href="http://twitter.com/SieraSolutions" target="_blank">@SieraSolutions</a> for reading this before it was published. This article has been re-written several times, and whole paragraphs have been dropped to not detract from the core message. I've been told to make it not just about developers, but that's who I am and who I write for, if it can be generalized, that's just incidental.
+        I'd like to thank <a href="http://twitter.com/chrsteinert" target="_blank">@chrsteinert</a>, <a href="http://twitter.com/pim_brouwers" target="_blank">@pim_brouwers</a>, and especially <a href="http://twitter.com/SieraSolutions" target="_blank">@SieraSolutions</a> for reading this before it was published. This article has been re-written several times, and whole paragraphs have been dropped to not detract from the core message. I've been told to make it about anyone not just developers, but that's who I am and who I write for, if it happens to be applicable to anyone that's just incidental.
     </i>
 </div>
 
