@@ -1,9 +1,9 @@
 ---
 published: true
 layout: post
-title: The end of the apolitical developer
+title: The last apolitical developer
 summary: >-
-  This is my first commemorative post celebrating 128 followers
+  The line between conscionable and unconscionable is sometimes thin, but it's important.
 image: /assets/2020/apolitical-dev.jpg
 ---
 
