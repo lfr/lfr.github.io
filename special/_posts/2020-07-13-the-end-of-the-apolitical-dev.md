@@ -9,11 +9,9 @@ image: /assets/2020/apolitical-dev.jpg
 
 <div style="border-radius: .5rem; padding:.5rem;
 background: linear-gradient(45deg, rgba(255,204,235,1) 0%, rgba(255,253,204,1) 12.5%, rgba(205,255,206,1) 25%, rgba(202,255,253,1) 37.5%, rgba(255,210,237,1) 50%, rgba(255,253,205,1) 62.5%, rgba(212,255,212,1) 75%, rgba(204,255,253,1) 87.5%, rgba(255,211,238,1) 100%);;color:#333">
-  <i>
-    This is a commemorative article to celebarate my first 128 twitter followers. That number is tiny, I know, but I only started writing recently and never advertised it to any friends or colleagues, so this is literally 128 strangers that read what I wrote in the last few months and decided to follow me. Thank you. So much. See you at 2^8.
-  </i>
+  This is a commemorative article to celebarate my first 128 twitter followers. That number is tiny, I know, but I only started writing recently and never advertised it to any friends or colleagues, so this is literally 128 strangers that read what I wrote in the last few months and decided to follow me. Thank you. So much. See you at 2^8.
 </div>
-
+<br>
 <div class="message">
     <i>
         I'd like to thank <a href="http://twitter.com/chrsteinert" target="_blank">@chrsteinert</a>, <a href="http://twitter.com/pim_brouwers" target="_blank">@pim_brouwers</a>, and especially <a href="http://twitter.com/SieraSolutions" target="_blank">@SieraSolutions</a> for reading this before it was published and giving me their feedback. This article has been re-written several times, whole paragraphs have been dropped to not detract from the core message. In fact I almost gave up on publishing it altogether. One of the suggestions I received was to not make it about developers since it's not specifically about coding. While this is a valid point, I'm a developer who writes for developers, and if it happens to mostly be applicable to non-devs that's just incidental.
