@@ -88,4 +88,4 @@ For now, just find peace in not being part of the problem, continue to express y
 
 ## Feedback & more
 
-If you've enjoyed this article or have any comments please consider retweeting or replying to [this article's tweet](https://twitter.com/luislikeIewis). Thank you for reading!
+If you've enjoyed this article or have any comments please consider retweeting or replying to [this article's tweet](https://twitter.com/luislikeIewis/status/1282688686535122945). Thank you for reading!
