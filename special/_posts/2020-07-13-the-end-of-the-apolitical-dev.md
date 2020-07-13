@@ -84,3 +84,8 @@ For now, just find peace in not being part of the problem, continue to express y
 ## Feedback & more
 
 If you've enjoyed this article or have any comments please consider retweeting or replying to [this article's tweet](https://twitter.com/luislikeIewis/status/1282688686535122945). Thank you for reading!
+
+<div style="border-radius: .5rem; padding:.5rem;
+background: linear-gradient(45deg, rgba(255,204,235,1) 0%, rgba(255,253,204,1) 12.5%, rgba(205,255,206,1) 25%, rgba(202,255,253,1) 37.5%, rgba(255,210,237,1) 50%, rgba(255,253,205,1) 62.5%, rgba(212,255,212,1) 75%, rgba(204,255,253,1) 87.5%, rgba(255,211,238,1) 100%);;color:#333">
+  This is a commemorative article to celebrate my first 128 followers. That number is tiny I know, but I only started writing recently and never advertised it to any friends or colleagues, so this is literally 128 strangers that read what I wrote in the last few months and decided to follow me. Thank you. So much. See you at 2^8.
+</div>
