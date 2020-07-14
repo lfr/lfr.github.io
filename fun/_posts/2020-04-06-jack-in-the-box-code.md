@@ -1,9 +1,9 @@
 ---
 published: true
 layout: post
-title: Stop writing jack-in-the-box code
+title: Jack-in-the-box code
 summary: >-
-  Most of the time your code works. Some of the time it blows up in your face. It's time to stick to the first scenario.
+  Most of the time the box plays a beautiful song, but turn that crank for long enough and you will hit an edge case
 image: /assets/2020/jack-in-the-box.png
 ---
 
