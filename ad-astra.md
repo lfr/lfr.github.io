@@ -3,7 +3,7 @@ layout: page
 title: F# ad astra series
 ---
 
-For your convenience all articles leading to "Take F# to the stars" can be found below.
+For your convenience all 3 articles leading to "Take F# to the stars" can be found below, in chronological order.
 <p><br></p>
 
 <div class="posts">
