@@ -3,7 +3,10 @@ layout: page
 title: F# ad astra series
 summary: >-
   Take F# to the stars complete series ✨🚀✨
+image: /assets/2020/ad-astra.png
 ---
+
+![splash](/assets/2020/ad-astra.png)
 
 For your convenience all 3 articles leading up to "Take F# to the stars" can be found below, in chronological order.
 <p><br></p>
