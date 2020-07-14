@@ -6,9 +6,12 @@ summary: >-
 image: /assets/2020/ad-astra.png
 ---
 
+<p><br></p>
+
 ![splash](/assets/2020/ad-astra.png)
 
 For your convenience all 3 articles leading up to "Take F# to the stars" can be found below, in chronological order.
+
 <p><br></p>
 
 <div class="posts">
