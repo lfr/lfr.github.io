@@ -1,13 +1,11 @@
 ---
-published: false
+published: true
 layout: page
 title: F# ad astra series
 summary: >-
   Take F# to the stars: The complete series ✨🚀✨
 image: /assets/2020/ad-astra.png
 ---
-
-<p><br></p>
 
 <img href="/assets/2020/ad-astra.png" />
 
