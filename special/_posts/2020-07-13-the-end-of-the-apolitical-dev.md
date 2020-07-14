@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The last apolitical developer
 summary: >-
-  The line between conscionable and unconscionable is sometimes thin, but it's important.
+  Very few people seek to be reasoned away from their preconceptions
 image: /assets/2020/apolitical-dev.jpg
 ---
 
