@@ -19,8 +19,6 @@ This is not the first time I ponder on the importance of users vs. time. My main
 
 Netflix has always used time as their main metric, its purpose is to maximize their subscribers time spent on the platform. I remember one of Reed Hastings' earlier interviews where he shared this fact, adding that because of this their main competition was gaming, and that the future of entertainment may be an hallucinogenic pill 🤯
 
-![YouTube Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/YouTube_Logo.svg/1280px-YouTube_Logo.svg.png)
-
 YouTube also transitioned to time spent optimization at some point, and I clearly remember youtubers sharing in their videos the fact that the monetization algorithm was successfully incentivizing them to make longer videos. Earlier YouTube videos were usually around 5 minutes, and after this the 10 minute format became more of a norm.
 
 Obviously both number of users and average time spent go hand in hand, but before these peaks into this industry's ways I personally always considered audience size as the only metric that mattered.
