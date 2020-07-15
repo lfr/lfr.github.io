@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Google Analytics: audience vs. attention
 summary: >-
-  I usually write about F#, but when I don't, I write about writing about F#
+  I usually write about F#, but when I dont, I write about writing about F#
 image: /assets/2020/google-analytics.png
 ---
 
