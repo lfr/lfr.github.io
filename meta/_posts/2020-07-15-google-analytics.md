@@ -21,7 +21,7 @@ Netflix has always used time as their main metric, its purpose is to maximize th
 
 YouTube also transitioned to time spent optimization at some point, and I clearly remember youtubers sharing in their videos the fact that the monetization algorithm was successfully incentivizing them to make longer videos. Earlier YouTube videos were usually around 5 minutes, and after this the 10 minute format became more of a norm.
 
-Obviously both number of users and average time spent go hand in hand, but before these peaks into this industry's ways I personally always considered audience size as the only metric that mattered.
+Obviously both number of users and average time spent go hand in hand, but before these peeks into this industry's ways, I personally always considered audience size as the only metric that mattered.
 
 ## Back to my blog
 
