@@ -9,7 +9,7 @@ image: /assets/2020/google-analytics.png
 
 ![splash](/assets/2020/google-analytics.png)
 
-In the image above you can see the effect of my last two posts on the blog's traffic. If you look at number of visits (<span style="color:#3a8fc4">in blue</span>), clearly my article [Take F# to the stars](https://functionalfunsies.com/fun/2020/06/30/take-it-to-the-stars/) was — please forgive me — a stellar hit. If you look at average time spent (<span style="color:#b3e0f2">also in blue</span>), my most recent article [The last apolitical developer](https://functionalfunsies.com/special/2020/07/13/the-end-of-the-apolitical-dev/) did much better. In fact it over performed all my articles over twofold.
+In the image above you can see the effect of my last two posts on the blog's traffic. If you look at number of visits (<span style="color:#3a8fc4">in blue</span>), clearly my article [Take F# to the stars](https://functionalfunsies.com/fun/2020/06/30/take-it-to-the-stars/) was — please forgive me — a stellar hit. If you look at average time spent (<span style="color:#b3e0f2">also in blue</span>), my most recent article [The last apolitical developer](https://functionalfunsies.com/special/2020/07/13/the-end-of-the-apolitical-dev/) did much better. In fact it over performed all my articles by a lot.
 
 ## Audience vs. attention
 
