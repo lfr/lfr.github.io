@@ -34,5 +34,5 @@ No hard feelings Reed, I'm still a huge fan, just don't send me any pills.
 
 ## Feedback & more
 
-If you've enjoyed this article or have any comments please consider retweeting or replying to [this article's tweet](https://twitter.com/luislikeIewis/status/). Thank you for reading!
+If you've enjoyed this article or have any comments please consider retweeting or replying to [this article's tweet](https://twitter.com/luislikeIewis/status/1283506948047089665). Thank you for reading!
 
