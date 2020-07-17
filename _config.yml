@@ -11,7 +11,7 @@ tagline:          'Mostly for profit'
 twitter_intro:    'Functional code for functional humans'
 intro:            'Functional code for functional humans'
 url:              http://functionalfunsies.com
-baseurl:          '/'
+baseurl:          ""
 
 author:
   name:           'Luis Ferrao'
