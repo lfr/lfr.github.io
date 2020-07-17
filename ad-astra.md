@@ -13,9 +13,9 @@ So you've decided to take that leap of faith and take F# to the stars, but not s
 
 Building your own F# starship can feel like a daunting task, but there's a few easily applicable things that can do wonders to keep it flying and save it from its worst enemy: users.
 
-One of these things is having a domain that is guaranteed to be valid throughout the lifetime of your application, and this can be done by designing your domain with types.
+One of these things is having a domain that is guaranteed to be valid throughout the lifetime of your application, and this can be done by designing your domain with types, it's one of the easiest "advanced" topics you can explore to save your code from yourself and others, a low hanging stability fruit of sorts, and it's what this series is about.
 
-For your convenience all 4 articles in the series can be found below, in chronological order.
+For your convenience all 4 articles in the series can be found below, in chronological order. Happy perusing!
 
 <hr />
 
