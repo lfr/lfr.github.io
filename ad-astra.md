@@ -10,7 +10,9 @@ image: /assets/2020/ad-astra.png
 <img src="/assets/2020/ad-astra.png" />
 
 So you've decided to take that leap of faith and take F# to the stars, but not sure where to begin?
-Building your own starship can feel like a daunting task, but there's a few easily applicable things that can do wonders to keep it flying and save it from its worst enemy: users.
+
+Building your own F# starship can feel like a daunting task, but there's a few easily applicable things that can do wonders to keep it flying and save it from its worst enemy: users.
+
 One of these things is having a domain that is guaranteed to be valid throughout the lifetime of your application, and this can be done by designing your domain with types.
 
 For your convenience all 4 articles in the series can be found below, in chronological order.
