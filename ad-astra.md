@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: page
 title: F# ad astra series
 summary: >-
@@ -7,7 +7,9 @@ summary: >-
 image: /assets/2020/ad-astra.png
 ---
 
-<img src="/assets/2020/ad-astra.png" />
+<p>
+  <img src="/assets/2020/ad-astra.png" />
+</p>
 
 So you've decided to take that leap of faith and take F# to the stars, but not sure where to begin?
 
