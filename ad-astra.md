@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 layout: page
 title: F# ad astra series
 summary: >-
