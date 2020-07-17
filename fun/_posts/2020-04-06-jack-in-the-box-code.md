@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Jack-in-the-box code
 summary: >-
-  Most of the time the box plays a beautiful song, but turn that crank for long enough and you will hit an edge case
+  Most of the time your code plays a beautiful song, but turn that crank for long enough...
 image: /assets/2020/jack-in-the-box.png
 ---
 

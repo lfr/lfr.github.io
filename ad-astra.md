@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: page
 title: F# ad astra series
 summary: >-
@@ -9,22 +9,28 @@ image: /assets/2020/ad-astra.png
 
 <img src="/assets/2020/ad-astra.png" />
 
-For your convenience all 3 articles leading up to "Take F# to the stars" can be found below, in chronological order.
+So you've decided to take that leap of faith and take F# to the stars, but not sure where to begin?
+Building your own starship can feel like a daunting task, but there's a few easily applicable things that can do wonders to keep it flying and save it from its worst enemy: users.
+One of these things is having a domain that is guaranteed to be valid throughout the lifetime of your application, and this can be done by designing your domain with types.
+
+For your convenience all 4 articles in the series can be found below, in chronological order.
 
 <hr />
 
 <div class="posts">
-  
+
   <div class="post">
     <h1 class="post-title">
       <a href="/fun/2020/03/04/these-arent-the-types/">
         These aren't the types you're looking for
       </a>
     </h1>
-    
-    <a href="/fun/2020/03/04/these-arent-the-types/"><img src="/assets/2020/not-the-string.png" alt="splash"></a>
+    <a href="/fun/2020/03/04/these-arent-the-types/">
+      <img src="/assets/2020/not-the-string.png" alt="splash">
+    </a>
+
     Imagine your object needs a property for text values. You declare it as string, right? Wrong! 😱
-    
+
   </div>
 
   <div class="post">
@@ -33,24 +39,27 @@ For your convenience all 3 articles leading up to "Take F# to the stars" can be 
         Jack-in-the-box code
       </a>
     </h1>
+    <a href="/fun/2020/04/06/jack-in-the-box-code/">
+      <img src="/assets/2020/jack-in-the-box.png" alt="splash">
+    </a>
     
-    <a href="/fun/2020/04/06/jack-in-the-box-code/"><img src="/assets/2020/jack-in-the-box.png" alt="splash"></a>
+    Most of the time your code plays a beautiful song, but turn that crank for long enough...
 
-    Most of the time the box plays a beautiful song, but turn that crank for long enough and you will hit an edge case
-    
   </div>
 
-  <div class="post">
+  <div class="post">  
     <h1 class="post-title">
       <a href="/fun/2020/05/04/domain-fitness/">
         Put your F# domain on a diet
       </a>
     </h1>
-    
-    <a href="/fun/2020/05/04/domain-fitness/"><img src="/assets/2020/domain-fitness.jpg" alt="splash"></a>
+    <a href="/fun/2020/05/04/domain-fitness/">
+      <img src="/assets/2020/domain-fitness.jpg" alt="splash">
+    </a>
+
     Do this one thing for instant domain weight loss!!! 🤩🤫🤭
 
-    
+
   </div>
 
   <div class="post">
@@ -59,10 +68,12 @@ For your convenience all 3 articles leading up to "Take F# to the stars" can be 
         Take F# to the stars
       </a>
     </h1>
-    
-    <a href="/fun/2020/06/30/take-it-to-the-stars/"><img src="/assets/2020/take-it-to-the-stars.png" alt="splash"></a>
+    <a href="/fun/2020/06/30/take-it-to-the-stars/">
+      <img src="/assets/2020/take-it-to-the-stars.png" alt="splash">
+    </a>
+
     Your airtight domain will keep you safe
-    
+
   </div>
-  
+
 </div>
