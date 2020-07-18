@@ -24,15 +24,15 @@ So if we already know the solution, what's the big deal? The problem is that thi
 
 For your convenience all 4 articles in this introductory series to validation blocks can be found below, in chronological order. If you only read one, just read the last one. If you only read two, read the first and last one. Whatever you read, I hope you have a wonderful time!
 
-<hr />
 
 <div class="posts">
+
   <div class="post">
-    <h2 class="post-title">
+    <h3 class="post-title">
       <a href="/fun/2020/03/04/these-arent-the-types/">
         These aren't the types you're looking for
       </a>
-    </h2>
+    </h3>
     <a href="/fun/2020/03/04/these-arent-the-types/">
       <img src="/assets/2020/not-the-string.png" alt="splash">
     </a>
@@ -42,12 +42,14 @@ For your convenience all 4 articles in this introductory series to validation bl
 
   </div>
 
+  <hr />
+
   <div class="post">
-    <h2 class="post-title">
+    <h3 class="post-title">
       <a href="/fun/2020/04/06/jack-in-the-box-code/">
         Jack-in-the-box code
       </a>
-    </h2>
+    </h3>
     <a href="/fun/2020/04/06/jack-in-the-box-code/">
       <img src="/assets/2020/jack-in-the-box.png" alt="splash">
     </a>
@@ -57,12 +59,14 @@ For your convenience all 4 articles in this introductory series to validation bl
 
   </div>
 
+  <hr />
+
   <div class="post">  
-    <h2 class="post-title">
+    <h3 class="post-title">
       <a href="/fun/2020/05/04/domain-fitness/">
         Put your F# domain on a diet
       </a>
-    </h2>
+    </h3>
     <a href="/fun/2020/05/04/domain-fitness/">
       <img src="/assets/2020/domain-fitness.jpg" alt="splash">
     </a>
@@ -73,12 +77,14 @@ For your convenience all 4 articles in this introductory series to validation bl
 
   </div>
 
+  <hr />
+
   <div class="post">
-    <h2 class="post-title">
+    <h3 class="post-title">
       <a href="/fun/2020/06/30/take-it-to-the-stars/">
         Take F# to the stars
       </a>
-    </h2>
+    </h3>
     <a href="/fun/2020/06/30/take-it-to-the-stars/">
       <img src="/assets/2020/take-it-to-the-stars.png" alt="splash">
     </a>
