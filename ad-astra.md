@@ -9,7 +9,7 @@ image: /assets/2020/ad-astra.png
 
 <p>
   <a href="#anchor">
-    <img src="/assets/2020/ad-astra.png" />
+    <img src="/assets/2020/ad-astra.png" alt="splash" />
   </a>
 </p>
 Taking F# to the stars is a series about the building blocks necessary to create a solution that reliably and safely does what it's intended to without ever faulting, and trust me, this is something your starship needs or nobody will board it.
