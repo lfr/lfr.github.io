@@ -8,7 +8,9 @@ image: /assets/2020/ad-astra.png
 ---
 
 <p>
-  <img src="/assets/2020/ad-astra.png" />
+  <a href="#anchor">
+    <img src="/assets/2020/ad-astra.png" />
+  </a>
 </p>
 Taking F# to the stars is a series about the building blocks necessary to create a solution that reliably and safely does what it's intended to without ever faulting, and trust me, this is something your starship needs or nobody will board it.
 
@@ -24,7 +26,7 @@ So if we already know the solution, what's the big deal? The problem is that thi
 
 For your convenience all 4 articles in this introductory series to validation blocks can be found below, in chronological order. If you only read one, just read the last one. If you only read two, read the first and last one. Whatever you read, I hope you have a wonderful time!
 
-<hr />
+<hr id="anchor" />
 
 <div class="posts">
 
