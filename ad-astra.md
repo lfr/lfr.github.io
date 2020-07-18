@@ -24,6 +24,7 @@ So if we already know the solution, what's the big deal? The problem is that thi
 
 For your convenience all 4 articles in this introductory series to validation blocks can be found below, in chronological order. If you only read one, just read the last one. If you only read two, read the first and last one. Whatever you read, I hope you have a wonderful time!
 
+<hr />
 
 <div class="posts">
 
@@ -42,8 +43,6 @@ For your convenience all 4 articles in this introductory series to validation bl
 
   </div>
 
-  <hr />
-
   <div class="post">
     <h3 class="post-title">
       <a href="/fun/2020/04/06/jack-in-the-box-code/">
@@ -58,8 +57,6 @@ For your convenience all 4 articles in this introductory series to validation bl
     Most of the time your code plays a beautiful song, but turn that crank for long enough...
 
   </div>
-
-  <hr />
 
   <div class="post">  
     <h3 class="post-title">
@@ -76,8 +73,6 @@ For your convenience all 4 articles in this introductory series to validation bl
 
 
   </div>
-
-  <hr />
 
   <div class="post">
     <h3 class="post-title">
