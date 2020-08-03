@@ -103,6 +103,6 @@ match result with
 
 ## There will be blocks
 
-There's not a lot of code in this article, and it's not particularly good code either. The next one will have more and better code, but hopefully it's enough to illustrate the concept of designing with types.
+There's not a lot of code in this article, and it's not particularly good code either. [The next one has](https://functionalfunsies.com/fun/2020/05/04/domain-fitness/) more and better code, but hopefully it's enough to illustrate the concept of designing with types.
 
 If you enjoyed it please consider retweeting [this article's tweet](https://twitter.com/luislikeIewis/status/1247580130328940544) to support the blog!

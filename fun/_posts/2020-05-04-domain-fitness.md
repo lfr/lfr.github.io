@@ -116,7 +116,7 @@ All valid questions so let's go through them one by one:
 
 Patience grasshopper, there's a lot here to digest. Introducing a completely different but ultimately leaner way to designing with types in F# is a domain fitness journey that takes time but will inevitably make your domain both more enjoyable to create and to maintain.
 
-In the next article I'll go through a complete example but in the meantime remember, an elegant domain isn't just nicer to look at, it's also healthier. The less boilerplate code it has, the easier it is to spot issues.
+[In the next article](https://functionalfunsies.com/fun/2020/06/30/take-it-to-the-stars/) I go through a complete example but in the meantime remember, an elegant domain isn't just nicer to look at, it's also healthier. The less boilerplate code it has, the easier it is to spot issues.
 
 ## Feedback & more
 
