@@ -9,12 +9,6 @@ image: /assets/2020/take-it-to-the-stars.png
 
 ![splash](/assets/2020/take-it-to-the-stars.png)
 
-<div class="message">
-  <i>
-    Since this article took off like the rocket above, I'll be posting a commemorative article to celebrate an upcoming milestone. It'll be very different from my previous articles but you can look for it <a href="http://twitter.com/intent/user?screen_name=LuisLikeIewis" target="_blank">in the usual place</a>. Enjoy the read!
-  </i>
-</div>
-
 Some developers carefully design domains that perfectly reflect current business constraints, while others prefer to hammer away code that just works, letting whatever domain arise from their uninterrupted but hopefully functional stream of consciousness. Regardless of your style, you'll need an airtight domain if you're going to take your F# starship to the stars.
 
 If you've followed this series you may be expecting this article to target the first type of developer above, but read on and you'll soon notice that we get to coding fast without much analysis, only delving into deeper considerations after a decent warm-up, and even then never straying too far off the beaten path.
