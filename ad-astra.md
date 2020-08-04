@@ -14,7 +14,7 @@ image: /assets/2020/ad-astra.png
 </p>
 Taking F# to the stars is a series about the building blocks necessary to create a solution that reliably and safely achieves its purpose without ever faulting, and trust me, this is something your starship needs or nobody will board it.
 
-When venturing in the functional world, you will hopefully very quickly learn how to create pure code that never generates exceptions. I know, this sounds like fantasy coming for traditional object oriented development, but it's very real.
+When venturing in the functional world, you will hopefully very quickly learn how to create pure code that never generates exceptions. I know, this sounds like fantasy coming from traditional object oriented development, but it's very real.
 
 While pure code is as close to perfection as humans will ever get, there are things you can't possibly control, like human input for instance.
 
