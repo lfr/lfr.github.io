@@ -34,13 +34,15 @@ Despite being a 40 year-old accomplished developer, I've never done proper loggi
 | Third base  | Console + debugger output + rolling file |
 | Home run    | Hosted centralized queryable logs        |
 
+![logging-virgin](/assets/2020/logging-virgin.gif)
+
 It's not that I've actively avoided logging, it's just a combination of circumstances that led me to where I am now, mainly because I was working on prototypes before handing them to *real* developers, or working on solutions so large that logging was handled elsewhere or by someone else.
 
-## Virgin because reasons
+## From logging zero to logging hero
 
 Whatever the reason, today I have this project that I lone wolf, and it's in dire need of logging. It processes an incoming stream of data and generates thousands of API calls that do what they're supposed to, most of the time. When something happens to those calls outside of 'most of the time', a discussion takes place between me and the fine folks responsible for the target API.
 
-Usually these discussions quickly turn into someone asking me for some useless piece of additional information, seemingly to delay having to deal with it. One of their most effective delaying methods consists of asking me for a list of all the API requests in the hour leading to the incident. I mean, if they can't properly investigate API issues without the content of the requests, shouldn't *they* be logging them? 🤔
+These discussions often turn into someone asking me for some useless piece of additional information, seemingly to delay having to deal with it. One of their most effective delaying methods consists of asking me for a list of all the API requests in the hour leading to the incident. I mean, if they can't properly investigate API issues without the content of the requests, shouldn't *they* be logging them? 🤔
 
 As often is the case, who should do something matters less than whose problem it is. In this case they could just ask me for these logs so they were getting them for free and there was no way they were going to spend a dime logging anything. It was up to me to log their own API activity for them so that they could peruse it at their leisure. Sigh.
 
@@ -258,7 +260,7 @@ use logger =
 ```
 That's it! Our logs now appear in Seq almost in real time! You can watch some long running process from your phone while you watch Netflix.
 
-![logging-virgin](/assets/2020/2020-12-13-the-40-year-old-logging-virgin/logging-virgin-1607352919867.gif)
+![logging-virgin](/assets/2020/logging-hero.gif)
 
 In Seq (on the right) you can click on any event to see the details. Event properties that aren't scalars (strings, numbers) can be expanded to see *their* properties to any depth as far as I can tell.
 
