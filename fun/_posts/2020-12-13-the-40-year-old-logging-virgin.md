@@ -229,6 +229,7 @@ use logger =
     .WriteTo.Logger(consoleLogger) // ← new
     .CreateLogger()
 ```
+
 Now notifications about process milestones are sent to the console as well as logged to any configured sink with the same line:
 
 ```fsharp
@@ -239,7 +240,7 @@ Events that were just sent to the terminal now can be seen in any of your config
 
 ## Time to score that home run
 
-It's been a long journey, but believe it or not between 3<sup>rd</sup> base and the home plate there's only **a single line of code**. We need a hosted centralized log repository, so we need to move away from the rolling file. I'm going to use [Serilog.Sinks.Seq](https://github.com/serilog/serilog-sinks-seq) here but since this choice only impacts one line of code, feel free to do your own research and try different solutions. You can install the free dev version on the smallest linux box in Azure, it seems to work fine.
+It's been a long journey, but believe it or not between 3<sup>rd</sup> base and the home plate there's only **a single line of code**. We need a hosted centralized log repository, so we need to move away from the rolling file. I'm going to use [Serilog.Sinks.Seq](https://github.com/serilog/serilog-sinks-seq) here but since this choice only impacts one line of code, feel free to do your own research and try different solutions. You can install the free dev version of Seq on the smallest linux box in Azure, it seems to work fine.
 
 ```fsharp
 // replace the rolling file with Seq
@@ -259,11 +260,11 @@ That's it! Our logs now appear in Seq almost in real time!
 
 !!SEQ_GIF_MISSING!!
 
-You can click on any event to see the details. Event properties that aren't scalars (strings, numbers) can be further drilled down into!
+You can click on any event to see the details. Event properties that aren't scalars (strings, numbers) can be expanded to see their properties to any depth as far as I can tell.
 
 ![seq](/assets/2020/seq.png)
 
-If the eagle eyed reader is still with us, he may have noticed the `Request` and `Response` properties that aren't nowhere in the message template. You can add properties to events without polluting the message template by using `ForContext` and naturally you can expand them to see their properties, this is important so event lines remain concise.
+If the eagle eyed reader is still with us, they may have noticed the `Request` and `Response` properties that aren't nowhere to be seen in the message template. You can add properties to events without polluting the message template by using `ForContext`, this is important so event lines remain concise.
 
 ```fsharp
 logger
@@ -276,7 +277,9 @@ The last boolean parameter indicates that the object should be *destructured* in
 
 ## This journey isn't quite over yet
 
-In fact, `HttpRequestMessage` and `HttpResponseMessage` are not good candidates to be used as-is. They have too many properties, none of which contain the request's raw content that is the main thing someone needs to replicated it. But the worst part is that the response also contains the request in one of its properties. The best thing to do here is to take the last step in our journey, and customize how certain objects are destructured which we'll do with an extension method:
+In fact, `HttpRequestMessage` and `HttpResponseMessage` are not good candidates to be used as-is. They have too many properties, none of which contain the request's raw content that is the main thing someone needs to replicated it. But the worst part is that the response also contains the request in one of its properties!
+
+The best thing to do here is to take the last step in our journey, and customize how certain objects are destructured which we'll do with an extension method:
 
 ```fsharp
 [<Extension>]
@@ -308,7 +311,7 @@ type LoggingExtensions =
           |} |> box)
 ```
 
-As you can see customizing how http messages are destructured simply consists of providing a function that returns whatever we want, here we define it as an anonymous record with just the properties we need. Our new logic can be added to the main logger with the following line:
+As you can see customizing how http messages are destructured simply consists of providing a function that returns any object, here we define it as an anonymous record with just the properties we need. Our new logic can be added to the main logger with the following line:
 
 ```fsharp
 // add our own custom destructuring logic
@@ -320,11 +323,11 @@ use logger =
     // ...
     .CreateLogger()
 ```
-With this change, HTTP messages are way more readable when added as properties of any event, and they also don't contain any authentication headers. Using this simple method you can override how any object is logged which allows you to log complex objects in ways that are far more readable or useful!
+With this change, HTTP messages are way more readable when added as properties of a log event, and they also don't contain any authentication headers. Using this simple method you can override how any object is logged which allows you to log complex objects in ways that are far more readable or useful!
 
 ## You have reached your destination 🏁
 
-This may seem like a lot of code just for logging, but some people won't need trace while others won't need console output, in both cases the type `NoTraceDebug` is no longer needed as well as some other code, and this is all setup code that's very easy to follow and to maintain. You'll write it once and rip the benefits without almost never touching it again.
+This may seem like a lot of code just for logging, but not all of it is necessary as some people won't need trace while others won't need console output. Moreover, this is all setup code that's very easy to follow and to maintain. You'll write it once and rip the benefits forever without almost never touching it again.
 
 ## A word about monkeys 🐒
 
