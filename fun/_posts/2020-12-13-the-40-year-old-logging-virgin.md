@@ -3,7 +3,7 @@ published: false
 layout: post
 title: The 40 year old logging virgin
 summary: >-
-  Turns out logging is not just a glorified print
+  Turns out logging isn't just a glorified console print
 image: /assets/2020/logging-virgin.png
 typora-root-url: C:\Users\lfr\source\repos\lfr.github.io
 ---
@@ -21,9 +21,9 @@ typora-root-url: C:\Users\lfr\source\repos\lfr.github.io
   </i>
 </div>
 
-Whatever brought you here, you may think of logging as entirely un-sexy. Let me challenge that thought for a second: If UX is how apps talk to end users, logging is how programs talk to devs. This often overlooked line of communication is the key to your long term relationship with your production code.
+Whatever brought you here, you may think of logging as entirely un-sexy. Let me challenge that thought for a second: If UX is how apps talk to end users, logging is how programs talk to devs. This often overlooked line of communication may be the difference between a fling and a happy long term relationship with your production code.
 
-## I have a confession to make 😔
+## I have a confession to make
 
 Despite being a 40 year-old accomplished developer, I've never done proper logging. I mean yes I have used a debugger output window, but that's hardly going beyond first base according to this famous table I just made up:
 
@@ -42,11 +42,11 @@ Whatever the reason, today I have this project that I lone wolf, and it's in dir
 
 Usually these discussions quickly turn into someone asking me for some useless piece of additional information, seemingly to delay having to deal with it. One of their most effective delaying methods consists of asking me for a list of all the API requests in the hour leading to the incident. I mean, if they can't properly investigate API issues without the content of the requests, shouldn't *they* be logging them? 🤔
 
-As often is the case, who should do something matters less than whose problem it is. In this case they could just ask me for these logs so they were getting them for free and there was no way they were going to spend a dime in this problem. It was up for me to log their own API activity for them so that they could peruse it at their leisure. Sigh.
+As often is the case, who should do something matters less than whose problem it is. In this case they could just ask me for these logs so they were getting them for free and there was no way they were going to spend a dime logging anything. It was up to me to log their own API activity for them so that they could peruse it at their leisure. Sigh.
 
 ## Poor man won't help you
 
-I try not to trivialize things that I'm not familiar with, but I have to admit I've often trivialized logging thinking how hard can it possibly be? While not particularly hard, turns out logging is not just a glorified print either.
+I try not to trivialize things that I'm not familiar with, but I have to admit I've often trivialized logging, thinking how hard can it possibly be? While not necessarily hard, turns out logging isn't just a glorified console print either.
 
 At the beginning I went for a poor man's logging kind of approach, which is my favorite approach to all problems that I trivialize. I thought to myself that my code already does a decent amount of tracing, I could simply "redirect" it to some ELK stack and be done with it. How naïve of me.
 
@@ -256,11 +256,11 @@ use logger =
     .WriteTo.Logger(consoleLogger)
     .CreateLogger()
 ```
-That's it! Our logs now appear in Seq almost in real time!
+That's it! Our logs now appear in Seq almost in real time! You can watch some long running process from your phone while you watch Netflix.
 
-!!SEQ_GIF_MISSING!!
+![logging-virgin](/assets/2020/2020-12-13-the-40-year-old-logging-virgin/logging-virgin-1607352919867.gif)
 
-You can click on any event to see the details. Event properties that aren't scalars (strings, numbers) can be expanded to see their properties to any depth as far as I can tell.
+In Seq (on the right) you can click on any event to see the details. Event properties that aren't scalars (strings, numbers) can be expanded to see *their* properties to any depth as far as I can tell.
 
 ![seq](/assets/2020/seq.png)
 
