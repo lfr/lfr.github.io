@@ -41,9 +41,11 @@ module Trace =
 
 
 
-(******************************************************************
+(********************************************************************
  Recommended location in your project: /Logging/NoTraceDebugSink.fs
- ******************************************************************)
+ NOTE: Only needed if you log trace events, otherwise just use this:
+ https://github.com/serilog/serilog-sinks-debug
+ ********************************************************************)
 
 /// This debug sink writes to output window without generating trace events
 type NoTraceDebugSink () =
@@ -140,6 +142,8 @@ Serilog.Log.Logger <- logger
 // test the new logger
 logger.Information "I did a log!"
 
+// this listener enables logging of trace events
+// skip this if you don't have or care about trace events
 use serilogListener =
   // instanciate a new listener
   new SerilogTraceListener.SerilogTraceListener(logger,
@@ -189,7 +193,8 @@ Serilog.Log
     response.StatusCode,
     elapsedMs)
 
-// result if used with Seq or similar
+// Result if used with Seq or similar
+// ----------------------------------
 //
 // GET google.com returned status 200 OK in 123 ms
 //   └►  {
