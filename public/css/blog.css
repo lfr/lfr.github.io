@@ -99,9 +99,23 @@ html {
 
 @keyframes glow {
     0% {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #a00, 0 0 40px #f60, 0 0 50px #4d7040, 0 0 60px #e60073, 0 0 70px #069;
+        text-shadow:
+        0 0 1px #fff,
+        0 0 2px #fff,
+        0 0 3px #a00,
+        0 0 4px #f60,
+        0 0 5px #4d7040,
+        0 0 6px #e60073,
+        0 0 7px #069;
     }
     100% {
-        text-shadow: 0 0 20px #fff, 0 0 30px #c30, 0 0 40px #c00, 0 0 50px #f4bf75, 0 0 60px #90a959, 0 0 70px #ff4da6, 0 0 80px #268bd2;
+        text-shadow:
+            0 0 2px #fff,
+            0 0 3px #c30,
+            0 0 4px #c00,
+            0 0 5px #f4bf75,
+            0 0 6px #90a959,
+            0 0 7px #ff4da6,
+            0 0 8px #268bd2;
     }
 }
