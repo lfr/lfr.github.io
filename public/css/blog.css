@@ -92,9 +92,7 @@ html {
 /*************************/
 
 .glow {
-    font-size: 80px;
-    color: #939d50;
-    text-align: center;
+    color: Lime;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 3s ease-in-out infinite alternate;
