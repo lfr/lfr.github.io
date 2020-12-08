@@ -93,9 +93,9 @@ html {
 
 .glow {
     color: Lime;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 3s ease-in-out infinite alternate;
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
 }
 
 @keyframes glow {
@@ -103,20 +103,20 @@ html {
         text-shadow:
         0 0 1px #fff,
         0 0 2px #fff,
-        0 0 3px #a00,
+        0 0 3px #c00,
         0 0 4px #f60,
-        0 0 5px #4d7040,
-        0 0 6px #e60073,
-        0 0 7px #069;
+        0 0 5px #474,
+        0 0 6px #e07,
+        0 0 7px #06F;
     }
     100% {
         text-shadow:
             0 0 2px #fff,
             0 0 3px #c30,
-            0 0 4px #c00,
-            0 0 5px #f4bf75,
-            0 0 6px #90a959,
-            0 0 7px #ff4da6,
-            0 0 8px #268bd2;
+            0 0 4px #c22,
+            0 0 5px #fc8,
+            0 0 6px #0a5,
+            0 0 7px #f4a,
+            0 0 8px #09f;
     }
 }
