@@ -34,11 +34,11 @@ Despite being a 40 year-old accomplished developer, I've never done proper loggi
 | Third base  | Console + debugger output + rolling file |
 | Home run    | Hosted centralized queryable logs        |
 
-![logging-virgin](/assets/2020/logging-virgin.gif)
-
 It's not that I've actively avoided logging, it's just a combination of circumstances that led me to where I am now, mainly because I was working on prototypes before handing them to *real* developers, or working on solutions so large that logging was handled elsewhere or by someone else.
 
-## From logging zero to logging hero
+### From logging zero to logging hero 🦸‍♂️
+
+![logging-virgin](/assets/2020/logging-virgin.gif)
 
 Whatever the reason, today I have this project that I lone wolf, and it's in dire need of logging. It processes an incoming stream of data and generates thousands of API calls that do what they're supposed to, most of the time. When something happens to those calls outside of 'most of the time', a discussion takes place between me and the fine folks responsible for the target API.
 
