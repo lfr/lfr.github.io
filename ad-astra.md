@@ -26,7 +26,7 @@ So if we already know the solution, what's the big deal? The problem is that thi
 
 For your convenience all 4 articles in this introductory series to validation blocks can be found below, in chronological order. If you only read one, just read the last one. If you only read two, read the first and last one. Whatever you read, I wish you a safe flight!
 
-<a id="anchor" />
+<a id="anchor"><br></a>
 
 |🔗|<small>Articles</small>|
 |:-:|:--|
