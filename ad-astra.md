@@ -32,4 +32,4 @@ For your convenience all 4 articles in this introductory series to validation bl
 |:--|:--|
 |[![](/assets/2020/jack-in-the-box.png)](/fun/2020/04/06/jack-in-the-box-code/)|<small>**Jack-in-the-box code**<br><small>Most of the time your code plays a beautiful song, but turn that crank for long enough...</small></small>|
 |[![](/assets/2020/domain-fitness.jpg)](/fun/2020/05/04/domain-fitness/)|<small>**Put your F# domain on a diet**<br><small>Do this one thing for instant domain weight loss!!! 🤩🤫🤭</small></small>|
-|[![](/assets/2020/take-it-to-the-stars.png)](/fun/2020/06/30/take-it-to-the-stars/)|<small>**Take F# to the stars**<br><small>Your airtight domain will keep you safe</small></small><br>                                |
+|[![](/assets/2020/take-it-to-the-stars.png)](/fun/2020/06/30/take-it-to-the-stars/)|<small>**Take F# to the stars**<br><small>Your airtight domain will keep you safe</small></small><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
