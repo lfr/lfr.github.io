@@ -26,72 +26,10 @@ So if we already know the solution, what's the big deal? The problem is that thi
 
 For your convenience all 4 articles in this introductory series to validation blocks can be found below, in chronological order. If you only read one, just read the last one. If you only read two, read the first and last one. Whatever you read, I wish you a safe flight!
 
-|[![](/assets/2020/not-the-string.png){width=200px}](fun/_posts/2020-03-04-these-arent-the-types.md)|<small>**These aren't the types you're looking for**<br><small>Imagine your object needs a property for text values. You declare it as string, right? Wrong! 😱</small></small><div width="15rem"></div><br>|
-|:--|:--|
-|<a href=""><img src="" alt="splash"></a>|<small>**These aren't the types you're looking for**<br>Imagine your object needs a property for text values. You declare it as string, right? Wrong! 😱</small><div style="width:15rem"></div><br>|
-|<a href="/fun/2020/03/04/these-arent-the-types/"><img src="/assets/2020/not-the-string.png" alt="splash"></a>|<small>**These aren't the types you're looking for**<br>Imagine your object needs a property for text values. You declare it as string, right? Wrong! 😱</small><div style="width:15rem"></div><br>|
-|<a href="/fun/2020/03/04/these-arent-the-types/"><img src="/assets/2020/not-the-string.png" alt="splash"></a>|<small>**These aren't the types you're looking for**<br>Imagine your object needs a property for text values. You declare it as string, right? Wrong! 😱</small><div style="width:15rem"></div><br>|
-
 <hr id="anchor" />
 
-<div class="posts">
-
-  <div class="post">
-    <h3 class="post-title">
-    </h3>
-    <a href="/fun/2020/03/04/these-arent-the-types/">
-      <img src="/assets/2020/not-the-string.png" alt="splash">
-    </a>
-
-
-    Imagine your object needs a property for text values. You declare it as string, right? Wrong! 😱
-
-  </div>
-
-  <div class="post">
-    <h3 class="post-title">
-      <a href="/fun/2020/04/06/jack-in-the-box-code/">
-        Jack-in-the-box code
-      </a>
-    </h3>
-    <a href="/fun/2020/04/06/jack-in-the-box-code/">
-      <img src="/assets/2020/jack-in-the-box.png" alt="splash">
-    </a>
-
-
-    Most of the time your code plays a beautiful song, but turn that crank for long enough...
-
-  </div>
-
-  <div class="post">  
-    <h3 class="post-title">
-      <a href="/fun/2020/05/04/domain-fitness/">
-        Put your F# domain on a diet
-      </a>
-    </h3>
-    <a href="/fun/2020/05/04/domain-fitness/">
-      <img src="/assets/2020/domain-fitness.jpg" alt="splash">
-    </a>
-
-
-    Do this one thing for instant domain weight loss!!! 🤩🤫🤭
-
-
-  </div>
-
-  <div class="post">
-    <h3 class="post-title">
-      <a href="/fun/2020/06/30/take-it-to-the-stars/">
-        Take F# to the stars
-      </a>
-    </h3>
-    <a href="/fun/2020/06/30/take-it-to-the-stars/">
-      <img src="/assets/2020/take-it-to-the-stars.png" alt="splash">
-    </a>
-
-
-    Your airtight domain will keep you safe
-
-  </div>
-
-</div>
+|[![](/assets/2020/not-the-string.png)](/fun/_posts/2020-03-04-these-arent-the-types.md)|<small>**These aren't the types you're looking for**<br><small>Imagine your object needs a property for text values. You declare it as string, right? Wrong! 😱</small></small></div>|
+|:--|:--|
+|[![](/assets/2020/jack-in-the-box.png)](/fun/2020/04/06/jack-in-the-box-code/)|**Jack-in-the-box code**<br><small>Most of the time your code plays a beautiful song, but turn that crank for long enough...</small></small></div>|
+|[![](/assets/2020/domain-fitness.jpg)](/fun/2020/05/04/domain-fitness/)|**Put your F# domain on a diet**<br><small>Do this one thing for instant domain weight loss!!! 🤩🤫🤭</small></small></div>|
+|[![](/assets/2020/take-it-to-the-stars.png)](/fun/2020/06/30/take-it-to-the-stars/)|**Take F# to the stars**<br><small>Your airtight domain will keep you safe</small></small></div>|
