@@ -23,7 +23,7 @@ While pure code is as close to perfection as humans will ever get, there are thi
 
 ## Saving our code from ourselves
 
-Surprisingly there's only one way to properly ensure that our domain is always valid, regardless of what users type in text boxes or whatever garbage is returned by your perfectly valid API call, and that's to create a domain with self-validating custom types instead of generic types such as strings.
+Surprisingly there's only one way to consistently ensure that our domain is always valid, regardless of what users type in text boxes or other garbage returned by some API response to your perfectly valid request. That way is to create a domain with self-validating custom types instead of generic types such as strings.
 
 So if we already know the solution, what's the big deal? The problem is that this solution requires *a lot more* code in the design phase, and nobody likes to write *a lot more* code to achieve similar results.
 
