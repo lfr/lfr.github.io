@@ -28,8 +28,8 @@ For your convenience all 4 articles in this introductory series to validation bl
 
 <hr id="anchor" />
 
-|[![](/assets/2020/not-the-string.png)](/fun/_posts/2020-03-04-these-arent-the-types.md)|<small>**These aren't the types you're looking for**<br><small>Imagine your object needs a property for text values. You declare it as string, right? Wrong! 😱</small></small></div>|
+|[![](/assets/2020/not-the-string.png)](/fun/_posts/2020-03-04-these-arent-the-types.md)|<small>**These aren't the types you're looking for**<br><small>Imagine your object needs a property for text values. You declare it as string, right? Wrong! 😱</small></small>|
 |:--|:--|
-|[![](/assets/2020/jack-in-the-box.png)](/fun/2020/04/06/jack-in-the-box-code/)|**Jack-in-the-box code**<br><small>Most of the time your code plays a beautiful song, but turn that crank for long enough...</small></small></div>|
-|[![](/assets/2020/domain-fitness.jpg)](/fun/2020/05/04/domain-fitness/)|**Put your F# domain on a diet**<br><small>Do this one thing for instant domain weight loss!!! 🤩🤫🤭</small></small></div>|
-|[![](/assets/2020/take-it-to-the-stars.png)](/fun/2020/06/30/take-it-to-the-stars/)|**Take F# to the stars**<br><small>Your airtight domain will keep you safe</small></small></div>|
+|[![](/assets/2020/jack-in-the-box.png)](/fun/2020/04/06/jack-in-the-box-code/)|<small>**Jack-in-the-box code**<br><small>Most of the time your code plays a beautiful song, but turn that crank for long enough...</small></small>|
+|[![](/assets/2020/domain-fitness.jpg)](/fun/2020/05/04/domain-fitness/)|<small>**Put your F# domain on a diet**<br><small>Do this one thing for instant domain weight loss!!! 🤩🤫🤭</small></small>|
+|[![](/assets/2020/take-it-to-the-stars.png)](/fun/2020/06/30/take-it-to-the-stars/)|<small>**Take F# to the stars**<br><small>Your airtight domain will keep you safe</small></small>|
