@@ -12,19 +12,27 @@ image: /assets/2020/ad-astra.png
     <img src="/assets/2020/ad-astra.png" alt="splash" />
   </a>
 </p>
-Taking F# to the stars is a series about the building blocks necessary to create a solution that reliably and safely achieves its purpose without ever faulting, and trust me, this is something your starship needs.
+<br>
 
-When venturing in the functional world, you will hopefully very quickly learn how to create pure code that never generates exceptions. I know, this sounds like fantasy coming from traditional object oriented development, but it's very real.
+**Take F# to the stars** is a series about the building blocks to make ambitious F# projects also reliable and safe, which is something your starship needs, trust me.
 
-While pure code is as close to perfection as humans will ever get, there are things you can't possibly control, like human input for instance.
+After embarking on your functional journey you will hopefully soon acquire the superpower of creating code that never throws exceptions. This sounds like fantasy coming from a non-FP background, but trust me, it's very real and it even has a name: pure code.
+
+While pure code is as close to perfection as humans will ever get, there are things you can't possibly control, like human input for instance. The code that deals with humans is by definition impure, and thus needs special care.
 
 ## Saving our code from ourselves
 
-We need something to ensure that our domain is always valid, regardless of what users type in text boxes or whatever other impure content is sent its way, and the solution to this problem — in fact the only effective solution — is to create a domain with self-validating custom types instead of generic types such as strings.
+Surprisingly there's only one way to properly ensure that our domain is always valid, regardless of what users type in text boxes or whatever garbage is returned by your perfectly valid API call, and that's to create a domain with self-validating custom types instead of generic types such as strings.
 
-So if we already know the solution, what's the big deal? The problem is that this solution requires a lot more code, and nobody likes to write a lot more code to achieve similar results. This is where validation blocks come in.
+So if we already know the solution, what's the big deal? The problem is that this solution requires *a lot more* code in the design phase, and nobody likes to write *a lot more* code to achieve similar results.
 
-For your convenience all 4 articles in this introductory series to validation blocks can be found below, in chronological order. If you only read one, just read the last one. If you only read two, read the first and last one. Whatever you read, I wish you a safe flight!
+## Validation blocks to the rescue
+
+These series tries to introduce the concept of validation blocks that drastically reduce the amount of code necessary to create models with such self-validating custom types.
+
+You don't need to know how to design with types to follow this series, it's meant for beginners, but you do need to be familiar with F# syntax.
+
+For your convenience all 4 articles can be found below, in chronological order. **If you only read one, just read the last one**. If you only read two, read the first and last one. Whatever you read, I wish you a safe flight!
 
 <a id="anchor"><br></a>
 
