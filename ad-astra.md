@@ -26,7 +26,7 @@ So if we already know the solution, what's the big deal? The problem is that thi
 
 For your convenience all 4 articles in this introductory series to validation blocks can be found below, in chronological order. If you only read one, just read the last one. If you only read two, read the first and last one. Whatever you read, I wish you a safe flight!
 
-|<a href="/fun/2020/03/04/these-arent-the-types/"><img src="/assets/2020/not-the-string.png" alt="splash"></a>|<small>[These aren't the types you're looking for](/fun/2020/03/04/these-arent-the-types/)<br>Imagine your object needs a property for text values. You declare it as string, right? Wrong! 😱</small>|
+|<a href="/fun/2020/03/04/these-arent-the-types/"><img src="/assets/2020/not-the-string.png" alt="splash"></a>|<small>**[These aren't the types you're looking for](/fun/2020/03/04/these-arent-the-types/)**<br>Imagine your object needs a property for text values. You declare it as string, right? Wrong! 😱</small><div style="width:15rem"></div><br>|
 |:--|:--|
 |||
 
