@@ -17,7 +17,7 @@ image: /assets/2020/ad-astra.png
 
 **Take F# to the stars** is a series about these little known yet life-saving blocks that make ambitious F# projects also reliable and safe, which is something your starship needs, trust me.
 
-After embarking on your journey through functional spacetime you will hopefully soon acquire the superpower of creating code that never throws exceptions. This sounds like fantasy coming from a non-FP background, but trust me, it's very real and it even has a name: [pure code](https://en.wikipedia.org/wiki/Pure_function).
+After embarking on your journey through functional spacetime you will hopefully soon acquire the superpower of creating code that never throws exceptions. This sounds like fantasy coming from a non-FP background, but it's very real and it even has a name: [pure code](https://en.wikipedia.org/wiki/Pure_function).
 
 While pure code is as close to perfection as humans will ever get, there are things you can't possibly control, like human input for instance. The code that deals with humans is by definition impure, and thus needs special attention.
 
