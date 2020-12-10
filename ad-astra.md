@@ -7,6 +7,7 @@ summary: >-
 image: /assets/2020/ad-astra.png
 ---
 
+<br>
 <p>
   <a href="#anchor">
     <img src="/assets/2020/ad-astra.png" alt="splash" />
