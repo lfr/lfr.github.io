@@ -11,17 +11,20 @@ typora-root-url: C:\Users\lfr\source\repos\lfr.github.io
 ![splash](/assets/2020/logging-virgin.png)
 
 <div class="message">
-  <i>
-    <p>
+  <p>
+    <i>
       This post is part of the English <a href="https://sergeytihon.com/2020/10/22/f-advent-calendar-in-english-2020/" target="_blank">2020 F# Advent Calendar</a>, check out the other posts there, and special thanks to Sergey Tihon for organizing it.  
-    </p>
+    </i>
+  </p>
+</div>
+<div class="message">
+  <p>
     <p>
-      Don't put yourself through the pain of getting code to work from this article, there's a full working example <a href="https://github.com/lfr/lfr.github.io/blob/master/fun/scripts/logging-virgin.fsx" target="_blank">available here</a> for your convenience.
-    </p>
-  </i>
+      👉&nbsp;<i>Spare yourself the pain of getting code from this article to work, there's a full working single-file version <a href="https://github.com/lfr/lfr.github.io/blob/master/fun/scripts/logging-virgin.fsx" target="_blank">here</a>.</i>
+  </p>
 </div>
 
-Whatever brought you here, you may think of logging as entirely un-sexy. Let me challenge that thought for a second: If UX is how apps talk to end users, logging is how programs talk to devs. This often overlooked line of communication may be the difference between a fling and a happy long term relationship with your production code.
+Whatever brought you here, it's possible you think of logging as entirely un-sexy. Let me challenge that thought for a second: If UI is how apps talk to end users, logging is how programs talk to devs. This often overlooked line of communication may be the difference between a fling and a happy long term relationship with your production code.
 
 ## I have a confession to make
 
@@ -34,7 +37,7 @@ Despite being a 40 year-old accomplished developer, I've never done proper loggi
 | Third base  | Console + debugger output + rolling file |
 | Home run    | Hosted centralized queryable logs        |
 
-It's not that I've actively avoided logging, it's just a combination of circumstances that led me to where I am now, mainly because I was working on prototypes before handing them to *real* developers, or working on solutions so large that logging was handled elsewhere or by someone else.
+It's not that I've actively avoided it, it's just a combination of circumstances that led me to where I am now, mainly because I was working on prototypes before handing them to *real* developers, or working on solutions so large that logging was handled elsewhere or by someone else.
 
 ### From logging zero to logging hero 🦸‍♂️
 
@@ -42,9 +45,9 @@ It's not that I've actively avoided logging, it's just a combination of circumst
 
 Whatever the reason, today I have this project that I lone wolf, and it's in dire need of logging. It processes an incoming stream of data and generates thousands of API calls that do what they're supposed to, most of the time. When something happens to those calls outside of 'most of the time', a discussion takes place between me and the fine folks responsible for the target API.
 
-These discussions often turn into someone asking me for some useless piece of additional information, seemingly to delay having to deal with it. One of their most effective delaying methods consists of asking me for a list of all the API requests in the hour leading to the incident. I mean, if they can't properly investigate API issues without the content of the requests, shouldn't *they* be logging them? 🤔
+These discussions often turn into someone asking me for some useless piece of additional information, seemingly to delay having to do any work. One of their most effective delaying methods consists of asking me for a list of all API requests in the hour leading to the incident. If they can't properly investigate API issues without the content of the requests, shouldn't *they* be logging them? 🤔
 
-As often is the case, who should do something matters less than whose problem it is. In this case they could just ask me for these logs so they were getting them for free and there was no way they were going to spend a dime logging anything. It was up to me to log their own API activity for them so that they could peruse it at their leisure. Sigh.
+As often is the case, who should do something matters less than whose problem it is. In this case they could just ask me for these requests so it was definitely my problem. It was up to me to log their own API activity for them so that they could peruse it at their leisure. Sigh.
 
 ## Poor man won't help you
 
@@ -59,13 +62,13 @@ I understand how ridiculous it is for me to devsplain this after having done it 
 - Events can easily be grouped by type
 - Event properties are informative and easily queryable
 
-The second requirement is more of a requirement is just a matter of picking the appropriate logging framework and the right log event repository.
+The second requirement is just a matter of picking the appropriate logging framework and the right event repository, which we'll get into later.
 
-The first requirement however is the one that made me drop my Trace redirecting idea, because it would've required me to give all events an event type id, which is very unappealing to me. I don't want to maintain an event type list somewhere that needs attention whenever I log something new, I hate this kind of housekeeping.
+The first requirement however is the one that made me drop my Trace redirecting idea, because it would've required me to give all events an event type id, which is very unappealing to me. I don't want to maintain an event type list somewhere that needs attention whenever I log something new. I hate this kind of housekeeping.
 
 ## Enter Serilog
 
-If you go to [Serilog's site](https://serilog.net/) they advertise their "powerful" structured logging as a major differentiator. Their structured logging mechanism relies on a **message template** DSL which is basically a more elaborate version of .NET's `String.Format`:
+If you go to [Serilog's site](https://serilog.net/) they advertise their "powerful" structured logging as a major differentiator. Their structured logging mechanism relies on **message templates** that are basically a more elaborate version of .NET's `String.Format`:
 
 ```fsharp
 // this creates a log event of level "Debug"
@@ -129,7 +132,9 @@ Serilog.Log.Logger <- logger
 logger.Information "I did a log!"
 ```
 
-This is a proper 3<sup>rd</sup> base logger according to my table, and while this works, there's still a few surprises ahead. My first issue with this approach is that I still had lots of tracing in my code that I didn't want to miss, and I also didn't want to convert to Serilog calls. In fact, some trace messages were being generated by referenced projects beyond my responsibility. Thankfully, Serilog has a sink for that:
+This is a proper 3<sup>rd</sup> base logger according to the table above, and while this works, there's still a few surprises ahead.
+
+My first issue with this approach is that I still have lots of tracing in my code that I don't want to miss, and I also don't want to convert to Serilog calls. In fact, some trace messages were being generated by referenced projects beyond my responsibility. Thankfully, Serilog has a sink for that:
 
 ```fsharp
 // this listener enables logging of trace events
@@ -145,7 +150,7 @@ Trace.Listeners.Add serilogListener |> ignore
 Trace.verbose "Trace routed to main logger"
 ```
 
-The eagle eyed reader may have realized that `Trace.verbose` doesn't exist, if your interested its one-liner definition is [here](https://github.com/lfr/lfr.github.io/blob/7359ab2c6fb24b2114197ba5d49008265ac0e852/fun/scripts/logging-virgin.fsx#L39). Anyway so far so good, We can both create informative log entries with and also collect all legacy Trace messages. This is going great!
+The eagle eyed reader may have realized that `Trace.verbose` doesn't exist, if your interested, its one-liner definition is [here](https://github.com/lfr/lfr.github.io/blob/7359ab2c6fb24b2114197ba5d49008265ac0e852/fun/scripts/logging-virgin.fsx#L39). Anyway so far so good, We can both create informative log entries with and also collect all legacy Trace messages. This is going great!
 
 ## Or is it?
 
@@ -173,17 +178,17 @@ use logger =
 
 ### Stack overflow, not the website, the Ꞙ***🤬 exception
 
-Run the code above and you'll be hit with a stack overflow exception with zero stack trace. Your code just goes 💥&nbsp;boom&nbsp;💥 soon after launch without any information. If you've created a lot of code before running it, trust me this may cost you a night of sleep. Thankfully this 40 year-old ex logging virgin is here to tell you what happened.
+Run the code above and you'll be hit with a stack overflow exception with zero stack trace. Your code just goes 💥&nbsp;boom&nbsp;💥 soon after launch, without any information. If you've created a lot of code before running it, trust me this may cost you a night of sleep. Thankfully this 40 year-old former logging virgin is here to tell you what happened.
 
 ## That escalated quickly 😱
 
-The problem is that Serilog's output logger writes using `Debugger.Write` which also writes to the trace, and since we were capturing the trace to log it, we created an infinite logging loop of doom. The solution is to create our own debug sink, which is trivial:
+The problem is that Serilog's output logger writes using `Debugger.Write` which also writes to the trace, and since we were capturing the trace to log it, we created an infinite logging loop of doom. The solution is to create our own debug sink, which is trivial when you consider that the only line that matters in the code below is the last one:
 
 ```fsharp
 /// This debug sink writes to output window without generating trace events
 type NoTraceDebugSink () =
 
-  // only needs to be changed if you want to tweak the appearance of output events
+  // default message template
   let defaultDebugOutputTemplate =
     "[{Timestamp:HH:mm:ss} {Level:u3}] {Message:lj}{NewLine}{Exception}"
 
@@ -194,10 +199,11 @@ type NoTraceDebugSink () =
     member _.Emit logEvent =
       use buffer = new StringWriter()
       formatter.Format(logEvent, buffer)
-      Debugger.Log (0, null, string buffer) // ← this does the trick
+      // Debugger.WriteLine (string buffer) // ← this also writes to trace!
+      Debugger.Log (0, null, string buffer) // ← this does the trick 👍
 ```
 
-The code above is super boilerplaty, only the last line matters as it writes to the debugger output window using `Debugger.Log` which does not create a Trace event. This is exactly what we want so let's use our new sink:
+The code above is super boilerplaty, only the last line matters, but now we can use this sink to create a new logger:
 
 ```fsharp
 // replace stock sink with the one above
@@ -212,9 +218,9 @@ Farewell stack overflow, you shall not be missed.
 
 ## The next logical step
 
-When my existing process runs in interactive mode, it displays a whole bunch of stuff in the terminal so my colleagues think that I'm super busy and smart. I quickly realized that a lot of what I displayed in the terminal was duplicating of some of my events.
+When my existing process runs in interactive mode, it displays a whole bunch of stuff in the terminal so my colleagues think that I'm super busy and smart. I quickly realized that a lot of what I displayed in the terminal is duplicating some of my log events.
 
-The next logical step was to drop most of this console output code, and instead let some events appear in the console as execution happens. Thankfully (say it with me) there's a sink for that! It's called [Serilog.Sinks.Console](https://github.com/serilog/serilog-sinks-console) so let's instanciate it and daisy chain it:
+The next logical step is to drop most of this console output code, and instead let some events appear in the console as execution happens. Thankfully (say it with me) there's a sink for that! It's called [Serilog.Sinks.Console](https://github.com/serilog/serilog-sinks-console) so let's instanciate it and daisy chain it:
 
 ```fsharp
 // this logger writes information-level events to the console
@@ -238,11 +244,13 @@ Now notifications about process milestones are sent to the console as well as lo
 Serilog.Log.Information "Something important"
 ```
 
-Events that were just sent to the terminal now can be seen in any of your configured sinks, which is useful to diagnose code that you're not running in interactive mode such as ongoing scheduled production processes. You can connect to your event sink of choice halfway through a running process and you'll see whatever would be displayed in the terminal if you had executed it manually! 🎉
+Events that were just sent to the terminal now can be seen in any of your configured sinks, which is useful to diagnose code that you're not running in interactive mode such as ongoing scheduled production processes.
+
+You can connect to your event sink of choice halfway through a running session and you'll see whatever would be displayed in the terminal as if you had executed it manually! 🎉
 
 ## Time to score that home run
 
-It's been a long journey, but believe it or not between 3<sup>rd</sup> base and the home plate there's only **a single line of code**. We need a hosted centralized log repository, so we need to move away from the rolling file. I'm going to use [Serilog.Sinks.Seq](https://github.com/serilog/serilog-sinks-seq) here but since this choice only impacts one line of code, feel free to do your own research and try different solutions. You can install the free dev version of Seq on the smallest linux box in Azure, it seems to work fine.
+It's been a long journey, but thanks to it, between 3<sup>rd</sup> base and the home plate there's only **a single line of code**. We need a hosted centralized log repository, so we need to move away from the rolling file. I'm going to use [Serilog.Sinks.Seq](https://github.com/serilog/serilog-sinks-seq) here but since this choice only impacts one line of code, feel free to do your own research and try different solutions. Note that you can install the free dev version of Seq on the smallest linux box in Azure, it seems to work fine.
 
 ```fsharp
 // replace the rolling file with Seq
@@ -258,15 +266,16 @@ use logger =
     .WriteTo.Logger(consoleLogger)
     .CreateLogger()
 ```
-That's it! Our logs now appear in Seq almost in real time! You can watch some long running process from your phone while you watch Netflix.
+That's it! Our logs now appear in Seq almost in real time!
 
 ![logging-virgin](/assets/2020/logging-hero.gif)
 
-In Seq (on the right) you can click on any event to see the details. Event properties that aren't scalars (strings, numbers) can be expanded to see *their* properties to any depth as far as I can tell.
+You can click on any event to see the details. Event properties that aren't scalars (like strings or numbers) can be expanded to see *their* properties to any depth as far as I can tell.
 
 ![seq](/assets/2020/seq.png)
+*`{HttpRequestMessage}` and `{HttpResponseMessage}` abbreviated for… brevity*
 
-If the eagle eyed reader is still with us, they may have noticed the `Request` and `Response` properties that aren't nowhere to be seen in the message template. You can add properties to events without polluting the message template by using `ForContext`, this is important so event lines remain concise.
+If the eagle eyed reader is still with us, they may have noticed these `Request` and `Response` properties that aren't anywhere in the message template. You can add properties to events without polluting the message template by using `ForContext`, this is important so event lines remain concise.
 
 ```fsharp
 logger
@@ -329,10 +338,15 @@ With this change, HTTP messages are way more readable when added as properties o
 
 ## You have reached your destination 🏁
 
-This may seem like a lot of code just for logging, but not all of it is necessary as some people won't need trace while others won't need console output. Moreover, this is all setup code that's very easy to follow and to maintain. You'll write it once and rip the benefits forever without almost never touching it again.
+This may seem like a lot of code just for logging at first, but consider the following:
+- it's only a lot compared to the tiniest of solutions
+- it's all the code you'll need even as your solution grows larger
+- not all of it is necessary as some people won't need trace while others won't need console output
+
+Moreover, this is all setup code that's very easy to follow and to maintain. You'll write it once and rip the benefits forever without almost never touching it again.
 
 ## A word about monkeys 🐒
 
 When someone asks you for additional information just to delay dealing with something, it's called putting a monkey on your back, and if left unchecked you may wind up with an entire barrel of them.
 
-In case you're wondering, a barrel is the appropriate term for a group of monkeys. I'll never cease to wonder at English's super specific names for groups of different animal types. If you too wonder at this useless piece of trivia, or at any other part of this article, bless your heart, and please let me know on Twitter, and while you're there you can also [follow me](http://twitter.com/intent/user?screen_name=LuisLikeIewis), and/or retweet this article's [tweet](http://twitter.com/LuisLikeIewis), both of which help a lot. In any event, merry Xmas to you and your family, and may 2021 be nothing like 2020.
+In case you're wondering, a barrel is the appropriate term for a group of monkeys. I'll never cease to wonder at English's super specific names for groups of different animal types. If you too wonder at this useless piece of trivia, or at any other part of this article, bless your heart, and please let me know on Twitter, and while you're there you can also [follow me](http://twitter.com/intent/user?screen_name=LuisLikeIewis), and/or retweet this article's [tweet](http://twitter.com/LuisLikeIewis), both of which I'd be eternally grateful for. In any event, merry Xmas to you and your family, and may 2021 be nothing like 2020.
