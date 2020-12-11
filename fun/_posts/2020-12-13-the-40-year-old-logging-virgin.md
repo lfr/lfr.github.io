@@ -20,9 +20,10 @@ typora-root-url: C:\Users\lfr\source\repos\lfr.github.io
 <div class="message">
   <p>
     <p>
-      👉&nbsp;<i>Spare yourself the pain of getting code from this article to work, there's a full working single-file version <a href="https://github.com/lfr/lfr.github.io/blob/master/fun/scripts/logging-virgin.fsx" target="_blank">here</a>.</i>
+      👉&nbsp;<i>Spare yourself the pain of copy/pasting from this article, there's a full working single-file version <a href="https://github.com/lfr/lfr.github.io/blob/master/fun/scripts/logging-virgin.fsx" target="_blank">here</a>.</i>
   </p>
 </div>
+
 
 Whatever brought you here, it's possible you think of logging as entirely un-sexy. Let me challenge that thought for a second: If UI is how apps talk to end users, logging is how programs talk to devs. This often overlooked line of communication may be the difference between a fling and a happy long term relationship with your production code.
 
