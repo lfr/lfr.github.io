@@ -7,11 +7,11 @@ permalink:        pretty
 # ɪᴍᴩᴜᴙᴇ&nbsp;Ꞙᴜᴨ ɪᴍᴩᴜʀᴇᴆᴇᴠ ΙΜΡՍЯЕҒՍͶ iмpᴜre.fᴜn iᴍᴩᴜᴙᴇ.fᴜᴨ
 # iᴍᴩᴜʀᴇfᴜn <span style="letter-spacing: -.15rem;">i</span>ᴍᴩᴜʀᴇ<span style="letter-spacing: -.25rem;">f</span>ᴜn
 title:            impure.fun
-title_image:      http://functionalfunsies.com/assets/2020/take-it-to-the-stars.png
+title_image:      https://impure.fun/assets/2020/take-it-to-the-stars.png
 tagline:          'Mostly for profit'
 twitter_intro:    'Functional code for humans'
 intro:            'Functional code for humans'
-url:              http://functionalfunsies.com
+url:              https://impure.fun
 baseurl:          '/'
 
 author:
