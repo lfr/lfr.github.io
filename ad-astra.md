@@ -23,7 +23,7 @@ While pure code is as close to perfection as humans will ever get, there are thi
 
 ## Saving our code from ourselves
 
-Surprisingly there's only one way to consistently ensure that our domain is always valid, regardless of what users type in text boxes or whether that API call returned valid content. That way is to not use generic types such as strings that are supersets of what we actually expect.
+Surprisingly there's only one way to consistently ensure that our domain is always valid, regardless of what users type in text boxes or whether an API call returned valid content. That way is to not use generic types such as strings that are supersets of what we actually expect.
 
 So if we already know the solution, what's the problem? The problem is that this solution requires *a lot more* code in the design phase, and nobody likes to write *a lot more* code to achieve similar results.
 
