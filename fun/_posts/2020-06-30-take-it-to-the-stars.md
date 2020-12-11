@@ -58,7 +58,7 @@ type UserProfile =
     }
 ```
 
-This could do the job, but if you've been following the series, defining all of these fields as `string` is [far from ideal](https://functionalfunsies.com/fun/2020/03/04/these-arent-the-types/). For starters only the `Bio` field accepts line returns — a rule that isn't anywhere in this definition — so we're going to start over with the goal of creating a domain that both states **and** enforces any of such constraints.
+This could do the job, but if you've been following the series, defining all of these fields as `string` is [far from ideal](/fun/2020/03/04/these-arent-the-types/). For starters only the `Bio` field accepts line returns — a rule that isn't anywhere in this definition — so we're going to start over with the goal of creating a domain that both states **and** enforces any of such constraints.
 
 ## Say no to analysis paralysis
 

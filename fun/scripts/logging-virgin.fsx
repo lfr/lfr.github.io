@@ -1,6 +1,6 @@
 (*
     This code was published alongide the article below:
-    http://functionalfunsies.com/fun/_posts/2020-12-13-the-40-year-old-logging-virgin.md
+    http://impure.fun/fun/_posts/2020-12-13-the-40-year-old-logging-virgin.md
     © 2020 Luis Ferrao
  *)
 

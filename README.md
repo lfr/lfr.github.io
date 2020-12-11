@@ -1,1 +1,1 @@
-Not sure why you're here, perhaps you were looking for [this](http://functionalfunsies.com)?
+Not sure why you're here, perhaps you were looking for [this](http://impure.fun)?

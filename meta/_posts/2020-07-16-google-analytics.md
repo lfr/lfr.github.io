@@ -9,7 +9,7 @@ image: /assets/2020/google-analytics.png
 
 ![splash](/assets/2020/google-analytics.png)
 
-In the image above you can see the effect of my last two posts on the blog's traffic. If you look at number of visits in dark blue, clearly my article [Take F# to the stars](https://functionalfunsies.com/fun/2020/06/30/take-it-to-the-stars/) was — please forgive me — a stellar hit. If you look at average time spent in lighter blue, my most recent article [The last apolitical developer](https://functionalfunsies.com/special/2020/07/13/the-end-of-the-apolitical-dev/) did much better. In fact, it over performed all my articles by a lot.
+In the image above you can see the effect of my last two posts on the blog's traffic. If you look at number of visits in dark blue, clearly my article [Take F# to the stars](/fun/2020/06/30/take-it-to-the-stars/) was — please forgive me — a stellar hit. If you look at average time spent in lighter blue, my most recent article [The last apolitical developer](/special/2020/07/13/the-end-of-the-apolitical-dev/) did much better. In fact, it over performed all my articles by a lot.
 
 ## Audience vs. attention
 
@@ -29,7 +29,7 @@ But for Netflix who gets paid the same whether a subscriber watches 10 hours or 
 
 There's a lesson here for me, one that's applicable to general life: do not undermine your own self-confidence by judging yourself with a single metric, and keep in mind everything you succeeded at when contemplating something that failed. There wasn't any failure for me in this particular instance, but as a brand new blog I clearly need new eyeballs, so an article that spreads like wildfire is very welcome.
 
-As a writer however I care more about whether the people that landed here found something of value and ended up reading most of the article. In this respect the performance of [The last apolitical developer](https://functionalfunsies.com/special/2020/07/13/the-end-of-the-apolitical-dev/) is particularly rewarding. It may have reached a fraction of my most popular article, but for that fraction and for those 10 minutes on average, it gave Netflix a run for its money.
+As a writer however I care more about whether the people that landed here found something of value and ended up reading most of the article. In this respect the performance of [The last apolitical developer](/special/2020/07/13/the-end-of-the-apolitical-dev/) is particularly rewarding. It may have reached a fraction of my most popular article, but for that fraction and for those 10 minutes on average, it gave Netflix a run for its money.
 
 No hard feelings Reed, I'm still a huge fan, just don't send me any pills.
 
