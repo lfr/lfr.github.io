@@ -39,6 +39,10 @@ a {
     /* text-decoration: none; */
 }
 
+img {
+    border-radius: 0px;
+}
+
 /*
  * Custom type
  *
@@ -68,11 +72,6 @@ html {
     font-family:
         Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace, Menlo;
   }
-
-/* Sidebar links */
-.sidebar a {
-    color: #30b9db; /* #fff */
-}
 
 /* About section */
 .sidebar-about h1 {
