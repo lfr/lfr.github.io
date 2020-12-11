@@ -27,6 +27,12 @@ li {
     margin-bottom: .6rem;
 }
 
+/* main logo */
+.sidebar img {
+    border-radius: 0px;
+    display: inline;
+}
+
 
 
 /***********************/
@@ -38,11 +44,6 @@ a {
     color: #378bba; /* #268bd2 */
     /* text-decoration: none; */
 }
-
-img {
-    border-radius: 0px;
-}
-
 /*
  * Custom type
  *
