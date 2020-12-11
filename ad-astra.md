@@ -23,15 +23,15 @@ While pure code is as close to perfection as humans will ever get, there are thi
 
 ## Saving our code from ourselves
 
-Surprisingly there's only one way to consistently ensure that our domain is always valid, regardless of what users type in text boxes or whether an API call returned valid content. That way is to not use generic types such as strings that are supersets of what we actually expect.
+Users may type anything in text boxes and perfectly valid APIs calls can return invalid content, and surprisingly there's only one way to consistently and effectively ensure that our domain is valid: don't use standard types such as strings that are in fact supersets of what we actually expect.
 
 So if we already know the solution, what's the problem? The problem is that this solution requires *a lot more* code in the design phase, and nobody likes to write *a lot more* code to achieve similar results.
 
 ## Validation blocks to the rescue
 
-These series tries to introduce the concept of validation blocks that dramatically reduce the amount of code necessary to create domains with such self-validating custom types.
+These series introduces the concept of validation blocks that dramatically reduce the amount of code necessary to create airtight domains.
 
-You don't need to know how to design with types to follow this series, it's meant for beginners, but you do need to be familiar with F# syntax.
+You don't need to know how to design with types in order to follow this series, it's meant for beginners, but you do need at least some familiarity with F# syntax.
 
 For your convenience all 4 articles can be found below, in chronological order. **If you only read one, just read the last one**. If you only read two, read the first and last one. Whatever you read, I wish you a safe flight!
 
