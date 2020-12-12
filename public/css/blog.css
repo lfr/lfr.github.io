@@ -54,6 +54,18 @@ a {
     font-size: 1.1rem; /* 1.25rem */
     /* font-weight: 300; */
  }
+
+ @media (max-width: 48em) {
+     .lead {
+         text-transform: lowercase
+     }
+     .lead::before {
+         content: "¬\a0";
+     }
+     .lead::after {
+         content: "\a0⌐";
+     }
+ }
  
  .pagination {
      font-family: inherit;
