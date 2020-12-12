@@ -15,7 +15,7 @@ image: /assets/2020/ad-astra.png
 </p>
 <br>
 
-**Take F# to the stars** is a series about these little known yet life-saving blocks that make ambitious F# projects also reliable and safe, which is something your starship needs, trust me.
+This series is about little-known yet life-saving blocks that make ambitious F# projects also reliable and safe, which is something your starship needs, trust me.
 
 After embarking on your journey through functional spacetime you will hopefully soon acquire the superpower of creating code that never throws exceptions. This sounds like fantasy coming from a non-FP background, but it's very real and it even has a name: [pure code](https://en.wikipedia.org/wiki/Pure_function).
 
