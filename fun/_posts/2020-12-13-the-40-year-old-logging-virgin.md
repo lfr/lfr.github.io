@@ -30,13 +30,14 @@ Whatever brought you here, it's possible you think of logging as entirely un-sex
 
 Despite being a 40 year-old accomplished developer, I've never done proper logging. I mean yes I have used a debugger output window, but that's hardly going beyond first base according to this famous table I just made up:
 
+<small>
 | Base        | Logging capability                       |
 | --- | --- |
-| First base  | Console                                  |
-| Second base | Console + debugger output                |
-| Third base  | Console + debugger output + rolling file |
-| Home run    | Hosted centralized queryable logs        |
-
+| First&nbsp;base  | Console                                  |
+| Second&nbsp;base | Console + debugger output                |
+| Third&nbsp;base  | Console + debugger output + rolling file |
+| Home&nbsp;run    | Hosted centralized queryable logs        |
+</small>
 It's not that I've actively avoided it, it's just a combination of circumstances that led me to where I am now, mainly because I was working on prototypes before handing them to *real* developers, or working on solutions so large that logging was handled elsewhere or by someone else.
 
 ### From logging zero to logging hero 🦸‍♂️
