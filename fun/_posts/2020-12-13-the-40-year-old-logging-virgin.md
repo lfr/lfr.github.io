@@ -288,7 +288,7 @@ The last boolean parameter indicates that the object should be *destructured* in
 
 ## One doesn't just log an object
 
-In fact, `HttpRequestMessage` and `HttpResponseMessage` are not good candidates to be used as-is. They have too many properties, none of which contain the request's raw content that is the main thing someone needs to replicated it. But the worst part is that the response also contains the request in one of its properties!
+`HttpRequestMessage` and `HttpResponseMessage` are not good candidates to be used as-is. They have too many properties, none of which contain the request's raw content that is the main thing someone needs to replicated it. But the worst part is that the response also contains the request in one of its properties!
 
 The best thing to do here is to take the last step in our journey, and customize how certain objects are destructured which we'll do with an extension method:
 
