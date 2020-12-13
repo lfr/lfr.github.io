@@ -49,9 +49,9 @@ It's not that I've actively avoided it, it's just a combination of circumstances
 
 ![logging-virgin](/assets/2020/logging-virgin.gif)
 
-Whatever the reason, today I have this project that I lone wolf, and it's in dire need of logging. It processes an incoming stream of data and generates thousands of API calls that do what they're supposed to, most of the time. When something happens to those calls outside of 'most of the time', a discussion takes place between me and the fine folks responsible for the target API.
+Whatever the reason, today I have this project that I lone-wolf, and it's in dire need of logging. It processes an incoming stream of data and generates thousands of API calls, but when these calls return unexpected results, I open a ticket.
 
-These discussions often turn into someone asking me for some useless piece of additional information, seemingly to delay having to do any work. It was clear that there was only one way out of this hell hole, I needed to log their own API activity so that they could peruse it at their leisure. Sigh.
+These tickets often turn into someone asking me for some useless piece of additional information, seemingly to delay having to do any work. It was clear that there was only one way out of this hell hole, I needed to log their own API activity so that they could peruse it at their leisure. Sigh.
 
 ## Poor man won't help you
 
