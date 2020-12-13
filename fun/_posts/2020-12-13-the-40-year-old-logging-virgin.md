@@ -24,7 +24,9 @@ typora-root-url: C:\Users\lfr\source\repos\lfr.github.io
   </p>
 </div>
 
-Whatever brought you here, it's possible you think of logging as entirely un-sexy. Let me challenge that thought for a second: If UI is how apps talk to end users, logging is how programs talk to devs. This often overlooked line of communication may be the difference between a fling and a happy long term relationship with your production code.
+Whatever brought you here, it's possible you think of logging as entirely un-sexy. Let me challenge that thought for a second: If UI is how apps talk to end users, logging is how programs talk to devs.
+
+This often overlooked line of communication may be the difference between a fling and a happy long term relationship with your production code.
 
 ## I have a confession to make
 
@@ -38,7 +40,7 @@ Despite being a 40 year-old accomplished developer, I've never done proper loggi
 | Third&nbsp;base  | Console + debugger output + rolling file |
 | Home&nbsp;run    | Hosted centralized queryable logs        |
 </small>
-It's not that I've actively avoided it, it's just a combination of circumstances that led me to where I am now, mainly because I was working on prototypes before handing them to *real* developers, or working on solutions so large that logging was handled elsewhere or by someone else.
+It's not that I've actively avoided it, it's just a combination of circumstances that led me to where I am now, mainly because I was working on prototypes before handing them to *real* developers, or solutions so large that logging was handled elsewhere or by someone else.
 
 ### From logging zero to logging hero 🦸‍♂️
 
@@ -46,9 +48,7 @@ It's not that I've actively avoided it, it's just a combination of circumstances
 
 Whatever the reason, today I have this project that I lone wolf, and it's in dire need of logging. It processes an incoming stream of data and generates thousands of API calls that do what they're supposed to, most of the time. When something happens to those calls outside of 'most of the time', a discussion takes place between me and the fine folks responsible for the target API.
 
-These discussions often turn into someone asking me for some useless piece of additional information, seemingly to delay having to do any work. One of their most effective delaying methods consists of asking me for a list of all API requests in the hour leading to the incident. If they can't properly investigate API issues without the content of the requests, shouldn't *they* be logging them? 🤔
-
-As often is the case, who should do something matters less than whose problem it is. In this case they could just ask me for these requests so it was definitely my problem. It was up to me to log their own API activity for them so that they could peruse it at their leisure. Sigh.
+These discussions often turn into someone asking me for some useless piece of additional information, seemingly to delay having to do any work. It was clear that there was only one way out of this hell hole, I needed to log their own API activity so that they could peruse it at their leisure. Sigh.
 
 ## Poor man won't help you
 
