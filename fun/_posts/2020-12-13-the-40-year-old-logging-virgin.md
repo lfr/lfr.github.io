@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: The 40 year old logging virgin
 summary: >-
