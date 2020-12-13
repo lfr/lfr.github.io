@@ -24,7 +24,7 @@ typora-root-url: C:\Users\lfr\source\repos\lfr.github.io
   </p>
 </div>
 
-Whatever brought you here, it's possible you think of logging as entirely un-sexy. Let me challenge that thought for a second: If UI is how apps talk to end users, logging is how programs talk to devs.
+Whatever brought you here, it's possible you think of logging as entirely un-sexy. Let me challenge that thought: if UI is how apps talk to end users, logging is how programs talk to devs.
 
 This often overlooked line of communication may be the difference between a fling and a happy long term relationship with your production code.
 
