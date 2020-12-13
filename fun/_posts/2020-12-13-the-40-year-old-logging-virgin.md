@@ -112,7 +112,7 @@ Message templates are very useful to define a log entry that is both meaningful 
 
 Obviously, you don't necessarily want to be storing `"{RequestMethod} {RequestPath} returned status {StatusCode} {Status} in {Elapsed} ms"` but hashed to `0xBC116E09` and it looks a lot more like a natural identifier. Serilog's `RenderedCompactJsonFormatter` automatically adds this hash to the rendered json, and so does Seq which I'll get to later.
 
-This is called implicit event types and it's perfect for my needs. With both my requirements fulfilled, it's time to do the deed.
+These implicit event types are perfect for my needs. With both my requirements fulfilled, it's time to do the deed.
 
 ### Warning: may contain traces of F# 🥜
 
@@ -354,4 +354,4 @@ Moreover, this is all setup code that's very easy to follow and to maintain. You
 
 When someone asks you for additional information just to delay dealing with something, it's called putting a monkey on your back, and if left unchecked you may wind up with an entire barrel of them.
 
-In case you're wondering, a barrel is the appropriate term for a group of monkeys. I'll never cease to wonder at English's super specific names for groups of different animal types. If you too wonder at this useless piece of trivia, or at any other part of this article, bless your heart, and please let me know on Twitter, and while you're there you can also [follow me](http://twitter.com/intent/user?screen_name=LuisLikeIewis), and/or retweet this article's [tweet](http://twitter.com/LuisLikeIewis), both of which I'd be eternally grateful for. In any event, merry Xmas to you and your family, and may 2021 be nothing like 2020.
+In case you're wondering, a barrel is the appropriate term for a group of monkeys. I'll never cease to wonder at English's super specific names for groups of different animal types. If you too wonder at this useless piece of trivia, or at any other part of this article, bless your heart, and please let me know on Twitter, and while you're there you can also [follow me](http://twitter.com/intent/user?screen_name=LuisLikeIewis), and/or retweet this article's [tweet](https://twitter.com/luislikeIewis/status/1338215777128820745?s=20), both of which I'd be eternally grateful for. In any event, merry Xmas to you and your family, and may 2021 be nothing like 2020.
