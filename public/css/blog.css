@@ -36,6 +36,14 @@ li {
 @media (min-width: 48em) {
     .sharethis-inline-share-buttons {
         text-align: left !important;
+    }    
+    .sharethis-inline-share-buttons {
+        filter: grayscale(80%);
+        opacity: .6 !important; 
+    }
+    .sharethis-inline-share-buttons:hover {
+        filter: grayscale(50%);
+        opacity: .8 !important;
     }
 }
 
