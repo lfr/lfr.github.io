@@ -30,8 +30,7 @@ This often overlooked line of communication may be the difference between a flin
 
 ## I have a confession to make
 
-Despite being a 40 year-old accomplished developer, I've never done proper logging. I mean yes I have used a debugger output window, but that's hardly going beyond 1<sup>st</sup
-|> base according to this famous table I just made up:
+Despite being a 40 year-old accomplished developer, I've never done proper logging. I mean yes I have used a debugger output window, but that's hardly going beyond 1<sup>st</sup> base according to this famous table I just made up:
 
 | <small>Base</small> | <small>Logging capability</small> |
 | --- | --- |
