@@ -57,7 +57,9 @@ At the beginning I went for a poor man's logging kind of approach, which is my f
 
 ## Logging done right
 
-I understand how ridiculous it is for me to devsplain this after having done it only once, but let's be honest, this is what you're here for, otherwise you'd be reading a book, not a blog. I've boiled the requirements for a log to be useful down to just two:
+I understand how ridiculous it is for me to devsplain this after having done it only once, but let's be honest: this is what you're here for, otherwise you'd be reading a book, not a blog. 
+
+I've boiled the requirements for a log to be useful down to just two:
 
 - Events can easily be grouped by type
 - Event properties are informative and easily queryable
