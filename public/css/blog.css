@@ -60,16 +60,18 @@ a {
          text-transform: lowercase
      }
      .lead::before {
-         content: "˖";
-         bottom: .1rem;
-         position: relative;
+        content: "¬\a0";
+        font-size: .6rem;
+        font-weight: bold;
+        vertical-align: middle;
      }
 
 p.lead {}
      .lead::after {
-         content: "˖";
-         bottom: .1rem;
-         position: relative;
+        content: "\a0⌐";
+        font-size: .6rem;
+        font-weight: bold;
+        vertical-align: middle;
      }
  }
  
