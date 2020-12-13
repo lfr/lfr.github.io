@@ -35,10 +35,10 @@ Despite being a 40 year-old accomplished developer, I've never done proper loggi
 
 | Base | Logging capability |
 | --- | --- |
-| First&nbsp;base  | Console                           |
-| Second&nbsp;base | Console + debugger output         |
-| Third&nbsp;base  | Console + output + rolling file   |
-| Home&nbsp;run    | Hosted centralized queryable logs |
+| <small>First&nbsp;base</small>  | <small>Console</small>                           |
+| <small>Second&nbsp;base</small> | <small>Console + debugger output</small>         |
+| <small>Third&nbsp;base</small>  | <small>Console + output + rolling file</small>   |
+| <small>Home&nbsp;run</small>    | <small>Hosted centralized queryable logs</small> |
 
 It's not that I've actively avoided it, it's just a combination of circumstances that led me to where I am now, sometimes I was working on prototypes before handing them to *real* developers, other times with solutions so large that logging was handled elsewhere or by someone else.
 
