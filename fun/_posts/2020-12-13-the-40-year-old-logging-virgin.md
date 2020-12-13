@@ -275,7 +275,7 @@ That's it! Our logs now appear in Seq almost in real time!
 
 ![logging-virgin](/assets/2020/logging-hero.gif)
 
-You can click on any event to see the details. Event properties that aren't scalars (like strings or numbers) can be expanded to see *their* properties to any depth as far as I can tell.
+You can click on any event to see the details. Event properties that aren't scalar (such as strings or numbers) can be expanded to see *their* properties to any depth as far as I can tell.
 
 ![seq](/assets/2020/seq.png)
 *`{HttpRequestMessage}` and `{HttpResponseMessage}` abbreviated for… brevity*
