@@ -33,7 +33,11 @@ li {
     display: inline;
 }
 
-
+@media (min-width: 48em) {
+    .sharethis-inline-share-buttons {
+        text-align: left !important;
+    }
+}
 
 /***********************/
 /* Overwrite POOLE.CSS */
