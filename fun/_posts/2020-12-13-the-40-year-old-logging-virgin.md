@@ -34,14 +34,12 @@ Despite being a 40 year-old accomplished developer, I've never done proper loggi
 
 <small>
 
-| Base        | Logging capability                       |
-| --- | --- |
-| First&nbsp;base  | Console                                  |
-| Second&nbsp;base | Console + debugger output                |
-| Third&nbsp;base  | Console + debugger output + rolling file |
-| Home&nbsp;run    | Hosted centralized queryable logs        |
-
-</small>
+  | Base        | Logging capability                       |
+  | --- | --- |
+  | First&nbsp;base  | Console                                  |
+  | Second&nbsp;base | Console + debugger output                |
+  | Third&nbsp;base  | Console + debugger output + rolling file |
+  | Home&nbsp;run    | Hosted centralized queryable logs        |</small>
 
 It's not that I've actively avoided it, it's just a combination of circumstances that led me to where I am now, mainly because I was working on prototypes before handing them to *real* developers, or solutions so large that logging was handled elsewhere or by someone else.
 
@@ -92,7 +90,7 @@ logger.Debug(
 
 This code creates the following log entry:
 
-```json
+```
 PATCH products returned status 200 OK in 2534 ms
   └►  {
         RequestMethod: "PATCH"
