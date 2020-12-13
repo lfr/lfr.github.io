@@ -40,15 +40,17 @@ Despite being a 40 year-old accomplished developer, I've never done proper loggi
 | Third&nbsp;base  | Console + output + rolling file   |
 | Home&nbsp;run    | Hosted centralized queryable logs |
 
-It's not that I've actively avoided it, it's just a combination of circumstances that led me to where I am now, mainly because I was working on prototypes before handing them to *real* developers, or solutions so large that logging was handled elsewhere or by someone else.
+It's not that I've actively avoided it, it's just a combination of circumstances that led me to where I am now, sometimes I was working on prototypes before handing them to *real* developers, other times with solutions so large that logging was handled elsewhere or by someone else.
 
 ### From logging zero to logging hero 🦸‍♂️
 
 ![logging-virgin](/assets/2020/logging-virgin.gif)
 
-Whatever the reason, today I have this project that I lone-wolf, and it's in dire need of logging. It processes an incoming stream of data and generates thousands of API calls, but when these calls return unexpected results, I open a ticket.
+Whatever the reason, today I have this project that I lone-wolf, and it's in dire need of logging. It processes an incoming stream of data and generates thousands of API calls.
 
-These tickets often turn into someone asking me for some useless piece of additional information, seemingly to delay having to do any work. It was clear that there was only one way out of this hell hole, I needed to log their own API activity so that they could peruse it at their leisure. Sigh.
+When these calls return unexpected results, I open a ticket, which often turns into someone asking me for some useless piece of additional information, seemingly to delay having to do any work. 
+
+It was clear that there was only one way out of this hell hole, I needed to log their own API activity so that they could peruse it at their leisure. Sigh.
 
 ## Poor man won't help you
 
