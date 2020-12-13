@@ -33,7 +33,7 @@ This often overlooked line of communication may be the difference between a flin
 Despite being a 40 year-old accomplished developer, I've never done proper logging. I mean yes I have used a debugger output window, but that's hardly going beyond 1<sup>st</sup
 |> base according to this famous table I just made up:
 
-| Base | Logging capability |
+| <small>Base</small> | <small>Logging capability</small> |
 | --- | --- |
 | <small>First&nbsp;base</small>  | <small>Console</small>                           |
 | <small>Second&nbsp;base</small> | <small>Console + debugger output</small>         |
