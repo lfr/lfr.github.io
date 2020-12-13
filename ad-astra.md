@@ -15,25 +15,23 @@ image: /assets/2020/ad-astra.png
 </p>
 <br>
 
-This series is about little-known yet life-saving blocks that make ambitious F# projects also reliable and safe, which is something your starship needs, trust me.
+After embarking on your journey through functional spacetime you will hopefully soon acquire the superpower of creating code that never throws exceptions. This may sound like fantasy coming from a non-FP background, but it's very real and it even has a name: [pure code](https://en.wikipedia.org/wiki/Pure_function).
 
-After embarking on your journey through functional spacetime you will hopefully soon acquire the superpower of creating code that never throws exceptions. This sounds like fantasy coming from a non-FP background, but it's very real and it even has a name: [pure code](https://en.wikipedia.org/wiki/Pure_function).
-
-While pure code is as close to perfection as humans will ever get, there are things you can't possibly control, like human input for instance. The code that deals with humans is by definition impure, and thus needs special attention.
+While pure code is as close to perfection as humans will ever get, there are things you can't possibly control, such as IO or network issues for instance, or human input. The code that deals with humans is by definition impure, and thus needs special attention, and this attention is the topic of this series.
 
 ## Saving our code from ourselves
 
-Users may type anything in text boxes and perfectly valid APIs calls can return invalid content, and surprisingly there's only one way to consistently and effectively ensure that our domain is valid: don't use standard types such as strings that are in fact supersets of what we actually expect.
+Users can type all sorts of unexpected content in text boxes, and perfectly valid APIs calls can return invalid content. Surprisingly there's only one consistently reliable way to ensure that our domain is valid.
 
-So if we already know the solution, what's the problem? The problem is that this solution requires *a lot more* code in the design phase, and nobody likes to write *a lot more* code to achieve similar results.
+While known, the solution to this problem requires more code in the design phase, and nobody likes to write more code to achieve similar results.
 
 ## Validation blocks to the rescue
 
 These series introduces the concept of validation blocks that dramatically reduce the amount of code necessary to create airtight domains.
 
-You don't need to know how to design with types in order to follow this series, it's meant for beginners, but you do need at least some familiarity with F# syntax.
+As it's meant for beginners, you don't need to know how to design with types in order to follow along, but you do need at least some familiarity with F# syntax.
 
-For your convenience all 4 articles can be found below, in chronological order. **If you only read one, just read the last one**. If you only read two, read the first and last one. Whatever you read, I wish you a safe flight!
+For your convenience all 4 articles can be found below, in chronological order. **If you only read one, just read the last one**. If you only read two, read the first and last one. Whatever you read, I wish you a safe flight! 🚀
 
 <a id="anchor"><br></a>
 
