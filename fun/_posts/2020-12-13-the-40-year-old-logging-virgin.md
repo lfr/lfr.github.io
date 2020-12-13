@@ -351,6 +351,6 @@ Moreover, this is all setup code that's very easy to follow and to maintain. You
 
 ## A word about monkeys 🐒
 
-When someone asks you for additional information just to delay dealing with something, it's called putting a monkey on your back, and if left unchecked you may wind up with an entire barrel of them.
+When someone asks you for additional information just to delay dealing with something, it's called *putting a monkey on your back*, and if left unchecked you may wind up with an entire barrel of them.
 
 In case you're wondering, a barrel is the appropriate term for a group of monkeys. I'll never cease to wonder at English's super specific names for groups of different animal types. If you too wonder at this useless piece of trivia, or at any other part of this article, bless your heart, and please let me know on Twitter, and while you're there you can also [follow me](http://twitter.com/intent/user?screen_name=LuisLikeIewis), and/or retweet this article's [tweet](https://twitter.com/luislikeIewis/status/1338215777128820745?s=20), both of which I'd be eternally grateful for. In any event, merry Xmas to you and your family, and may 2021 be nothing like 2020.
