@@ -32,14 +32,12 @@ This often overlooked line of communication may be the difference between a flin
 
 Despite being a 40 year-old accomplished developer, I've never done proper logging. I mean yes I have used a debugger output window, but that's hardly going beyond first base according to this famous table I just made up:
 
-<small>
-
-  | Base        | Logging capability                       |
-  | --- | --- |
-  | First&nbsp;base  | Console                                  |
-  | Second&nbsp;base | Console + debugger output                |
-  | Third&nbsp;base  | Console + debugger output + rolling file |
-  | Home&nbsp;run    | Hosted centralized queryable logs        |</small>
+| Base | Logging capability |
+| --- | --- |
+| First&nbsp;base  | Console                           |
+| Second&nbsp;base | Console + debugger output         |
+| Third&nbsp;base  | Console + output + rolling file   |
+| Home&nbsp;run    | Hosted centralized queryable logs |
 
 It's not that I've actively avoided it, it's just a combination of circumstances that led me to where I am now, mainly because I was working on prototypes before handing them to *real* developers, or solutions so large that logging was handled elsewhere or by someone else.
 
@@ -288,7 +286,7 @@ logger
 
 The last boolean parameter indicates that the object should be *destructured* instead of displayed with `.ToString()`.
 
-## This journey isn't quite over yet
+## One doesn't just log an object
 
 In fact, `HttpRequestMessage` and `HttpResponseMessage` are not good candidates to be used as-is. They have too many properties, none of which contain the request's raw content that is the main thing someone needs to replicated it. But the worst part is that the response also contains the request in one of its properties!
 
