@@ -111,7 +111,7 @@ Obviously, you don't necessarily want to be storing `"{RequestMethod} {RequestPa
 
 This is called implicit event types and it's perfect for my needs. With both my requirements fulfilled, it's time to do the deed.
 
-## Warning: may contain traces of F# 🥜
+### Warning: may contain traces of F# 🥜
 
 In order to create text file logger, according to Serilog's doc you may start with something like this:
 
