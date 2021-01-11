@@ -44,12 +44,16 @@ li {
 }
 
 .sidebar a svg {
-    width: .6rem;
+    width: .9rem;
     margin-left: .3rem;
 }
 
+.sidebar a svg path {
+    fill: #fff;
+}
+
 .sidebar-footer {
-    margin-top: 1rem;
+    margin-top: .3rem;
 }
 
 /***********************/
