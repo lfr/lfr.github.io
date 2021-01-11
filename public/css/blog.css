@@ -33,6 +33,10 @@ li {
     display: inline;
 }
 
+.sidebar-footer {
+    text-align: center;
+}
+
 @media (min-width: 48em) {
     .sharethis-inline-share-buttons {
         text-align: left !important;
@@ -44,6 +48,9 @@ li {
     .sharethis-inline-share-buttons:hover {
         filter: grayscale(50%);
         opacity: .8 !important;
+    }
+    .sidebar-footer {
+        text-align: left;
     }
 }
 
