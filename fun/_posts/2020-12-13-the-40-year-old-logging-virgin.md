@@ -184,7 +184,7 @@ use logger =
 
 Run the code above and you'll be hit with a stack overflow exception with zero stack trace. Your code just goes 💥&nbsp;boom&nbsp;💥 soon after launch, without any information. If you've created a lot of code before running it, trust me this may cost you a night of sleep. Thankfully this 40 year-old former logging virgin is here to tell you what happened.
 
-## That escalated quickly 😱
+### That escalated quickly 😱
 
 The problem is that Serilog's output logger writes using `Debugger.Write` which also writes to the trace, and since we were capturing the trace to log it, we created an infinite logging loop of doom. The solution is to create our own debug sink, which is trivial when you consider that the only line that matters in the code below is the last one:
 
