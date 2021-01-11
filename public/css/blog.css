@@ -54,6 +54,10 @@ li {
     }
 }
 
+.sidebar a svg {
+    width: 1rem;
+}
+
 /***********************/
 /* Overwrite POOLE.CSS */
 /***********************/
