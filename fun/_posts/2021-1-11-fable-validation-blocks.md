@@ -27,7 +27,7 @@ You'd be forgiven for trying to combine them like Voltron, indeed web apps often
 
 ## No happy ending? 💔
 
-But hold on for a second - in a plot twist that everybody saw coming - these things can be used together now, and all it took was adding `.Fable` to the namespace `FSharp.ValidationBlocks` making a new namespace `FSharp.ValidationBlocks.Fable`! How did I not think of this before 🤔
+But hold on for a second - in a plot twist that everybody saw coming - these things can be used together now, and all it took was adding `.Fable` to the namespace `FSharp.ValidationBlocks` making a new namespace `FSharp.ValidationBlocks.Fable`. How did I not think of this before!
 
 ## Should I try it?
 
