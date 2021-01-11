@@ -35,7 +35,7 @@ li {
 
 .sidebar-footer {
     text-align: center;
-    font-size: smaller;
+    font-size: small;
 }
 
 @media (min-width: 48em) {
@@ -54,8 +54,8 @@ li {
 }
 
 .sidebar-footer a svg {
-    width: .8rem;
-    margin-left: .3rem;
+    width: .7rem;
+    margin-left: .4rem;
 }
 
 .sidebar-footer a svg path {
