@@ -48,13 +48,17 @@ li {
     margin-top: .3rem;
 }
 
+.sidebar-footer a:hover {
+    color: white;
+}
+
 .sidebar-footer a svg {
     width: .9rem;
     margin-left: .3rem;
 }
 
 .sidebar-footer a svg path {
-    fill: #fff;
+    fill: #49a4ef;
 }
 
 /***********************/
