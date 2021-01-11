@@ -35,6 +35,7 @@ li {
 
 .sidebar-footer {
     text-align: center;
+    font-size: smaller;
 }
 
 @media (min-width: 48em) {
