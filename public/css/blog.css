@@ -58,6 +58,10 @@ li {
     width: 1rem;
 }
 
+.sidebar-footer {
+    margin-top: 1rem;
+}
+
 /***********************/
 /* Overwrite POOLE.CSS */
 /***********************/
