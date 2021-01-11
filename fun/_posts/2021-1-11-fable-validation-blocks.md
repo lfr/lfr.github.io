@@ -25,7 +25,7 @@ But hold on for a second - in a plot twist that everybody saw coming - these thi
 
 I don't know, let's see:
 
-* Does doing proper [ROP](https://fsharpforfunandprofit.com/rop/) validation without writing a single time <span style="font-family: monospace; background: #eee">Result<string, string list></span> sound good to you?
+* Does doing <u>proper ROP validation without writing a single time <span style="font-family: monospace; background: #eee">Result<string, string list></span></u> sound good to you?
 * Is <u>having all your guaranteed-to-be-valid types written with as little as 3 lines of code</u> music to your ears?
 * Does <u>not having to think where to define validation rules</u> or <u>remember to call them</u> appeal to you?
 
