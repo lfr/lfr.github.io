@@ -9,6 +9,14 @@ image: /assets/2021/fable-validation-blocks.png
 
 ![splash](/assets/2021/fable-validation-blocks.png)
 
+<div class="message">
+  <p>
+    <i>
+      Do not miss the live demo link at the bottom of the article, it's juicy stuff
+    </i>👇
+  </p>
+</div>
+
 If there's anything worse than writing javascript, it's having to read the javascript that you write. Thanks to [Fable](https://fable.io), you can write javascript that you don't have to read, indeed you don't even have to write it.
 
 Similarly, [FSharp.ValidationBlocks](https://github.com/lfr/FSharp.ValidationBlocks) allows you to validate things without writing any validation code, only rules. Yes, you can try to do validation without it, but like going to the toilet without toilet paper it's possible but it can be messy.
