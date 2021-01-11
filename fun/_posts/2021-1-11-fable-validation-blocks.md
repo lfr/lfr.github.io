@@ -12,7 +12,7 @@ image: /assets/2021/fable-validation-blocks.png
 <div class="message">
   <p>
     <i>
-      Do not miss the live demo link at the bottom of the article, it's juicy stuff
+      Don't miss the live demo link at the bottom of the article, it's juicy stuff
     </i>👇
   </p>
 </div>
