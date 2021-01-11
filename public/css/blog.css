@@ -43,17 +43,18 @@ li {
     }
 }
 
-.sidebar a svg {
+.sidebar-footer a {
+    color: silver;
+    margin-top: .3rem;
+}
+
+.sidebar-footer a svg {
     width: .9rem;
     margin-left: .3rem;
 }
 
-.sidebar a svg path {
+.sidebar-footer a svg path {
     fill: #fff;
-}
-
-.sidebar-footer {
-    margin-top: .3rem;
 }
 
 /***********************/
