@@ -12,7 +12,7 @@ tagline:          'Mostly for profit'
 twitter_intro:    'Functional code for humans'
 intro:            'Functional code for humans'
 url:              https://impure.fun
-baseurl:          ' /'
+baseurl:          '/'
 
 author:
   name:           'Luis Ferrao'
