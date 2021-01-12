@@ -23,7 +23,7 @@ Similarly, [FSharp.ValidationBlocks](https://github.com/lfr/FSharp.ValidationBlo
 
 ## Thanks, I'll take both ✌
 
-You'd be forgiven for trying to combine them like Voltron, indeed web apps often display forms that require validation. Unfortunately the reflection that makes `FSharp.ValidationBlocks` magical also made it incompatible with Fable.
+You'd be forgiven for trying to combine them like Voltron as web apps often display forms that require validation. Unfortunately the reflection that makes `FSharp.ValidationBlocks` magical also made it incompatible with Fable.
 
 ## No happy ending? 💔
 
