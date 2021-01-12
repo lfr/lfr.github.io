@@ -33,9 +33,9 @@ But hold on for a second - in a plot twist that everybody saw coming - these thi
 
 I don't know, let's see:
 
-* Does doing <u>proper ROP validation without writing a single time <span style="font-family: monospace; background: #eee">Result<string, string list></span></u> sound good to you?
+* Does doing <u>proper ROP validation without writing a single <span style="font-family: monospace; background: #eee">Result<string, string list></span></u> sound good to you?
 * Is <u>having all your guaranteed-to-be-valid types defined with as little as 3 lines of code</u> music to your ears?
-* Does <u>not having to think where validation rules go</u> or <u>remember to call them</u> appeal to you?
+* Does <u>not having to think where validation rules go</u> or <u>remembering to check them</u> appeal to you?
 
 I'm going to stop now because I ran out of sound metaphors, but the point is, yes, you should definitely try it, and thanks to Fable now [there's a live demo 🎁](https://impure.fun/FSharp.ValidationBlocks/demo/)! So meta…
 
