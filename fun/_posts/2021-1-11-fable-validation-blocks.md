@@ -37,7 +37,7 @@ I don't know, let's see:
 * Is <u>having all your guaranteed-to-be-valid types defined with as little as 3 lines of code</u> music to your ears?
 * Does <u>not having to think where validation rules go</u> or <u>remember to call them</u> appeal to you?
 
-I'm going to stop now because I ran out of sound metaphors, but the point is, yes, you should definitely try it, and thanks to Fable [there's a live demo 🎁](https://impure.fun/FSharp.ValidationBlocks/demo/) now! So meta…
+I'm going to stop now because I ran out of sound metaphors, but the point is, yes, you should definitely try it, and thanks to Fable now [there's a live demo 🎁](https://impure.fun/FSharp.ValidationBlocks/demo/)! So meta…
 
 ## Disclaimer
 
