@@ -41,4 +41,4 @@ I'm going to stop now because I ran out of sound metaphors, but the point is, ye
 
 ## Disclaimer
 
-Don't get triggered by my throwing shade at javascript, it's just for comedic purposes, I have a lot of respect for javascript as I believe it got many things right from the beginning.
+Don't get triggered by my throwing shade at javascript, it's just for comedic purposes, I have a lot of respect for that language that got many things right from the beginning.
