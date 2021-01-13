@@ -34,4 +34,4 @@ I believe I made a much better case for the existence of **FSharp.ValidationBloc
 
 ## Comments & Feedback
 
-To give feedback please use my very sophisticated "Comment Engine" by replying to [this tweet](https://twitter.com/luislikeIewis/status/1229781726970437632).
+To give feedback please use my very sophisticated "Comment Engine" by replying to [this tweet](https://twitter.com/luwvis/status/1229781726970437632).

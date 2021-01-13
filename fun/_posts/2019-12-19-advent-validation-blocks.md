@@ -188,4 +188,4 @@ When I first published this article there was no GitHub project, but [there's on
 | FSharp.ValidationBlocks | [![badge](https://img.shields.io/nuget/v/FSharp.ValidationBlocks.svg?style=for-the-badge&logo=appveyor&)](https://www.nuget.org/packages/FSharp.ValidationBlocks/) |
 
 ### Comments & Feedback
-Feel free to share any comments or feedback by replying to [this twitter post](https://twitter.com/luislikeIewis/status/1207695734713270272).
+Feel free to share any comments or feedback by replying to [this twitter post](https://twitter.com/luwvis/status/1207695734713270272).

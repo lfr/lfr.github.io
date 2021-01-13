@@ -120,4 +120,4 @@ Patience grasshopper, there's a lot here to digest. Introducing a completely dif
 
 ## Feedback & more
 
-If you enjoyed this article or have any comments please consider retweeting or replying to [this article's tweet](https://twitter.com/luislikeIewis/status/1257298328066445312), it's very appreciated.
+If you enjoyed this article or have any comments please consider retweeting or replying to [this article's tweet](https://twitter.com/luwvis/status/1257298328066445312), it's very appreciated.
