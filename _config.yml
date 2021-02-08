@@ -4,8 +4,6 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-# ɪᴍᴩᴜᴙᴇ&nbsp;Ꞙᴜᴨ ɪᴍᴩᴜʀᴇᴆᴇᴠ ΙΜΡՍЯЕҒՍͶ iмpᴜre.fᴜn iᴍᴩᴜᴙᴇ.fᴜᴨ
-# iᴍᴩᴜʀᴇfᴜn <span style="letter-spacing: -.15rem;">i</span>ᴍᴩᴜʀᴇ<span style="letter-spacing: -.25rem;">f</span>ᴜn
 title:            impure.fun
 title_image:      https://impure.fun/assets/2020/take-it-to-the-stars.png
 tagline:          'Mostly for profit'
@@ -23,4 +21,5 @@ paginate:         3
 # Custom vars
 version:          1.0
 
+# GitHub Pages
 theme: jekyll-theme-hacker
