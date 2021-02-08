@@ -17,10 +17,14 @@ pre.highlight {
 
 /* splash image style */
 img[alt="splash"] {
+    width: 80%;
+}
+
+/* center all post images */
+.post img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
 }
 
 li {
