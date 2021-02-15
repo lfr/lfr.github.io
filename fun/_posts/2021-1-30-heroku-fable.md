@@ -5,7 +5,6 @@ title: Do not go gentle into that impure night
 summary: >-
   Fable with FSharp.ValidationBlocks is now a thing
 image: /assets/2021/fable-validation-blocks.png
-typora-root-url: C:\Users\lfr\source\repos\lfr.github.io
 ---
 
 ![splash](/assets/2021/fable-validation-blocks.png)
