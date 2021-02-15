@@ -3,7 +3,7 @@ published: false
 layout: post
 title: The most excellent journey to Functional Wonderland
 summary: >-
-  There is a whimsical land of infinite code bliss awaiting for you, and all it takes to get there is for you to think different, but mostly, think simpler, much, much simpler
+  There is a whimsical land of infinite code bliss awaiting, and all it takes to get there is for you to think different, but mostly, think simpler, much, much simpler
 image: /assets/fp.png
 ---
 
@@ -15,7 +15,7 @@ This journey will bring you fame, of course, and glory, sooo much glory. But abo
 
 You will not be the first Object Oriented Programming developer to set sail, neither will you be the last, but for all that attempted this perilous but infinitely rewarding journey it always started in the exact same place:
 
-## Letting objects go
+## Letting go of objects
 
 Consider the following decidedly informal definition of an object:
 
@@ -80,4 +80,4 @@ In a twist that everybody saw coming, what gets us there is something called Fun
 
 ## The journey continues 🗺
 
-This is the first time I write for non-FP programmers, if you exist and are interested in the next article in this series please let me know by liking, commenting or replying to this article's tweet, and until next time, safe journey!
+This is the first time I write for non-FP programmers, if you exist and are interested in the next article in the series please let me know by liking, commenting or replying to this article's tweet, and until next time, safe journey!
