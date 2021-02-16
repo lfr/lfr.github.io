@@ -30,7 +30,8 @@
 
   {% assign read_time1 = "content | strip_html | number_of_words | divided_by: 200 | plus: 1" %}
   {% assign read_time2 = content | strip_html | number_of_words | divided_by: 200 | plus: 1 %}
-  
+  <script>{{ page.layout }}</script>
+
   {% if page.layout == 'post'}
   <script>{{ read_time1 }}</script>
   <script>{{ read_time2 }}</script>
