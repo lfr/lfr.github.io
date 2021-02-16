@@ -4,7 +4,7 @@ layout: post
 title: The most excellent journey to Functional Wonderland
 summary: >-
   There is a whimsical land of infinite code bliss waiting for you, and it all starts here
-image: /assets/fp.png
+image: /assets/glow.png
 ---
 
 ![splash](/assets/glow.png)
