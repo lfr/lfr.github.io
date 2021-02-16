@@ -35,7 +35,7 @@
   <script>{{ read_time2 }}</script>
   <script>{{ content | strip_html | number_of_words | divided_by: 200 | plus: 1 }}</script>
 
-  {% if page.is_post %}
+  {% if page.layout == 'post' %}
   <meta name="twitter:title"   content="{{ page.title }} | ~{{ read_time2 }} min read">
   <meta name="twitter:description" content="{{ page.summary }}">
   {% elsif page.summary %}
