@@ -42,7 +42,7 @@ Take a brick for instance, it's an excellent basic building block because when y
 - It's made of several bricks with mortar joints between them
 - It may have windows or doors
 
-Like programming objects, walls are useful too, but if we were to use walls instead of bricks as a basic building block for construction, we'd have to tweak their definition a little:
+Like objects in code, walls are useful too, but if we were to use walls instead of bricks as a basic building block for construction, we'd have to tweak their definition a little:
 
 - It's made of bricks, but it can be just one brick
 - It can have mortar joints, but only if it's made of two or more bricks
