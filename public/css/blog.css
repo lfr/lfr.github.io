@@ -125,6 +125,10 @@ p.lead {}
      font-family: inherit;
  }
 
+ .post-date {
+     display: unset;
+ }
+
 
 /**********************/
 /* Overwrite HYDE.CSS */
