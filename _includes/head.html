@@ -28,7 +28,11 @@
   <meta name="twitter:site"    content="@{{ site.twitter_username }}">
   <meta name="twitter:creator" content="@{{ page.author }}">
 
-  {% if page.summary %}
+  {% if page.layout == 'post'}
+  {% assign readTime = include.content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
+  <meta name="twitter:title"   content="{{ page.title }} | ~{{ readTime }} min read">
+  <meta name="twitter:description" content="{{ page.summary }}">
+  {% elsif page.summary %}
   <meta name="twitter:title"   content="{{ page.title }} | {{ site.title }} blog">
   <meta name="twitter:description" content="{{ page.summary }}">
   {% else %}
