@@ -11,7 +11,7 @@ image: /assets/fp.png
 
 Wandering developer, your next adventure awaits. I know you're ready. Without knowing it, you've been ready the moment you wrote your first line of code.
 
-This journey will bring you fame, of course, and glory, sooo much glory. But above all else, this journey will take you to a magical place you thought was forever lost, the place where the code you just wrote is **the most rewarding thing you did today**. Because it *feels* right the moment you write it. That place is Functional Wonderland.
+This journey will bring you fame, of course, and glory, sooo much glory. But above all else, this journey will take you to a magical place you thought was forever lost, the place where the code you just wrote is **the most rewarding thing** you did today. Because it *feels* safe, neat, and robust, the moment you write it. That place is Functional Wonderland.
 
 You will not be the first Object Oriented Programming developer to set sail, neither will you be the last, but for all that attempted this perilous but infinitely rewarding journey it always started in the exact same place:
 
