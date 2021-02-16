@@ -52,7 +52,7 @@ Does this definition look familiar? This is what happens when you pick the wrong
 
 ### Objects are truly nothing like bricks 🧱
 
-When you build an Object Oriented Programming (👉 OOP) solution, you can't afford to forget about its constituent objects, you need to keep track of:
+When you build an Object Oriented Programming (OOP) solution, you can't afford to forget about its constituent objects, you need to keep track of:
 
 - state
 - references
