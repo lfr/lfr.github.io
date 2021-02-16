@@ -68,7 +68,7 @@ Note that such patterns exist not because they're good coding practices, but bec
 
 Everything else you need to keep track of that's not mitigated by such patterns and practices you are already doing without thinking about it. In this way OOP is basically like a bad itch that you no longer notice you're scratching. Every. Single. Day. Because when you stop scratching, you get exceptions.
 
-![oop](/assets/2021/oop.png)
+![oop](/assets/2021/oop.png){:class="small"}
 
 Exceptions are so frequent when building OOP solutions that often one simply accepts exceptions as necessary inconveniences towards an eventually stable solution 🤞, which is sad because things just don't have to be this way.
 
