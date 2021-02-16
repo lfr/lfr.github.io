@@ -159,6 +159,7 @@ img + em {
     text-align: center;
     font-style: normal;
     font-size: smaller;
+    margin: 1rem;
 }
 
 /*************************/
