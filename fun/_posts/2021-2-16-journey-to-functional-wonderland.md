@@ -80,4 +80,4 @@ In a twist that everybody saw coming, what gets us there is something called Fun
 
 ## The journey continues ⛵
 
-This is the first time I write for non-FP programmers, if you exist and are interested in the next article in the series please let me know by liking or replying to [this article's tweet](https://twitter.com/luwvis/status/1361580444706361346?s=20), and until next time, safe journey!
+This is the first time I write for non-FP programmers, if you exist and are interested in the next article in the series please let me know by retweeting, liking, or replying to [this article's tweet](https://twitter.com/luwvis/status/1361580444706361346?s=20), and until next time, safe journey!
