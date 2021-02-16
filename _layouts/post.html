@@ -4,8 +4,7 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
-  <span id="readingTime">⏲</span>
+  <span id="readingTime">⏲</span><span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
 
   <script>
@@ -20,7 +19,7 @@ layout: default
     let textLength = parentTag.innerText.split(" ").length; // Split by words
     if(textLength > 0){
       let value = Math.ceil(textLength / wordsPerMinute);
-      result = `~${value} min read`;
+      result = `⏲ ~${value} min read`;
     }
     document.getElementById("readingTime").innerText = result;
   </script>

@@ -1,9 +1,9 @@
 ---
-published: false
+published: true
 layout: post
 title: The most excellent journey to Functional Wonderland
 summary: >-
-  There is a whimsical land of infinite code bliss awaiting, and all it takes to get there is for you to think different, but mostly, think simpler, much, much simpler
+  There is a whimsical land of infinite code bliss waiting for you, and it all starts here
 image: /assets/fp.png
 ---
 
