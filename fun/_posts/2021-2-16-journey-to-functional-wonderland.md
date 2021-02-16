@@ -13,7 +13,7 @@ Wandering developer, your next adventure awaits. I know you're ready, because yo
 
 This journey will bring you fame, of course, and glory, sooo much glory. But above all else, this journey will take you to a magical place you thought was forever lost, the place where the code you just wrote is **the most rewarding thing** you did today. Because it *feels* safe, neat, and robust, the moment you write it.
 
-You will not be the first Object Oriented Programming developer to set sail, neither will you be the last, but for all that attempted this perilous but infinitely rewarding journey it always started in the exact same place:
+You will not be the first Object Oriented Programming developer to set sail, neither will you be the last, but for all that attempted this perilous but infinitely rewarding journey, it always started in the exact same place:
 
 ## Letting go of objects
 
