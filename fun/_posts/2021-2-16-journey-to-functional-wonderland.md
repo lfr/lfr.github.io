@@ -3,7 +3,7 @@ published: true
 layout: post
 title: A wonderful journey to Functional Wonderland
 summary: >-
-  There is a whimsical land of infinite code bliss waiting for you, and the journey starts right here
+  There's a whimsical land of infinite code bliss waiting for you, and the journey starts right here
 image: /assets/glow.png
 ---
 
