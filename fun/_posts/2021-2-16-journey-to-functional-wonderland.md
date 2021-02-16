@@ -70,7 +70,7 @@ Everything else you need to keep track of that's not mitigated by such patterns 
 
 ![oop](/assets/2021/oop.png){:class="small"}
 
-Exceptions are so frequent when building OOP solutions that often one simply accepts exceptions as necessary inconveniences towards an eventually stable solution 🤞, which is sad because things just don't have to be this way.
+Exceptions are so frequent when building OOP solutions that often one simply accepts them as necessary inconveniences towards an eventually stable solution 🤞, which is sad because things just don't have to be this way.
 
 As one lets go of objects, or more accurately, as one starts using objects only when appropriate, exceptions start to become less and less commonplace, and in time you may find yourself writing code for hours from scratch and be rewarded with a brand new solution that just works!
 
@@ -80,4 +80,4 @@ In a twist that everybody saw coming, what gets us there is something called Fun
 
 ## The journey continues ⛵
 
-This is the first time I write for non-FP programmers, if you exist and are interested in the next article in the series please let me know by liking, commenting or replying to [this article's tweet](https://twitter.com/luwvis/status/1361580444706361346?s=20), and until next time, safe journey!
+This is the first time I write for non-FP programmers, if you exist and are interested in the next article in the series please let me know by liking or replying to [this article's tweet](https://twitter.com/luwvis/status/1361580444706361346?s=20), and until next time, safe journey!
