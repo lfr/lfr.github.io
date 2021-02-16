@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% include 'head.html' read_time: read_time %}
+{%- include 'head.html' read_time: read_time -%}
 
 <!-- Calculate read_time and store it in a variable -->
 {% assign read_time2 = content | strip_html | number_of_words | divided_by: 200 | plus: 1 %}
