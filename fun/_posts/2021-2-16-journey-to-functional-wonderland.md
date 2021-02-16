@@ -64,7 +64,7 @@ In addition to this, you also have to keep track of all of the above that may be
 
 You can afford to code without doing some of this using patterns and practices with fancy names such as Inversion of Control that are meant to mitigate issues inherent to OOP.
 
-Note that such patterns exist not because they're good coding practices, but because they're good OOP disaster mitigation techniques. As you venture away from OOP, these arcane vestigial practices will no longer clog your brain.
+Such patterns exist not because they're good coding practices, but because they're good OOP disaster mitigation techniques. As you venture away from OOP, these arcane vestigial practices will no longer clog your brain.
 
 Everything else you need to keep track of that's not mitigated by such patterns and practices you are already doing without thinking about it. In this way OOP is basically like a bad itch that you no longer notice you're scratching. Every. Single. Day. Because when you stop scratching, you get exceptions.
 

@@ -29,9 +29,9 @@ img[alt="splash"] { width: 100%; }
 }
 
 /* support .small post images */
-.post img .small { width: 60%; }
+.post img.small { width: 60%; }
 @media (min-width: 48em) {
-    .post img .small { width: 40%; }
+    .post img.small { width: 40%; }
 }
 
 li {
