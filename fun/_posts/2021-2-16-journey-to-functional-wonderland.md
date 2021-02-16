@@ -78,6 +78,6 @@ As one lets go of objects, or more accurately, as one starts using objects only 
 
 In a twist that everybody saw coming, what gets us there is something called Functional Programming, but as it turns out it doesn't necessarily involve any maths or other scarier "m" words, and definitely none of that complicated category theory, all it takes is simply using **a better basic building block**, which is exactly what I'll introduce next time!
 
-## The journey continues 🗺
+## The journey continues ⛵
 
 This is the first time I write for non-FP programmers, if you exist and are interested in the next article in the series please let me know by liking, commenting or replying to this article's tweet, and until next time, safe journey!
