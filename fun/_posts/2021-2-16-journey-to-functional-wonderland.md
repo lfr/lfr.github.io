@@ -39,7 +39,7 @@ This is important because when you compose an architecture, you want to focus on
 
 Take a brick for instance, it's an excellent basic building block because when you conceptualize a wall of bricks, you no longer care about the individual bricks, only the outside boundaries of the wall matter. Let's say a wall is defined as follows:
 
-- It's made several bricks with mortar joints between them
+- It's made of several bricks with mortar joints between them
 - It may have windows or doors
 
 Like programming objects, walls are useful too, but if we were to use walls instead of bricks as a basic building block for construction, we'd have to tweak their definition a little:
