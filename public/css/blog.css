@@ -28,6 +28,12 @@ img[alt="splash"] { width: 100%; }
     margin-right: auto;
 }
 
+/* support .small post images */
+.post img .small { width: 60%; }
+@media (min-width: 48em) {
+    .post img .small { width: 40%; }
+}
+
 li {
     margin-bottom: .6rem;
 }
