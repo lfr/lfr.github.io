@@ -4,26 +4,11 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
-  <span id="readingTime">⏲</span>
-  {{ content }}
-
-  <script>
-    var scriptTag =
-      // current script tag is always the last script at time of execution
-      document.scripts[document.scripts.length - 1]
-    var parentTag = scriptTag.parentNode
-  
-    const wordsPerMinute = 200; // Average case.
-    let result;
-    
-    let textLength = parentTag.innerText.split(" ").length; // Split by words
-    if(textLength > 0){
-      let value = Math.ceil(textLength / wordsPerMinute);
-      result = `⏲ ~${value} min read`;
-    }
-    document.getElementById("readingTime").innerText = result;
-  </script>
+  <div class="post-subtitle">
+    <span class="reading-time">⌚ ~{{ read_time }} min</span>
+    <span>&nbsp;|&nbsp;</span>
+    <span class="post-date">{{ page.date | date_to_string }}</span>
+  </div>
 </div>
 
 <!-- <div id="commento"></div>
