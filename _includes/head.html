@@ -29,8 +29,8 @@
   <meta name="twitter:creator" content="@{{ page.author }}">
 
   {% if page.layout == 'post'}
-  {% assign readTime = content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
-  <script>{{ content }}</script>
+  {% assign readTime = "content | strip_html | number_of_words | divided_by: 180 | plus: 1" %}
+  <script>{{ readTime }}</script>
   <meta name="twitter:title"   content="{{ page.title }} | ~{{ readTime }} min read">
   <meta name="twitter:description" content="{{ page.summary }}">
   {% elsif page.summary %}
