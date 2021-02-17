@@ -141,7 +141,7 @@ p.lead {}
  */
 html {
     font-family:
-        Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace, Menlo;
+        'droid_sans_monoregular', Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace, Menlo;
   }
 
 /* About section */
