@@ -26,7 +26,7 @@
   
   <!-- Twitter cards -->
   <meta name="twitter:site"    content="@{{ site.twitter_username }}">
-  <meta name="twitter:creator" content="@{{ page.author }}">
+  <meta name="twitter:creator" content="@{{ site.twitter_username }}">
 
   <!-- Calculate read_time and store it in a variable -->
   {% assign read_time = content | strip_html | number_of_words | divided_by: 200 | plus: 1 %}
