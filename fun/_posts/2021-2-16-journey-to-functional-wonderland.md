@@ -4,11 +4,11 @@ layout: post
 title: The magical journey to functional wonderland
 summary: >-
   There's a whimsical land of infinite code bliss waiting for you, and the journey starts right here
-image: /assets/glow.png
+image: /assets/glow.3x3x3.png
 series: journey-to-functional-wonderland
 ---
 
-![splash](/assets/glow.png)
+![splash](/assets/glow.3x3x3.png)
 
 Wandering developer, your next adventure awaits, and I know you're ready because you've been ready since you wrote your 1ˢᵗ line of code.
 
