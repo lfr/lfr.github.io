@@ -22,7 +22,7 @@ Many have put it off in a futile attempt to master their craft first. Do not mak
 
 Do not ask for permission.
 
-All you need is the love of your craft that took you here, and the inquisitive open mind of someone for whom no leap is too far to reach truer grounds.
+All you need is the **love of your craft** that took you here, and the inquisitive **open mind** of someone for whom no leap is too far to reach truer grounds.
 
 ## Do not mistake this journey for what it's not
 
