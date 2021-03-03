@@ -41,6 +41,7 @@ strong {
     display: inline-block;
     background: -webkit-linear-gradient(#332, #ab3);
     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 li {
