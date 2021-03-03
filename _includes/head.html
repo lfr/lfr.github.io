@@ -39,7 +39,7 @@
 
   <!-- Convert title to title case -->
   {% assign words = page.title | split: ' ' %}
-  {% capture page_title %}{% for word in words %}{{ word | capitalize }} {% endfor %}{% endcapture %}
+  {% capture page_title %}{% for word in words %}{{ word | capitalize }}{% endfor %}{% endcapture %}
 
   {% if page.layout == 'post' %}
   <meta name="twitter:title"   content="{{ page_title }} | ~{{ read_time }} min read">

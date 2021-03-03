@@ -37,13 +37,6 @@ img[alt="splash"] { width: 100%; }
     .post img.small { width: 40%; }
 }
 
-strong {
-    display: inline-block;
-    background: -webkit-linear-gradient(#999, #8a0, #777);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-}
-
 li {
     margin-bottom: .6rem;
 }
@@ -92,9 +85,13 @@ li {
 /***********************/
 
 strong {
+    display: inline-block;
     font-weight: normal;
-    color: #ab3;
+    background: -webkit-linear-gradient(#999, #9a3, #777);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
     margin: 2rem 0 1rem 0;
