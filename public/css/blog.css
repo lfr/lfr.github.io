@@ -39,7 +39,7 @@ img[alt="splash"] { width: 100%; }
 
 strong {
     display: inline-block;
-    background: -webkit-linear-gradient(#332, #ab3);
+    background: -webkit-linear-gradient(#888, #ac0, #666);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
