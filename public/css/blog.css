@@ -19,7 +19,7 @@ pre.highlight {
 img[alt="splash"] { width: 100%; }
 @media (min-width: 48em) {
     img[alt="splash"] {
-        margin: 2rem unset;
+        margin: 2rem auto;
         width: 80%;
     }
 }
@@ -35,6 +35,12 @@ img[alt="splash"] { width: 100%; }
 .post img.small { width: 60%; }
 @media (min-width: 48em) {
     .post img.small { width: 40%; }
+}
+
+strong {
+    display: inline-block;
+    background: -webkit-linear-gradient(#332, #ab3);
+    -webkit-text-fill-color: transparent;
 }
 
 li {
