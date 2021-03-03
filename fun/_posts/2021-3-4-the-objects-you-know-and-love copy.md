@@ -4,16 +4,16 @@ layout: post
 title: The Objects You Know and Love 💟
 summary: >-
   Journey to Functional Wonderland: Part 2
-image: /assets/glow.png
+image: /assets/2021/objects.png
 ---
 
-![splash](/assets/glow.png)
+![splash](/assets/2021/objects.png)
 
-This journey starts with objects because when considering Functional vs. Object Oriented, the mind quickly takes the shortcut functions vs. objects. At this point your reaction might understandably be **what's wrong with objects**?
+This journey starts with objects because when comparing Functional Programming with Object Oriented Programming, the mind quickly takes the shortcut **functions** vs. **objects**, which understandably leads many to ask: what's wrong with objects?
 
 ## Nothing's wrong with objects!
 
-Consider the following decidedly informal definition of an object:
+Consider the following (decidedly informal) definition of an object:
 
 - It's made of a state with properties, but it may also have no state, and/or no properties
 - It can have methods, but it may also have no methods
