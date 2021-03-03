@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: The magical journey to functional wonderland
+title: The magical journey to Functional Wonderland
 summary: >-
   There's a whimsical land of infinite code bliss waiting for you, and the journey starts right here
 image: /assets/glow.3x3x3.png
@@ -18,7 +18,7 @@ It's ok for you to be **skeptical**, as a fellow developer it's likely that your
 
 ## Do not postpone this journey
 
-Many have put it off in a futile attempt to master their craft first. Do not make this mistake, this journey requires no credentials or any academic recognition of your readiness.
+Many have put it off in a futile attempt to master their craft first. Do not make this mistake, this journey requires no credentials or academic recognition of your readiness.
 
 Do not ask for permission.
 
@@ -26,15 +26,15 @@ All you need is the love of your craft that took you here, and the inquisitive o
 
 ## Do not mistake this journey for what it's not
 
-The path ahead is not about learning an alternative way of doing the same thing, this would not be a good use of your time. Rather, this journey is about recognizing **how misguided some of the concepts we've held true have always been**.
+The path ahead is not about learning an alternative way of doing the same thing, this would not be a good use of your time. Rather, this journey is about recognizing how misguided some of the concepts we've held true have always been.
 
-Going from the comfort of what you already know to the discomfort of what you don't even realize you don't know requires curiosity, but it will also require courage.
+Going from the comfort of what you already know to the discomfort of what you don't even realize you don't know requires curiosity, but it also requires courage.
 
 ## There is no courage without fear
 
-Perhaps you don't see a lot of risk in your craft, and yet, there's no shortage of fear around when it comes to investing one's precious time learning something before even being capable of understanding its purpose.
+The fear of investing one's precious time learning something before even being capable of understanding its purpose is justified.
 
-Your fear is justified. Your time, and even more so your mental energy is very precious. Accept that fear, embrace it even, for ***it*** is the proof that it was courage, not chance, that set you off on this journey.
+Your time, and even more so your mental energy is very precious. If you feel fear, accept it, embrace it even, for ***it*** is the proof that it was courage, not chance, that set you off on this journey.
 
 ## The first step is the hardest
 
