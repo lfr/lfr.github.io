@@ -18,7 +18,10 @@ pre.highlight {
 /* splash image style */
 img[alt="splash"] { width: 100%; }
 @media (min-width: 48em) {
-    img[alt="splash"] { width: 80%; }
+    img[alt="splash"] {
+        margin: 2rem unset;
+        width: 80%;
+    }
 }
 
 /* center all post images */

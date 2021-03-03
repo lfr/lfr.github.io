@@ -12,9 +12,9 @@ series: journey-to-functional-wonderland
 
 Wandering developer, your next adventure awaits, and I know you're ready because you've been ready since you wrote your 1ˢᵗ line of code.
 
-This journey will bring you fame of course, and glory, sooo much glory. But above all else, this journey will take you to a lost magical place where the code you write somehow speaks to you like a great melody that sounds familiar even as you listen to it for the first time.
+This journey will bring you fame of course, and glory, sooo much glory. But above all else, this journey will take you to that lost magical place where the code you write somehow speaks to you like a great melody sounds familiar even as you listen to it for the first time.
 
-It's ok for you to be skeptical, as a fellow developer it's likely that your only goal is to create code that works. See this journey as a shortcut that will dramatically reduce the times you create code that doesn't.
+It's ok for you to be **skeptical**, as a fellow developer it's likely that your only goal is to create **code that works**, but this is a shortcut, not a distraction, as it will dramatically reduce the times you create code that doesn't.
 
 ## Do not postpone this journey
 
