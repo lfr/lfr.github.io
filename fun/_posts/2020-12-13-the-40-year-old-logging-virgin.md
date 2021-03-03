@@ -20,7 +20,7 @@ typora-root-url: C:\Users\lfr\source\repos\lfr.github.io
 
 <div class="message">
   <p>
-      👉&nbsp;<i>Spare yourself the pain of copy/pasting from this article, there's a full working single-file version <a href="https://github.com/lfr/lfr.github.io/blob/master/fun/scripts/logging-virgin.fsx" target="_blank">here</a>.</i>
+      👉 <i>Spare yourself the pain of copy/pasting from this article, there's a full working single-file version <a href="https://github.com/lfr/lfr.github.io/blob/master/fun/scripts/logging-virgin.fsx" target="_blank">here</a>.</i>
   </p>
 </div>
 
