@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="style.css?v=1.0">
+
+</head>
+
+<!-- <div name="this-works"
+  data-center-bottom="transform: rotateX(0deg)"
+  data-center="transform: rotateX(90deg)"      
+  data-center-top="transform: rotateX(180deg)">
+</div> -->
+
+<body>
+  <div class="flip-card"> 
+    <div class="flip-card-inner"
+      data-center="transform: rotateX(180deg)"
+        
+      data-100-bottom="transform: rotateX(0deg)"> 
+      <!-- front of the card-->
+      <div class="flip-card-front">
+        <div class="diamond">
+          COME ON, HOVER OVER!
+        </div>
+      </div>
+      <!-- back of the card-->
+      <div class="flip-card-back">
+        <div class="diamond">
+          CARD FLIPPED.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skrollr -->
+  <script src="skrollr.min.js"></script>
+  <script type="text/javascript">
+      var s = skrollr.init();
+  </script>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

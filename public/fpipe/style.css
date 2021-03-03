@@ -1,0 +1,204 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+  scroll-snap-type: y proximity;
+  font-family: 'Yantramanav', sans-serif;
+}
+
+body {
+  --card-size: calc(min(33vw, 16em));
+  --card-margin: calc(var(--card-size) / 4.55);
+  --card-grid-lines: calc(0.01 * var(--card-size));
+  --card-padding: calc(0.72 * var(--card-size));
+}
+
+#skrollr-body {
+  /* width: calc(2 * (var(--card-size) + 2.1 * var(--card-margin))); */
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+
+.placeholder {
+  height: 90vh;
+  scroll-snap-stop: always;
+  scroll-snap-align: start;
+
+  background: white;
+  /* border: 4px dashed gray; */
+  font-size: 10rem;
+}
+
+.diamonds {
+  /* height: 100vh; */
+  scroll-snap-stop: always;
+  scroll-snap-align: start;
+  text-align: center;
+  width: 100%;
+
+  height: calc(3 * var(--card-size)) !important;
+  background: linear-gradient(0deg, #ffffff99, transparent);
+  border-bottom: 3pt solid #ffffffcc;
+
+  /* the following are necessary for absolute-
+  positioned child div to have overflow hidden */
+  position: relative;
+}
+
+.diamond-container {
+  display: inline-block;
+}
+
+#wordCloud {
+  position: absolute;
+  left: -60vw;
+  width: 220vw;
+  z-index: -9;
+  height: calc(100% + 3pt);
+  text-align: left;
+  font-family: sans-serif;
+  font-variant: all-small-caps;
+  font-weight: bold;
+  color: transparent;
+  text-shadow: 0 0 0.15rem rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+#wordCloudShape {
+  float: left;
+  height: 100%;
+  width: 60vw;
+  background: magenta;
+  shape-outside: polygon(100% 0, 0 25%, 100% 50%, 0 75%, 100% 100%, 0 100%, 0 0);
+}
+
+.flip-card-top {
+  /* padding-left: calc(0.8 * var(--card-size)); */
+  /* margin-bottom: calc(-1.25 * var(--card-margin)) !important; */
+  position: relative;
+  left: var(--card-padding);
+  top: calc(0.39 * var(--card-padding));
+}
+
+.flip-card-bottom {
+  position: relative;
+  left: var(--card-padding);
+  top: var(--card-padding);
+}
+
+.flip-card-left {
+  float: left;
+}
+
+.flip-card-right {
+  float: left;
+}
+
+.flip-card {
+  margin: 0rem calc(var(--card-margin));
+  width: var(--card-size);
+  height: var(--card-size);
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* .flip-card:hover .flip-card-inner {
+  transform: rotateX(180deg);
+} */
+
+.flip-card-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.flip-card-back {
+  transform: rotateX(180deg);
+}
+
+.straighten {
+  transform: rotate(-45deg) !important;
+  height: 100%;
+}
+
+.diamond {
+  height: 100%;
+  transform: rotate(45deg);
+}
+
+.diamond > div {
+  height: 100%;
+}
+
+/* .deco {
+  box-shadow: 0 0 .5rem .1rem rgba(0,0,0,0.2);
+} */
+
+.sideA {
+  color: black;
+  background: #bbb;
+  font-size: xx-large;
+}
+
+.sideA > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+
+.sideB {
+  color: white;
+  height: 100%;
+  font-size: 18pt;
+  font-variant: all-small-caps;
+  line-height: 1.1rem;
+}
+
+.mini-grid {
+  height: 100%;
+  display: grid;
+  grid-template-areas:
+    "ul ur"
+    "ll lr";
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: -100%;
+  column-gap: var(--card-grid-lines);
+  row-gap: var(--card-grid-lines);
+}
+
+.cell {
+  background: lime;
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+  /* box-shadow: 0 0 .5rem .1rem rgba(0,0,0,0.2); */
+}
+
+.cell > div {
+  transform: rotate(-45deg);
+  width: 100%;
+  
+}
+
+.ul { grid-area: ul; }
+.ur { grid-area: ur; }
+.ll { grid-area: ll; }
+.lr { grid-area: lr; }
