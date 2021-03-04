@@ -29,7 +29,7 @@ The issue with OOP has never been with *objects* so much as with the *orientatio
 
 Objects are not inherently evil, but the above definition means objects are truly a terrible, horrible, no bueno, very bad **basic building block** for a programming paradigm. Why? Because basic building blocks are supposed to be the **simplest composable element** you can think of.
 
-Now re-read that definition and tell me — in all honesty — does it read like a definition of a simplest composable element of anything?
+Now re-read that definition and ask yourself: does it read like a definition of a simplest composable element of anything?
 
 Why does this matter? Because when you compose an **architecture**, you want to focus on the composition and forget about the constituent parts, and it's object **orientation** — meaning the choice of making objects the basic building block, not objects themselves — that makes this impossible.
 
