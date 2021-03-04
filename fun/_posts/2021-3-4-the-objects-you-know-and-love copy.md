@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: The Objects You Know and Love&nbsp;💟
 summary: >-
