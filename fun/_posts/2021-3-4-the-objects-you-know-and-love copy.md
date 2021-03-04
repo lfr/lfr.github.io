@@ -9,7 +9,7 @@ image: /assets/2021/objects.png
 
 ![splash](/assets/2021/objects.png)
 
-This journey starts with objects because when comparing Functional Programming with Object Oriented Programming, the mind quickly takes the shortcut **functions** vs. **objects**, which understandably leads many to ask: what's wrong with objects?
+This journey starts from a surprisingly familiar place. When considering Functional Programming as an alternative to Object Oriented Programming, it's tempting to take the shortcut **functions** vs. **objects**, and understandably ask: what's wrong with objects?
 
 ## Nothing's wrong with objects!
 
