@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: The magical journey to Functional Wonderland
+title: The Magical Journey to Functional Wonderland
 summary: >-
   There's a whimsical land of infinite code bliss waiting for you, and the journey starts right here
 image: /assets/glow.3x3x3.png
@@ -10,7 +10,15 @@ series: journey-to-functional-wonderland
 
 ![splash](/assets/glow.3x3x3.png)
 
-Wandering developer, your next adventure awaits, and I know you're ready because you've been ready since you wrote your 1ˢᵗ line of code.
+<div class="message">
+  <p>
+    <i>
+      This article has been fully re-written, most of the original content is now in the next article.
+    </i>
+  </p>
+</div>
+
+Wandering developer, your next adventure awaits, and I know you're ready because you've been ready since you wrote your first line of code.
 
 This journey will bring you fame of course, and glory, sooo much glory. But above all else, this journey will take you to that lost magical place where the code you write somehow speaks to you like a great melody sounds familiar even as you listen to it for the first time.
 
@@ -42,8 +50,4 @@ Even if it seems like dark magic, you'll very soon learn the basic spells, and b
 
 It's true that Functional Wonderland is vast and full of mysteries, but you don't have to venture deep to reap the rewards, in fact you'll get most of the value just from skirting its shores, and will not be doing it alone.
 
-Indeed, you will not be the first **object oriented programmer** to set sail, neither will you be the last, but for all that attempted this perilous but infinitely rewarding journey it always started in the same familiar place.
-
-## The journey continues ⛵
-
-This is the first time I write for non-FP programmers, if you exist and are interested in the next article in the series, you can [follow me on twitter](https://twitter.com/intent/user?screen_name=luwvis), and until next time, safe journey!
+Indeed, you will not be the first **object oriented programmer** to set sail, neither will you be the last, but for all that attempted this perilous but infinitely rewarding journey it always started in the same [familiar place](/fun/2021/03/04/the-objects-you-know-and-love-copy/).
