@@ -64,11 +64,13 @@ You can afford to code without doing some of this, some of the time, using patte
 
 Such patterns exist not because they're good coding practices, but because they're good OOP disaster mitigation techniques.
 
-As you venture further away from OOP, these arcane vestigial practices will no longer clog your brain or your code, as you will find that much of what they offer you get for free just for using a better programming paradigm.
+As you venture further away from OOP, these arcane vestigial practices will no longer clog your brain or your code, as you will find that much of what they offer you get for free just for using a better paradigm.
 
 ## OOP is truly exceptional
 
-Everything you can't avoid even with good practices can be seen as a mental & code tax, which you are paying, often unknowingly. In this way OOP is like a bad itch that you no longer notice you're scratching. Every. Single. Day. Because when you stop scratching, you get exceptions.
+Everything you can't avoid even with good practices can be seen as a mental & code tax, which you are paying, often unknowingly.
+
+In this way OOP is like a bad itch that you no longer notice you're scratching. Every. Single. Day. Because when you stop scratching, you get exceptions.
 
 ![oop](/assets/2021/oop.png){:class="small"}
 
