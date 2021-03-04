@@ -11,7 +11,7 @@ series: journey-to-functional-wonderland
 ![splash](/assets/glow.3x3x3.png)
 
 <div class="message">
-  This article has been re-written, most of the original content is now in the next article.
+  This article has been re-written, most of the original content has been moved to the next article.
 </div>
 
 Wandering developer, your next adventure awaits, and I know you're ready because you've been ready since you wrote your first line of code.
