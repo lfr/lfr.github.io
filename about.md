@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-C# developer since 2004, and F# developer since 2018, this blog chronicles my journey to functional wonderland.
+C# developer since 2004, and F# developer since 2018, this blog chronicles my [journey to Functional Wonderland](/fun/2021/02/16/journey-to-functional-wonderland/).
 
 Whether you want to make that journey with me or just watch the few highs and the many lows from the comfort of your armchair, follow me on Twitter for the latest updates.
 
