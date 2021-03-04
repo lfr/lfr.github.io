@@ -18,11 +18,11 @@ layout: null
  {% for post in site.posts %}
     {% if post.published %}
       <entry>
-        <title>{{ post.title }}</title>
+        <title>{{ post.title | replace: '\u00A0', ' ' }}</title>
         <link href="{{ site.url }}{{ post.url }}"/>
         <updated>{{ post.date | date_to_xmlschema }}</updated>
         <id>{{ site.url }}{{ post.id }}</id>
-        <content type="html">{{ post.summary | xml_escape }}</content>
+        <content type="html">{{ post.summary | replace: '\u00A0', ' ' | xml_escape }}</content>
       </entry>
     {% endif %}
  {% endfor %}
