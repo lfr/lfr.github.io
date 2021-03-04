@@ -52,7 +52,7 @@ Like **objects**, walls are useful too, but if we were to use walls instead of b
 
 What happens when you pick the wrong basic building block is that you end up **having to make all of its features optional**, which is bad because optional features have to be declared, either explicitly or by convention, and their presence or absence has to always be considered.
 
-### Objects are truly nothing like bricks
+### Objects are nothing like bricks
 
 The object oriented paradigm makes it very hard to only consider the outside shape of any composition because you seldom can afford to forget about its constituent objects, namely, you need to keep track of:
 
