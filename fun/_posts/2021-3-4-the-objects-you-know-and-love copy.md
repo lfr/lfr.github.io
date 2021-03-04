@@ -29,7 +29,7 @@ That last point notwithstanding, this definition makes objects a pretty useful c
 
 ## Wait, so objects are good?
 
-The issue with OOP has never been with *objects* so much as with the *orientation* part.
+The problem with Object Oriented Programming has never been with *objects* so much as with the *orientation* part.
 
 Objects are not inherently evil, but the above definition means objects are truly a terrible, horrible, no bueno, very bad **basic building block** for a programming paradigm. Why? Because basic building blocks are supposed to be the **simplest composable element** you can think of.
 
@@ -70,7 +70,7 @@ Such patterns exist not because they're good coding practices, but because they'
 
 As you venture further away from OOP, these arcane vestigial practices will no longer clog your brain or your code, as you will find that much of what they offer you get for free just for using a better paradigm.
 
-## OOP is truly exceptional
+## OOP is really exceptional
 
 Everything you can't avoid even with good practices can be seen as a mental & code tax, which you are paying, often unknowingly.
 
@@ -80,7 +80,7 @@ In this way OOP is like a bad itch that you no longer notice you're scratching. 
 
 Exceptions are so frequent when building OOP solutions that they're generally accepted as necessary inconveniences towards a solution that's eventually stable enough to focus on actual functionality.
 
-This is sad because there's an entire software development world out there where this silly workflow sounds like a terrible joke.
+This is sad because there's an entire software development world out there where this silly Exception Driven Development workflow sounds like a terrible joke.
 
 As you let go of objects as the basic building block of your code, exceptions start to become less and less commonplace, and in time you may find yourself writing code for hours — from scratch — and be rewarded with a brand new solution that just works.
 
