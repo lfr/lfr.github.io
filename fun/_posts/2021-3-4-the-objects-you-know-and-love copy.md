@@ -82,7 +82,7 @@ Exceptions are so frequent when building OOP solutions that they're generally ac
 
 This is sad because there's an entire software development world out there where this silly Exception Driven Development workflow sounds like a terrible joke.
 
-As you let go of objects as the basic building block of your code, exceptions start to become less and less commonplace, and in time you will find yourself writing code for hours — from scratch — and be rewarded with a brand new solution that just works.
+Whe you let go of objects as the basic building block of your code, exceptions start to become less and less commonplace, and in time you will find yourself writing code for hours — from scratch — and be rewarded with a brand new solution that just works.
 
 ## Your first basic spell ✨
 

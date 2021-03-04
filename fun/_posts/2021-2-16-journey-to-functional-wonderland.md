@@ -18,7 +18,7 @@ Wandering developer, your next adventure awaits, and I know you're ready because
 
 This journey will bring you fame of course, and glory, sooo much glory. But above all else, this journey will take you to that lost magical place where the code you write somehow speaks to you like a great melody sounds familiar even as you listen to it for the first time.
 
-It's ok for you to be **skeptical**, as a fellow developer it's likely that your only goal is to create **code that works**, but this is a shortcut, not a distraction, as it will dramatically reduce the times you create code that doesn't.
+It's ok for you to be **skeptical**, maybe all you care about is creating **code that works**, but this seemingly academic topic is a shortcut towards that, not a distraction, as it will dramatically reduce the times you create code that doesn't.
 
 ## Do not postpone this journey
 
