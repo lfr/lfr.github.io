@@ -74,11 +74,11 @@ In this way OOP is like a bad itch that you no longer notice you're scratching. 
 
 ![oop](/assets/2021/oop.png){:class="small"}
 
-Exceptions are so frequent when building OOP solutions that often one simply accepts them as necessary inconveniences towards an eventually stable solution when you can finally focus on actual functionality.
+Exceptions are so frequent when building OOP solutions that they're generally accepted as necessary inconveniences towards a solution that's eventually stable enough to focus on actual functionality.
 
-This is very sad because there's an entire software development world out there where this silly workflow sounds like a terrible joke.
+This is sad because there's an entire software development world out there where this silly workflow sounds like a terrible joke.
 
-As you let go of objects as the basic building block of your code, exceptions start to become less and less commonplace, and in time you may find yourself writing code for hours from scratch and be rewarded with a brand new solution that just works.
+As you let go of objects as the basic building block of your code, exceptions start to become less and less commonplace, and in time you may find yourself writing code for hours — from scratch — and be rewarded with a brand new solution that just works.
 
 ## Your first basic spell ✨
 
