@@ -140,6 +140,10 @@ p.lead {}
      display: unset;
  }
 
+ .message {
+    font-style: italic;
+ }
+
 
 /**********************/
 /* Overwrite HYDE.CSS */

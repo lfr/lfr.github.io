@@ -35,14 +35,10 @@
   <meta name="twitter:creator" content="@{{ site.twitter_username }}">
 
   <!-- Calculate read_time and store it in a variable -->
-  {% assign read_time = content | strip_html | number_of_words | divided_by: 200 | plus: 1 %}
-
-  <!-- Convert title to title case -->
-  {% assign words = page.title | split: ' ' %}
-  {% capture page_title %}{% for word in words %}{{ word | capitalize }}{% endfor %}{% endcapture %}
+  {% assign read_time = content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
 
   {% if page.layout == 'post' %}
-  <meta name="twitter:title"   content="{{ page_title }} | ~{{ read_time }} min read">
+  <meta name="twitter:title"   content="{{ page.title }} | ~{{ read_time }} min read">
   <meta name="twitter:description" content="{{ page.summary }}">
   {% elsif page.summary %}
   <meta name="twitter:title"   content="{{ page.title }} | {{ site.title }} blog">
