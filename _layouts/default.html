@@ -36,6 +36,14 @@
         &copy; {{ site.time | date: '%Y' }} Luis Ferrao &mdash; Powered by <a href="https://jekyllrb.com" target="_blank">Jekyll</a> &amp; <a href="https://getpoole.com/" target="_blank">Poole</a>
       </center>
     </div>
+
+    <!-- prevent line-breaks in links and make open in new tab -->
+    <!-- TODO: Get rid of jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $("a[href^='https?://']").attr("target","_blank");
+    </script>
+    
   </body>
 
 </html>
