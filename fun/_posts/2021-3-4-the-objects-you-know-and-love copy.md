@@ -1,7 +1,7 @@
 ---
 published: false
 layout: post
-title: The Objects You Know and Love 💟
+title: The Objects You Know and Love&nbsp;💟
 summary: >-
   Journey to Functional Wonderland: Part 2
 image: /assets/2021/objects.png
