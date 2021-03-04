@@ -9,7 +9,7 @@ image: /assets/2021/objects.png
 
 ![splash](/assets/2021/objects.png)
 
-This journey starts from a surprisingly familiar place. When considering Functional Programming as an alternative to Object Oriented Programming, it's tempting to take the shortcut **functions** vs. **objects**, and understandably ask: what's wrong with objects?
+This journey beings in a surprisingly familiar place. When considering Functional Programming as an alternative to Object Oriented Programming, it's tempting to take the shortcut **functions** vs. **objects**, and understandably ask: what's wrong with objects?
 
 <div class="message">
   This article was originally the first in the series, if you've read it before feel free to skip ahead or read the <a href="/fun/2021/02/16/journey-to-functional-wonderland/">re-written first article</a>.
