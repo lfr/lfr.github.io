@@ -19,4 +19,4 @@ document.querySelectorAll('.sideA')
   })
 
 document.querySelector('#wordCloudContent')
-  .innerHTML = "Functional ∙ Everywhere ∙ Anywhere ∙ Everyone ∙ ".repeat(350)
+  .innerHTML = "Functional ∙ Everywhere ∙ Anywhere ∙ Everyone ∙ ".repeat(0)
