@@ -65,7 +65,7 @@ I love your skepticism, but never forget that [a good model doesn't have to look
 
 > Nothing is lost, nothing is created, everything is **transformed**
 
-The law of conservation of mass is one of the first laws of physics we learn at school as it's also one of the most intuitive and — conveniently — applies to **everything**, describing it as none other than **product of a transformation**!
+The law of conservation of mass is one of the first laws of physics we learn at school as it's also one of the most intuitive and — conveniently — applies to **everything**, describing it as none other than the **product of a transformation**!
 
 A transformation is just a medieval name for a function, and that young alchemist, is the very topic of the next article.
 
