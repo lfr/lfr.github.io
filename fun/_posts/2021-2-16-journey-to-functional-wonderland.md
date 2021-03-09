@@ -46,4 +46,4 @@ Even if it seems like dark magic, you'll very soon learn the basic spells, and b
 
 It's true that Functional Wonderland is vast and full of mysteries, but you don't have to venture deep to reap the rewards, in fact you'll get most of the value just from skirting its shores, and will not be doing it alone.
 
-Indeed, you will not be the first **object oriented programmer** to set sail, neither will you be the last, but for all that attempted this perilous but infinitely rewarding journey it always started in the same [familiar place](/fun/2021/03/04/the-objects-you-know-and-love-copy/).
+Indeed, you will not be the first **object oriented programmer** to set sail, neither will you be the last, but for all that attempted this perilous but infinitely rewarding journey it always started in the same [familiar place](/fun/2021/03/04/the-objects-you-know-and-love/).
