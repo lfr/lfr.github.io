@@ -55,17 +55,17 @@ Now that we've established that programming is basically modelling, we can safel
 
 Remember, a model isn't trying to accurately recreate the real world, it's trying to efficiently solve for a problem. Solving for a problem isn't "stuff", it's "doing stuff", it's providing the appropriate output for a given input. It's a function. It always has been.
 
-Functional Programming uses functions as the main building block of a program, with anything else that isn't a function (i.e. numbers, text, arrays, yes even objects) being rightfully relegated to either an input or an output of the solution, or some form of intermediary artifact immaterial to the outer scope.
+Functional Programming uses functions as the main building block of a program, with anything else that isn't a function (i.e. numbers, text, arrays, yes even objects) being rightfully relegated to either an input or an output of the solution, or some form of intermediate artifact immaterial to the outer scope.
 
 ## Everything is transformed
 
-Even if you believe my argument that a lot of important things aren't objects, you may be skeptical that even less things in the real world are functions, including every single item in my list above.
+Even if you believe my argument that a lot of important things aren't objects, you may find that even less things in the real world are functions, including every single item in my list above.
 
 I love your skepticism, but never forget that [a good model doesn't have to look anything like the real thing](https://twitter.com/vladikk/status/1335947978482339841), and even if it did, here's what [Antoine Lavoisier](https://en.wikipedia.org/wiki/Antoine_Lavoisier) would have to say about it:
 
 > Nothing is lost, nothing is created, everything is **transformed**
 
-The law of conservation of mass is one of the first laws of physics we learn at school as it's also one of the most intuitive and — conveniently — applies to **everything**, describing it as the **product of a transformation**.
+The law of conservation of mass is one of the first laws of physics we learn at school as it's also one of the most intuitive and — conveniently — applies to **everything**, describing it as none other than **product of a transformation**!
 
 A transformation is just a medieval name for a function, and that young alchemist, is the very topic of the next article.
 
