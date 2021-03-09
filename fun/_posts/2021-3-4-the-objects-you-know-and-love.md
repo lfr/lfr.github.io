@@ -86,7 +86,9 @@ When you let go of objects as the basic building block of your code, exceptions 
 
 ## Your first basic spell ✨
 
-It may come as a surprise but a lot of the wizardry ahead doesn't involve any maths or other scarier "m" words, and definitely none of that impenetrable category theory. All it takes is simply using **a better basic building block** for your code.
+It may come as a surprise but a lot of the wizardry ahead doesn't involve any maths or other scarier "m" words, and definitely none of that impenetrable category theory.
+
+All it takes is simply using **a better basic building block** for your code!
 
 This will be the first and the most significant basic spell in your spell book, and it's exactly what I'll introduce next time!
 
