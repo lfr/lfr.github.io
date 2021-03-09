@@ -27,3 +27,4 @@ theme: jekyll-theme-hacker
 
 # Preview unpublished articles by setting to 'true'
 unpublished: true
+future: true
