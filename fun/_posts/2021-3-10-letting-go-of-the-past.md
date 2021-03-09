@@ -31,27 +31,29 @@ Let's get back to the premise that has made OOP so appealing, that the real worl
 
 Can you think of anything that's not an object?
 
-Here's a handful of things that aren't objects:
+Here's a few:
 
 - Energy
 - Time
 - Money (except bills & coins which are a tiny part of modern money)
   
-Far from insignificant, things that aren't objects are usually the very real world problems that programming often tries to solve for.
+Far from insignificant, these things that aren't objects are very real problems programs often try to solve for.
 
 Objects are just a metaphor, an abstraction in your model meant to represent something concrete in the real world problem you're trying to solve for.
 
-But if some of the most significant things we solve for aren't objects at all, and efficiency, not accuracy, is what we're seeking anyway, we may have been using the wrong metaphor all long.
+But if we can so easily come up with significant things that aren't objects, and efficiency, not accuracy, is what we're seeking anyway, does it make any sense to start from the premise that everything is an object? Don't get me wrong, **some** things are a fine fit for the object metaphor — even in Functional Programming — but everything?
 
-While some may rightfully point out to that many great apps were made with OOP, that's missing the greater point: It's not that the wrong tool for the job doesn't get the job done, it's all of the unnecessary frustration it may cause along the way.
+The very real possibility that we've been forcing a sometimes inadequate metaphor on everything that pertains to code could in and off itself explain the contrived architectures you may come up with when designing OOP solutions, and consequently, the issues I mentioned at the very beginning of this article.
+
+While some may rightfully point out to that many great apps were made with OOP, that's missing the point: It's not that the wrong tool for the job doesn't get the job done, it's all of the unnecessary frustration it may cause along the way.
 
 And this problem doesn't scale well, the more complex the job, the greater the frustration.
 
 ## We're ready for a definition!
 
-Now that we've established that programming is basically modelling, we can safely guess what Functional Programming is: modelling real world problems and solutions with (mostly) functions, as opposed to objects.
+Now that we've established that programming is basically modelling, we can safely guess what Functional Programming is: modelling real world problems and solutions with (mostly) functions.
 
-Remember, a model isn't trying to accurately recreate the real world, it's trying to efficiently solve for a problem. Solving for a problem isn't "stuff", it's "doing stuff", it's providing the appropriate output for the given input. It's a function, it always has been.
+Remember, a model isn't trying to accurately recreate the real world, it's trying to efficiently solve for a problem. Solving for a problem isn't "stuff", it's "doing stuff", it's providing the appropriate output for a given input. It's a function. It always has been.
 
 Functional Programming uses functions as the main building block of a program, with anything else that isn't a function (i.e. numbers, text, arrays, yes even objects) being rightfully relegated to either an input or an output of the solution, or some form of intermediary artifact immaterial to the outer scope.
 
