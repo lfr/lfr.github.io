@@ -94,4 +94,4 @@ This will be the first and the most significant basic spell in your spell book, 
 
 ## The journey continues ⛵
 
-This is the first time I write for non-FP programmers, if you exist and are interested in the next article in the series, please let me know by retweeting, liking, or replying to [this article's tweet](https://twitter.com/luwvis/status/1367424178379440129), and until next time, safe journey!
+This is the first time I write for non-FP programmers, if you're out here and are interested in the next article in the series, please let me know by retweeting, liking, or replying to [this twitter thread](https://twitter.com/luwvis/status/1367410901863837700), and until next time, safe journey!
