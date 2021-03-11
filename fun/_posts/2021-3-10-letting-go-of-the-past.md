@@ -21,7 +21,7 @@ Last but not least, when you look at the picture below, do you see a fridge?
 
 ## Bear with me
 
-Programming is mostly **modeling real world problems**. As the statistician [George Box](https://en.wikipedia.org/wiki/George_E._P._Box) once said:
+Programming is mostly **modeling real world problems**. As pointed out by Vladik, the statistician [George Box](https://en.wikipedia.org/wiki/George_E._P._Box) once said:
 
 > All models are wrong but some are useful
 
@@ -29,7 +29,7 @@ If programming is modelling, and all models are wrong, one could define programm
 
 The real world is seemingly made of objects for the most part, so we can understand how **appealing** Object Oriented Programming must have been when it introduced the object as the basic element of a new programming paradigm back in the late fifties.
 
-But just as Vladik points out, model design has largely transitioned away from describing stuff to composing with smaller abstractions that have little-to-no resemblance to the things they represent and yet still get the job done, but if we're no longer describing stuff, it may be time to revisit the appeal of a programming paradigm that's clearly meant to describe stuff, first and foremost.
+Model design has largely transitioned away from describing stuff to composing with smaller abstractions that have little-to-no resemblance to the things they represent and yet still get the job done, but if we're no longer describing stuff, it may be time to revisit the appeal of a programming paradigm that's clearly meant to describe stuff, first and foremost.
 
 ## A surprisingly simple distinction
 
