@@ -11,7 +11,7 @@ image: /assets/2021/what.png
 
 Ever caught yourself spending an unreasonable amount of time trying to name something¹, or pondering over architectural concerns² that **you couldn't care less about**, out of fear that some choices may come back to **haunt you**?
 
-As stated in the [intro to this series](https://impure.fun/fun/2021/02/16/journey-to-functional-wonderland/), most devs just care about **writing simple code that works**, but it's surprisingly easy to accidentally stray from that goal which is what may have happened if you answered "yes" to the above.
+As stated in the [intro to this series](https://impure.fun/fun/2021/02/16/journey-to-functional-wonderland/), most devs just care about **writing simple code that works**, but it's surprisingly easy to accidentally stray from that goal.
 
 You've been creating and using functions your whole developer life, but if functions aren't exclusive to Functional Programming, what makes it "functional" and — more importantly — how can things you're already using possibly solve the problems you may still be facing?
 
