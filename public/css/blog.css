@@ -31,6 +31,10 @@ img[alt="splash"] { width: 100%; }
     margin-right: auto;
 }
 
+.twitter-tweet {
+    margin: 1rem auto !important;
+}
+
 /* support .small post images */
 .post img.small { width: 60%; }
 @media (min-width: 48em) {

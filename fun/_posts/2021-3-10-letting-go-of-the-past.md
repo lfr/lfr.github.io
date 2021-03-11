@@ -27,25 +27,9 @@ If programming is modelling, and all models are wrong, one could define programm
 
 The real world is seemingly made of objects for the most part, so we can understand how **appealing** Object Oriented Programming must have been when it introduced the object as the basic element of a new programming paradigm back in the late fifties.
 
-But just as Vladik points out, model design has largely transitioned away from describing stuff to composing with smaller abstractions that have little-to-no resemblance to the things they represent and yet still get the job done, but if we're no longer describing stuff, it may be time to revisit the appeal of a programming paradigm that's clearly meant to describe stuff first and foremost.
+But just as Vladik points out, model design has largely transitioned away from describing stuff to composing with smaller abstractions that have little-to-no resemblance to the things they represent and yet still get the job done, but if we're no longer describing stuff, it may be time to revisit the appeal of a programming paradigm that's clearly meant to describe stuff, first and foremost.
 
-## A critical mind challenges everything
-
-Let's get back to the premise that has made OOP so appealing, that the real world is mostly made of objects.
-
-Can you think of anything that's not an object?
-
-Here's a few:
-
-- Energy
-- Time
-- Money (except bills & coins which are a tiny part of modern money)
-  
-Far from insignificant, these things that aren't objects are very real problems programs often try to solve for.
-
-Objects are just a metaphor, an abstraction in your model meant to represent something concrete in the real world problem you're trying to solve for.
-
-## Let's stop naming all the things
+## A surprisingly simple distinction
 
 It's fair to say that **OOP** focuses on what **is** while **FP** focuses on what **happens**, and this distinction dramatically influences the problems I mention in the intro.
 
@@ -69,17 +53,17 @@ You still use all the familiar things like strings, ints, floats, array and yes,
 
 Remember, a model isn't trying to accurately recreate the real world, it's trying to efficiently solve for a problem. Solving for a problem isn't "stuff", it's "doing stuff", it's providing the appropriate output for a given input. It's a function. It always has been.
 
-## Everything is transformed
+## The real world case for FP
 
-Even if you believe my argument that a lot of important things aren't objects, you may be thinking that even fewer things in the real world are functions, including every single item in my own list above.
+I understand that even with all this talk about models, it's possible some of you still find comfort knowing that your current programming paradigm is object oriented because the real world is mostly made of objects.
 
-I'm loving your skepticism, but remember that we're no longer trying to describe what *is* but rather what *happens*, which [Antoine Lavoisier](https://en.wikipedia.org/wiki/Antoine_Lavoisier) summarizes as:
+I'd like to leave you with some 18th-century wisdom from our friend [Antoine Lavoisier](https://en.wikipedia.org/wiki/Antoine_Lavoisier):
 
 > Nothing is lost, nothing is created, everything is transformed
 
-The law of conservation of mass is one of the first laws of physics we learn at school as it's also one of the most intuitive and — conveniently — describes "everything" as none other than the product of a transformation!
+The law of conservation of mass describes literally **everything** as none other than the product of a transformation. If everything is the product of a transformation in the real world itself, what if there were a programming paradigm made to describe transformations instead of objects? 🤔
 
-A transformation is just a medieval name for a **function**, and that young software alchemist, is the very topic of the next article.
+Well, a transformation my young software alchemist is just a medieval name for the all-mighty **function**, the topic of the next article.
 
 ## The journey continues ⛵
 
