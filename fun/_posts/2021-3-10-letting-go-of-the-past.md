@@ -29,7 +29,7 @@ If programming is modelling, and all models are wrong, one could define programm
 
 The real world is seemingly made of objects for the most part, so we can understand how **appealing** Object Oriented Programming must have been when it introduced the object as the basic element of a new programming paradigm back in the late 50's.
 
-Model design has largely transitioned away from describing stuff to composing with smaller abstractions that have little-to-no resemblance to the things they represent and yet still get the job done, but if we're no longer describing stuff, it may be time to revisit the appeal of a programming paradigm that's clearly meant to describe stuff, first and foremost.
+Model design has largely transitioned away from describing stuff to composing with smaller abstractions that only make sense in very limited contexts and have little-to-no resemblance to the things they represent, but still get the job done. If we're no longer describing stuff, it may be time to revisit the appeal of a programming paradigm that's clearly meant to describe stuff, first and foremost.
 
 ## A surprisingly simple distinction
 
