@@ -9,7 +9,7 @@ image: /assets/2021/what.png
 
 ![splash](/assets/2021/what.png)
 
-Ever caught yourself spending an unreasonable amount of time thinking about how to name something, or pondering over architectural concerns that **you couldn't care less about**, out of fear that some choices may come back to **haunt you**?
+Ever caught yourself spending an unreasonable amount of time thinking about how to name something, or pondering over architectural concerns that **you couldn't care less about**¹, out of fear that some choices may come back to **haunt you**²?
 
 As stated in the [intro to this series](https://impure.fun/fun/2021/02/16/journey-to-functional-wonderland/), most devs just care about **writing simple code that works**, but it's surprisingly easy to accidentally stray from that goal which is what may have happened if you answered "yes" to the above.
 
@@ -29,15 +29,17 @@ If programming is modelling, and all models are wrong, one could define programm
 
 The real world is seemingly made of objects for the most part, so we can understand how **appealing** Object Oriented Programming must have been when it introduced the object as the basic element of a new programming paradigm back in the late 50's.
 
-Model design has largely transitioned away from describing stuff to composing with smaller abstractions that only make sense in very limited contexts and have little-to-no resemblance to the things they represent, but still get the job done. If we're no longer describing stuff, it may be time to revisit the appeal of a programming paradigm that's clearly meant to describe stuff, first and foremost.
+Model design has largely transitioned away from describing stuff to composing with smaller abstractions that only make sense in very limited contexts and have little-to-no resemblance to the things they represent, but still get the job done.
+
+If we're no longer describing stuff, it may be time to revisit the appeal of a programming paradigm that's clearly meant to describe stuff, first and foremost.
 
 ## A surprisingly simple distinction
 
 It's fair to say that **OOP** focuses on what **is** while **FP** focuses on what **happens**, and this distinction dramatically influences the problems I mention in the intro.
 
-What something *is* depends on the context, this for instance is why MVC/MVP/MVVM were created, because someone realized code was much simpler if you just used different objects specialized for the context in which they're being used.
+What something *is* depends on the context. Take MVC for instance, which you may know by MVVM or MVP, it's all about representing the same thing with different objects specialized for the context in which they're being used.
 
-But what something *is* also depends over time, in a lasting evolving business, wasting too much energy defining stuff that's bound to change is a poor investment of your time.
+But what something *is* also changes over time, which is why in a lasting evolving business you shouldn't be too eager to spend time and energy describing stuff that's bound to change anyway.
 
 Interestingly, while what something *is* varies, what *happens* doesn't. The "+" in `2 + 2` is something that performs an arithmetic operation that you're all familiar with, and the context is irrelevant.
 
