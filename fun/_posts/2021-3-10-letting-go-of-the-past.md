@@ -33,7 +33,7 @@ If we're no longer describing stuff, it may be time to revisit the appeal of a p
 
 ## A surprisingly simple distinction
 
-It's fair to say that **OOP** focuses on what **is** while **FP** focuses on what **happens**. This distinction dramatically influences the problems <sup>[1]</sup> and <sup>[2]</sup> from above, and I'll start with what may cause OOP devs to spend too much time on the 2<sup>nd</sup>:
+It's fair to say that **OOP** focuses on what **is** while **FP** focuses on what **happens**. This distinction dramatically influences the problems <sup>[1]</sup> and <sup>[2]</sup> from above, and I'll start with what may cause OOP devs to spend too much time on the 2<sup>nd</sup> one:
 
 What something *is* depends on the context. Take MVC for instance, which you may know by MVVM or MVP, it's all about representing something with different objects specialized for the context in which they're being used.
 
