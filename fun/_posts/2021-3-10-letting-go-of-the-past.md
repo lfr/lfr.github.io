@@ -27,17 +27,15 @@ Programming is mostly **modeling real world problems**. As pointed out by Vladik
 
 If programming is modelling, and all models are wrong, one could define programming as devising **the simplest most useful model to solve a problem**. Simplicity and usefulness are the goals, not accuracy.
 
-The real world is seemingly made of objects for the most part, so we can understand how **appealing** Object Oriented Programming must have been when it introduced the object as the basic element of a new programming paradigm back in the late 50's.
+The real world is seemingly made of objects for the most part, so one can easily understand the appeal of Object Oriented Programming, but model design has largely transitioned away from describing stuff to composing with smaller abstractions that only make sense in very limited contexts, have little-to-no resemblance to the things they represent, but still get the job done.
 
-Model design has largely transitioned away from describing stuff to composing with smaller abstractions that only make sense in very limited contexts and have little-to-no resemblance to the things they represent, but still get the job done.
-
-If we're no longer describing stuff, it may be time to revisit the appeal of a programming paradigm that's clearly meant to describe stuff, first and foremost.
+If we're no longer describing stuff, it may be time to revisit the appeal of a programming paradigm that's clearly meant to describe stuff.
 
 ## A surprisingly simple distinction
 
-It's fair to say that **OOP** focuses on what **is** while **FP** focuses on what **happens**, and this distinction dramatically influences the problems ¹ and ² from the intro, and I'll start with causes OOP devs to spend too much time on the 2<sup>nd</sup>:
+It's fair to say that **OOP** focuses on what **is** while **FP** focuses on what **happens**. This distinction dramatically influences the problems <sup>[1]</sup> and <sup>[2]</sup> from above, and I'll start with what may cause OOP devs to spend too much time on the 2<sup>nd</sup>:
 
-What something *is* depends on the context. Take MVC for instance, which you may know by MVVM or MVP, it's all about representing the same thing with different objects specialized for the context in which they're being used.
+What something *is* depends on the context. Take MVC for instance, which you may know by MVVM or MVP, it's all about representing something with different objects specialized for the context in which they're being used.
 
 But what something *is* also changes over time, which is why in a lasting evolving business you shouldn't be too eager to spend time and energy describing stuff that's bound to change anyway.
 
@@ -45,9 +43,9 @@ Interestingly, while what something *is* varies, what *happens* doesn't. The "+"
 
 Had you written your functional application for King Arthur in CeltScript, you'd probably have used it to add cows, today you'd use the same code to add bitcoins, no refactoring necessary because you focused on what **happens** instead of:
 
-¹ Naming, classifying, and categorizing all the things.
+### ¹ Naming, classifying, and categorizing all the things
 
-While some may rightfully point out the many great apps that were made with OOP, that's missing the point: It's not that the wrong tool for the job doesn't get the job done, it's all of the unnecessary frustration it may cause along the way.
+It's true that many great apps were done in OOP, but that's missing the greater point: It's not that the wrong tool for the job doesn't get the job done, it's all of the unnecessary frustration it may cause along the way.
 
 And this problem doesn't scale well, the more linearly complex the job is, the exponentially greater the frustration becomes.
 
@@ -67,10 +65,10 @@ I'd like to leave you with some 18th-century wisdom from our friend [Antoine Lav
 
 > Nothing is lost, nothing is created, everything is transformed
 
-The law of conservation of mass describes literally **everything** as none other than the product of a transformation. If everything is the product of a transformation in the real world itself, what if there were a programming paradigm made to describe transformations instead of objects? 🤔
+The law of conservation of mass describes **literally everything** as none other than the product of a transformation. If everything is the product of a transformation in the real world itself, what if there were a programming paradigm made to describe transformations? 🤔
 
-Well, a transformation my young software alchemist is just a medieval name for the all-mighty **function**, the topic of the next article.
+That's precisely what FP is! A transformation, young software alchemist, is just a fanciful medieval name for the all-mighty **function**, the very topic of the next article!
 
 ## The journey continues ⛵
 
-This is the first time I write for non-FP programmers, if you're out here and are interested in the next article in the series, please let me know by retweeting, liking, or replying to [this twitter thread](https://twitter.com/luwvis/status/1367410901863837700), and until next time, safe journey!
+This is the first time I write for non-FP programmers, if you exist and are interested in the next article in the series, please let me know by retweeting, liking, or replying to [this twitter thread](https://twitter.com/luwvis/status/1367410901863837700), and until next time, safe journey!
