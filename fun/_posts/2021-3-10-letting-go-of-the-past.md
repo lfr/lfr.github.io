@@ -15,7 +15,7 @@ As stated in the [intro to this series](https://impure.fun/fun/2021/02/16/journe
 
 You've been creating and using functions your whole developer life, but if functions aren't exclusive to Functional Programming, what makes it "functional" and — more importantly — how can things you're already using possibly solve the problems you may still be facing?
 
-Last but not least, when you look at the picture below, do you see a fridge?
+Bonus question: when you look at the picture below, do you see a fridge?
 
 <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">What do you see in the picture? A piece of cardboard? Some junk? No! — It’s a model!<br><br>Thread on models and bounded contexts 1/9<a href="https://twitter.com/hashtag/DDDesign?src=hash&amp;ref_src=twsrc%5Etfw">#DDDesign</a> <a href="https://twitter.com/hashtag/BoundedContext?src=hash&amp;ref_src=twsrc%5Etfw">#BoundedContext</a> <a href="https://t.co/URvUGh6Ho7">pic.twitter.com/URvUGh6Ho7</a></p>&mdash; Vladik Khononov (@vladikk) <a href="https://twitter.com/vladikk/status/1335947978482339841?ref_src=twsrc%5Etfw">December 7, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
