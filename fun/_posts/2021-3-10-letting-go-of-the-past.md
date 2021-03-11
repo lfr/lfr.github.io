@@ -13,9 +13,7 @@ Ever caught yourself spending an unreasonable amount of time thinking about how 
 
 As stated in the [intro to this series](https://impure.fun/fun/2021/02/16/journey-to-functional-wonderland/), most devs just care about **writing simple code that works**, but it's surprisingly easy to accidentally stray from that goal which is what may have happened if you answered "yes" to the above.
 
-You've been creating and using functions your whole developer life, but if functions aren't exclusive to Functional Programming, what makes it "functional" and — more importantly — how can things you're already using possibly solve the problems you may still be facing?
-
-All great questions, but I'd like to add one more: When you look at this picture, do you see a fridge?
+You've been creating and using functions your whole developer life, but if functions aren't exclusive to Functional Programming, what makes it "functional" and — more importantly — how can things you're already using possibly solve the problems you may still be facing? Last but definitely not least, when you look at the picture below, do you see a fridge?
 
 <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">What do you see in the picture? A piece of cardboard? Some junk? No! — It’s a model!<br><br>Thread on models and bounded contexts 1/9<a href="https://twitter.com/hashtag/DDDesign?src=hash&amp;ref_src=twsrc%5Etfw">#DDDesign</a> <a href="https://twitter.com/hashtag/BoundedContext?src=hash&amp;ref_src=twsrc%5Etfw">#BoundedContext</a> <a href="https://t.co/URvUGh6Ho7">pic.twitter.com/URvUGh6Ho7</a></p>&mdash; Vladik Khononov (@vladikk) <a href="https://twitter.com/vladikk/status/1335947978482339841?ref_src=twsrc%5Etfw">December 7, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -27,7 +25,9 @@ Programming is mostly **modeling real world problems**. As the statistician [Geo
 
 If programming is modelling, and all models are wrong, one could define programming as devising **the simplest most useful model to solve a problem**. Simplicity and usefulness are the goals, not accuracy.
 
-The real world is seemingly made of objects for the most part, so we can understand how **appealing** Object Oriented Programming must have been when it first introduced the glorious object as the basic building block of a whole new programming paradigm back in the late fifties.
+The real world is seemingly made of objects for the most part, so we can understand how **appealing** Object Oriented Programming must have been when it introduced the object as the basic element of a new programming paradigm back in the late fifties.
+
+But just as Vladik points out, model design has largely transitioned away from describing stuff to composing with smaller abstractions that have little-to-no resemblance to the things they represent and yet still get the job done, but if we're no longer describing stuff, it may be time to revisit the appeal of a programming paradigm that's clearly meant to describe stuff first and foremost.
 
 ## A critical mind challenges everything
 
@@ -44,8 +44,6 @@ Here's a few:
 Far from insignificant, these things that aren't objects are very real problems programs often try to solve for.
 
 Objects are just a metaphor, an abstraction in your model meant to represent something concrete in the real world problem you're trying to solve for.
-
-But if we can so easily come up with clearly important problems that aren't objects, and if efficiency, not accuracy, is what we're looking for anyway, does it make any sense to start from the premise that everything is an object? Don't get me wrong, *some* things are a good fit for the object metaphor — even in Functional Programming — but *everything*?
 
 ## Let's stop naming all the things
 
