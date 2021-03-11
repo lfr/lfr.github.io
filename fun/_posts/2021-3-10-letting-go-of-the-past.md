@@ -9,7 +9,7 @@ image: /assets/2021/what.png
 
 ![splash](/assets/2021/what.png)
 
-Ever caught yourself spending an unreasonable amount of time thinking about how to name something, or pondering over architectural concerns that **you couldn't care less about**¹, out of fear that some choices may come back to **haunt you**²?
+Ever caught yourself spending an unreasonable amount of time trying to name something¹, or pondering over architectural concerns² that **you couldn't care less about**, out of fear that some choices may come back to **haunt you**?
 
 As stated in the [intro to this series](https://impure.fun/fun/2021/02/16/journey-to-functional-wonderland/), most devs just care about **writing simple code that works**, but it's surprisingly easy to accidentally stray from that goal which is what may have happened if you answered "yes" to the above.
 
@@ -35,7 +35,7 @@ If we're no longer describing stuff, it may be time to revisit the appeal of a p
 
 ## A surprisingly simple distinction
 
-It's fair to say that **OOP** focuses on what **is** while **FP** focuses on what **happens**, and this distinction dramatically influences the problems I mention in the intro.
+It's fair to say that **OOP** focuses on what **is** while **FP** focuses on what **happens**, and this distinction dramatically influences the problems ¹ and ² from the intro, and I'll start with causes OOP devs to spend too much time on the 2<sup>nd</sup>:
 
 What something *is* depends on the context. Take MVC for instance, which you may know by MVVM or MVP, it's all about representing the same thing with different objects specialized for the context in which they're being used.
 
@@ -43,7 +43,9 @@ But what something *is* also changes over time, which is why in a lasting evolvi
 
 Interestingly, while what something *is* varies, what *happens* doesn't. The "+" in `2 + 2` is something that performs an arithmetic operation that you're all familiar with, and the context is irrelevant.
 
-Had you written your functional application for King Arthur in CeltScript, you'd probably have used it to add cows, today you'd use the same code to add bitcoins, no refactoring necessary because you focused on what happens instead of naming, classifying and categorizing all the things.
+Had you written your functional application for King Arthur in CeltScript, you'd probably have used it to add cows, today you'd use the same code to add bitcoins, no refactoring necessary because you focused on what **happens** instead of:
+
+¹ Naming, classifying, and categorizing all the things.
 
 While some may rightfully point out the many great apps that were made with OOP, that's missing the point: It's not that the wrong tool for the job doesn't get the job done, it's all of the unnecessary frustration it may cause along the way.
 
