@@ -65,7 +65,9 @@ I'd like to leave you with some 18th-century wisdom from our friend [Antoine Lav
 
 > Nothing is lost, nothing is created, everything is transformed
 
-The law of conservation of mass describes **literally everything** as none other than the product of a transformation. If everything is the product of a transformation in the real world itself, what if there were a programming paradigm made to describe transformations? 🤔
+The law of conservation of mass describes **literally everything** as none other than the product of a transformation. 
+
+If everything is the product of a transformation in the real world itself, what if there were a programming paradigm made to describe transformations? 🤔
 
 That's precisely what FP is! A transformation, young software alchemist, is just a fanciful medieval name for the all-mighty **function**, the very topic of the next article!
 

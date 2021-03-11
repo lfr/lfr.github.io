@@ -8,6 +8,8 @@ image: /assets/glow.png
 ---
 
 
+I know you've used and created functions your whole developer life, but trust me, you'll not see this coming.
+
 ## Everything is transformed
 
 Function: the bestest building block
