@@ -40,9 +40,9 @@
   {% assign read_time = content | strip_html | number_of_words | divided_by: 180 | plus: 0.5 %}
 
   {% if page.layout == 'post' %}
-  <meta name="twitter:title"   content="{{ page.title }} | ~{{ read_time }} min read">
-  <meta property="og:title" content="{{ page.title }} | ~{{ read_time }} min read" />
-  <meta name="twitter:description" content="{{ page.summary }}">
+  <!-- <meta name="twitter:title" content="{{ page.title }}&nbsp;|&nbsp;⌚&nbsp;{{ read_time }}&nbsp;min" /> -->
+  <meta property="og:title" content="{{ page.title }}&nbsp;|&nbsp;⌚&nbsp;{{ read_time }}&nbsp;min" />
+  <!-- <meta name="twitter:description" content="{{ page.summary }}"> -->
   <meta property="og:description" content="{{ page.summary }}">
   {% elsif page.summary %}
   <meta name="twitter:title"   content="{{ page.title }} | {{ site.title }} blog">
@@ -54,7 +54,7 @@
 
   {% if page.image %}
   <meta name="twitter:card"  content="summary_large_image">
-  <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+  <!-- <meta name="twitter:image" content="{{ site.url }}{{ page.image }}"> -->
   <meta property="og:image" content="{{ site.url }}{{ page.image }}">
   {% else %}
   <meta name="twitter:card"  content="summary_large_image">
