@@ -14,10 +14,10 @@ title: Home
         </h1>
 
         <!-- Calculate read_time and store it in a variable -->
-        {% assign read_time = post.content | strip_html | number_of_words | divided_by: 180 | plus: 0.5 %}
+        {% assign read_time = post.content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
         
         <div class="post-subtitle">
-          <span class="reading-time">⌚ ~{{ read_time }} min</span>
+          <span class="reading-time">⏱ ~{{ read_time }} min</span>
           <span> | </span>
           <span class="post-date">{{ post.date | date_to_string }}</span>
         </div>
