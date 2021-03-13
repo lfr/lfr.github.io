@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Calculate read_time and store it in a variable -->
-{% assign read_time = content | strip_html | number_of_words | divided_by: 180.0 | round: 0 %}
+{% assign read_time = content | strip_html | number_of_words | divided_by: 90 | divided_by: 2.0 | remove: ".0" %}
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
