@@ -37,7 +37,7 @@
   <meta name="twitter:creator" content="@{{ site.twitter_username }}">
 
   <!-- Calculate read_time and store it in a variable -->
-  {% assign read_time = content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
+  {% assign read_time = content | strip_html | number_of_words | divided_by: 180.0 | round: 0 %}
 
   {% if page.layout == 'post' %}
   <meta name="twitter:title" content="{{ page.title }}&nbsp;|&nbsp;⏱&nbsp;{{ read_time }}&nbsp;min&nbsp;read" />
