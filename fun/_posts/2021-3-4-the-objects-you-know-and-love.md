@@ -74,15 +74,15 @@ As you venture further away from OOP, these arcane vestigial practices will no l
 
 Everything you can't avoid even with good practices can be seen as a mental & code tax, which you are paying, often unknowingly.
 
-In this way OOP is like a bad itch that you no longer notice you're scratching. Every. Single. Day. Because when you stop scratching, you get exceptions.
+In this way OOP is like a bad itch that you no longer notice you're scratching, except when you stop, because you get exceptions.
 
 ![oop](/assets/2021/oop.png){:class="small"}
 
 Exceptions are so frequent when building OOP solutions that they're generally accepted as necessary inconveniences towards a solution that's eventually stable enough to focus on actual functionality.
 
-This is sad because there's an entire software development world out there where this silly Exception Driven Development workflow sounds like a terrible joke.
+This is sad because there's an entire world out there where this silly workflow sounds like a terrible joke.
 
-When you let go of objects as the basic building block of your code, exceptions start to become less and less commonplace, and in time you will find yourself writing code for hours — from scratch — and be rewarded with a brand new solution that just works.
+When you let go of objects as the basic building block of your code, exceptions become more and more exceptional, until one day you'll be rewarded with a brand new solution created from scratch that just works, 
 
 ## Your first basic spell ✨
 
@@ -90,8 +90,4 @@ It may come as a surprise but a lot of the wizardry ahead doesn't involve any ma
 
 All it takes is using **a simpler basic building block** for your code!
 
-This will be the first and the most significant basic spell in your spell book, and it's exactly what I'll introduce next time!
-
-## The journey continues ⛵
-
-This is the first time I write for non-FP programmers, if you're out here and are interested in the next article in the series, please let me know by retweeting, liking, or replying to [this twitter thread](https://twitter.com/luwvis/status/1367410901863837700), and until next time, safe journey!
+This will be the first and the most significant basic spell in your spell book, and it's exactly what I'll introduce at the end of the [next article](https://impure.fun/fun/2021/03/15/fp/), where we finally attempt to define **Functional Programming**!
