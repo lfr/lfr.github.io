@@ -89,7 +89,7 @@ li {
 /***********************/
 
 strong {
-    font-weight: 500;
+    font-weight: bold;
     background: -webkit-linear-gradient(#a4d318, #728c25);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
