@@ -17,7 +17,7 @@ title: Home
         {% assign read_time = post.content | strip_html | number_of_words | divided_by: 90 | divided_by: 2.0 | remove: ".0" %}
         
         <div class="post-subtitle">
-          <span class="reading-time">⏱ ~{{ read_time }} min</span>
+          <span class="reading-time">⏱ {{ read_time }} min</span>
           <span> | </span>
           <span class="post-date">{{ post.date | date_to_string }}</span>
         </div>
