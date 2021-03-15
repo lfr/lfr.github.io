@@ -40,7 +40,7 @@
   {% assign read_time = content | strip_html | number_of_words | divided_by: 180 %}
 
   {% if page.layout == 'post' %}
-  <meta name="twitter:title" content="{{ page.title }}&#8239;⏱~{{ read_time }}&#8239;min&#8239;read" />
+  <meta name="twitter:title" content="{{ page.title }}&nbsp;|⏱~{{ read_time }}&#8239;min&#8239;read" />
   <meta property="og:title" content="{{ page.title }}｜~ {{ read_time }} min read" />
   <!-- <meta name="twitter:description" content="{{ page.summary }}"> -->
   <meta property="og:description" content="{{ page.summary }}">
