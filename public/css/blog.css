@@ -90,7 +90,7 @@ li {
 
 strong {
     font-weight: bold;
-    background: -webkit-linear-gradient(#a4d318, #728c25);
+    background: -webkit-linear-gradient( #848c6d, #98b14e);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
