@@ -29,7 +29,7 @@ Do not make this mistake, this journey requires no credentials or academic recog
 
 Do not ask for permission.
 
-All you need is the **love of your craft** that brought you here, and the inquisitive **open mind** of someone for whom no leap is too far to reach truer grounds.
+All you need is the **love of your craft** that brought you here, and the **inquisitive mind** of someone for whom no leap is too far to reach truer grounds.
 
 ## Do not mistake this journey for what it's not
 
