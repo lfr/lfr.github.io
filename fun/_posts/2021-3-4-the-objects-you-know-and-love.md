@@ -4,16 +4,17 @@ layout: post
 title: The Objects You Know and Love&nbsp;💟
 summary: >-
   Journey to Functional Wonderland: Part 2
-image: /assets/2021/objects.png
+image: /assets/2021/objects.webp
 ---
 
-![splash](/assets/2021/objects.png)
-
-This journey begins in a surprisingly familiar place. When comparing Functional Programming to Object Oriented Programming, it's tempting to take the shortcut **functions** vs. **objects**, and understandably ask: what's wrong with objects?
+![splash](/assets/2021/objects.webp)
 
 <div class="message">
-  This second article was originally the first in the series, if you've read it before you can <!-- skip ahead or --> read the <a href="/fun/2021/02/16/journey-to-functional-wonderland/">re-written intro article</a> instead.
+  <h4><a href="https://twitter.com/impurefun">#ApplesForLambda</a> Campaign</h4>
+  iOS users, if you've been here before when some text was missing, I hope you give it another chance! 
 </div>
+
+This journey begins in a surprisingly familiar place. When comparing Functional Programming to Object Oriented Programming, it's tempting to take the shortcut **functions** vs. **objects**, and understandably ask: what's wrong with objects?
 
 ## Nothing's wrong with objects!
 
@@ -88,6 +89,4 @@ When you let go of objects as the basic building block of your code, exceptions 
 
 It may come as a surprise but a lot of the wizardry ahead doesn't involve any maths or other scarier "m" words, and definitely none of that impenetrable category theory.
 
-All it takes is using **a simpler basic building block** for your code!
-
-This will be the first and the most significant basic spell in your spell book, and it's exactly what I'll introduce at the end of the [next article](https://impure.fun/fun/2021/03/15/fp/), where we finally attempt to define **Functional Programming**!
+All it takes is using **a simpler basic building block** for your code which we'll to very soon, but first, it's time to properly define Functional Programming, so head on to the [next article](/fun/2021/03/15/fp/) for that!

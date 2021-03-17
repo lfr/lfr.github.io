@@ -4,14 +4,15 @@ layout: post
 title: The Magical Journey to Functional Wonderland
 summary: >-
   There's a whimsical land of infinite code bliss waiting for you, and the journey starts right here
-image: /assets/glow.3x3x3.png
+image: /assets/2021/jfw.webp
 series: journey-to-functional-wonderland
 ---
 
-![splash](/assets/glow.3x3x3.png)
+![splash](/assets/2021/jfw.webp)
 
 <div class="message">
-  This article has been re-written, most of the original content has been moved to the next article.
+  <h4><a href="https://twitter.com/impurefun">#ApplesForLambda</a> Campaign</h4>
+  iOS users, if you've been here before when some text was missing, I hope you give it another chance! 
 </div>
 
 Wandering developer, your next adventure awaits, and I know you're ready because you've been ready since you wrote your first line of code.
