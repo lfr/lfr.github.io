@@ -10,7 +10,7 @@ image: /assets/2021/objects.webp
 ![splash](/assets/2021/objects.webp)
 
 <div class="message">
-  <h4><a href="https://twitter.com/impurefun">#ApplesForLambda</a> Campaign</h4>
+  <h4><a href="https://twitter.com/luwvis/status/1372144028565770248">#ApplesForLambda</a> Campaign</h4>
   iOS users, if you've been here before when some text was missing, I hope you give it another chance! 
 </div>
 
