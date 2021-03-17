@@ -23,7 +23,9 @@ It's ok for you to be **skeptical**, most devs just care about writing **simple 
 
 ## Do not postpone this journey
 
-Many have put it off, in a futile attempt to master their craft first. Do not make this mistake, this journey requires no credentials or academic recognition of your readiness.
+Many have put it off, in a futile attempt to master their craft first.
+
+Do not make this mistake, this journey requires no credentials or academic recognition of your readiness.
 
 Do not ask for permission.
 
