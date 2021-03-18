@@ -17,7 +17,7 @@ series: journey-to-functional-wonderland
 
 Wandering developer, your next adventure awaits, and I know you're ready because you've been ready since you wrote your first line of code.
 
-This journey will bring you fame of course, and glory, sooo much glory. But above all else, this journey will take you to that lost magical place where the code you write somehow speaks to you like a great melody sounds familiar even as you listen to it for the first time.
+This journey will bring you fame of course, and glory, sooo much glory. But above all else, this journey will take you to that lost magical place where the code you write speaks to you like a great melody can sound familiar even at the first listen.
 
 It's ok for you to be **skeptical**, most devs just care about writing **simple code that works**, but this seemingly academic topic is a shortcut towards that, not a distraction, as it will dramatically reduce the times you create code that doesn't.
 
@@ -47,6 +47,6 @@ Your time, and even more so your mental energy is very precious. If you feel fea
 
 Even if it seems like dark magic, you'll very soon learn the basic spells, and by then you will already be a much better wizard.
 
-It's true that Functional Wonderland is vast and full of mysteries, but you don't have to venture deep to reap the rewards, in fact you'll get most of the value just from skirting its shores, and will not be doing it alone.
+It's true that Functional Wonderland is vast and full of mysteries, but you don't have to venture deep to reap the rewards, in fact you'll get most of the value just from skirting its shores, and you will not be doing it alone.
 
 Indeed, you will not be the first **object oriented programmer** to set sail, neither will you be the last, but for all that attempted this perilous but infinitely rewarding journey it always started in the same [familiar place](/fun/2021/03/04/the-objects-you-know-and-love/).
