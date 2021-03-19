@@ -37,15 +37,9 @@ The path ahead is not about learning an alternative way of doing the same thing,
 
 Going from the comfort of what you already know to the discomfort of what you don't even realize you don't know requires curiosity, but it also requires courage.
 
-## There is no courage without fear
-
-The fear of investing one's precious time learning something before even being capable of understanding its purpose is justified.
-
-Your time, and even more so your mental energy is very precious. If you feel fear, accept it, embrace it even, for ***it*** is the proof that it was courage, not chance, that set you off on this journey.
-
 ## The first step is the hardest
 
-Even if it seems like dark magic, you'll very soon learn the basic spells, and by then you will already be a much better wizard.
+Even if it seems like dark magic, you'll very soon learn the basic spells, and those will be enough to make you a much better wizard.
 
 It's true that Functional Wonderland is vast and full of mysteries, but you don't have to venture deep to reap the rewards, in fact you'll get most of the value just from skirting its shores, and you will not be doing it alone.
 

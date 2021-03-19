@@ -32,7 +32,7 @@ That last point notwithstanding, this definition makes objects a pretty useful c
 
 The problem with Object Oriented Programming has never been with *objects* so much as with the *orientation* part.
 
-Objects are not inherently evil, but the above definition means objects are truly terrible, horrible, no bueno, very bad **basic building blocks** for a programming paradigm. Why? Because basic building blocks are supposed to be the **simplest composable element** you can think of.
+Objects are not inherently evil, but the above definition means objects are a truly terrible, horrible, no bueno, very bad **basic building block** for a programming paradigm. Why? Because basic building blocks are supposed to be the **simplest composable element** you can think of.
 
 Now re-read that definition and ask yourself: does it read like a definition of a simplest composable element of anything?
 
