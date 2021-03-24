@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: The last apolitical developer
+title: The End of the Apolitical Developer
 summary: >-
   Very few people seek to be reasoned away from their preconceptions
 image: /assets/2020/apolitical-dev.jpg
