@@ -29,7 +29,7 @@ Regardless of which group you're in, chances are you just see money as a measure
 
 Access to information is at an all time high thanks to software and technology, so it may come as a surprise that pre-internet 19th century farmers knew a whole lot more about money than the average person today.
 
-Indeed, they were the ones behind the [https://www.britannica.com/event/Greenback-movement](Greenback movement) that advocated for public control of the money hose till it was dissolved in **1889**.
+Indeed, they were the ones behind the [Greenback movement](https://www.britannica.com/event/Greenback-movement) that advocated for public control of the money hose till it was dissolved in **1889**.
 
 Today, with all the interwebs in the world, most americans struggling to make a buck probably don't even know their currency can be summoned into existence by decidedly-non-public private actors, something I could write a whole article about. The point for now is this: access to information doesn't guarantee education, but curiosity helps, so keep reading if you have it.
 
