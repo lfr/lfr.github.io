@@ -71,7 +71,7 @@ I'd love to say that it's being used to cure cancer, get rid of poverty, hell ev
 
 Throughout history when a group of people had extra power it was often directly or indirectly used to subjugate those who had less of it, and sadly those who wield this amazing power are no exception, they're just using it to wage a war but probably not one that you have in mind.
 
-This modern version of "imma bash ur stone age ass with my bronze age club" is a great story in and of itself, and no doubt will be the topic of one of my future specials.
+This modern version of *imma bash ur stone age ass with my bronze age club* is a great story in and of itself, and no doubt will be the topic of one of my future specials.
 
 ## Conclusion
 
