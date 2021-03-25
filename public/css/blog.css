@@ -88,7 +88,6 @@ li {
     border-radius: .5rem; padding:.5rem;
     background: linear-gradient(45deg, rgba(255,204,235,1) 0%, rgba(255,253,204,1) 12.5%, rgba(205,255,206,1) 25%, rgba(202,255,253,1) 37.5%, rgba(255,210,237,1) 50%, rgba(255,253,205,1) 62.5%, rgba(212,255,212,1) 75%, rgba(204,255,253,1) 87.5%, rgba(255,211,238,1) 100%);
     color:#333;
-    font-style: italic;
 }
 
 .message {

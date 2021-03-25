@@ -9,23 +9,25 @@ image: placeholder.png
 
 ![splash](/public/placeholder.png)
 
-No click bait here, I'm really going to talk about infinite money, so buckle up and enjoy this new second ever special!
+No click bait here, I'm really going to talk about infinite money, so buckle up and enjoy this new special!
 
-## Money money money
+## Money is important
 
 Some people speak of money as not that important or meaningful, but those usually have enough of it to associate money with luxury.
 
-Truth is, for the vast majority of people money isn't related to luxury, it's related to food, shelter, health, and the ability to pay a couple of bills on time, some of the time.
+For the vast majority of people money isn't related to luxury, it's related to food, shelter, health, and the ability to pay a couple of bills on time, some of the time.
 
-Regardless of which group you're in, chances are you just see money as a measure of wealth, or as something useful for trade, but those are just facts about money, they could just as well be used to describe gold when people carried gold pouches, yet money and gold couldn't be more different.
+Regardless of which group you're in, chances are you define money as a measure of wealth, or as something useful for trade, but those are just facts about money, they could just as well be used to describe gold when people carried gold pouches, yet money and gold couldn't be more different.
 
 ## You think you're educated?
 
 Access to information is at an all time high thanks to software and technology, so it may come as a surprise that pre-internet 19th century farmers knew a whole lot more about money than the average person today.
 
-Indeed, they were the ones behind the [Greenback movement](https://www.britannica.com/event/Greenback-movement) that advocated for public control of the money hose till it was dissolved in **1889**.
+Indeed, they were the ones behind the [Greenback movement](https://www.britannica.com/event/Greenback-movement) that advocated for public control of currency till it was dissolved in **1889**.
 
-Today, with all the interwebs in the world, most americans struggling to make a buck probably don't even know their currency can be summoned into existence by decidedly-non-public private actors, something I could write a whole article about.
+Making money means different things to different people. For regular folk, it just means working or selling something. For others, it actually means creating it out of thin air.
+
+Today, with all the information in the world at their fingertips unlike the farmers above, most americans aren't aware of the simple fact that the Federal Reserve is neither "federal" nor a "reserve", or that currency is first and foremost controlled by private interests.
 
 The point for now is this: access to information doesn't guarantee education, but curiosity helps, so keep reading if you have it.
 
@@ -53,7 +55,7 @@ Money feels more tangible because it exists in physical form, but coins and bill
 
 For all except one country the concept of infinite money is relative, as they can still run out of foreign currency, preventing them from buying resources they may not have internally.
 
-For the US however, the concept of infinite money is **absolute**. As the issuer of the world's reserve currency, it can never run out of it.
+For the US however, the concept of infinite money is **absolute**. As the issuer of the world's reserve currency, the US can never run out of it.
 
 This means that the US is not only the richest country on earth, it's infinitely so. It's playing the game in god mode if you will.
 
@@ -71,19 +73,23 @@ I'd love to say that it's being used to cure cancer, get rid of poverty, hell ev
 
 Throughout history when a group of people had extra power it was often directly or indirectly used to subjugate those who had less of it, and sadly those who wield this amazing power are no exception, they're just using it to wage a war but probably not one that you have in mind.
 
-This modern version of *imma bash ur stone age ass with my bronze age club* is a great story in and of itself, and no doubt will be the topic of one of my future specials.
+This modern version of *imma bash ur stone age ass with my bronze age club* is an amazing tale in and of itself, and no doubt will be the topic of one of my future specials.
 
 ## Conclusion
 
-Most people just can't wrap their head around the fact that money is infinite, which is why I didn't digress into any of the juicy adjacent topics.
+Most people just can't wrap their head around the fact that money is infinite, which is why I didn't digress into any of the adjacent topics no matter how juicy.
  
 Money can be scarce in a single household, but never at the US national level. There is absolutely no budgetary obstacle standing in the way of a monthly UBI for instance, and with [30% to 40% of its food production ending up in landfills](https://www.usda.gov/foodwaste/faqs#:~:text=In%20the%20United%20States%2C%20food,percent%20of%20the%20food%20supply.&text=Wholesome%20food%20that%20could%20have,and%20disposing%20of%20discarded%20food.), no reason to believe that this extra income would have any impact on the price of food just to name that one example.
 
-Ideally, the next time you hear someone say that money is finite or speculate on what may cause inflation I'd like you to look at them the same way you'd look at someone stating that daily showers have a negative impact on rainfall.
+Ideally, the next time you hear someone say that there isn't enough money for X in the country, or speculate on what may cause inflation, I'd like you to look at them the same way you'd look at someone trying to predict the weather based on daily showers.
 
 In reality the monetary system is made of two parts, a faucet and a sink. Here we went over the faucet and its infinite supply, in my next special we'll go over the sink, and let me tell you that one will be a doozy, so [thank you for following me](http://twitter.com/intent/user?screen_name=luwvis) and I'll see you at **2^8**!
 
+## Ask me anything
+
+If you read the whole article with an open mind, no doubt that you'll have questions, feel free to ask them on this article's thread and I'll do my best to answer them if they're short or perhaps turn them into an article if they're not.
+
 <div class="message-special">
-<h6>Why don't you write about code?</h6>
+<h6>Why not write about code?</h6>
 Developers are problem solvers, and as a humanist I see society as the ultimate problem to solve, and thus the ultimate and most rewarding challenge. And what can I say, we're way past <a href="/special/2020/07/13/the-end-of-the-apolitical-dev">The End of The Apolitical Developer</a> at this point.
 </div>
