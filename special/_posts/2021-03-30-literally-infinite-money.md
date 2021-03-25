@@ -81,7 +81,7 @@ Ideally, the next time you hear someone say that money is finite or speculate on
 
 The monetary system is actually made of two parts, a faucet and a sink. Here we went over the faucet and its infinite supply, in my next special we'll go over the sink, and let me tell you that one will be a doozy, so [thank you for following me](http://twitter.com/intent/user?screen_name=luwvis) and I'll see you at **512**!
 
-<div class="message">
+<div class="message-special">
 <h6>Why don't you write about code?</h6>
 <p>Silly answer: Haven't you heard about <a href="/special/2020/07/13/the-end-of-the-apolitical-dev">The End of The Apolitical Developer</a>?</p>
 <p>Long answer: Developers are problem solvers, and as a humanist I see society as the ultimate problem to solve, and thus the ultimate and most rewarding challenge. There's a lot more to this but that's an article for another time!</p>
