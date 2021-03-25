@@ -99,6 +99,10 @@ li {
 /* Overwrite POOLE.CSS */
 /***********************/
 
+p {
+    margin: 1rem 0;
+}
+
 strong {
     font-weight: bold;
     /* background: -webkit-linear-gradient( #848c6d, #98b14e);
