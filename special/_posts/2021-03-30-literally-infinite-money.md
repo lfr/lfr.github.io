@@ -81,7 +81,7 @@ Money can be scarce in a single household, but never at the US national level. T
 
 Ideally, the next time you hear someone say that money is finite or speculate on what may cause inflation I'd like you to look at them the same way you'd look at someone stating that daily showers have a negative impact on rainfall.
 
-The monetary system is actually made of two parts, a faucet and a sink. Here we went over the faucet and its infinite supply, in my next special we'll go over the sink, and let me tell you that one will be a doozy, so [thank you for following me](http://twitter.com/intent/user?screen_name=luwvis) and I'll see you at **2^8**!
+In reality the monetary system is made of two parts, a faucet and a sink. Here we went over the faucet and its infinite supply, in my next special we'll go over the sink, and let me tell you that one will be a doozy, so [thank you for following me](http://twitter.com/intent/user?screen_name=luwvis) and I'll see you at **2^8**!
 
 <div class="message-special">
 <h6>Why don't you write about code?</h6>
