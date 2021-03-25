@@ -25,7 +25,9 @@ Access to information is at an all time high thanks to software and technology, 
 
 Indeed, they were the ones behind the [Greenback movement](https://www.britannica.com/event/Greenback-movement) that advocated for public control of the money hose till it was dissolved in **1889**.
 
-Today, with all the interwebs in the world, most americans struggling to make a buck probably don't even know their currency can be summoned into existence by decidedly-non-public private actors, something I could write a whole article about. The point for now is this: access to information doesn't guarantee education, but curiosity helps, so keep reading if you have it.
+Today, with all the interwebs in the world, most americans struggling to make a buck probably don't even know their currency can be summoned into existence by decidedly-non-public private actors, something I could write a whole article about.
+
+The point for now is this: access to information doesn't guarantee education, but curiosity helps, so keep reading if you have it.
 
 ## Inflation, boooring
 
@@ -33,11 +35,11 @@ Before introducing the concept of infinite money, you have to let go of what you
 
 Inflation works exactly the way you think it does in a closed system, if you add more money to it and everything else stays the same, people are willing to spend more for the same stuff driving its price up.
 
-Unfortunately, this understanding of inflation doesn't help in any way predicting the consequences of money supply in the price of goods, no more than the understanding of how water turns to vapor in a pressure cooker helps you predict the weather.
+Unfortunately, this understanding of inflation doesn't help in any way when trying to predict the consequences of money supply in the price of goods, no more than understanding of how water turns to vapor in a pressure cooker helps you predict the weather.
 
-Just like the weather, modern economy is a chaotic [complex system](https://en.wikipedia.org/wiki/Complex_system), and anyone trying to explain it away using a simple metaphor like the magical closed room above is a charlatan. Literally. It's someone with an agenda, trying to sell you on an idea they directly or indirectly benefit from.
+Just like the weather, modern economy is a [chaotic complex system](https://en.wikipedia.org/wiki/Complex_system), and anyone trying to explain it away using a simple metaphor like the magical closed room above is a charlatan. Literally. It's someone with an agenda, trying to sell you on an idea they directly or indirectly benefit from.
 
-If you are ready let go of this preconception about what creates inflation, read on!
+If you are ready to accept inflation as no more or less predictable than the weather, read on!
 
 ## Infinite money 💸
 
@@ -49,7 +51,7 @@ Money feels more tangible because it exists in physical form, but coins and bill
 
 ## One exception
 
-The concept of infinite money is relative for all countries with one exception, as they can still run out of foreign currency, preventing them from buying resources they may not have internally.
+For all except one country the concept of infinite money is relative, as they can still run out of foreign currency, preventing them from buying resources they may not have internally.
 
 For the US however, the concept of infinite money is **absolute**. As the issuer of the world's reserve currency, it can never run out of it.
 
@@ -79,7 +81,7 @@ Money can be scarce in a single household, but never at the US national level. T
 
 Ideally, the next time you hear someone say that money is finite or speculate on what may cause inflation I'd like you to look at them the same way you'd look at someone stating that daily showers have a negative impact on rainfall.
 
-The monetary system is actually made of two parts, a faucet and a sink. Here we went over the faucet and its infinite supply, in my next special we'll go over the sink, and let me tell you that one will be a doozy, so [thank you for following me](http://twitter.com/intent/user?screen_name=luwvis) and I'll see you at **512**!
+The monetary system is actually made of two parts, a faucet and a sink. Here we went over the faucet and its infinite supply, in my next special we'll go over the sink, and let me tell you that one will be a doozy, so [thank you for following me](http://twitter.com/intent/user?screen_name=luwvis) and I'll see you at **2^8**!
 
 <div class="message-special">
 <h6>Why don't you write about code?</h6>
