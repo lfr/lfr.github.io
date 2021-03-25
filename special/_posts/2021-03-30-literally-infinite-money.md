@@ -7,21 +7,15 @@ summary: >-
 image: placeholder.png
 ---
 
-![splash](placeholder.png)
+![splash](/public/placeholder.png)
 
-No click bait here, I'm really going to talk about infinite money, so buckle up and enjoy this new second ever special, but first, let's get this out of the way:
-
-<div class="message">
-<h4>Why don't you write about code?</h4>
-<p>Silly answer: Haven't you heard about <a href="/special/2020/07/13/the-end-of-the-apolitical-dev">The End of The Apolitical Developer</a>?</p>
-<p>Long answer: Developers are problem solvers, and as a humanist I see society as the ultimate problem to solve, and thus the ultimate and most rewarding challenge. There's a lot more to this but that's an article for another time.</p>
-</div>
+No click bait here, I'm really going to talk about infinite money, so buckle up and enjoy this new second ever special!
 
 ## Money money money
 
 Some people speak of money as not that important or meaningful, but those usually have enough of it to associate money with luxury.
 
-Truth is, for the vast majority of people, money isn't related to luxury, it's related to food, shelter, health, and the ability to pay a couple of bills on time, some of the time.
+Truth is, for the vast majority of people money isn't related to luxury, it's related to food, shelter, health, and the ability to pay a couple of bills on time, some of the time.
 
 Regardless of which group you're in, chances are you just see money as a measure of wealth, or as something useful for trade, but those are just facts about money, they could just as well be used to describe gold when people carried gold pouches, yet money and gold couldn't be more different.
 
@@ -41,7 +35,7 @@ Inflation works exactly the way you think it does in a closed system, if you add
 
 Unfortunately, this understanding of inflation doesn't help in any way predicting the consequences of money supply in the price of goods, no more than the understanding of how water turns to vapor in a pressure cooker helps you predict the weather.
 
-Just like the weather, modern economy is a [chaotic complex system](https://en.wikipedia.org/wiki/Complex_system#Complexity_and_chaos_theory), and anyone trying to explain it away using a simple metaphor like the magical closed room above is a charlatan. Literally. It's someone with an agenda, trying to sell you on an idea they directly or indirectly benefit from.
+Just like the weather, modern economy is a chaotic [complex system](https://en.wikipedia.org/wiki/Complex_system), and anyone trying to explain it away using a simple metaphor like the magical closed room above is a charlatan. Literally. It's someone with an agenda, trying to sell you on an idea they directly or indirectly benefit from.
 
 If you are ready let go of this preconception about what creates inflation, read on!
 
@@ -79,8 +73,16 @@ This modern version of "imma bash ur stone age ass with my bronze age club" is a
 
 ## Conclusion
 
-Most people just can't wrap their head around the fact that at the US national level money is infinite, which is why I purposefully did not digress into any of the adjacent topics above, no matter how juicy they may sound.
+Most people just can't wrap their head around the fact that money is infinite, which is why I purposefully did not digress into any of the adjacent topics above, no matter how juicy they may sound.
 
 Money can be scarce in a single household, but never at the US national level. There is absolutely no budgetary obstacle standing in the way of a monthly UBI for instance, and with [30% to 40% of its food production ending up in landfills](https://www.usda.gov/foodwaste/faqs#:~:text=In%20the%20United%20States%2C%20food,percent%20of%20the%20food%20supply.&text=Wholesome%20food%20that%20could%20have,and%20disposing%20of%20discarded%20food.), no reason to believe that this extra income would have any impact on the price of food just to name that one example.
 
-The monetary system is made of two parts, a faucet and a sink. Here we went over the faucet, in my next special we'll go over the sink, and let me tell you, that one will be a doozy, so [thank you for following me](http://twitter.com/intent/user?screen_name=luwvis) and I'll see you at 512!
+Ideally, the next time you hear someone say that money is finite or speculate on what may cause inflation I'd like you to look at them the same way you'd look at someone stating that daily showers have a negative impact on rainfall.
+
+The monetary system is actually made of two parts, a faucet and a sink. Here we went over the faucet and its infinite supply, in my next special we'll go over the sink, and let me tell you that one will be a doozy, so [thank you for following me](http://twitter.com/intent/user?screen_name=luwvis) and I'll see you at **512**!
+
+<div class="message">
+<h6>Why don't you write about code?</h6>
+<p>Silly answer: Haven't you heard about <a href="/special/2020/07/13/the-end-of-the-apolitical-dev">The End of The Apolitical Developer</a>?</p>
+<p>Long answer: Developers are problem solvers, and as a humanist I see society as the ultimate problem to solve, and thus the ultimate and most rewarding challenge. There's a lot more to this but that's an article for another time!</p>
+</div>
