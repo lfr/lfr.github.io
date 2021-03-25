@@ -75,8 +75,8 @@ This modern version of *imma bash ur stone age ass with my bronze age club* is a
 
 ## Conclusion
 
-Most people just can't wrap their head around the fact that money is infinite, which is why I purposefully did not digress into any of the adjacent topics above, no matter how juicy they may sound.
-
+Most people just can't wrap their head around the fact that money is infinite, which is why I didn't digress into any of the juicy adjacent topics.
+ 
 Money can be scarce in a single household, but never at the US national level. There is absolutely no budgetary obstacle standing in the way of a monthly UBI for instance, and with [30% to 40% of its food production ending up in landfills](https://www.usda.gov/foodwaste/faqs#:~:text=In%20the%20United%20States%2C%20food,percent%20of%20the%20food%20supply.&text=Wholesome%20food%20that%20could%20have,and%20disposing%20of%20discarded%20food.), no reason to believe that this extra income would have any impact on the price of food just to name that one example.
 
 Ideally, the next time you hear someone say that money is finite or speculate on what may cause inflation I'd like you to look at them the same way you'd look at someone stating that daily showers have a negative impact on rainfall.
