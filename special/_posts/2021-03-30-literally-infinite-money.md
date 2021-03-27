@@ -9,7 +9,7 @@ image: placeholder.png
 
 ![splash](/public/placeholder.png)
 
-No click bait here, I'm really going to talk about infinite money, so buckle up and enjoy this new special!
+No click bait here, I'm really going to talk about infinite money, so buckle up and enjoy this new 2^8 special!
 
 ## Money is important
 
@@ -107,7 +107,7 @@ In your head, I want you to hear this:
 
 Most people just can't wrap their head around the fact that money is infinite, which is why for now I didn't digress into any of the adjacent topics no matter how juicy. Central Banks, the "gods", that mysterious war, all great topics for future specials no doubt.
 
-In reality the monetary system is made of two parts, a faucet and a sink. Here we briefly touched the topic of the faucet and its infinite supply, in my next special we'll go over the sink, and let me tell you that one will be a doozy, so [thank you for following me](http://twitter.com/intent/user?screen_name=luwvis) and I'll see you at **2^8**!
+In reality the monetary system is made of two parts, a faucet and a sink. Here we briefly touched the topic of the faucet and its infinite supply, in my next special we'll go over the sink, and let me tell you that one will be a doozy, so [thank you for following me](http://twitter.com/intent/user?screen_name=luwvis) and I'll see you at **2^9**!
 
 ## Ask me anything
 
@@ -115,5 +115,5 @@ If you read the whole article with an open mind, no doubt that you'll have quest
 
 <div class="message-special">
 <h6>Why not write about code?</h6>
-Developers are problem solvers, as a humanist I see society as the ultimate and most rewarding challenge, and what can I say, we're way past <a href="/special/2020/07/13/the-end-of-the-apolitical-dev">The End of The Apolitical Developer</a> at this point.
+Developers are problem solvers, as a humanist I see society as the ultimate and most rewarding challenge, besides, we're way past <a href="/special/2020/07/13/the-end-of-the-apolitical-dev">The End of The Apolitical Developer</a> at this point 🤷‍♂️
 </div>
