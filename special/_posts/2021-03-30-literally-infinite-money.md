@@ -11,13 +11,13 @@ image: /assets/2021/infinite-money.webp
 
 No click bait here, I'm really going to talk about infinite money, so buckle up and enjoy this new 2^8 special!
 
-## Prepare to mind blown
+## Prepare to be mind blown
 
-You make money, your country also makes money.
+You make money. Your country also makes money.
 
-For you making money means selling stuff, or selling labor.
+For **you** making money means selling stuff, or selling labor.
 
-For your country, making money literally means creating money out of thin air.
+For **your country**, making money literally means creating money out of thin air.
 
 These two meanings of **making money** couldn't be more different from each other, yet this distinction largely goes unnoticed by the average citizen, and because of this, almost everyone's concept of money is a myth.
 
