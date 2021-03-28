@@ -19,9 +19,9 @@ For **you** making money means selling stuff, or selling labor.
 
 For **your country**, making money means creating it out of thin air.
 
-These two meanings of **making money** couldn't be more different from each other, yet this distinction largely goes unnoticed by the average citizen, and because of this, almost everyone's concept of money is a myth.
+These two meanings of making money couldn't be more different from each other, yet this distinction largely goes unnoticed by the average citizen, and because of this, almost everyone's concept of money is a myth.
 
-Yes your country also sells stuff to other countries, but that's not how the money you have in mind — the one you earn and pay your taxes in — is made.
+Yes, your country also sells stuff to other countries, but that's not how the money you have in mind — the one you earn and pay your taxes in — is made.
 
 ## But before, why money
 
@@ -29,7 +29,7 @@ Some people speak of money as not that important or meaningful, but those usuall
 
 For the vast majority of people money isn't related to luxury, it's related to food, shelter, health, and the ability to pay a couple of bills on time, some of the time.
 
-Regardless of which group you're in, chances are you define money as a measure of wealth or something useful for trade, but those are just facts about money, they could just as well be used to describe gold when people carried it in pouches, yet your money and that gold are nothing alike.
+Like everyone else you likely define money as a measure of wealth or something useful for trade, but those are just facts about money, they could just as well be used to describe gold when people carried it in pouches, yet your money and that gold are nothing alike.
 
 ## You think you're educated?
 
@@ -41,7 +41,7 @@ Today, with all the access to information in the world, almost no one cares abou
 
 They, however, are not the topic of this article, the point for now is this: access to information doesn't guarantee education, but curiosity helps, so keep reading if you have it.
 
-## Inflation, shminflation
+## Inflation, the lie that keeps on giving
 
 Before introducing the concept of infinite money, you have to let go of what you think you know about inflation.
 
