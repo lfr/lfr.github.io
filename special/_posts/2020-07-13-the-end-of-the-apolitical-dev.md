@@ -83,8 +83,8 @@ The point of the above is not to make it work, it's not your responsibility to m
 
 Once you've made this decision and once you've acknowledged that any specific individual's opinions are immaterial, you'll be liberated from the urge to fight them, and focus on contributing your own views which is far more constructive, and exactly what I'm planning to do in these specials, so see you at 2^8!
 
-<div class="message-special">
-  I'd like to thank <a href="http://twitter.com/chrsteinert" target="_blank">@chrsteinert</a>, <a href="http://twitter.com/pim_brouwers" target="_blank">@pim_brouwers</a>, and especially <a href="http://twitter.com/SieraSolutions" target="_blank">@SieraSolutions</a> for reading this before it was published. This article has been re-written several times, and whole paragraphs have been dropped to not detract from the core message. I've been told to make it about anyone not just developers, but that's who I am and who I write for 🤷‍♂️
+<div class="message">
+  I'd like to thank <a href="http://twitter.com/chrsteinert" target="_blank">@chrsteinert</a>, <a href="http://twitter.com/pim_brouwers" target="_blank">@pim_brouwers</a>, and especially <a href="http://twitter.com/SieraSolutions" target="_blank">@SieraSolutions</a> for reading this before it was published. This article has been re-written several times, and whole paragraphs have been dropped to not detract from the core message. I've been told to make it about anyone not just developers, but that's who I am and who I write for!
 </div>
 
 ## Feedback & more
