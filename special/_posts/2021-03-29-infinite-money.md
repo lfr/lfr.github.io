@@ -23,11 +23,11 @@ These two meanings couldn't be more different, yet this distinction largely goes
 
 Yes, your country also sells stuff to other countries, but the currency market is only a place of transit for money, it's not its origin.
 
-### Caring about money is caring about people
+## Caring about money is caring
 
 Some people speak of money as not that important or meaningful, they are usually those who have enough of it to associate money with luxury.
 
-In reality, caring about money is caring about people because for the vast majority it's not related to luxury, it's about food, shelter, health, or the ability to pay a couple of bills on time, some of the time.
+In reality, caring about money is caring about people for a majority of them doesn't relate it to luxury, so much as food, shelter, health, or the ability to pay a couple of bills on time, some of the time.
 
 Like everyone else you likely define money as a measure of wealth or something useful for trade, but those are just facts about money, they could just as well be said about gold when people carried it in pouches, yet your money and that gold are nothing alike.
 
