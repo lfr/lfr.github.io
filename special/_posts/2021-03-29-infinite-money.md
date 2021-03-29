@@ -11,25 +11,25 @@ image: /assets/2021/infinite-money.webp
 
 No click bait here, I'm really going to talk about infinite money, so buckle up and enjoy this new 2^8 special!
 
-## Prepare to be mind blown
+## Making money
 
 You make money. Your country also makes money.
 
-For **you** making money means selling stuff, or selling labor.
+For *you* making money means selling stuff, or selling labor.
 
-For **your country**, making money means creating it out of thin air.
+For *your country*, making money means creating it **out of thin air**.
 
-These two meanings of making money couldn't be more different from each other, yet this distinction largely goes unnoticed by the average citizen, and because of this, almost everyone's concept of money is a myth.
+These two meanings of making money couldn't be more different, yet this distinction largely goes unnoticed, and because of this, almost everyone's concept of money is a **myth**.
 
-Yes, your country also sells stuff to other countries, but that's not how the money you have in mind — the one you earn and pay your taxes in — is made.
+Yes, your country also sells stuff to other countries, but the currency market is only a place of transit for money, it's not its origin.
 
 ## But before, why money
 
-Some people speak of money as not that important or meaningful, but those usually have enough of it to associate money with luxury.
+Some people speak of money as not that important or meaningful, but they usually have enough of it to associate money with luxury.
 
-For the vast majority of people money isn't related to luxury, it's related to food, shelter, health, and the ability to pay a couple of bills on time, some of the time.
+For others money isn't related to luxury, it's related to food, shelter, health, or the ability to pay a couple of bills on time, some of the time.
 
-Like everyone else you likely define money as a measure of wealth or something useful for trade, but those are just facts about money, they could just as well be used to describe gold when people carried it in pouches, yet your money and that gold are nothing alike.
+Like everyone else you likely define money as a measure of wealth or something useful for trade, but those are just facts about money, they could just as well be said about gold when people carried it in pouches, yet your money and that gold are nothing alike.
 
 ## You think you're educated?
 
@@ -37,7 +37,7 @@ It may come as a surprise that pre-internet 19th century farmers knew a whole lo
 
 Indeed, they were the ones behind the [Greenback movement](https://youtu.be/LNSWIdIbzl8) that tried to influence monetary policy until it was dissolved in **1889**.
 
-Today, with all the access to information in the world, almost no one cares about or indeed understands what monetary policy is, that this responsibility lies in the hands of non-elected, mostly unknown, decidedly private folks.
+Today, with all the access to information in the world, almost no one cares about and even less understand what monetary policy is, and that this insanely important responsibility lies entirely in the hands of non-elected, mostly unknown, decidedly private folks.
 
 They, however, are not the topic of this article, the point for now is this: access to information doesn't guarantee education, but curiosity helps, so keep reading if you have it.
 
@@ -91,7 +91,7 @@ Alas, this power is being wasted on a stupid war, a tale for another time no dou
 
 Infinite money is **not** just a catchy concept with no ties to the practical world.
 
-Useful policies are being discarded all the time because there's supposedly no money for them. You have to understand that at the US national level, not having money for a policy is a farce, it's smoke an mirrors, because there's **literally infinite money**.
+Useful policies are being discarded all the time because there's supposedly no money for them. You have to understand that at the US national level, not having money for a policy is a farce, it's smoke and mirrors, because there's **literally infinite money**.
 
 I see I'm losing some skeptics in the audience so please read on.
 
@@ -129,7 +129,7 @@ In reality the monetary system is made of two parts, a faucet and a sink. Here w
 
 ## Ask me anything
 
-If you read the whole article with an open mind, no doubt that you'll have questions, feel free to ask them on this article's thread and I'll do my best to answer if the answer is short, or possibly turn them into an if it's not.
+If you read the whole article with an open mind, no doubt that you'll have questions, feel free to ask them on this article's thread and I'll do my best to answer if the answer is short, or possibly turn them into an article if it's not.
 
 <div class="message-special">
 <h6>Why not write about code?</h6>
