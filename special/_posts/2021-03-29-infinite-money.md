@@ -33,7 +33,7 @@ In all likelihood you define money as a measure of wealth or something useful fo
 
 ## You think you're educated?
 
-It may come as a surprise that pre-internet 19th century farmers knew a whole lot more about money then we do.
+It may come as a surprise that pre-internet 19th century farmers knew a whole lot more about money than we do.
 
 Indeed, they were the ones behind the [Greenback movement](https://youtu.be/LNSWIdIbzl8) that tried to influence monetary policy until it was dissolved in **1889**.
 
