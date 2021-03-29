@@ -25,7 +25,7 @@ Yes, your country also sells stuff to other countries, but the currency market i
 
 ## Caring about money is caring
 
-Some people speak of money as not that important or meaningful, they are usually those who have enough of it to associate money with luxury.
+Some people speak of money as not that important or meaningful, they are usually those who have enough to associate it with luxury.
 
 In reality, caring about money is caring about people, for a majority of them doesn't think of it as luxury so much as food, shelter, health, or the ability to pay a couple of bills on time, some of the time.
 
