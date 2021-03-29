@@ -61,7 +61,7 @@ Once upon a time that term referred to people who tricked others into giving awa
 
 Complex systems can't be predicted no matter how much humans love to predict, this is why they're great material for the disingenuous.
 
-In open complex systems nothing behaves according to intuition, and things can have exactly the opposite effect that you predict.
+In open complex systems nothing behaves according to intuition, and things can have completely unexpected consequences.
 
 An excellent example of this is how [adding lanes to a highway can actually increase congestion](https://www.wired.com/2014/06/wuwt-traffic-induced-demand/) when every fiber of your body makes you think more lanes = less traffic.
 
@@ -99,15 +99,7 @@ Sadly, this power is just being wasted on a stupid war, but that's not the point
 
 Infinite money is **not just** a catchy concept with no ties to the practical world.
 
-Useful and even necessary policies are being discarded all the time because there's supposedly no money for them. You have to understand that at the US national level, not having money for a specific policy is a farce, it's smoke and mirrors, because (say it with me) there's:
-
-☝🏿 **Literally**
-
-♾ **Infinite**
-
-💵 **Money**
-
-I see I'm losing some skeptics in the audience, please read on.
+Useful and even necessary policies are being discarded all the time because there's supposedly no money for them. You have to understand that at the US national level, not having money for a specific policy is a farce, it's smoke and mirrors.
 
 ### But the FED
 
