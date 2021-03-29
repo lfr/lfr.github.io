@@ -135,7 +135,7 @@ The monetary system is made of two parts, a faucet and a sink. Here we briefly t
 
 ## Ask me anything
 
-If you read the whole article with an open mind, no doubt that you'll have questions, feel free to ask them on [this article's tweet](https://twitter.com/luwvis/status/1376460301336514563) and I'll do my best to answer if the answer is short, or possibly turn them into an article if it's not.
+If you read the whole article with an open mind, no doubt that you'll have questions, feel free to ask them on [this article's tweet](https://twitter.com/luwvis/status/1376475648458375169) and I'll do my best to answer if the answer is short, or possibly turn them into an article if it's not.
 
 <div class="message-special">
 <h6>Why not write about code?</h6>
