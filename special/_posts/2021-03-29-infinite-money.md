@@ -119,7 +119,7 @@ It's a straight up fiery pants lie. A classic example of made-up non-truthful fa
 
 From now on, whenever you hear this preposterous falsehood:
 
-> There's not enough money to do both policy X and Y
+> There's not enough money to do both so we have to choose between policy X and Y
 
 In your head, I want you to hear this far more accurate statement:
 
@@ -128,8 +128,6 @@ In your head, I want you to hear this far more accurate statement:
 Which is saying something, considering metric tons are just as infinite as money.
 
 ## There's more to this story
-
-Most people just can't wrap their head around the fact that money is infinite, which is why I didn't digress into any of the adjacent topics no matter how juicy. Central Banks, the *gods*, that mysterious war, they all deserve their own articles, here I just want people to relearn what money is..., and it will actually take another article to get there.
 
 The monetary system is made of two parts, a faucet and a sink. Here we briefly touched the topic of the faucet and its infinite supply, in my next special we'll go over the sink, and that one will be a doozy, so [thank you for following me](http://twitter.com/intent/user?screen_name=luwvis) and I'll see you at **2^9**!
 
