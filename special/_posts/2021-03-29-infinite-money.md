@@ -137,5 +137,5 @@ If you read the whole article with an open mind, no doubt that you'll have quest
 
 <div class="message-special">
 <h6>Why not write about code?</h6>
-Developers are problem solvers, as a humanist I see society as the ultimate and most rewarding challenge, besides, we're way past <a href="/special/2020/07/13/the-end-of-the-apolitical-dev">The End of The Apolitical Developer</a> at this point 🤷‍♂️
+Developers are problem solvers, as a humanist I see society as the ultimate and most rewarding challenge, besides, we're way past <a href="/special/2020/07/13/the-end-of-the-apolitical-dev">The End of The Apolitical Developer</a> at this point.
 </div>
