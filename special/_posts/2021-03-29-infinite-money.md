@@ -19,7 +19,7 @@ For *you* making money means selling stuff, or selling labor.
 
 For *your country*, making money means creating it **out of thin air**.
 
-These two meanings of making money couldn't be more different, yet this distinction largely goes unnoticed, and because of this, almost everyone's concept of money is a **myth**.
+These two meanings couldn't be more different, yet this distinction largely goes unnoticed, and because of this, almost everyone's concept of money is a **myth**.
 
 Yes, your country also sells stuff to other countries, but the currency market is only a place of transit for money, it's not its origin.
 
