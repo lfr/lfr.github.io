@@ -51,11 +51,15 @@ Unfortunately, this understanding of inflation doesn't help **in any way** when 
 
 ### Unpredictability as a feature
 
-Just like the weather, modern economy is a open [complex system](https://en.wikipedia.org/wiki/Complex_system), and anyone trying to trivialize it using a simple metaphor like the closed room above is a **charlatan**. Literally.
+Just like the weather, modern economy is an open [complex system](https://en.wikipedia.org/wiki/Complex_system), and anyone trying to trivialize it using a simple metaphor like the closed room above is a **charlatan**. Literally.
 
-Once upon a time that term referred to people who tricked others into giving away their coin with the promise of predicting the weather. Complex systems can't be predicted, but humans love to predict everything, this is why they're great material for the disingenuous.
+Once upon a time that term referred to people who tricked others into giving away their coin with the promise of predicting the weather.
 
-In open complex systems nothing behaves according to intuition, and things can have exactly the opposite effect that you predict. An excellent example of this is how [adding lanes to a highway can actually increase congestion](https://www.wired.com/2014/06/wuwt-traffic-induced-demand/) when every fiber of your body makes you think more lanes = less traffic.
+Complex systems can't be predicted no matter how much humans love to predict, this is why they're great material for the disingenuous.
+
+In open complex systems nothing behaves according to intuition, and things can have exactly the opposite effect that you predict.
+
+An excellent example of this is how [adding lanes to a highway can actually increase congestion](https://www.wired.com/2014/06/wuwt-traffic-induced-demand/) when every fiber of your body makes you think more lanes = less traffic.
 
 Be wary of anyone appealing to your intuition to explain complex systems, they're con artists, and if you accept this you're ready for:
 
