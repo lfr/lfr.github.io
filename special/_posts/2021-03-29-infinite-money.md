@@ -3,7 +3,7 @@ published: false
 layout: post
 title: "Literally Infinite Money"
 summary: >-
-  Some description
+  Money moves people like code moves bits
 image: /assets/2021/infinite-money.webp
 ---
 
