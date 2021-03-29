@@ -107,7 +107,7 @@ Some people may argue that money is technically controlled by the FED, but we ca
 
 ### But the resources
 
-Others may argue that when we say there's no money for X policy, it's just shorthand for "there's not enough resources". There's just no evidence to back this theory, with [30% to 40% of its food production ending up in landfills](https://www.usda.gov/foodwaste/faqs#:~:text=In%20the%20United%20States%2C%20food,percent%20of%20the%20food%20supply.&text=Wholesome%20food%20that%20could%20have,and%20disposing%20of%20discarded%20food.), no shortage of land, and vast strategic supplies of oil, the "no money is shorthand for no resources" theory just doesn't hold any water in the case of the US.
+Others may argue that when we say there's no money for X policy, it's just shorthand for "there's not enough resources". There's just no evidence to back this theory, with [30% to 40% of its food production ending up in landfills](https://www.usda.gov/foodwaste/faqs#:~:text=In%20the%20United%20States%2C%20food,percent%20of%20the%20food%20supply.&text=Wholesome%20food%20that%20could%20have,and%20disposing%20of%20discarded%20food.), no shortage of land, and vast strategic supplies of oil, the "no money is shorthand for no resources" theory just doesn't hold any water, at least in the case of the US.
 
 ## Conclusion
 
