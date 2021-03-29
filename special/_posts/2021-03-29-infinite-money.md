@@ -23,11 +23,11 @@ These two meanings of making money couldn't be more different, yet this distinct
 
 Yes, your country also sells stuff to other countries, but the currency market is only a place of transit for money, it's not its origin.
 
-## But before, why money
+### Caring about money is caring about people
 
-Some people speak of money as not that important or meaningful, but they usually have enough of it to associate money with luxury.
+Some people speak of money as not that important or meaningful, they are usually those who have enough of it to associate money with luxury.
 
-For others money isn't related to luxury, it's related to food, shelter, health, or the ability to pay a couple of bills on time, some of the time.
+In reality, caring about money is caring about people because for the vast majority it's not related to luxury, it's about food, shelter, health, or the ability to pay a couple of bills on time, some of the time.
 
 Like everyone else you likely define money as a measure of wealth or something useful for trade, but those are just facts about money, they could just as well be said about gold when people carried it in pouches, yet your money and that gold are nothing alike.
 
@@ -41,23 +41,23 @@ Today, with all the access to information in the world, almost no one cares abou
 
 They, however, are not the topic of this article, the point for now is this: access to information doesn't guarantee education, but curiosity helps, so keep reading if you have it.
 
-## Inflation, the lie that keeps on giving
+## Inflation, the lie that keeps on taking
 
 Before introducing the concept of infinite money, you have to let go of what you think you know about inflation.
 
-Inflation works exactly the way you think in a closed system, if you add more money to it and everything else stays the same, people are willing to spend more for the same thing, driving its price up.
+Inflation works exactly the way you think in a simple closed system, if you add more money to it and everything else stays the same, people are willing to spend more on the same thing driving its price up.
 
-Unfortunately, this understanding of inflation doesn't help in any way when trying to predict the consequences of money supply in the price of goods, no more than understanding how water turns to vapor in a pressure cooker helps you predict the weather.
+Unfortunately, this understanding of inflation doesn't help **in any way** when trying to predict the effect of money supply in the price of goods, no more than understanding how water turns to vapor in a pressure cooker helps you predict the weather.
 
 ### Unpredictability as a feature
 
-Just like the weather, modern economy is a open [complex system](https://en.wikipedia.org/wiki/Complex_system), and anyone trying to trivialize those using a simple metaphor like the closed room above is a **charlatan**. Literally.
+Just like the weather, modern economy is a open [complex system](https://en.wikipedia.org/wiki/Complex_system), and anyone trying to trivialize it using a simple metaphor like the closed room above is a **charlatan**. Literally.
 
-Once upon a time that term referred to people who tricked others into giving away their coin with the promise of predicting the weather. Complex systems can't be predicted, which is why they're great material for the disingenuous.
+Once upon a time that term referred to people who tricked others into giving away their coin with the promise of predicting the weather. Complex systems can't be predicted, but humans love to predict everything, this is why they're great material for the disingenuous.
 
-Because it's also an open system, nothing behaves according to intuition, and things can have exactly the opposite effect that you predict. An excellent example of this is how [adding lanes to a highway can actually increase congestion](https://www.wired.com/2014/06/wuwt-traffic-induced-demand/) when every fiber of your body makes you think more lanes = less traffic.
+In open complex systems nothing behaves according to intuition, and things can have exactly the opposite effect that you predict. An excellent example of this is how [adding lanes to a highway can actually increase congestion](https://www.wired.com/2014/06/wuwt-traffic-induced-demand/) when every fiber of your body makes you think more lanes = less traffic.
 
-Be wary of anyone appealing to your intuition to explain complex systems, they're con artists, if you accept this you're ready for what you came for:
+Be wary of anyone appealing to your intuition to explain complex systems, they're con artists, and if you accept this you're ready for:
 
 ## Infinite money 💸
 
@@ -85,47 +85,53 @@ A much more interesting question that I want you to ask yourself is this: If som
 
 I'd love to say that it's being used to cure cancer, get rid of poverty, hell even just getting rid of poverty in the US alone would be nice, and **easy**, with that kind of financial firepower.
 
-Alas, this power is being wasted on a stupid war, a tale for another time no doubt, but it's not the point of this article, which can be found in the aptly named section below.
+Sadly, this power is just being wasted on a stupid war, but that's not the point of this article, which can be found in the aptly named section below 👇
 
 ## The point of this article
 
-Infinite money is **not** just a catchy concept with no ties to the practical world.
+Infinite money is **not just** a catchy concept with no ties to the practical world.
 
-Useful policies are being discarded all the time because there's supposedly no money for them. You have to understand that at the US national level, not having money for a policy is a farce, it's smoke and mirrors, because there's **literally infinite money**.
+Useful and even necessary policies are being discarded all the time because there's supposedly no money for them. You have to understand that at the US national level, not having money for a policy is a farce, it's smoke and mirrors, because (say it with me) there's:
 
-I see I'm losing some skeptics in the audience so please read on.
+☝🏿 **Literally**
 
-### Some people ☝
+♾ **Infinite**
 
-Some people may argue that money is technically controlled by the FED, without going into the topic of central banks which is even more mind boggling than the concept of infinite money, suffice to say that (at the time of writing) the [US Mint](https://www.usmint.gov/) still exists, meaning some form of money creation is still in the hands of the people, the FED can't be used as an excuse.
+💵 **Money**
 
-### Other people 👉
+I see I'm losing some skeptics in the audience, please read on.
 
-Other people may argue that when we say there's no money for X policy, it's just shorthand for the fact that there's not enough resources. There's just no evidence to back this theory, with [30% to 40% of its food production ending up in landfills](https://www.usda.gov/foodwaste/faqs#:~:text=In%20the%20United%20States%2C%20food,percent%20of%20the%20food%20supply.&text=Wholesome%20food%20that%20could%20have,and%20disposing%20of%20discarded%20food.), no shortage of land, and vast strategic supplies of oil, the "no money is shorthand for no resources" theory just doesn't hold any water in the case of the US.
+### But the FED
+
+Some people may argue that money is technically controlled by the FED, but we can conveniently leave that can of worms sealed for now because at the time of writing the [US Mint](https://www.usmint.gov/) still exists, meaning some form of money creation is still available to the people and the FED can't be used as an excuse.
+
+### But the resources
+
+Others may argue that when we say there's no money for X policy, it's just shorthand for the fact that there's not enough resources. There's just no evidence to back this theory, with [30% to 40% of its food production ending up in landfills](https://www.usda.gov/foodwaste/faqs#:~:text=In%20the%20United%20States%2C%20food,percent%20of%20the%20food%20supply.&text=Wholesome%20food%20that%20could%20have,and%20disposing%20of%20discarded%20food.), no shortage of land, and vast strategic supplies of oil, the "no money is shorthand for no resources" theory just doesn't hold any water in the case of the US.
 
 ## Conclusion
 
 If there's one thing I want you to take away from this article is this: at the US national level, saying that there isn't enough money for infrastructure or any other investment you can think of is nonsense.
 
-It's not that it makes little sense, it's not that it's confusing or misleading, it's that it literally makes **zero** sense.
+It's not that it's confusing or misleading, it's not that it makes little sense, it's that it makes exactly **zero** sense.
 
-It's a straight up fiery pants falsehood. A classic example of made-up non-truthful **lie**. I don't know how else to put it, it's the intelligence-insulting verbal equivalent to spitting on your face, while still spitting on your face, at the same time.
+It's a straight up fiery pants lie. A classic example of made-up non-truthful fabrication. It's the intelligence-insulting verbal equivalent to spitting on your face, while still spitting on your face, at the same time.
 
-From now on, whenever you hear this falsehood:
+From now on, whenever you hear this preposterous falsehood:
 
-> There's not enough money to do both X and Y
+> There's not enough money to do both policy X and Y
 
 In your head, I want you to hear this far more accurate statement:
 
 > There's not enough metric tons to weigh all this bullshit that I'm about to feed you
 
-Which is saying something, considering that like money, metric tons are also infinite.
+Which is saying something, considering metric tons are just as infinite as money.
 
 ## There's more to this story
 
-Most people just can't wrap their head around the fact that money is infinite, which is why for now I didn't digress into any of the adjacent topics no matter how juicy. Central Banks, the "gods", that mysterious war, all great topics for future specials no doubt.
+Most people just can't wrap their head around the fact that money is infinite, which is why I didn't digress into any of the adjacent topics no matter how juicy. Central Banks, the *gods*, that mysterious war, they all deserve their own articles, here I just want people to relearn what money is..., and it will actually take another article to get there.
 
-In reality the monetary system is made of two parts, a faucet and a sink. Here we briefly touched the topic of the faucet and its infinite supply, in my next special we'll go over the sink, and let me tell you that one will be a doozy, so [thank you for following me](http://twitter.com/intent/user?screen_name=luwvis) and I'll see you at **2^9**!
+The monetary system is made of two parts, a faucet and a sink. Here we briefly touched the topic of the faucet and its infinite supply, in my next special we'll go over the sink, and that one will be a doozy, so [thank you for following me](http://twitter.com/intent/user?screen_name=luwvis) and I'll see you at **2^9**!
 
 ## Ask me anything
 
