@@ -12,7 +12,7 @@ image: /assets/2021/infinite-money.webp
 No click bait here, I'm really going to talk about infinite money, so buckle up and enjoy this new 2^8 special!
 
 <div class="message">
-This article builds steadily to the concept of infinite money, because it's a concept most people can't wrap their heads around even when they understand all the principles.
+This article builds steadily to the concept of infinite money because most people can't wrap their heads around it even when they understand all the principles.
 </div>
 
 ## Making money
