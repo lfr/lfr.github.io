@@ -39,7 +39,7 @@
   <!-- Calculate read_time and store it in a variable -->
   {% assign read_time = content | strip_html | number_of_words | divided_by: 180 %}
   {% if read_time < 6 %}
-  {% assign read_time_text = "&nbsp;&#8239;|&#8239;⏱~{{ read_time }}&#8239;min&#8239;read" %}
+  {% assign read_time_text = &nbsp;&#8239;|&#8239;⏱~{{ read_time }}&#8239;min&#8239;read %}
   {% endif %}
 
   {% if page.layout == 'post' %}
